@@ -517,6 +517,18 @@ export function createPlayerService({ env, log, history }) {
     playback.value = { ...v, volume: vol, muted: !!videoEl.muted };
   }
 
+  function toggleMute() {
+    if (!videoEl) return;
+    const v = playback.value;
+    const next = !v.muted;
+    try {
+      videoEl.muted = next;
+    } catch {}
+    persisted.muted = next;
+    saveState();
+    playback.value = { ...v, muted: next };
+  }
+
   function setSources(nextSources) {
     sources = Array.isArray(nextSources) ? nextSources : [];
     if (didInitLoad || !sources.length) return;
@@ -680,6 +692,7 @@ export function createPlayerService({ env, log, history }) {
     toggleRate,
     volumeUp,
     volumeDown,
+    toggleMute,
     toggleCaptions,
     setSleepTimerMins,
     clearSleepTimer,

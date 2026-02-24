@@ -211,9 +211,9 @@ export function App({ env, log, sources, player, history }) {
             title=${audioBlocked ? "Click video or Play to enable sound (browser restriction)" : pb.muted ? "Muted" : "Volume"}
           >
             <button class="volumeBtn volumeUp" title="Volume up" onClick=${() => player.volumeUp()}>+</button>
-            <span class="volumeLevel" data-state=${audioBlocked ? "blocked" : pb.muted ? "muted" : "on"}>
+            <button class="volumeBtn volumeLevel" data-state=${audioBlocked ? "blocked" : pb.muted ? "muted" : "on"} title=${audioBlocked ? "Click video or Play to enable sound" : "Click to toggle mute"} onClick=${() => player.toggleMute()}>
               ${audioBlocked ? "blocked" : pb.muted ? "M" : Math.round((pb.volume ?? 1) * 100)}
-            </span>
+            </button>
             <button class="volumeBtn volumeDown" title="Volume down" onClick=${() => player.volumeDown()}>−</button>
             ${audioBlocked ? html`<span class="volumeHint">Tap to unmute</span>` : ""}
           </div>
