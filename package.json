@@ -8,10 +8,10 @@
     "vite": "^5.4.0"
   },
   "scripts": {
-    "use": "./scripts/vod use",
-    "update": "./scripts/vod update",
-    "build": "./scripts/vod build",
-    "dev": "./scripts/vod dev"
+    "use": "node scripts/vod.cjs use",
+    "update": "node scripts/vod.cjs update",
+    "build": "node scripts/vod.cjs build",
+    "dev": "node scripts/vod.cjs dev"
   },
   "packageManager": "yarn@1.22.22"
 }

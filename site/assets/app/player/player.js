@@ -29,15 +29,20 @@ export function createPlayerService({ env, log, history }) {
 
   const current = signal({ source: null, episode: null });
   const chapters = signal([]);
+  const VOLUME_STEP = 0.1;
+  const RATE_STEPS = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.5, 3, 3.5, 4, 4.5, 5, 7, 12];
   const playback = signal({
     paused: true,
     muted: true,
+    volume: Number(persisted.volume) >= 0 ? clamp(Number(persisted.volume), 0, 1) : 1,
+    rate: normalizeRate(Number(persisted.rate) || 1),
     time: 0,
     duration: NaN,
   });
   const captions = signal({ available: false, showing: false });
   const sleep = signal({ active: false, label: "Sleep" });
   const sourceEpisodes = signal({});
+  const audioBlocked = signal(false);
 
   const currentSourceId = computed(() => current.value.source?.id || null);
   const currentEpisodeId = computed(() => current.value.episode?.id || null);
@@ -58,6 +63,21 @@ export function createPlayerService({ env, log, history }) {
 
   function clamp(v, a, b) {
     return Math.min(b, Math.max(a, v));
+  }
+
+  function normalizeRate(v) {
+    if (!Number.isFinite(v) || v <= 0) return 1;
+    let best = RATE_STEPS[0];
+    let bestDist = Math.abs(v - best);
+    for (let i = 1; i < RATE_STEPS.length; i++) {
+      const r = RATE_STEPS[i];
+      const d = Math.abs(v - r);
+      if (d < bestDist) {
+        best = r;
+        bestDist = d;
+      }
+    }
+    return best;
   }
 
   function fmtTime(s) {
@@ -331,22 +351,54 @@ export function createPlayerService({ env, log, history }) {
   async function play({ userGesture = true } = {}) {
     if (!videoEl) return;
     userPaused = false;
-    if (userGesture) {
-      try {
-        videoEl.muted = false;
-      } catch {}
-    }
-    try {
-      await videoEl.play();
-    } catch {
-      let recovered = false;
+    const wantsMuted = userGesture ? false : persisted.muted === true;
+    if (wantsMuted) {
       try {
         videoEl.muted = true;
-        await videoEl.play();
-        recovered = true;
+        playback.value = { ...playback.value, muted: true };
       } catch {}
-      if (!recovered) log.warn("Autoplay blocked (press Play)");
+      try {
+        await videoEl.play();
+        audioBlocked.value = false;
+      } catch {
+        log.warn("Autoplay blocked (press Play)");
+      }
+      return;
     }
+    try {
+      try {
+        videoEl.muted = false;
+        playback.value = { ...playback.value, muted: false };
+      } catch {}
+      await videoEl.play();
+      audioBlocked.value = false;
+    } catch (err) {
+      const isAutoplayBlock = err?.name === "NotAllowedError";
+      if (isAutoplayBlock) {
+        videoEl.pause();
+        audioBlocked.value = true;
+        log.warn("Sound muted by browser. Click video or Play to enable.");
+      } else if (userGesture) {
+        let recovered = false;
+        try {
+          videoEl.muted = true;
+          await videoEl.play();
+          recovered = true;
+        } catch {}
+        if (!recovered) log.warn("Autoplay blocked (press Play)");
+      }
+    }
+  }
+
+  function unmuteOnGesture() {
+    if (!videoEl || !videoEl.muted) return;
+    try {
+      videoEl.muted = false;
+      playback.value = { ...playback.value, muted: false };
+      audioBlocked.value = false;
+      persisted.muted = false;
+      saveState();
+    } catch {}
   }
 
   function pause() {
@@ -357,8 +409,20 @@ export function createPlayerService({ env, log, history }) {
 
   function togglePlay() {
     if (!videoEl) return;
-    if (videoEl.paused) play({ userGesture: true });
-    else pause();
+    if (videoEl.paused) {
+      play({ userGesture: true });
+    } else if (videoEl.muted) {
+      // Playing but muted: unmute on user gesture instead of pausing
+      try {
+        videoEl.muted = false;
+        playback.value = { ...playback.value, muted: false };
+        audioBlocked.value = false;
+        persisted.muted = false;
+        saveState();
+      } catch {}
+    } else {
+      pause();
+    }
   }
 
   function seekBy(deltaSec) {
@@ -377,6 +441,65 @@ export function createPlayerService({ env, log, history }) {
     if (!videoEl) return;
     const t = Math.max(0, Number(tSec) || 0);
     videoEl.currentTime = t;
+  }
+
+  function rateUp() {
+    if (!videoEl) return;
+    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1);
+    const idx = RATE_STEPS.indexOf(cur);
+    const next = RATE_STEPS[Math.min(RATE_STEPS.length - 1, (idx >= 0 ? idx : 2) + 1)] || 1;
+    try {
+      videoEl.playbackRate = next;
+    } catch {}
+    persisted.rate = next;
+    saveState();
+    playback.value = { ...playback.value, rate: next };
+  }
+
+  function rateDown() {
+    if (!videoEl) return;
+    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1);
+    const idx = RATE_STEPS.indexOf(cur);
+    const next = RATE_STEPS[Math.max(0, (idx >= 0 ? idx : 2) - 1)] || 1;
+    try {
+      videoEl.playbackRate = next;
+    } catch {}
+    persisted.rate = next;
+    saveState();
+    playback.value = { ...playback.value, rate: next };
+  }
+
+  function volumeUp() {
+    if (!videoEl) return;
+    const v = playback.value;
+    let vol = clamp((v.volume ?? 1) + VOLUME_STEP, 0, 1);
+    if (vol > 0 && v.muted) {
+      try {
+        videoEl.muted = false;
+        audioBlocked.value = false;
+        persisted.muted = false;
+      } catch {}
+    }
+    videoEl.volume = vol;
+    persisted.volume = vol;
+    saveState();
+    playback.value = { ...v, volume: vol, muted: !!videoEl.muted };
+  }
+
+  function volumeDown() {
+    if (!videoEl) return;
+    const v = playback.value;
+    let vol = clamp((v.volume ?? 1) - VOLUME_STEP, 0, 1);
+    videoEl.volume = vol;
+    if (vol <= 0) {
+      try {
+        videoEl.muted = true;
+        persisted.muted = true;
+      } catch {}
+    }
+    persisted.volume = vol;
+    saveState();
+    playback.value = { ...v, volume: vol, muted: !!videoEl.muted };
   }
 
   function setSources(nextSources) {
@@ -423,10 +546,34 @@ export function createPlayerService({ env, log, history }) {
   function attachVideo(el) {
     videoEl = el;
     if (!videoEl) return;
-    // Prefer muted until we have a user gesture (helps autoplay succeed).
+    const vol = Number(persisted.volume) >= 0 ? clamp(Number(persisted.volume), 0, 1) : 1;
+    videoEl.volume = vol;
+    const muted = persisted.muted === true;
+    const rate = normalizeRate(Number(persisted.rate) || 1);
     try {
-      videoEl.muted = true;
+      videoEl.playbackRate = rate;
     } catch {}
+    try {
+      videoEl.muted = muted;
+    } catch {}
+    playback.value = { ...playback.value, volume: vol, muted, rate };
+
+    // Click/tap on video: unmute + toggle play/pause.
+    videoEl.addEventListener("click", () => {
+      unmuteOnGesture();
+      togglePlay();
+    });
+
+    // One-time unlock: first user interaction anywhere tries to unmute.
+    const unlockOnce = () => {
+      unmuteOnGesture();
+      document.removeEventListener("click", unlockOnce);
+      document.removeEventListener("touchstart", unlockOnce);
+      document.removeEventListener("keydown", unlockOnce);
+    };
+    document.addEventListener("click", unlockOnce, { once: true });
+    document.addEventListener("touchstart", unlockOnce, { once: true });
+    document.addEventListener("keydown", unlockOnce, { once: true });
 
     videoEl.addEventListener("timeupdate", () => {
       const now = Date.now();
@@ -435,6 +582,8 @@ export function createPlayerService({ env, log, history }) {
       playback.value = {
         paused: videoEl.paused,
         muted: !!videoEl.muted,
+        volume: Number.isFinite(videoEl.volume) ? videoEl.volume : playback.value.volume ?? 1,
+        rate: normalizeRate(videoEl.playbackRate || playback.value.rate || 1),
         time: Number.isFinite(cur) ? cur : 0,
         duration: Number.isFinite(dur) ? dur : NaN,
       };
@@ -507,9 +656,14 @@ export function createPlayerService({ env, log, history }) {
     play,
     pause,
     togglePlay,
+    audioBlocked,
     seekBy,
     seekToPct,
     seekToTime,
+    rateUp,
+    rateDown,
+    volumeUp,
+    volumeDown,
     toggleCaptions,
     setSleepTimerMins,
     clearSleepTimer,

@@ -13,6 +13,32 @@ export function App({ env, log, sources, player, history }) {
 
   const videoRef = useRef(null);
   const guideBarRef = useRef(null);
+  const progressRef = useRef(null);
+
+  useEffect(() => {
+    const el = progressRef.current;
+    if (!el) return;
+    const updatePos = (clientX) => {
+      const r = el.getBoundingClientRect();
+      const pct = Math.min(100, Math.max(0, ((clientX - r.left) / r.width) * 100));
+      el.style.setProperty("--scrubber-x", `${pct}%`);
+    };
+    const onMove = (e) => {
+      const x = e.touches ? e.touches[0]?.clientX : e.clientX;
+      if (x != null) updatePos(x);
+    };
+    const onLeave = () => el.style.removeProperty("--scrubber-x");
+    el.addEventListener("mousemove", onMove, { passive: true });
+    el.addEventListener("mouseleave", onLeave);
+    el.addEventListener("touchmove", onMove, { passive: true });
+    el.addEventListener("touchend", onLeave);
+    return () => {
+      el.removeEventListener("mousemove", onMove);
+      el.removeEventListener("mouseleave", onLeave);
+      el.removeEventListener("touchmove", onMove);
+      el.removeEventListener("touchend", onLeave);
+    };
+  }, []);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -95,6 +121,11 @@ export function App({ env, log, sources, player, history }) {
   const pb = player.playback.value;
   const cap = player.captions.value;
   const sleep = player.sleep.value;
+  const audioBlocked = player.audioBlocked.value;
+  const rateLabel = useMemo(() => {
+    const r = Number(pb.rate) > 0 ? Number(pb.rate) : 1;
+    return (Math.round(r * 100) / 100).toString().replace(/\.0+$/, "").replace(/(\.\d)0$/, "$1") + "x";
+  }, [pb.rate]);
 
   useEffect(() => {
     if (!cur?.source?.id) return;
@@ -126,25 +157,42 @@ export function App({ env, log, sources, player, history }) {
   };
 
   return html`
-    <div>
+    <div class="app-inner">
       <${StatusToast} toast=${toast} />
       <div class="player" id="player">
         <video id="video" playsinline ref=${videoRef}></video>
-        <div class="progress" id="progress" title="Seek" onClick=${(e) => onSeekBarClick(e, e.currentTarget)}>
+        <div
+          class=${"playPauseOverlay" + (pb.paused ? " visible" : "")}
+          onClick=${(e) => { e.stopPropagation(); player.togglePlay(); }}
+          aria-hidden=${pb.paused ? "false" : "true"}
+        >
+          <span class="playPauseIcon">
+            <span class="iconPause">❚❚</span>
+            <span class="iconPlay">▶</span>
+          </span>
+        </div>
+        <div class="progress" id="progress" ref=${progressRef} title="Seek" onClick=${(e) => { e.stopPropagation(); onSeekBarClick(e, e.currentTarget); }}>
           <div class="progressFill" id="progressFill" style=${{ width: `${pct}%` }}></div>
         </div>
       </div>
 
-      <div class="guideBar" id="guideBar" ref=${guideBarRef}>
+      <div
+        class="guideBar"
+        id="guideBar"
+        ref=${guideBarRef}
+        onClick=${(e) => {
+          e.stopPropagation();
+          if (sleepMenuOpen.value) sleepMenuOpen.value = false;
+        }}
+      >
         <div class="guideBar-inner">
-          <button id="btnSeekBack" class="guideBtn guideBtnSeek" title="-10s" onClick=${() => player.seekBy(-10)}>−10</button>
-          <button id="btnSeekFwd" class="guideBtn guideBtnSeek" title="+30s" onClick=${() => player.seekBy(30)}>+30</button>
-          <div id="guideSeek" class="guideSeek" title="Seek" onClick=${(e) => onSeekBarClick(e, e.currentTarget)}>
-            <div id="guideSeekFill" class="guideSeekFill" style=${{ width: `${pct}%` }}></div>
-          </div>
-          <button id="btnChannel" class="guideChannel" title="Channels" onClick=${() => (guideOpen.value = true)}>${srcTitle}</button>
-          <div class="guideNow" id="guideNow">${epTitle}</div>
-          <button id="btnRandom" class="guideBtn" title="Random" onClick=${() => player.playRandom()}>Random</button>
+          <div class="guideBar-row1">
+            <button id="btnSeekBack" class="guideBtn guideBtnSeek" title="-10s" onClick=${() => player.seekBy(-10)}>−10</button>
+            <button id="btnSeekFwd" class="guideBtn guideBtnSeek" title="+30s" onClick=${() => player.seekBy(30)}>+30</button>
+            <div class="guideNowBlock" title="Channels" onClick=${() => (guideOpen.value = true)}>
+              <div class="guideChannel" id="guideChannel">${srcTitle}</div>
+              <div class="guideNow" id="guideNow">${epTitle}</div>
+            </div>
           <button
             id="btnCC"
             class=${"guideBtn" + (cap.showing ? " active" : "")}
@@ -158,8 +206,25 @@ export function App({ env, log, sources, player, history }) {
           <button id="btnPlay" class="guideBtn" title="Play/Pause" onClick=${() => player.togglePlay()}>
             ${pb.paused ? "▶" : "❚❚"}
           </button>
-          <div class="guideTime mono" id="guideTime">${timeLabel}</div>
-
+          <div
+            class=${"volumeControl" + (audioBlocked ? " audioBlocked" : "") + (pb.muted && !audioBlocked ? " muted" : "")}
+            title=${audioBlocked ? "Click video or Play to enable sound (browser restriction)" : pb.muted ? "Muted" : "Volume"}
+          >
+            <button class="volumeBtn volumeUp" title="Volume up" onClick=${() => player.volumeUp()}>+</button>
+            <span class="volumeLevel" data-state=${audioBlocked ? "blocked" : pb.muted ? "muted" : "on"}>
+              ${audioBlocked ? "blocked" : pb.muted ? "M" : Math.round((pb.volume ?? 1) * 100)}
+            </span>
+            <button class="volumeBtn volumeDown" title="Volume down" onClick=${() => player.volumeDown()}>−</button>
+            ${audioBlocked ? html`<span class="volumeHint">Tap to unmute</span>` : ""}
+          </div>
+          </div>
+          <div class="guideBar-row2">
+          <button id="btnRandom" class="guideBtn" title="Random" onClick=${() => player.playRandom()}>Random</button>
+          <div class="speedControl" title="Playback speed">
+            <button class="speedBtn speedDown" title="Slower" onClick=${() => player.rateDown()}>−</button>
+            <span class="speedLevel">${rateLabel}</span>
+            <button class="speedBtn speedUp" title="Faster" onClick=${() => player.rateUp()}>+</button>
+          </div>
           <div class="guideBar-sleep">
             <button
               id="btnSleep"
@@ -196,8 +261,8 @@ export function App({ env, log, sources, player, history }) {
               )}
             </div>
           </div>
-
           <button id="btnTheme" class="guideBtn" title="Theme" onClick=${toggleTheme}>Theme</button>
+          </div>
         </div>
       </div>
 

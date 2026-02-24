@@ -42,6 +42,9 @@
 
 [data-theme="dos"] .guideBtn,
 [data-theme="dos"] .guideChannel,
+[data-theme="dos"] .guideNowBlock,
+[data-theme="dos"] .speedControl,
+[data-theme="dos"] .speedBtn,
 [data-theme="dos"] .guideEpBlock,
 [data-theme="dos"] .sleepOpt,
 [data-theme="dos"] .historyBtn,
@@ -95,4 +98,3 @@
 [data-theme="dos"] .ch.active {
   background: rgba(0,255,0,.2);
 }
-

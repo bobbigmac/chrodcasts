@@ -10,7 +10,7 @@
 }
 
 * { box-sizing: border-box }
-html, body { height: 100%; margin: 0 }
+html, body { height: 100%; margin: 0; overflow-x: hidden }
 :root { color-scheme: dark }
 .mono { font-family: var(--mono) }
 
@@ -25,6 +25,13 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+}
+.app-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .player {
@@ -48,6 +55,13 @@ video {
   height: 6px;
   cursor: pointer;
   background: rgba(0,0,0,.4);
+  transition: height 0.15s cubic-bezier(0.4, 0, 0.2, 1), background 0.15s ease;
+  overflow: hidden;
+}
+.player:hover .progress,
+.progress:hover {
+  height: 24px;
+  background: rgba(0,0,0,.65);
 }
 .progressFill {
   position: absolute;
@@ -57,8 +71,89 @@ video {
   width: 0%;
   background: var(--accent);
   transition: width 0.1s ease;
+  z-index: 0;
+}
+.progress::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: radial-gradient(
+    circle 36px at var(--scrubber-x, 50%) 50%,
+    rgba(255,255,255,.18) 0%,
+    rgba(255,255,255,.06) 45%,
+    transparent 70%
+  );
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.player:hover .progress::after,
+.progress:hover::after {
+  opacity: 1;
 }
 .player:hover .progressFill { background: rgba(138,180,248,.8) }
+
+.playPauseOverlay {
+  position: absolute;
+  inset: 0 0 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 10;
+  user-select: none;
+}
+.playPauseOverlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.playPauseIcon {
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
+  color: rgba(255,255,255,.95);
+  background: rgba(0,0,0,.45);
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,.25);
+  transition: transform 0.2s ease, background 0.2s ease;
+  box-shadow: 0 4px 24px rgba(0,0,0,.4);
+  line-height: 1;
+}
+.playPauseIcon .iconPause,
+.playPauseIcon .iconPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.playPauseIcon .iconPlay { display: none }
+.playPauseOverlay.visible .playPauseIcon .iconPause { display: flex }
+.playPauseOverlay.visible .playPauseIcon .iconPlay { display: none }
+.playPauseOverlay.visible:hover .playPauseIcon .iconPause { display: none }
+.playPauseOverlay.visible:hover .playPauseIcon .iconPlay { display: flex }
+.playPauseIcon .iconPlay {
+  padding-left: 4px;
+}
+.playPauseOverlay:hover .playPauseIcon {
+  transform: scale(1.08);
+  background: rgba(0,0,0,.55);
+}
+.playPauseOverlay.visible .playPauseIcon {
+  animation: playPausePop 0.35s ease-out;
+}
+@keyframes playPausePop {
+  0% { transform: scale(0.85); opacity: 0.7 }
+  70% { transform: scale(1.05); opacity: 1 }
+  100% { transform: scale(1); opacity: 1 }
+}
 
 .statusToast {
   position: absolute;
@@ -99,6 +194,7 @@ video {
   border-radius: 12px;
   backdrop-filter: blur(8px);
   transition: opacity 0.4s ease;
+  z-index: 50;
 }
 .guideBar.idle {
   opacity: 0;
@@ -109,32 +205,70 @@ video {
 
 .guideBar-inner {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+  max-width: min(600px, calc(100vw - 40px));
+}
+
+.guideBar-row1 {
+  display: flex;
   align-items: center;
   gap: 12px;
-  width: min(1100px, calc(100vw - 40px));
+}
+.guideBar-row2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.speedControl {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.speedBtn {
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: none;
+  border-right: 1px solid var(--edge);
+  cursor: pointer;
+}
+.speedBtn:last-of-type { border-right: none; border-left: 1px solid var(--edge) }
+.speedBtn:hover { background: rgba(255,255,255,.08) }
+.speedBtn:active { transform: translateY(1px) }
+.speedLevel {
+  min-width: 44px;
+  padding: 6px 6px;
+  font-size: 12px;
+  color: var(--muted);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 520px) {
+  .guideBar-row1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .guideNowBlock {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .volumeHint { display: none }
 }
 
 .guideBtnSeek {
   padding: 4px 8px;
   font-size: 12px;
   min-width: 36px;
-}
-
-.guideSeek {
-  width: 80px;
-  height: 4px;
-  background: rgba(255,255,255,.08);
-  border-radius: 2px;
-  cursor: pointer;
-  overflow: hidden;
-}
-.guideSeek:hover { background: rgba(255,255,255,.12) }
-.guideSeekFill {
-  height: 100%;
-  width: 0%;
-  background: rgba(255,255,255,.25);
-  border-radius: 2px;
-  transition: width 0.08s ease;
 }
 
 .guideBar-sleep { position: relative }
@@ -166,27 +300,31 @@ video {
 }
 .sleepOpt:hover { background: rgba(255,255,255,.08) }
 
-.guideChannel {
-  min-width: 140px;
-  padding: 8px 12px;
-  font: inherit;
-  color: var(--text);
+.guideNowBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 120px;
+  max-width: 220px;
+  padding: 6px 12px;
   background: rgba(255,255,255,.03);
   border: 1px solid var(--edge);
   border-radius: 8px;
   cursor: pointer;
   text-align: left;
+}
+.guideNowBlock:hover { background: rgba(255,255,255,.08) }
+.guideNowBlock .guideChannel {
+  font-weight: 650;
+  font-size: 13px;
+  color: var(--text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.guideChannel:hover { background: rgba(255,255,255,.08) }
-.guideChannel::after { content: " ▼"; font-size: 0.7em; opacity: .7 }
-
-.guideNow {
-  flex: 1;
-  min-width: 0;
-  font-size: 13px;
+.guideNowBlock .guideChannel::after { content: " ▼"; font-size: 0.7em; opacity: .7 }
+.guideNowBlock .guideNow {
+  font-size: 12px;
   color: var(--muted);
   white-space: nowrap;
   overflow: hidden;
@@ -207,11 +345,50 @@ video {
 .guideBtn.active { background: rgba(138,180,248,.2); border-color: var(--accent) }
 #btnCC { display: none }
 
-.guideTime {
-  font-size: 13px;
+.volumeControl {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.volumeControl.audioBlocked {
+  border-color: #f1d093;
+  background: rgba(241, 208, 147, 0.08);
+}
+.volumeBtn {
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: none;
+  border-right: 1px solid var(--edge);
+  cursor: pointer;
+}
+.volumeBtn:last-of-type { border-right: none; border-left: 1px solid var(--edge) }
+.volumeBtn:hover { background: rgba(255,255,255,.08) }
+.volumeBtn:active { transform: translateY(1px) }
+.volumeLevel {
+  min-width: 28px;
+  padding: 6px 6px;
+  font-size: 12px;
   color: var(--muted);
-  min-width: 60px;
-  text-align: right;
+  text-align: center;
+}
+.volumeControl.muted .volumeLevel { color: var(--muted) }
+.volumeControl.audioBlocked .volumeLevel {
+  color: var(--accent);
+  font-weight: 600;
+}
+.volumeControl.audioBlocked .volumeLevel[data-state="blocked"] {
+  color: #f1d093;
+}
+.volumeHint {
+  padding: 0 8px;
+  font-size: 11px;
+  color: var(--accent);
+  white-space: nowrap;
 }
 
 .guidePanel {
@@ -368,11 +545,11 @@ video {
 .guidePanel-close:hover { background: rgba(255,255,255,.07) }
 
 .historyPanel {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: min(520px, 92vw);
-  height: 100%;
+  height: 100vh;
   background: color-mix(in srgb, var(--panel) 94%, transparent);
   border-right: 1px solid var(--edge);
   box-shadow: 0 8px 32px rgba(0,0,0,.5);
@@ -383,7 +560,7 @@ video {
   overflow: hidden;
 }
 .historyPanel[aria-hidden="false"] { transform: translateX(0) }
-.historyPanel[aria-hidden="true"] { pointer-events: none }
+.historyPanel[aria-hidden="true"] { transform: translateX(-105%); pointer-events: none }
 .historyPanelContent { height: 100%; overflow-y: auto; padding: 12px 14px }
 
 .historyHeader {
@@ -447,11 +624,11 @@ video {
 .historyEntryBtn:hover { background: rgba(255,255,255,.08) }
 
 .detailsPanel {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: min(560px, 96vw);
-  height: 100%;
+  height: 100vh;
   background: color-mix(in srgb, var(--panel) 94%, transparent);
   border-left: 1px solid var(--edge);
   box-shadow: 0 8px 32px rgba(0,0,0,.5);
@@ -462,7 +639,7 @@ video {
   overflow: hidden;
 }
 .detailsPanel[aria-hidden="false"] { transform: translateX(0) }
-.detailsPanel[aria-hidden="true"] { pointer-events: none }
+.detailsPanel[aria-hidden="true"] { transform: translateX(105%); pointer-events: none }
 
 .detailsHeader {
   display: flex;
@@ -556,8 +733,7 @@ video {
 
 .cornerBtn {
   position: absolute;
-  bottom: 18px;
-  right: 18px;
+  top: 18px;
   width: 44px;
   height: 44px;
   border-radius: 12px;
@@ -568,5 +744,6 @@ video {
   cursor: pointer;
   z-index: 90;
 }
-.cornerBtnLeft { right: 70px }
+.cornerBtnLeft { left: 18px }
+.cornerBtn:not(.cornerBtnLeft) { right: 18px }
 .cornerBtn:hover { background: rgba(0,0,0,.7) }

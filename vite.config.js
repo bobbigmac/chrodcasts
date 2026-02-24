@@ -118,6 +118,8 @@ function devBuilderPlugin() {
     serverRef?.ws?.send({ type: "full-reload" });
   }
 
+  const py = process.platform === "win32" ? "python" : "python3";
+
   async function buildSite({ alsoUpdateFeeds }) {
     if (running) {
       queued = queued || { alsoUpdateFeeds: false };
@@ -127,12 +129,12 @@ function devBuilderPlugin() {
     running = true;
     try {
       if (alsoUpdateFeeds) {
-        await run("python3", ["-m", "scripts.update_feeds", "--feeds", feedsConfig, "--cache", cacheDir, "--quiet"], {
+        await run(py, ["-m", "scripts.update_feeds", "--feeds", feedsConfig, "--cache", cacheDir, "--quiet"], {
           cwd: projectRoot,
         });
       }
       await run(
-        "python3",
+        py,
         ["-m", "scripts.build_site", "--feeds", feedsConfig, "--cache", cacheDir, "--base-path", "/", "--out", distRoot],
         { cwd: projectRoot }
       );
@@ -183,5 +185,6 @@ export default defineConfig({
     port: 8000,
     strictPort: true,
     open: "/",
+    watch: process.platform === "win32" ? { usePolling: true, interval: 1000 } : undefined,
   },
 });
