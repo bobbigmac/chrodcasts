@@ -1,0 +1,548 @@
+:root {
+  --bg: #0b0c10;
+  --panel: #11131a;
+  --text: #e8eaed;
+  --muted: #a7adb7;
+  --edge: #242a3d;
+  --accent: #8ab4f8;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+
+* { box-sizing: border-box }
+html, body { height: 100%; margin: 0 }
+:root { color-scheme: dark }
+.mono { font-family: var(--mono) }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  overflow: hidden;
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.player {
+  position: absolute;
+  inset: 0;
+  background: #000;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  cursor: pointer;
+  background: rgba(0,0,0,.4);
+}
+.progressFill {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--accent);
+  transition: width 0.1s ease;
+}
+.player:hover .progressFill { background: rgba(138,180,248,.8) }
+
+.guideBar {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: rgba(0,0,0,.75);
+  border: 1px solid var(--edge);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  transition: opacity 0.4s ease;
+}
+.guideBar.idle {
+  opacity: 0;
+  pointer-events: none;
+}
+.app:hover .guideBar.idle,
+.app:focus-within .guideBar.idle { opacity: 1; pointer-events: auto }
+
+.guideBar-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: min(1100px, calc(100vw - 40px));
+}
+
+.guideBtnSeek {
+  padding: 4px 8px;
+  font-size: 12px;
+  min-width: 36px;
+}
+
+.guideSeek {
+  width: 80px;
+  height: 4px;
+  background: rgba(255,255,255,.08);
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.guideSeek:hover { background: rgba(255,255,255,.12) }
+.guideSeekFill {
+  height: 100%;
+  width: 0%;
+  background: rgba(255,255,255,.25);
+  border-radius: 2px;
+  transition: width 0.08s ease;
+}
+
+.guideBar-sleep { position: relative }
+
+.sleepMenu {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 6px;
+  padding: 6px;
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 10;
+}
+.sleepMenu[aria-hidden="true"] { display: none }
+.sleepOpt {
+  padding: 8px 14px;
+  font: inherit;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+}
+.sleepOpt:hover { background: rgba(255,255,255,.08) }
+
+.guideChannel {
+  min-width: 140px;
+  padding: 8px 12px;
+  font: inherit;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.guideChannel:hover { background: rgba(255,255,255,.08) }
+.guideChannel::after { content: " ▼"; font-size: 0.7em; opacity: .7 }
+
+.guideNow {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.guideBtn {
+  padding: 8px 12px;
+  font: inherit;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.guideBtn:hover { background: rgba(255,255,255,.08) }
+.guideBtn:active { transform: translateY(1px) }
+.guideBtn.active { background: rgba(138,180,248,.2); border-color: var(--accent) }
+#btnCC { display: none }
+
+.guideTime {
+  font-size: 13px;
+  color: var(--muted);
+  min-width: 60px;
+  text-align: right;
+}
+
+.guidePanel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 60vh;
+  background: color-mix(in srgb, var(--panel) 92%, transparent);
+  border: 1px solid var(--edge);
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 8px 32px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 100;
+  transform: translateY(100%);
+  transition: transform 0.25s ease, opacity 0.2s ease;
+  backdrop-filter: blur(12px);
+}
+.guidePanel[aria-hidden="false"] { transform: translateY(0) }
+.guidePanel[aria-hidden="true"] { transform: translateY(100%); pointer-events: none }
+
+.guidePanel-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.guidePanel-channels {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--edge) transparent;
+}
+.guidePanel-channels::-webkit-scrollbar { width: 8px }
+.guidePanel-channels::-webkit-scrollbar-track { background: transparent }
+.guidePanel-channels::-webkit-scrollbar-thumb { background: var(--edge); border-radius: 4px }
+.guidePanel-channels::-webkit-scrollbar-thumb:hover { background: var(--muted) }
+
+.guideChannelRow {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.guideChannelRow:hover { background: rgba(255,255,255,.04) }
+.guideChannelRow.focused { outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent); background: rgba(255,255,255,.03) }
+.guideChannelRow.playing { background: rgba(138,180,248,.06) }
+
+.guideChannelName {
+  flex: 0 0 180px;
+  font-weight: 650;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.guideEpStrip {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--edge) transparent;
+}
+.guideEpStrip::-webkit-scrollbar { height: 8px }
+.guideEpStrip::-webkit-scrollbar-thumb { background: var(--edge); border-radius: 4px }
+.guideEpStrip::-webkit-scrollbar-thumb:hover { background: var(--muted) }
+
+.guideEpBlock {
+  position: relative;
+  flex: 0 0 auto;
+  width: 180px;
+  max-width: 220px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  text-align: left;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.guideEpBlock:hover { background: rgba(255,255,255,.07) }
+.guideEpBlock.active { border-color: var(--accent); background: rgba(138,180,248,.12) }
+.guideEpBlock.now { border-color: color-mix(in srgb, var(--accent) 60%, transparent) }
+.guideEpBlock.focused { outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent) }
+
+.guideEpBlockProgress {
+  position: absolute;
+  inset: 0 0 0 0;
+  width: 0%;
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  pointer-events: none;
+}
+
+.guideEpBlockTitle {
+  font-weight: 650;
+  font-size: 13px;
+}
+.guideEpBlockMeta {
+  font-size: 12px;
+  color: var(--muted);
+}
+.guideEpLoad {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.guidePanel-episodes {
+  padding: 10px 14px;
+  border-top: 1px solid var(--edge);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.guideNowLabel { font-size: 12px; color: var(--muted) }
+.guideNowEp { font-size: 14px; font-weight: 650 }
+
+.guidePanel-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--edge);
+  background: rgba(255,255,255,.03);
+  color: var(--text);
+  cursor: pointer;
+}
+.guidePanel-close:hover { background: rgba(255,255,255,.07) }
+
+.historyPanel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(520px, 92vw);
+  height: 100%;
+  background: color-mix(in srgb, var(--panel) 94%, transparent);
+  border-right: 1px solid var(--edge);
+  box-shadow: 0 8px 32px rgba(0,0,0,.5);
+  transform: translateX(-105%);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  z-index: 120;
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+.historyPanel[aria-hidden="false"] { transform: translateX(0) }
+.historyPanel[aria-hidden="true"] { pointer-events: none }
+.historyPanelContent { height: 100%; overflow-y: auto; padding: 12px 14px }
+
+.historyHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+  background: color-mix(in srgb, var(--panel) 96%, transparent);
+  border-bottom: 1px solid var(--edge);
+  z-index: 1;
+}
+.historyActions { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end }
+.historyBtn {
+  padding: 6px 10px;
+  font: inherit;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.historyBtn:hover { background: rgba(255,255,255,.08) }
+.historyList { display: flex; flex-direction: column; gap: 8px; padding: 10px 0 16px }
+
+.historyEntry {
+  position: relative;
+  padding: 10px 10px 10px 54px;
+  border: 1px solid var(--edge);
+  border-radius: 10px;
+  background: rgba(255,255,255,.03);
+  cursor: pointer;
+}
+.historyEntry:hover { background: rgba(255,255,255,.07) }
+.historyEntryCurrent { border-color: color-mix(in srgb, var(--accent) 55%, transparent); background: rgba(138,180,248,.08) }
+.historyEntryHadSleep::after {
+  content: "sleep";
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 11px;
+  opacity: .65;
+}
+.historyEntryTitle { font-weight: 650; font-size: 13px }
+.historyEntrySub { font-size: 12px; color: var(--muted); margin-top: 4px }
+.historyEntryBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid var(--edge);
+  background: rgba(255,255,255,.03);
+  color: var(--text);
+  cursor: pointer;
+}
+.historyEntryBtnContinue { left: 44px }
+.historyEntryBtn:hover { background: rgba(255,255,255,.08) }
+
+.detailsPanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: min(560px, 96vw);
+  height: 100%;
+  background: color-mix(in srgb, var(--panel) 94%, transparent);
+  border-left: 1px solid var(--edge);
+  box-shadow: 0 8px 32px rgba(0,0,0,.5);
+  transform: translateX(105%);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  z-index: 120;
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+.detailsPanel[aria-hidden="false"] { transform: translateX(0) }
+.detailsPanel[aria-hidden="true"] { pointer-events: none }
+
+.detailsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--edge);
+  background: color-mix(in srgb, var(--panel) 96%, transparent);
+}
+.detailsContent { height: calc(100% - 52px); overflow-y: auto; padding: 12px 14px; display: flex; flex-direction: column; gap: 12px }
+.detailsTitle { font-weight: 750; font-size: 16px }
+.detailsSub { font-size: 12px; color: var(--muted) }
+.detailsDesc { font-size: 13px; color: var(--text); opacity: .95; line-height: 1.45 }
+.detailsDesc a { color: var(--accent) }
+
+.detailsSplit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 720px) {
+  .detailsSplit { grid-template-columns: 1fr }
+}
+
+.detailsChaptersTitle,
+.detailsCommentsTitle {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+  font-weight: 650;
+}
+
+.chapters { display: flex; flex-direction: column; gap: 6px }
+.ch {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--edge);
+  border-radius: 10px;
+  background: rgba(255,255,255,.03);
+  cursor: pointer;
+}
+.ch:hover { background: rgba(255,255,255,.07) }
+.ch.active { border-color: var(--accent); background: rgba(138,180,248,.12) }
+.chName { font-size: 13px; font-weight: 650; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.chTime { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums }
+
+.commentsPanel {
+  border: 1px solid var(--edge);
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(255,255,255,.02);
+}
+.commentsTop { display: flex; justify-content: space-between; align-items: baseline; gap: 10px }
+.commentsStatus { font-size: 12px; color: var(--muted) }
+.commentsForm { display: flex; flex-direction: column; gap: 8px; margin-top: 10px }
+.commentsForm input,
+.commentsForm textarea {
+  font: inherit;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+.commentsForm textarea { min-height: 64px; resize: vertical }
+.commentsList { display: flex; flex-direction: column; margin-top: 10px; max-height: 40vh; overflow: auto; border-top: 1px solid rgba(255,255,255,.06) }
+.commentRow { padding: 10px 8px; border-top: 1px solid rgba(255,255,255,.06) }
+.commentRow:first-child { border-top: 0 }
+.commentMeta { display: flex; gap: 10px; align-items: baseline; font-size: 12px; color: var(--muted) }
+.commentTime { font-variant-numeric: tabular-nums; cursor: pointer; text-decoration: underline; color: color-mix(in srgb, var(--accent) 85%, var(--muted)) }
+.commentBody { margin-top: 6px; font-size: 13px; color: var(--text); white-space: pre-wrap }
+
+.detailsLogHeader { display: flex; justify-content: space-between; align-items: center; gap: 10px }
+.logOutput {
+  margin-top: 8px;
+  border: 1px solid var(--edge);
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(255,255,255,.02);
+  max-height: 220px;
+  overflow: auto;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.logEntry { padding: 2px 0 }
+.logEntry.warn { color: #f1d093 }
+.logEntry.error { color: #ff8a8a }
+
+.cornerBtn {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid var(--edge);
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(8px);
+  color: var(--text);
+  cursor: pointer;
+  z-index: 90;
+}
+.cornerBtnLeft { right: 70px }
+.cornerBtn:hover { background: rgba(0,0,0,.7) }
+

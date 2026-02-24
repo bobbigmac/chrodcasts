@@ -1,0 +1,17 @@
+{
+  "name": "vodcasts",
+  "private": true,
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^17.3.1",
+    "vite": "^5.4.0"
+  },
+  "scripts": {
+    "use": "./scripts/vod use",
+    "update": "./scripts/vod update",
+    "build": "./scripts/vod build",
+    "dev": "./scripts/vod dev"
+  },
+  "packageManager": "yarn@1.22.22"
+}

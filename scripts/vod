@@ -1,0 +1,116 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+STATE_FILE="$ROOT/.vodcasts-env"
+
+cmd="${1:-}"
+shift || true
+
+die() {
+  echo "error: $*" >&2
+  exit 2
+}
+
+canon_env() {
+  local v="${1:-}"
+  case "$v" in
+    prod|main|full) echo "complete" ;;
+    *) echo "$v" ;;
+  esac
+}
+
+active_env() {
+  if [[ -n "${VOD_ENV:-}" ]]; then
+    echo "$(canon_env "${VOD_ENV}")"
+    return 0
+  fi
+  if [[ -f "$STATE_FILE" ]]; then
+    local v
+    v="$(cat "$STATE_FILE" | tr -d '\r\n' | xargs || true)"
+    if [[ -n "$v" ]]; then
+      echo "$(canon_env "$v")"
+      return 0
+    fi
+  fi
+  echo "warning: VOD_ENV is not set; defaulting to 'dev'. Run: yarn use dev|church|tech|complete" >&2
+  echo "dev"
+}
+
+resolve_feeds() {
+  local env_name="$1"
+  env_name="$(canon_env "$env_name")"
+  local f="$ROOT/feeds/${env_name}.md"
+  [[ -f "$f" ]] || die "unknown env '$env_name' (missing $f)"
+  echo "$f"
+}
+
+resolve_cache() {
+  local env_name="$1"
+  env_name="$(canon_env "$env_name")"
+  echo "$ROOT/cache/${env_name}"
+}
+
+log_env() {
+  local env_name="$1"
+  local feeds="$2"
+  local cache="$3"
+  echo "[vodcasts] env=$env_name feeds=$(basename "$feeds") cache=$(basename "$cache")" >&2
+}
+
+case "$cmd" in
+  use)
+    env_name="$(canon_env "${1:-}")"
+    [[ -n "$env_name" ]] || die "usage: yarn use <dev|church|tech|complete>"
+    feeds="$(resolve_feeds "$env_name")"
+    mkdir -p "$ROOT/cache/$env_name"
+    echo "$env_name" >"$STATE_FILE"
+    echo "Selected: $env_name ($feeds)" >&2
+    echo "Tip: to use an env var instead of the state file: export VOD_ENV=$env_name" >&2
+    ;;
+
+  export)
+    env_name="$(active_env)"
+    echo "export VOD_ENV=$env_name"
+    ;;
+
+  update|build|dev)
+    env_name="$(active_env)"
+    feeds="$(resolve_feeds "$env_name")"
+    cache="$(resolve_cache "$env_name")"
+    mkdir -p "$cache"
+    log_env "$env_name" "$feeds" "$cache"
+
+    if [[ "$cmd" == "update" ]]; then
+      exec python3 -m scripts.update_feeds --feeds "$feeds" --cache "$cache" "$@"
+    elif [[ "$cmd" == "build" ]]; then
+      base_path="${VOD_BASE_PATH:-/}"
+      exec python3 -m scripts.build_site --feeds "$feeds" --cache "$cache" --out "$ROOT/dist" --base-path "$base_path" "$@"
+    else
+      export VOD_FEEDS="$feeds"
+      export VOD_CACHE="$cache"
+      exec vite --config "$ROOT/vite.config.js" "$@"
+    fi
+    ;;
+
+  ""|-h|--help|help)
+    cat >&2 <<EOF
+vodcasts helper
+
+Commands:
+  yarn use <env>    Select env (persists in .vodcasts-env)
+  ./scripts/vod export  Print an export line for the current env
+  yarn update       Update cached feeds for selected env
+  yarn build        Build site for selected env
+  yarn dev          Run dev server for selected env
+
+Env vars:
+  VOD_ENV           Overrides .vodcasts-env (non-persistent)
+  VOD_BASE_PATH     Used by 'yarn build' (default: /)
+EOF
+    ;;
+
+  *)
+    die "unknown command: $cmd (try: yarn help)"
+    ;;
+esac

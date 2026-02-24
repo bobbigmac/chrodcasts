@@ -1,0 +1,42 @@
+name: Vodcasts - update + build (template)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      VOD_FEEDS: feeds/dev.md
+      VOD_CACHE: cache/dev
+      VOD_OUT: dist
+      VOD_BASE_PATH: /
+      # Comments (optional)
+      VOD_SUPABASE_URL: ${{ secrets.VOD_SUPABASE_URL }}
+      VOD_SUPABASE_ANON_KEY: ${{ secrets.VOD_SUPABASE_ANON_KEY }}
+      VOD_HCAPTCHA_SITEKEY: ${{ secrets.VOD_HCAPTCHA_SITEKEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update feed cache
+        run: |
+          set -euo pipefail
+          python -m scripts.update_feeds --feeds "$VOD_FEEDS" --cache "$VOD_CACHE" --quiet --concurrency 3
+
+      - name: Build static site
+        run: |
+          set -euo pipefail
+          python -m scripts.build_site --feeds "$VOD_FEEDS" --cache "$VOD_CACHE" --out "$VOD_OUT" --base-path "$VOD_BASE_PATH"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vodcasts-dist
+          path: dist
