@@ -222,7 +222,7 @@ export function App({ env, log, sources, player, history }) {
           <button id="btnRandom" class="guideBtn" title="Random" onClick=${() => player.playRandom()}>Random</button>
           <div class="speedControl" title="Playback speed">
             <button class="speedBtn speedDown" title="Slower" onClick=${() => player.rateDown()}>−</button>
-            <span class="speedLevel">${rateLabel}</span>
+            <button class="speedBtn speedLevel" title="Click to toggle 1× / last speed" onClick=${() => player.toggleRate()}>${rateLabel}</button>
             <button class="speedBtn speedUp" title="Faster" onClick=${() => player.rateUp()}>+</button>
           </div>
           <div class="guideBar-sleep">

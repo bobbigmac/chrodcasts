@@ -244,7 +244,7 @@ video {
 .speedBtn:last-of-type { border-right: none; border-left: 1px solid var(--edge) }
 .speedBtn:hover { background: rgba(255,255,255,.08) }
 .speedBtn:active { transform: translateY(1px) }
-.speedLevel {
+.speedBtn.speedLevel {
   min-width: 44px;
   padding: 6px 6px;
   font-size: 12px;

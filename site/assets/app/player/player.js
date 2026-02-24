@@ -452,6 +452,7 @@ export function createPlayerService({ env, log, history }) {
       videoEl.playbackRate = next;
     } catch {}
     persisted.rate = next;
+    if (next !== 1) persisted.lastNonOneRate = next;
     saveState();
     playback.value = { ...playback.value, rate: next };
   }
@@ -465,6 +466,20 @@ export function createPlayerService({ env, log, history }) {
       videoEl.playbackRate = next;
     } catch {}
     persisted.rate = next;
+    if (next !== 1) persisted.lastNonOneRate = next;
+    saveState();
+    playback.value = { ...playback.value, rate: next };
+  }
+
+  function toggleRate() {
+    if (!videoEl) return;
+    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1);
+    const next = cur === 1 ? (persisted.lastNonOneRate || 1.5) : 1;
+    try {
+      videoEl.playbackRate = next;
+    } catch {}
+    persisted.rate = next;
+    if (next !== 1) persisted.lastNonOneRate = next;
     saveState();
     playback.value = { ...playback.value, rate: next };
   }
@@ -662,6 +677,7 @@ export function createPlayerService({ env, log, history }) {
     seekToTime,
     rateUp,
     rateDown,
+    toggleRate,
     volumeUp,
     volumeDown,
     toggleCaptions,
