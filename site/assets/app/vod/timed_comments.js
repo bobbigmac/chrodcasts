@@ -1,4 +1,4 @@
-// Supabase timed comments (ported from `video-podcasts/supabase-timed-comments.html`).
+import { html, useEffect, useMemo, useRef, useSignal } from "../runtime/vendor.js";
 
 function fmtTime(s) {
   s = Math.max(0, Math.floor(s || 0));
@@ -16,8 +16,15 @@ function stableContentId(source, episode) {
 function ensureHcaptchaLoaded() {
   return new Promise((resolve) => {
     if (window.hcaptcha) return resolve();
+    if (window.__vodcastsHCaptchaLoading) {
+      window.__vodcastsHCaptchaLoading.push(resolve);
+      return;
+    }
+    window.__vodcastsHCaptchaLoading = [resolve];
     window.onHCaptchaLoad = function () {
-      resolve();
+      const list = window.__vodcastsHCaptchaLoading || [];
+      window.__vodcastsHCaptchaLoading = null;
+      list.forEach((r) => r());
     };
     const s = document.createElement("script");
     s.src = "https://js.hcaptcha.com/1/api.js?onload=onHCaptchaLoad&render=explicit";
@@ -27,105 +34,73 @@ function ensureHcaptchaLoaded() {
   });
 }
 
-export function createComments({ env, els, log, player }) {
-  const site = env.site || {};
-  const cfg = site.comments || {};
+export function TimedComments({ env, player, isActive }) {
+  const cfg = env?.site?.comments || {};
 
-  const statusEl = document.getElementById("commentsStatus");
-  const listEl = document.getElementById("commentsList");
-  const form = document.getElementById("commentsForm");
-  const nameEl = document.getElementById("commentName");
-  const bodyEl = document.getElementById("commentBody");
-  const btn = document.getElementById("commentSubmit");
-  const tlabel = document.getElementById("commentTime");
-  const captchaWrap = document.getElementById("commentsCaptchaWrap");
-  const captchaBtn = document.getElementById("captchaBtn");
+  const status = useSignal("—");
+  const rows = useSignal([]);
+  const anonReady = useSignal(false);
+  const posting = useSignal(false);
+  const name = useSignal("");
+  const body = useSignal("");
 
-  let supabase = null;
-  let contentId = null;
-  let anonReady = false;
-  let channelSub = null;
-  let captchaWidgetId = null;
-  let captchaDoneResolve = null;
-  let captchaDonePromise = null;
+  const showCaptcha = useSignal(false);
+  const captchaBtnDisabled = useSignal(false);
 
-  const setStatus = (s) => {
-    if (statusEl) statusEl.textContent = s;
-  };
+  const sbRef = useRef(null);
+  const contentIdRef = useRef(null);
+  const channelRef = useRef(null);
+  const captchaWidgetIdRef = useRef(null);
+  const captchaTokenRef = useRef(null);
+  const captchaContainerRef = useRef(null);
 
-  function render(rows) {
-    if (!listEl) return;
-    listEl.innerHTML = "";
-    for (const r of rows) {
-      const div = document.createElement("div");
-      div.className = "commentRow";
+  const cur = player.current.value;
+  const contentId = useMemo(() => stableContentId(cur.source, cur.episode), [cur.source?.id, cur.episode?.id]);
 
-      const meta = document.createElement("div");
-      meta.className = "commentMeta";
+  const timeLabel = fmtTime(player.playback.value.time || 0);
 
-      const t = document.createElement("span");
-      t.className = "commentTime";
-      t.textContent = fmtTime(r.t_seconds);
-      t.title = "jump to time";
-      t.onclick = () => {
-        const v = els.video;
-        v.currentTime = r.t_seconds;
-        v.play().catch(() => {});
-      };
-
-      const who = document.createElement("span");
-      who.textContent = r.name ? r.name : "anon";
-
-      const when = document.createElement("span");
-      when.textContent = new Date(r.created_at).toLocaleString();
-
-      meta.append(t, who, when);
-
-      const body = document.createElement("div");
-      body.className = "commentBody";
-      body.textContent = r.body;
-
-      div.append(meta, body);
-      listEl.appendChild(div);
-    }
+  async function ensureClient() {
+    if (sbRef.current) return sbRef.current;
+    if (!cfg?.supabaseUrl || !cfg?.supabaseAnonKey) return null;
+    const mod = await import("https://esm.sh/@supabase/supabase-js@2.49.1");
+    sbRef.current = mod.createClient(cfg.supabaseUrl, cfg.supabaseAnonKey);
+    return sbRef.current;
   }
 
   async function load() {
-    if (!supabase || !contentId) return;
-    const { data, error } = await supabase
+    const sb = sbRef.current;
+    const cid = contentIdRef.current;
+    if (!sb || !cid) return;
+    const { data, error } = await sb
       .from("timed_comments")
       .select("id,t_seconds,name,body,created_at")
-      .eq("content_id", contentId)
+      .eq("content_id", cid)
       .order("t_seconds", { ascending: true })
       .order("created_at", { ascending: true });
     if (error) throw error;
-    render(data ?? []);
-  }
-
-  async function ensureClient() {
-    if (supabase) return supabase;
-    if (!cfg?.supabaseUrl || !cfg?.supabaseAnonKey) return null;
-    const mod = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm");
-    supabase = mod.createClient(cfg.supabaseUrl, cfg.supabaseAnonKey);
-    return supabase;
+    rows.value = data ?? [];
   }
 
   async function initCaptchaIfNeeded() {
     if (!cfg?.hcaptchaSitekey) return null;
-    if (captchaWidgetId) return captchaWidgetId;
+    if (captchaWidgetIdRef.current) return captchaWidgetIdRef.current;
     await ensureHcaptchaLoaded();
-    if (!captchaWrap) return null;
-    captchaWrap.hidden = false;
-    captchaDonePromise = new Promise((r) => {
-      captchaDoneResolve = r;
-    });
-    captchaWidgetId = hcaptcha.render("hcaptcha-container", {
+    showCaptcha.value = true;
+    await new Promise((r) => setTimeout(r, 0));
+    const host = captchaContainerRef.current;
+    if (!host) return null;
+    host.style.display = "none";
+    captchaWidgetIdRef.current = hcaptcha.render(host, {
       sitekey: cfg.hcaptchaSitekey,
       size: "invisible",
-      callback: (token) => captchaDoneResolve(token),
-      "error-callback": () => captchaDoneResolve(null),
+      callback: (token) => {
+        captchaTokenRef.current = token;
+      },
+      "error-callback": () => {
+        captchaTokenRef.current = null;
+      },
     });
-    return captchaWidgetId;
+    return captchaWidgetIdRef.current;
   }
 
   async function ensureAnon() {
@@ -136,103 +111,211 @@ export function createComments({ env, els, log, player }) {
 
     if (cfg?.hcaptchaSitekey) {
       await initCaptchaIfNeeded();
-      setStatus("click Continue…");
-      captchaBtn.onclick = () => {
-        captchaBtn.disabled = true;
-        setStatus("verifying…");
-        hcaptcha.execute(captchaWidgetId);
-      };
-      const token = await captchaDonePromise;
-      captchaBtn.style.display = "none";
-      if (!token) throw new Error("Captcha required");
-      const { error } = await sb.auth.signInAnonymously({ options: { captchaToken: token } });
-      if (error) throw error;
-      return;
+      status.value = "click Continue…";
+      captchaBtnDisabled.value = false;
+      showCaptcha.value = true;
+
+      return; // wait for user to click Continue (and execute captcha)
     }
 
     const { error } = await sb.auth.signInAnonymously();
     if (error) throw error;
   }
 
-  function attachForm() {
-    if (!form) return;
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      if (!anonReady || !supabase || !contentId) return;
-      btn.disabled = true;
-      try {
-        const { data: userData, error: userErr } = await supabase.auth.getUser();
-        if (userErr) throw userErr;
-        const payload = {
-          content_id: contentId,
-          t_seconds: Math.max(0, Math.floor(els.video.currentTime || 0)),
-          name: nameEl.value.trim() || null,
-          body: bodyEl.value.trim(),
-          user_id: userData.user.id,
-        };
-        if (!payload.body) return;
-        const { error } = await supabase.from("timed_comments").insert(payload);
-        if (error) throw error;
-        bodyEl.value = "";
-        await load();
-      } finally {
-        btn.disabled = false;
-      }
-    });
+  async function signInWithCaptchaIfReady() {
+    const sb = await ensureClient();
+    if (!sb) return;
+    const { data: sess } = await sb.auth.getSession();
+    if (sess?.session) return;
+    const token = captchaTokenRef.current;
+    if (!token) throw new Error("Captcha required");
+    const { error } = await sb.auth.signInAnonymously({ options: { captchaToken: token } });
+    if (error) throw error;
   }
 
-  function wireVideoTimeLabel() {
-    els.video?.addEventListener("timeupdate", () => {
-      if (tlabel) tlabel.textContent = fmtTime(els.video.currentTime);
-    });
-  }
+  useEffect(() => {
+    if (!isActive) return;
 
-  attachForm();
-  wireVideoTimeLabel();
-
-  async function startForContent(newContentId) {
-    contentId = newContentId;
-    anonReady = false;
-
-    if (!cfg?.supabaseUrl || !cfg?.supabaseAnonKey) {
-      if (form) form.hidden = true;
-      if (captchaWrap) captchaWrap.hidden = true;
-      setStatus("comments disabled");
+    const hasCfg = !!(cfg?.supabaseUrl && cfg?.supabaseAnonKey);
+    if (!hasCfg) {
+      status.value = "comments disabled";
+      rows.value = [];
+      anonReady.value = false;
+      showCaptcha.value = false;
       return;
     }
 
-    try {
-      setStatus("signing in…");
-      await ensureAnon();
-      anonReady = true;
-      if (form) form.hidden = false;
-      if (btn) btn.disabled = false;
-      setStatus("loading…");
-      await load();
-      setStatus(contentId);
+    if (!cur?.source?.id || !cur?.episode?.id) {
+      status.value = "select an episode";
+      rows.value = [];
+      anonReady.value = false;
+      showCaptcha.value = false;
+      return;
+    }
 
-      channelSub?.unsubscribe?.();
-      channelSub = supabase
-        .channel(`timed_comments:${contentId}`)
-        .on("postgres_changes", { event: "INSERT", schema: "public", table: "timed_comments", filter: `content_id=eq.${contentId}` }, () => load())
+    let cancelled = false;
+    contentIdRef.current = contentId;
+    anonReady.value = false;
+    rows.value = [];
+
+    (async () => {
+      try {
+        status.value = "signing in…";
+        await ensureAnon();
+        if (cfg?.hcaptchaSitekey) {
+          // waiting for user gesture; keep UI in "Continue" mode
+          return;
+        }
+        if (cancelled) return;
+        anonReady.value = true;
+        status.value = "loading…";
+        await load();
+        if (cancelled) return;
+        status.value = contentId;
+
+        channelRef.current?.unsubscribe?.();
+        channelRef.current = sbRef.current
+          .channel(`timed_comments:${contentId}`)
+          .on(
+            "postgres_changes",
+            { event: "INSERT", schema: "public", table: "timed_comments", filter: `content_id=eq.${contentId}` },
+            () => load()
+          )
+          .subscribe();
+      } catch (err) {
+        console.error(err);
+        status.value = "error (check console)";
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+      channelRef.current?.unsubscribe?.();
+      channelRef.current = null;
+    };
+  }, [isActive, contentId, cfg?.supabaseUrl, cfg?.supabaseAnonKey, cfg?.hcaptchaSitekey, cur?.source?.id, cur?.episode?.id]);
+
+  async function onContinue() {
+    captchaBtnDisabled.value = true;
+    status.value = "verifying…";
+    try {
+      await initCaptchaIfNeeded();
+      captchaTokenRef.current = null;
+      hcaptcha.execute(captchaWidgetIdRef.current);
+
+      // Wait a short while for callback to fire.
+      const t0 = Date.now();
+      while (!captchaTokenRef.current && Date.now() - t0 < 15000) {
+        await new Promise((r) => setTimeout(r, 50));
+      }
+
+      await signInWithCaptchaIfReady();
+      anonReady.value = true;
+      showCaptcha.value = false;
+      status.value = "loading…";
+      await load();
+      status.value = contentIdRef.current || "—";
+
+      channelRef.current?.unsubscribe?.();
+      channelRef.current = sbRef.current
+        .channel(`timed_comments:${contentIdRef.current}`)
+        .on(
+          "postgres_changes",
+          { event: "INSERT", schema: "public", table: "timed_comments", filter: `content_id=eq.${contentIdRef.current}` },
+          () => load()
+        )
         .subscribe();
     } catch (err) {
       console.error(err);
-      setStatus("error (check console)");
+      status.value = "error (check console)";
+      captchaBtnDisabled.value = false;
     }
   }
 
-  return {
-    setEpisode: (source, episode) => {
-      if (!source?.id || !episode?.id) {
-        setStatus("select an episode");
-        if (form) form.hidden = true;
-        if (captchaWrap) captchaWrap.hidden = true;
-        return;
-      }
-      const next = stableContentId(source, episode);
-      if (next === contentId) return;
-      startForContent(next);
-    },
-  };
+  async function onSubmit(e) {
+    e.preventDefault();
+    if (!anonReady.value || !sbRef.current || !contentIdRef.current) return;
+    if (!body.value.trim()) return;
+    posting.value = true;
+    try {
+      const { data: userData, error: userErr } = await sbRef.current.auth.getUser();
+      if (userErr) throw userErr;
+      const payload = {
+        content_id: contentIdRef.current,
+        t_seconds: Math.max(0, Math.floor(player.playback.value.time || 0)),
+        name: name.value.trim() || null,
+        body: body.value.trim(),
+        user_id: userData.user.id,
+      };
+      const { error } = await sbRef.current.from("timed_comments").insert(payload);
+      if (error) throw error;
+      body.value = "";
+      await load();
+    } finally {
+      posting.value = false;
+    }
+  }
+
+  const formHidden = !anonReady.value;
+  const postDisabled = posting.value || !anonReady.value || !body.value.trim();
+
+  return html`
+    <div class="commentsTop">
+      <div id="commentsStatus" class="commentsStatus">${status.value}</div>
+    </div>
+
+    <div id="commentsCaptchaWrap" class="commentsCaptchaWrap" hidden=${!showCaptcha.value}>
+      <button type="button" id="captchaBtn" class="guideBtn" disabled=${captchaBtnDisabled.value} onClick=${onContinue}>
+        Continue
+      </button>
+      <div ref=${captchaContainerRef} id="hcaptcha-container"></div>
+    </div>
+
+    <form id="commentsForm" class="commentsForm" autocomplete="off" hidden=${formHidden} onSubmit=${onSubmit}>
+      <input
+        id="commentName"
+        name="commentName"
+        placeholder="display name (optional)"
+        maxlength="64"
+        value=${name.value}
+        onInput=${(e) => (name.value = e.target.value)}
+      />
+      <textarea
+        id="commentBody"
+        placeholder="say something…"
+        maxlength="4000"
+        required
+        value=${body.value}
+        onInput=${(e) => (body.value = e.target.value)}
+      ></textarea>
+      <button id="commentSubmit" type="submit" class="guideBtn" disabled=${postDisabled}>
+        Post @ <span id="commentTime">${timeLabel}</span>
+      </button>
+    </form>
+
+    <div id="commentsList" class="commentsList">
+      ${rows.value.map(
+        (r) => html`
+          <div class="commentRow">
+            <div class="commentMeta">
+              <span
+                class="commentTime"
+                title="jump to time"
+                onClick=${() => {
+                  const t = Number(r.t_seconds) || 0;
+                  player.seekToTime(t);
+                  player.play({ userGesture: true });
+                }}
+              >
+                ${fmtTime(r.t_seconds)}
+              </span>
+              <span>${r.name ? r.name : "anon"}</span>
+              <span>${new Date(r.created_at).toLocaleString()}</span>
+            </div>
+            <div class="commentBody">${r.body}</div>
+          </div>
+        `
+      )}
+    </div>
+  `;
 }

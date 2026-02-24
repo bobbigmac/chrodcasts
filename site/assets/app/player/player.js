@@ -1,10 +1,16 @@
+import { computed, effect, signal } from "../runtime/vendor.js";
 import { fetchCached } from "../vod/feed_cache.js";
 import { parseFeedXml } from "../vod/feed_parse.js";
-import { loadChaptersForEpisode, renderChapters } from "../ui/chapters.js";
+import { loadChaptersForEpisode } from "../ui/chapters.js";
 
-export function createPlayer({ env, store, els, log, history }) {
+export function createPlayerService({ env, log, history }) {
   const STORAGE_KEY = "vodcasts_state_v1";
   const FEED_PROXY = env.feedProxy;
+
+  let videoEl = null;
+  let hls = null;
+  let transcriptBlobUrls = [];
+  let lastPersistMs = 0;
 
   let sources = [];
   let currentSource = null;
@@ -12,28 +18,29 @@ export function createPlayer({ env, store, els, log, history }) {
   let episodesBySource = {};
   let currentEp = null;
 
-  let hls = null;
-  let transcriptBlobUrls = [];
-  let lastPersistMs = 0;
   let userPaused = false;
   let didInitLoad = false;
+  let pendingInitSourceId = null;
+
   let sleepEndAt = null;
   let sleepTickId = null;
 
-  const state = loadState();
+  const persisted = loadState();
 
-  store.subscribe((s) => {
-    sources = s.sources || [];
-    if (!didInitLoad && sources.length) {
-      didInitLoad = true;
-      const wantedSourceId = state.last?.sourceId || sources[0]?.id;
-      if (wantedSourceId) {
-        loadSource(wantedSourceId, { preserveEpisode: true }).catch((e) => {
-          log.error(String(e?.message || e || "init load failed"));
-        });
-      }
-    }
+  const current = signal({ source: null, episode: null });
+  const chapters = signal([]);
+  const playback = signal({
+    paused: true,
+    muted: true,
+    time: 0,
+    duration: NaN,
   });
+  const captions = signal({ available: false, showing: false });
+  const sleep = signal({ active: false, label: "Sleep" });
+  const sourceEpisodes = signal({});
+
+  const currentSourceId = computed(() => current.value.source?.id || null);
+  const currentEpisodeId = computed(() => current.value.episode?.id || null);
 
   function loadState() {
     try {
@@ -44,7 +51,9 @@ export function createPlayer({ env, store, els, log, history }) {
     }
   }
   function saveState() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(persisted));
+    } catch {}
   }
 
   function clamp(v, a, b) {
@@ -63,14 +72,16 @@ export function createPlayer({ env, store, els, log, history }) {
   function episodeKey(sourceId, episodeId) {
     return `${sourceId}::${episodeId}`;
   }
+
   function getProgressSec(sourceId, episodeId) {
-    const v = state.progress?.[episodeKey(sourceId, episodeId)];
+    const v = persisted.progress?.[episodeKey(sourceId, episodeId)];
     return Number.isFinite(v) ? v : 0;
   }
+
   function setProgressSec(sourceId, episodeId, t) {
-    state.progress ||= {};
-    state.progress[episodeKey(sourceId, episodeId)] = Math.max(0, t || 0);
-    state.last = { sourceId, episodeId, at: Date.now() };
+    persisted.progress ||= {};
+    persisted.progress[episodeKey(sourceId, episodeId)] = Math.max(0, t || 0);
+    persisted.last = { sourceId, episodeId, at: Date.now() };
     saveState();
   }
 
@@ -84,26 +95,29 @@ export function createPlayer({ env, store, els, log, history }) {
   }
 
   function isNativeHls() {
-    const can = els.video?.canPlayType("application/vnd.apple.mpegurl") || els.video?.canPlayType("application/x-mpegURL");
+    const can =
+      videoEl?.canPlayType?.("application/vnd.apple.mpegurl") || videoEl?.canPlayType?.("application/x-mpegURL");
     return can === "probably" || can === "maybe";
   }
 
   function teardownPlayer() {
     transcriptBlobUrls.forEach((u) => URL.revokeObjectURL(u));
     transcriptBlobUrls = [];
-    [...(els.video?.querySelectorAll?.("track") || [])].forEach((t) => t.remove());
+    [...(videoEl?.querySelectorAll?.("track") || [])].forEach((t) => t.remove());
+    captions.value = { available: false, showing: false };
+    chapters.value = [];
+
     if (hls) {
       try {
         hls.destroy();
       } catch {}
       hls = null;
     }
-    els.video?.pause?.();
-    els.video?.removeAttribute?.("src");
+    videoEl?.pause?.();
+    videoEl?.removeAttribute?.("src");
     try {
-      els.video?.load?.();
+      videoEl?.load?.();
     } catch {}
-    if (els.btnCC) els.btnCC.style.display = "none";
   }
 
   async function fetchText(url, fetchVia = "auto", { useCache = false } = {}) {
@@ -124,52 +138,59 @@ export function createPlayer({ env, store, els, log, history }) {
     const xmlText = await fetchText(src.feed_url, src.fetch_via || "auto", { useCache: true });
     const parsed = parseFeedXml(xmlText, src);
     episodesBySource[sourceId] = parsed.episodes;
+    sourceEpisodes.value = { ...episodesBySource };
     return parsed.episodes;
   }
 
-  async function loadSource(sourceId, { preserveEpisode = true, pickRandomEpisode = false, skipAutoEpisode = false } = {}) {
+  async function selectSource(
+    sourceId,
+    { preserveEpisode = true, pickRandomEpisode = false, skipAutoEpisode = false, autoplay = true } = {}
+  ) {
     const src = sources.find((s) => s.id === sourceId) || sources[0];
     if (!src) return;
-
     currentSource = src;
+    currentEp = null;
+    current.value = { source: currentSource, episode: null };
+
     try {
       log.info(`Fetching feed: ${src.title || src.id}`);
       const xmlText = await fetchText(src.feed_url, src.fetch_via || "auto", { useCache: true });
       const parsed = parseFeedXml(xmlText, src);
       episodes = parsed.episodes;
       episodesBySource[src.id] = episodes;
+      sourceEpisodes.value = { ...episodesBySource };
 
-      const playable = episodes.filter((e) => e.media?.url && e.media?.pickedIsVideo);
-      const playableAny = episodes.filter((e) => e.media?.url);
-      log.info(`${parsed.channelTitle}: ${playable.length} video (of ${episodes.length})`);
+      const playable = episodes.filter((e) => e.media?.url);
+      log.info(`${parsed.channelTitle}: ${playable.length} media (of ${episodes.length})`);
 
-      let wanted;
+      let wanted = null;
       if (!skipAutoEpisode) {
         if (pickRandomEpisode && playable.length) {
           wanted = playable[Math.floor(Math.random() * playable.length)].id;
         } else {
-          const lastId = state.lastBySource?.[src.id] || (preserveEpisode && state.last?.sourceId === src.id ? state.last?.episodeId : null);
-          const lastIsVideo = lastId && playable.some((e) => e.id === lastId);
-          wanted = (lastIsVideo ? lastId : null) || playable[0]?.id || playableAny[0]?.id || null;
+          const lastId =
+            persisted.lastBySource?.[src.id] || (preserveEpisode && persisted.last?.sourceId === src.id ? persisted.last?.episodeId : null);
+          const lastIsPlayable = lastId && playable.some((e) => e.id === lastId);
+          wanted = (lastIsPlayable ? lastId : null) || playable[0]?.id || null;
         }
       }
-      if (wanted) await loadEpisode(wanted, { autoplay: !userPaused });
 
-      store.update((s) => ({ ...s, current: { sourceId: src.id, episodeId: currentEp?.id || null } }));
+      if (wanted) await selectEpisode(wanted, { autoplay: autoplay && !userPaused });
     } catch (e) {
       episodes = [];
       log.error(`Feed error: ${String(e?.message || e)} — ${src.feed_url}`);
     }
   }
 
-  async function loadEpisode(episodeId, { autoplay = true, startAt: overrideStartAt } = {}) {
+  async function selectEpisode(episodeId, { autoplay = true, startAt: overrideStartAt } = {}) {
     const ep = episodes.find((e) => e.id === episodeId) || episodes.find((e) => e.media?.url);
-    if (!ep) return;
+    if (!ep || !currentSource) return;
     if (!ep.media?.url) return log.warn(`Episode "${(ep.title || "").slice(0, 40)}…": no media URL`);
-    if (!ep.media.pickedIsVideo) return log.info("Skipping audio-only episode");
+    if (!videoEl) return log.error("Player: no <video> element attached");
 
     teardownPlayer();
     currentEp = ep;
+    current.value = { source: currentSource, episode: currentEp };
 
     const startAt = overrideStartAt ?? getProgressSec(currentSource.id, ep.id) ?? 0;
     history.startSegment({
@@ -179,15 +200,10 @@ export function createPlayer({ env, store, els, log, history }) {
       channelTitle: ep.channelTitle || currentSource.title,
       startTime: startAt,
     });
-    state.last = { sourceId: currentSource.id, episodeId: ep.id, at: Date.now() };
-    state.lastBySource ||= {};
-    state.lastBySource[currentSource.id] = ep.id;
+    persisted.last = { sourceId: currentSource.id, episodeId: ep.id, at: Date.now() };
+    persisted.lastBySource ||= {};
+    persisted.lastBySource[currentSource.id] = ep.id;
     saveState();
-
-    if (els.epTitle) els.epTitle.textContent = ep.title || "Episode";
-    if (els.epSub) els.epSub.textContent = `${ep.channelTitle || currentSource.title}${ep.dateText ? " · " + ep.dateText : ""}`;
-    if (els.epDesc) els.epDesc.innerHTML = ep.descriptionHtml || "";
-    if (els.chapters) els.chapters.innerHTML = "";
 
     const mediaUrl = ep.media.url;
     const mediaType = ep.media.type || "";
@@ -201,41 +217,33 @@ export function createPlayer({ env, store, els, log, history }) {
     }
 
     if (usingNative) {
-      els.video.src = mediaUrl;
+      videoEl.src = mediaUrl;
     } else if (usingHlsJs) {
       hls = new Hls({ enableWorker: true });
       hls.on(Hls.Events.ERROR, (_evt, data) => {
         if (data?.fatal) log.error(`HLS error: ${data?.type || "fatal"}`);
       });
       hls.loadSource(mediaUrl);
-      hls.attachMedia(els.video);
+      hls.attachMedia(videoEl);
     } else {
-      els.video.src = mediaUrl;
+      videoEl.src = mediaUrl;
     }
 
-    els.video.addEventListener(
+    videoEl.addEventListener(
       "loadedmetadata",
       () => {
-        const dur = els.video.duration;
+        const dur = videoEl.duration;
         if (Number.isFinite(dur) && dur > 2) {
           const safe = startAt > dur - 20 ? 0 : clamp(startAt, 0, Math.max(0, dur - 0.25));
-          if (safe > 0.25) els.video.currentTime = safe;
+          if (safe > 0.25) videoEl.currentTime = safe;
         }
-        if (autoplay) {
-          userPaused = false;
-          els.video.muted = false;
-          els.video.play().catch(() => {
-            els.video.muted = true;
-            els.video.play().catch(() => {});
-          });
-        }
+        if (autoplay) play({ userGesture: false });
       },
       { once: true }
     );
 
     await loadTranscripts(ep);
-    await loadAndRenderChapters(ep);
-    store.update((s) => ({ ...s, current: { sourceId: currentSource.id, episodeId: ep.id } }));
+    await loadChapters(ep);
   }
 
   function srtToWebVTT(srt) {
@@ -251,7 +259,7 @@ export function createPlayer({ env, store, els, log, history }) {
 
   async function loadTranscripts(ep) {
     const list = ep.transcripts || [];
-    if (!list.length || !els.video) return;
+    if (!list.length || !videoEl) return;
 
     for (const t of list) {
       try {
@@ -281,155 +289,210 @@ export function createPlayer({ env, store, els, log, history }) {
         track.srclang = t.lang;
         track.label = t.lang === "en" ? "English" : t.lang;
         track.default = transcriptBlobUrls.length === 1;
-        els.video.appendChild(track);
+        videoEl.appendChild(track);
         log.info(`Subtitles: loaded ${t.lang} (${t.type})`);
       } catch (_e) {
         log.warn(`Subtitles failed: ${t.url}`);
       }
     }
 
-    if (transcriptBlobUrls.length && els.btnCC) els.btnCC.style.display = "";
+    if (transcriptBlobUrls.length) captions.value = { available: true, showing: false };
   }
 
-  async function loadAndRenderChapters(ep) {
-    const chapters = await loadChaptersForEpisode({ env, episode: ep, fetchText });
-    renderChapters(els.chapters, chapters, {
-      fmtTime,
-      onJump: (t) => {
-        els.video.currentTime = t;
-        els.video.play().catch(() => {});
-      },
-    });
+  async function loadChapters(ep) {
+    const list = await loadChaptersForEpisode({ env, episode: ep, fetchText });
+    chapters.value = list;
   }
 
-  function updateProgressUi() {
-    const dur = els.video.duration;
-    const cur = els.video.currentTime;
-    if (els.guideTime) els.guideTime.textContent = `${fmtTime(cur)}${Number.isFinite(dur) ? " / " + fmtTime(dur) : ""}`;
+  function toggleCaptions() {
+    if (!videoEl) return;
+    const tracks = videoEl.textTracks;
+    if (!tracks || !tracks.length) return;
+    const anyShowing = [...tracks].some((t) => t.mode === "showing");
+    for (const t of tracks) t.mode = anyShowing ? "disabled" : "hidden";
+    if (!anyShowing) tracks[0].mode = "showing";
+    captions.value = { available: true, showing: !anyShowing };
+  }
 
-    if (Number.isFinite(dur) && dur > 0) {
-      const pct = Math.min(100, (cur / dur) * 100);
-      if (els.progressFill) els.progressFill.style.width = `${pct}%`;
-      if (els.guideSeekFill) els.guideSeekFill.style.width = `${pct}%`;
+  async function play({ userGesture = true } = {}) {
+    if (!videoEl) return;
+    userPaused = false;
+    if (userGesture) {
+      try {
+        videoEl.muted = false;
+      } catch {}
+    }
+    try {
+      await videoEl.play();
+    } catch {
+      try {
+        videoEl.muted = true;
+        await videoEl.play();
+      } catch {}
     }
   }
 
-  function attachUiHandlers() {
-    els.btnPlay?.addEventListener("click", () => {
-      if (els.video.paused) {
-        userPaused = false;
-        els.video.play().catch(() => {});
-      } else {
-        userPaused = true;
-        els.video.pause();
+  function pause() {
+    if (!videoEl) return;
+    userPaused = true;
+    videoEl.pause();
+  }
+
+  function togglePlay() {
+    if (!videoEl) return;
+    if (videoEl.paused) play({ userGesture: true });
+    else pause();
+  }
+
+  function seekBy(deltaSec) {
+    if (!videoEl) return;
+    videoEl.currentTime = Math.max(0, (videoEl.currentTime || 0) + deltaSec);
+  }
+
+  function seekToPct(pct01) {
+    if (!videoEl) return;
+    const dur = videoEl.duration;
+    if (!Number.isFinite(dur) || dur <= 0) return;
+    videoEl.currentTime = clamp(pct01, 0, 1) * dur;
+  }
+
+  function seekToTime(tSec) {
+    if (!videoEl) return;
+    const t = Math.max(0, Number(tSec) || 0);
+    videoEl.currentTime = t;
+  }
+
+  function setSources(nextSources) {
+    sources = Array.isArray(nextSources) ? nextSources : [];
+    if (didInitLoad || !sources.length) return;
+    const wantedSourceId = persisted.last?.sourceId || sources[0]?.id;
+    if (!wantedSourceId) return;
+    if (!videoEl) {
+      pendingInitSourceId = wantedSourceId;
+      return;
+    }
+    didInitLoad = true;
+    selectSource(wantedSourceId, { preserveEpisode: true }).catch((e) => {
+      log.error(String(e?.message || e || "init load failed"));
+    });
+  }
+
+  function setSleepTimerMins(mins) {
+    if (!videoEl) return;
+    sleepEndAt = Date.now() + mins * 60 * 1000;
+    sleep.value = { active: true, label: `Sleep ${fmtTime(mins * 60)}` };
+    if (sleepTickId) clearInterval(sleepTickId);
+    sleepTickId = setInterval(() => {
+      if (!sleepEndAt) return;
+      const leftMs = sleepEndAt - Date.now();
+      if (leftMs <= 0) {
+        clearSleepTimer();
+        history.markCurrentHadSleep();
+        videoEl.pause();
+        return;
       }
-    });
-    els.btnSeekBack?.addEventListener("click", () => {
-      els.video.currentTime = Math.max(0, (els.video.currentTime || 0) - 10);
-    });
-    els.btnSeekFwd?.addEventListener("click", () => {
-      els.video.currentTime = Math.max(0, (els.video.currentTime || 0) + 30);
-    });
+      const leftSec = Math.ceil(leftMs / 1000);
+      sleep.value = { active: true, label: `Sleep ${fmtTime(leftSec)}` };
+    }, 400);
+  }
 
-    els.btnCC?.addEventListener("click", () => {
-      if (!els.video) return;
-      const tracks = els.video.textTracks;
-      if (!tracks || !tracks.length) return;
-      const anyShowing = [...tracks].some((t) => t.mode === "showing");
-      for (const t of tracks) t.mode = anyShowing ? "disabled" : "hidden";
-      if (!anyShowing) tracks[0].mode = "showing";
-      els.btnCC.classList.toggle("active", !anyShowing);
-    });
+  function clearSleepTimer() {
+    sleepEndAt = null;
+    if (sleepTickId) clearInterval(sleepTickId);
+    sleepTickId = null;
+    sleep.value = { active: false, label: "Sleep" };
+  }
 
-    const closeSleepMenu = () => {
-      if (els.sleepMenu) els.sleepMenu.setAttribute("aria-hidden", "true");
-    };
+  function attachVideo(el) {
+    videoEl = el;
+    if (!videoEl) return;
 
-    const clearSleepTimer = () => {
-      sleepEndAt = null;
-      if (sleepTickId) clearInterval(sleepTickId);
-      sleepTickId = null;
-      if (els.btnSleep) els.btnSleep.textContent = "Sleep";
-      closeSleepMenu();
-    };
-
-    const setSleepTimerMins = (mins) => {
-      sleepEndAt = Date.now() + mins * 60 * 1000;
-      closeSleepMenu();
-      if (sleepTickId) clearInterval(sleepTickId);
-      sleepTickId = setInterval(() => {
-        if (!sleepEndAt) return;
-        const leftMs = sleepEndAt - Date.now();
-        if (leftMs <= 0) {
-          clearSleepTimer();
-          history.markCurrentHadSleep();
-          els.video.pause();
-          return;
-        }
-        const leftSec = Math.ceil(leftMs / 1000);
-        if (els.btnSleep) els.btnSleep.textContent = `Sleep ${fmtTime(leftSec)}`;
-      }, 400);
-    };
-
-    els.btnSleep?.addEventListener("click", (e) => {
-      e.stopPropagation();
-      if (sleepEndAt) return clearSleepTimer();
-      const open = els.sleepMenu?.getAttribute("aria-hidden") === "false";
-      els.sleepMenu?.setAttribute("aria-hidden", open ? "true" : "false");
-    });
-
-    els.sleepMenu?.addEventListener("click", (e) => {
-      const opt = e.target.closest?.(".sleepOpt");
-      const mins = parseInt(opt?.dataset?.mins || "", 10);
-      if (Number.isFinite(mins) && mins > 0) setSleepTimerMins(mins);
-    });
-
-    document.addEventListener("click", () => closeSleepMenu());
-    const onSeekBar = (ev, el) => {
-      const r = el.getBoundingClientRect();
-      const x = ev.clientX - r.left;
-      const pct = Math.min(1, Math.max(0, x / r.width));
-      const dur = els.video.duration;
-      if (Number.isFinite(dur) && dur > 0) els.video.currentTime = pct * dur;
-    };
-    els.progress?.addEventListener("click", (e) => onSeekBar(e, els.progress));
-    els.guideSeek?.addEventListener("click", (e) => onSeekBar(e, els.guideSeek));
-
-    els.video.addEventListener("timeupdate", () => {
-      updateProgressUi();
+    videoEl.addEventListener("timeupdate", () => {
       const now = Date.now();
+      const dur = videoEl.duration;
+      const cur = videoEl.currentTime;
+      playback.value = {
+        paused: videoEl.paused,
+        muted: !!videoEl.muted,
+        time: Number.isFinite(cur) ? cur : 0,
+        duration: Number.isFinite(dur) ? dur : NaN,
+      };
+
       if (!currentSource || !currentEp) return;
-      history.updateEnd(els.video.currentTime || 0);
+      history.updateEnd(videoEl.currentTime || 0);
       if (now - lastPersistMs > 2000) {
         lastPersistMs = now;
-        setProgressSec(currentSource.id, currentEp.id, els.video.currentTime || 0);
+        setProgressSec(currentSource.id, currentEp.id, videoEl.currentTime || 0);
       }
     });
-    els.video.addEventListener("pause", () => {
+
+    videoEl.addEventListener("pause", () => {
       userPaused = true;
-      if (els.btnPlay) els.btnPlay.textContent = "▶";
+      playback.value = { ...playback.value, paused: true };
     });
-    els.video.addEventListener("play", () => {
+
+    videoEl.addEventListener("play", () => {
       userPaused = false;
-      if (els.btnPlay) els.btnPlay.textContent = "❚❚";
+      playback.value = { ...playback.value, paused: false };
     });
+
     window.addEventListener("beforeunload", () => history.finalize());
+
+    if (!didInitLoad && pendingInitSourceId) {
+      const sourceId = pendingInitSourceId;
+      pendingInitSourceId = null;
+      didInitLoad = true;
+      selectSource(sourceId, { preserveEpisode: true }).catch((e) => {
+        log.error(String(e?.message || e || "init load failed"));
+      });
+    }
   }
 
-  async function loadSourceAndEpisode(sourceId, episodeId, { autoplay = true, startAt } = {}) {
-    await loadSource(sourceId, { preserveEpisode: false, skipAutoEpisode: true });
-    if (!currentSource) return;
-    await loadEpisode(episodeId, { autoplay, startAt });
+  async function playRandom() {
+    if (!sources.length) return;
+    const src = sources[Math.floor(Math.random() * sources.length)];
+    await selectSource(src.id, { preserveEpisode: false, pickRandomEpisode: true, autoplay: true });
   }
 
-  attachUiHandlers();
+  async function selectSourceAndEpisode(sourceId, episodeId, { autoplay = true, startAt } = {}) {
+    await selectSource(sourceId, { preserveEpisode: false, skipAutoEpisode: true, autoplay });
+    await selectEpisode(episodeId, { autoplay, startAt });
+  }
+
+  effect(() => {
+    const v = playback.value;
+    if (!videoEl) return;
+    if (videoEl.muted !== v.muted) playback.value = { ...v, muted: !!videoEl.muted };
+  });
 
   return {
     fmtTime,
-    loadSource,
-    loadEpisode,
+    current,
+    currentSourceId,
+    currentEpisodeId,
+    chapters,
+    captions,
+    playback,
+    sleep,
+    sourceEpisodes,
+    setSources,
+    attachVideo,
+    teardownPlayer,
+    fetchText,
     loadSourceEpisodes,
-    loadSourceAndEpisode,
-    getCurrent: () => ({ source: currentSource, episode: currentEp, episodes, episodesBySource }),
+    selectSource,
+    selectEpisode,
+    selectSourceAndEpisode,
+    play,
+    pause,
+    togglePlay,
+    seekBy,
+    seekToPct,
+    seekToTime,
+    toggleCaptions,
+    setSleepTimerMins,
+    clearSleepTimer,
+    playRandom,
+    getProgressSec,
   };
 }

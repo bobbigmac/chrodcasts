@@ -1,29 +1,22 @@
-export function createLogger(containerEl) {
-  const LOG_MAX = 200;
-  const entries = [];
+import { signal } from "./vendor.js";
+
+export function createLogger({ max = 200 } = {}) {
+  const entries = signal([]);
 
   function append(msg, level = "info") {
     const ts = new Date().toLocaleTimeString("en-GB", { hour12: false });
     const entry = { ts, msg: String(msg), level };
-    entries.push(entry);
-    if (entries.length > LOG_MAX) entries.shift();
-    if (!containerEl) return;
-    const div = document.createElement("div");
-    div.className = `logEntry ${level}`;
-    div.textContent = `[${ts}] ${msg}`;
-    containerEl.appendChild(div);
-    containerEl.scrollTop = containerEl.scrollHeight;
+    const next = [...entries.value, entry];
+    entries.value = next.length > max ? next.slice(next.length - max) : next;
   }
 
   return {
-    entries: () => entries.slice(),
+    entries,
     info: (m) => append(m, "info"),
     warn: (m) => append(m, "warn"),
     error: (m) => append(m, "error"),
     clear: () => {
-      entries.splice(0, entries.length);
-      if (containerEl) containerEl.innerHTML = "";
+      entries.value = [];
     },
   };
 }
-
