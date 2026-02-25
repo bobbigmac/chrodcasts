@@ -651,6 +651,14 @@ video {
 .guideBtn:disabled:active,
 .guideBtn.disabled:active { transform: none }
 
+#btnPlay.guideBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 44px;
+  padding-inline: 0;
+}
+
 .volumeControl {
   display: flex;
   align-items: center;

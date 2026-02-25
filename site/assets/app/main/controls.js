@@ -145,7 +145,7 @@ function pickNextByDirection(items, fromEl, dir) {
 
 function clickEl(el) {
   if (!el) return false;
-  if (!isVisible(el)) return false;
+  if (el.disabled) return false;
   try {
     el.click();
     return true;
@@ -156,6 +156,13 @@ function clickEl(el) {
 
 function clickIfVisible(sel) {
   return clickEl(document.querySelector(sel));
+}
+
+function clickIfPresent(sel) {
+  const el = document.querySelector(sel);
+  if (!el) return false;
+  // Don't require visibility; this is used for media controls and shortcuts.
+  return clickEl(el);
 }
 
 function toggleFullscreen() {
@@ -191,6 +198,158 @@ function isMediaKey(e) {
     k === "NextTrack" ||
     k === "PreviousTrack"
   );
+}
+
+function setupMediaSession({ getVideoEl } = {}) {
+  const ms = navigator.mediaSession;
+  if (!ms || typeof ms.setActionHandler !== "function") return () => {};
+
+  let videoEl = null;
+  let cleanupVideo = null;
+  let obs = null;
+
+  const safeSet = (action, handler) => {
+    try {
+      ms.setActionHandler(action, handler);
+    } catch {}
+  };
+
+  const updateState = () => {
+    if (!videoEl) return;
+    try {
+      ms.playbackState = videoEl.paused ? "paused" : "playing";
+    } catch {}
+    try {
+      if (typeof ms.setPositionState === "function") {
+        const dur = videoEl.duration;
+        const pos = videoEl.currentTime;
+        const rate = videoEl.playbackRate || 1;
+        if (Number.isFinite(dur) && dur > 0) ms.setPositionState({ duration: dur, playbackRate: rate, position: Math.max(0, pos || 0) });
+      }
+    } catch {}
+  };
+
+  const connect = () => {
+    videoEl = (getVideoEl && getVideoEl()) || document.getElementById("video") || document.querySelector("video");
+    if (!videoEl) return false;
+
+    const onPlay = () => updateState();
+    const onPause = () => updateState();
+    const onTime = () => updateState();
+
+    videoEl.addEventListener("play", onPlay);
+    videoEl.addEventListener("pause", onPause);
+    videoEl.addEventListener("ratechange", onTime);
+    videoEl.addEventListener("timeupdate", onTime);
+    videoEl.addEventListener("durationchange", onTime);
+    updateState();
+
+    safeSet("play", async () => {
+      try {
+        await videoEl.play();
+      } catch {
+        clickIfPresent("#btnPlay");
+      }
+      updateState();
+    });
+    safeSet("pause", () => {
+      try {
+        videoEl.pause();
+      } catch {
+        clickIfPresent("#btnPlay");
+      }
+      updateState();
+    });
+    safeSet("stop", () => {
+      try {
+        videoEl.pause();
+      } catch {}
+      updateState();
+    });
+    safeSet("previoustrack", () => {
+      clickIfPresent("#btnSeekBack");
+      updateState();
+    });
+    safeSet("nexttrack", () => {
+      clickIfPresent("#btnSeekFwd");
+      updateState();
+    });
+    safeSet("seekbackward", (details) => {
+      const off = Number(details?.seekOffset);
+      if (Number.isFinite(off) && off > 0) {
+        try {
+          videoEl.currentTime = Math.max(0, (videoEl.currentTime || 0) - off);
+        } catch {
+          clickIfPresent("#btnSeekBack");
+        }
+        updateState();
+        return;
+      }
+      clickIfPresent("#btnSeekBack");
+      updateState();
+    });
+    safeSet("seekforward", (details) => {
+      const off = Number(details?.seekOffset);
+      if (Number.isFinite(off) && off > 0) {
+        try {
+          videoEl.currentTime = Math.max(0, (videoEl.currentTime || 0) + off);
+        } catch {
+          clickIfPresent("#btnSeekFwd");
+        }
+        updateState();
+        return;
+      }
+      clickIfPresent("#btnSeekFwd");
+      updateState();
+    });
+    safeSet("seekto", (details) => {
+      const t = Number(details?.seekTime);
+      if (!Number.isFinite(t)) return;
+      try {
+        videoEl.currentTime = Math.max(0, t);
+      } catch {}
+      updateState();
+    });
+
+    cleanupVideo = () => {
+      try {
+        videoEl.removeEventListener("play", onPlay);
+        videoEl.removeEventListener("pause", onPause);
+        videoEl.removeEventListener("ratechange", onTime);
+        videoEl.removeEventListener("timeupdate", onTime);
+        videoEl.removeEventListener("durationchange", onTime);
+      } catch {}
+      cleanupVideo = null;
+      videoEl = null;
+    };
+
+    return true;
+  };
+
+  if (!connect()) {
+    obs = new MutationObserver(() => {
+      if (videoEl) return;
+      if (connect() && obs) {
+        obs.disconnect();
+        obs = null;
+      }
+    });
+    try {
+      obs.observe(document.documentElement, { childList: true, subtree: true });
+    } catch {}
+  }
+
+  return () => {
+    if (obs) {
+      try {
+        obs.disconnect();
+      } catch {}
+      obs = null;
+    }
+    if (cleanupVideo) cleanupVideo();
+    // Clear handlers (best-effort).
+    ["play", "pause", "stop", "previoustrack", "nexttrack", "seekbackward", "seekforward", "seekto"].forEach((a) => safeSet(a, null));
+  };
 }
 
 function buildHints() {
@@ -236,6 +395,7 @@ export function installControls() {
   let altHeld = false;
   let hints = [];
   let hintRaf = null;
+  const cleanupMediaSession = setupMediaSession();
 
   const stopHints = () => {
     if (hintRaf) cancelAnimationFrame(hintRaf);
@@ -269,7 +429,6 @@ export function installControls() {
         startHints();
       }
       e.preventDefault();
-      e.stopPropagation();
       return;
     }
 
@@ -282,7 +441,6 @@ export function installControls() {
       const a = document.activeElement;
       if (a && a !== document.body && clickEl(a)) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
@@ -303,14 +461,12 @@ export function installControls() {
       if (next && typeof next.focus === "function") {
         next.focus();
         e.preventDefault();
-        e.stopPropagation();
         return;
       }
       // If nothing focused yet, seed focus.
       if (!cur) {
         focusFirstNavItem();
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
@@ -320,51 +476,44 @@ export function installControls() {
       if (typingComments) return;
       if (clickIfVisible("#btnCloseGuide") || clickIfVisible("#btnDetails") || clickIfVisible("#btnHistory")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
 
     // Media keys (hardware buttons).
     if (e.key === "MediaPlayPause" || e.key === "Play" || e.key === "Pause") {
-      if (clickIfVisible("#btnPlay")) {
+      if (clickIfPresent("#btnPlay")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (e.key === "MediaTrackPrevious" || e.key === "PreviousTrack") {
-      if (clickIfVisible("#btnSeekBack")) {
+      if (clickIfPresent("#btnSeekBack")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (e.key === "MediaTrackNext" || e.key === "NextTrack") {
-      if (clickIfVisible("#btnSeekFwd")) {
+      if (clickIfPresent("#btnSeekFwd")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (e.key === "AudioVolumeMute") {
-      if (clickIfVisible(".volumeBtn.volumeLevel")) {
+      if (clickIfPresent(".volumeBtn.volumeLevel")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (e.key === "AudioVolumeUp") {
-      if (clickIfVisible(".volumeBtn.volumeUp")) {
+      if (clickIfPresent(".volumeBtn.volumeUp")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (e.key === "AudioVolumeDown") {
-      if (clickIfVisible(".volumeBtn.volumeDown")) {
+      if (clickIfPresent(".volumeBtn.volumeDown")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
@@ -375,81 +524,71 @@ export function installControls() {
 
     if (k === " " || k === "k") {
       if (typingComments) return;
-      if (clickIfVisible("#btnPlay")) {
+      if (clickIfPresent("#btnPlay")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "j") {
       if (typingComments) return;
-      if (clickIfVisible("#btnSeekBack")) {
+      if (clickIfPresent("#btnSeekBack")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "l") {
       if (typingComments) return;
-      if (clickIfVisible("#btnSeekFwd")) {
+      if (clickIfPresent("#btnSeekFwd")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "m") {
       if (typingComments) return;
-      if (clickIfVisible(".volumeBtn.volumeLevel")) {
+      if (clickIfPresent(".volumeBtn.volumeLevel")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "c") {
       if (typingComments) return;
-      if (clickIfVisible("#btnCC")) {
+      if (clickIfPresent("#btnCC")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "r") {
       if (typingComments) return;
-      if (clickIfVisible("#btnRandom")) {
+      if (clickIfPresent("#btnRandom")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "[") {
       if (typingComments) return;
-      if (clickIfVisible(".speedBtn.speedDown")) {
+      if (clickIfPresent(".speedBtn.speedDown")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "]") {
       if (typingComments) return;
-      if (clickIfVisible(".speedBtn.speedUp")) {
+      if (clickIfPresent(".speedBtn.speedUp")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "s") {
       if (typingComments) return;
-      if (clickIfVisible("#btnSleep")) {
+      if (clickIfPresent("#btnSleep")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "t") {
       if (typingComments) return;
-      if (clickIfVisible("#btnTheme")) {
+      if (clickIfPresent("#btnTheme")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
@@ -458,23 +597,20 @@ export function installControls() {
       const opened = clickIfVisible(".guideNowBlock") || clickIfVisible("#btnCloseGuide");
       if (opened) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "d") {
       if (typingComments) return;
-      if (clickIfVisible("#btnDetails")) {
+      if (clickIfPresent("#btnDetails")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
     if (k === "y") {
       if (typingComments) return;
-      if (clickIfVisible("#btnHistory")) {
+      if (clickIfPresent("#btnHistory")) {
         e.preventDefault();
-        e.stopPropagation();
       }
       return;
     }
@@ -482,7 +618,6 @@ export function installControls() {
       if (typingComments) return;
       toggleFullscreen();
       e.preventDefault();
-      e.stopPropagation();
       return;
     }
   };
@@ -492,7 +627,6 @@ export function installControls() {
       altHeld = false;
       stopHints();
       e.preventDefault();
-      e.stopPropagation();
       return;
     }
   };
@@ -511,5 +645,6 @@ export function installControls() {
     window.removeEventListener("keyup", onKeyUp, { capture: true });
     window.removeEventListener("blur", onBlur);
     stopHints();
+    cleanupMediaSession?.();
   };
 }

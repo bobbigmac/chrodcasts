@@ -12,7 +12,7 @@ import { RandomTakeover } from "../ui/takeover/random_takeover.js";
 import { SkipTakeover } from "../ui/takeover/skip_takeover.js";
 import { SpeedTakeover } from "../ui/takeover/speed_takeover.js";
 import { AudioTakeover } from "../ui/takeover/audio_takeover.js";
-import { MoonIcon } from "../ui/icons.js";
+import { MoonIcon, PauseIcon, PlayIcon } from "../ui/icons.js";
 import { useLongPress } from "../ui/long_press.js";
 import { installControls } from "./controls.js";
 
@@ -448,8 +448,16 @@ export function App({ env, log, sources, player, history }) {
                     <div class="guideChannel" id="guideChannel">${srcTitle}</div>
                     <div class="guideNow" id="guideNow">${epTitle}</div>
                   </div>
-                  <button id="btnPlay" class="guideBtn" title="Play/Pause" data-navitem="1" data-keyhint="K — Play" onClick=${() => player.togglePlay()}>
-                    ${pb.paused ? "▶" : "❚❚"}
+                  <button
+                    id="btnPlay"
+                    class="guideBtn"
+                    title="Play/Pause"
+                    aria-label=${pb.paused ? "Play" : "Pause"}
+                    data-navitem="1"
+                    data-keyhint="K — Play"
+                    onClick=${() => player.togglePlay()}
+                  >
+                    <span class="guideBtnIcon">${pb.paused ? html`<${PlayIcon} size=${18} />` : html`<${PauseIcon} size=${18} />`}</span>
                   </button>
                   <div
                     class=${"volumeControl" + (audioBlocked ? " audioBlocked" : "") + (pb.muted && !audioBlocked ? " muted" : "")}
