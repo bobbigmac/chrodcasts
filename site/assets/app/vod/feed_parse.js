@@ -27,6 +27,19 @@ function attr(el, name) {
   return el?.getAttribute?.(name) ?? "";
 }
 
+const PODCAST_NS = "https://podcastindex.org/namespace/1.0";
+function queryPodcastAll(el, localName) {
+  const byPrefix = el.querySelectorAll?.("podcast\\:" + localName);
+  if (byPrefix?.length) return [...byPrefix];
+  const byNs = el.getElementsByTagNameNS?.(PODCAST_NS, localName);
+  return byNs ? [...byNs] : [];
+}
+function queryPodcastOne(el, localName) {
+  const byPrefix = el.querySelector?.("podcast\\:" + localName);
+  if (byPrefix) return byPrefix;
+  return el.getElementsByTagNameNS?.(PODCAST_NS, localName)?.[0] ?? null;
+}
+
 function parseTimeToSeconds(v) {
   if (v == null) return null;
   if (typeof v === "number" && Number.isFinite(v)) return Math.max(0, v);
@@ -124,19 +137,20 @@ export function parseFeedXml(xmlText, source) {
           }))
           .filter((c) => Number.isFinite(c.t))
       : [];
-    const podcastChapters = item.querySelector("podcast\\:chapters");
+    const podcastChapters = queryPodcastOne(item, "chapters");
     const podcastChaptersUrl = podcastChapters ? attr(podcastChapters, "url") : "";
     const podcastChaptersType = podcastChapters ? attr(podcastChapters, "type") || "application/json" : "";
 
     const transcripts = [];
-    item.querySelectorAll("podcast\\:transcript").forEach((t) => {
+    queryPodcastAll(item, "transcript").forEach((t) => {
       const url = attr(t, "url");
       const type = (attr(t, "type") || "").toLowerCase();
       const rel = (attr(t, "rel") || "").toLowerCase();
       const lang = attr(t, "language") || "en";
       if (!url || !type) return;
       const isCaptions = rel === "captions";
-      const isPlayable = type === "text/vtt" || type === "application/x-subrip";
+      const isPlayable =
+        type === "text/vtt" || type === "application/x-subrip" || type === "application/srt";
       transcripts.push({ url, type, lang, isCaptions, isPlayable });
     });
     transcripts.sort((a, b) => {
@@ -161,6 +175,7 @@ export function parseFeedXml(xmlText, source) {
       chaptersInline: pscChapters.length ? pscChapters : null,
       chaptersExternal: podcastChaptersUrl ? { url: podcastChaptersUrl, type: podcastChaptersType } : null,
       transcripts: transcripts.filter((t) => t.isPlayable),
+      transcriptsAll: transcripts,
     });
   }
 

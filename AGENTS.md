@@ -37,7 +37,8 @@ relative to this folder, not the parent repo.
 ### Build scripts
 
 - `scripts/update_feeds.py` — fetches feed XML into `cache*/feeds/` with cooldown + ETag/Last-Modified support.
-- `scripts/build_site.py` — copies assets + cached feeds into `dist/`, writes `site.json` + `video-sources.json`, renders `index.html`.
+- `scripts/find-feeds.js` — find video podcasts via PodcastIndex API; add to feeds config (requires .env with PODCASTINDEX_KEY/SECRET). Caches API + RSS in `cache/find-feeds/`.
+- `scripts/build_site.py` — copies assets + cached feeds into `dist/`, writes `site.json`, `video-sources.json` (with per-feed features), `feed-manifest.json` (all feeds + episodes brief), renders `index.html`.
 - `scripts/sources.py` — loads sources from feeds markdown and normalizes categories + titles.
 - `scripts/shared.py` — markdown config loader + `curl`-based fetch helper with hard timeouts.
 - `scripts/feeds_md.py` — markdown feeds parser (copied from the parent project; keep compatible).

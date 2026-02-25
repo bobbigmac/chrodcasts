@@ -104,6 +104,24 @@ function feedProxyPlugin() {
   };
 }
 
+function noCacheDevPlugin() {
+  return {
+    name: "vodcasts-no-cache-dev",
+    apply: "serve",
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        // Avoid interfering with WS/HMR upgrades.
+        if (req.headers.upgrade) return next();
+        res.setHeader("Cache-Control", "no-store, max-age=0, must-revalidate");
+        res.setHeader("Pragma", "no-cache");
+        res.setHeader("Expires", "0");
+        res.setHeader("Surrogate-Control", "no-store");
+        next();
+      });
+    },
+  };
+}
+
 function devBuilderPlugin() {
   const projectRoot = process.cwd();
   const distRoot = path.join(projectRoot, "dist");
@@ -180,11 +198,17 @@ function devBuilderPlugin() {
 
 export default defineConfig({
   root: "dist",
-  plugins: [devBuilderPlugin(), feedProxyPlugin()],
+  plugins: [noCacheDevPlugin(), devBuilderPlugin(), feedProxyPlugin()],
   server: {
     port: 8000,
     strictPort: true,
     open: "/",
     watch: process.platform === "win32" ? { usePolling: true, interval: 1000 } : undefined,
+    headers: {
+      "Cache-Control": "no-store, max-age=0, must-revalidate",
+      Pragma: "no-cache",
+      Expires: "0",
+      "Surrogate-Control": "no-store",
+    },
   },
 });

@@ -68,6 +68,8 @@ export function GuidePanel({ isOpen, sources, player }) {
         <div class="guidePanel-channels" id="guideFeeds">
           ${sourcesFlat.map((src, i) => {
             const eps = episodesBySource[src.id] || null;
+            const feat = src.features || {};
+            const ccLikely = !!feat.hasPlayableTranscript || (!!eps && eps.some((ep) => (ep.transcripts || []).length));
             const rowClass =
               "guideChannelRow" +
               (i === focusSourceIdx.value ? " focused" : "") +
@@ -85,14 +87,19 @@ export function GuidePanel({ isOpen, sources, player }) {
                   if (!episodesBySource[src.id]) player.loadSourceEpisodes(src.id).catch(() => {});
                 }}
               >
-                <div class="guideChannelName">${src.title || src.id}</div>
+                <div class="guideChannelName">
+                  <span class="guideChannelNameText">${src.title || src.id}</span>
+                  <span class="guideChannelBadges">
+                    ${ccLikely ? html`<span class="guideBadge guideBadge-cc" title="Captions likely available">CC</span>` : ""}
+                  </span>
+                </div>
                 <div class="guideEpStrip">
                   ${eps
                     ? eps
                         .filter((ep) => ep.media?.url)
-                        .slice(0, 40)
                         .map((ep, j) => {
                           const active = currentEpisodeId === ep.id;
+                          const epHasCc = (ep.transcripts || []).length > 0;
                           const dur = fmtDuration(ep.durationSec) || (ep.dateText || "");
                           const pct =
                             ep.durationSec && ep.durationSec > 0
@@ -104,6 +111,7 @@ export function GuidePanel({ isOpen, sources, player }) {
                               data-ep-idx=${String(j)}
                               data-ep-id=${ep.id}
                               data-source-id=${src.id}
+                              aria-label=${`${(ep.title || "Episode").slice(0, 40)}${epHasCc ? " (CC)" : ""}`}
                               onClick=${async () => {
                                 await player.selectSource(src.id, { preserveEpisode: false, skipAutoEpisode: true, autoplay: true });
                                 await player.selectEpisode(ep.id, { autoplay: true });
@@ -111,6 +119,7 @@ export function GuidePanel({ isOpen, sources, player }) {
                               }}
                             >
                               <div class="guideEpBlockProgress" style=${{ width: `${pct}%` }}></div>
+                              ${epHasCc ? html`<span class="guideEpBadge guideBadge guideBadge-cc" title="Captions available">CC</span>` : ""}
                               <span class="guideEpBlockTitle">
                                 ${(ep.title || "Episode").slice(0, 24)}${(ep.title || "").length > 24 ? "…" : ""}
                               </span>

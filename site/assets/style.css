@@ -56,7 +56,7 @@ video {
   cursor: pointer;
   background: rgba(0,0,0,.4);
   transition: height 0.15s cubic-bezier(0.4, 0, 0.2, 1), background 0.15s ease;
-  overflow: hidden;
+  overflow: visible;
 }
 .player:hover .progress,
 .progress:hover {
@@ -93,6 +93,88 @@ video {
   opacity: 1;
 }
 .player:hover .progressFill { background: rgba(138,180,248,.8) }
+
+.player.custom-captions video::-webkit-media-text-track-display,
+.player.custom-captions video::-webkit-media-text-track-container { display: none !important }
+.player.custom-captions video::cue { visibility: hidden !important }
+
+.subtitleBoxWrap {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 8;
+}
+.subtitleOverlayText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 4px 8px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.25;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,.92),
+    0 0 10px rgba(0,0,0,.75);
+  font-size: calc(clamp(15px, 2.2vw, 22px) * var(--sub-scale, 1));
+}
+
+.progressTimeLabels {
+  position: absolute;
+  left: var(--progress-pct, 50%);
+  bottom: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 2;
+  pointer-events: none;
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: rgba(255,255,255,.95);
+  text-shadow: 0 1px 2px rgba(0,0,0,.8);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.player:hover .progressTimeLabels,
+.progress:hover .progressTimeLabels { opacity: 1 }
+.progressTimePassed { order: 1 }
+.progressTimeRemaining { order: 2 }
+.progress.progress-crampedLeft .progressTimeLabels {
+  left: var(--progress-pct, 50%);
+  transform: translateX(0);
+}
+.progress.progress-crampedRight .progressTimeLabels {
+  left: var(--progress-pct, 50%);
+  transform: translateX(-100%);
+}
+
+.scrubPreview {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 4px;
+  transform: translateX(-50%);
+  padding: 3px 6px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  background: rgba(0,0,0,.7);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+  z-index: 3;
+}
+.scrubPreview.show { opacity: 1 }
+.scrubPreview-left { transform: translateX(0) }
+.scrubPreview-right { transform: translateX(-100%) }
 
 .playPauseOverlay {
   position: absolute;
@@ -133,6 +215,27 @@ video {
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+.playPauseLoading {
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+}
+.loadingSpinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(255,255,255,.2);
+  border-top-color: rgba(255,255,255,.9);
+  border-radius: 50%;
+  animation: loadingSpin 0.9s linear infinite;
+}
+.loadingLabel {
+  font-size: 13px;
+  color: rgba(255,255,255,.9);
+  font-weight: 500;
+}
+@keyframes loadingSpin {
+  to { transform: rotate(360deg) }
 }
 .playPauseIcon .iconPlay { display: none }
 .playPauseOverlay.visible .playPauseIcon .iconPause { display: flex }
@@ -209,6 +312,137 @@ video {
   gap: 10px;
   width: fit-content;
   max-width: min(600px, calc(100vw - 40px));
+}
+
+.guideBarTakeover {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.guideBarTakeoverHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.guideBarTakeoverTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+.guideBarTakeoverBody {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.takeoverOpts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.takeoverGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+.takeoverRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.takeoverRowLabel {
+  font-size: 12px;
+  color: var(--muted);
+  min-width: 34px;
+}
+.takeoverHint {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+@media (max-width: 520px) {
+  .takeoverGrid { grid-template-columns: repeat(3, minmax(0, 1fr)) }
+}
+
+.padControl {
+  display: grid;
+  grid-template-columns: 32px 32px 32px;
+  grid-template-rows: 30px 30px 30px;
+  gap: 6px;
+  align-items: stretch;
+}
+.padSpacer {
+  grid-column: 2;
+  grid-row: 2;
+}
+.padBtn {
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.padBtn:hover { background: rgba(255,255,255,.08) }
+.padBtn:active { transform: translateY(1px) }
+.padUp { grid-column: 2; grid-row: 1 }
+.padLeft { grid-column: 1; grid-row: 2 }
+.padRight { grid-column: 3; grid-row: 2 }
+.padDown { grid-column: 2; grid-row: 3 }
+.padVal {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 6px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  user-select: none;
+}
+
+.scaleControl {
+  display: grid;
+  grid-template-rows: 30px 30px 30px;
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.scaleBtn {
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: rgba(255,255,255,.03);
+  border: none;
+  border-bottom: 1px solid var(--edge);
+  cursor: pointer;
+  user-select: none;
+}
+.scaleBtn:hover { background: rgba(255,255,255,.08) }
+.scaleBtn:active { transform: translateY(1px) }
+.scaleVal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  background: rgba(255,255,255,.03);
+  border-bottom: 1px solid var(--edge);
+  user-select: none;
 }
 
 .guideBar-row1 {
@@ -339,11 +573,83 @@ video {
   border: 1px solid var(--edge);
   border-radius: 8px;
   cursor: pointer;
+  position: relative;
+}
+.guideBtnHasIcon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.guideBtnIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.guideBtnIcon svg { display: block }
+.guideBtnLabel {
+  font-variant-numeric: tabular-nums;
 }
 .guideBtn:hover { background: rgba(255,255,255,.08) }
 .guideBtn:active { transform: translateY(1px) }
 .guideBtn.active { background: rgba(138,180,248,.2); border-color: var(--accent) }
-#btnCC { display: none }
+.guideBtn.longpressing,
+.speedBtn.longpressing,
+.volumeBtn.longpressing {
+  overflow: hidden;
+  border-color: var(--accent);
+  position: relative;
+}
+.guideBtn.longpressing::before,
+.speedBtn.longpressing::before,
+.volumeBtn.longpressing::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--lp, 0%);
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+  pointer-events: none;
+}
+.guideBtn.longpressing::after,
+.speedBtn.longpressing::after,
+.volumeBtn.longpressing::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0.28;
+  mix-blend-mode: screen;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0 10px,
+    color-mix(in srgb, var(--accent) 55%, transparent) 10px 14px,
+    transparent 14px 22px
+  );
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  padding: 1px;
+  animation: guideBtnLongPressBorder 0.65s linear infinite;
+}
+@keyframes guideBtnLongPressBorder {
+  from { background-position: 0 0 }
+  to { background-position: 36px 0 }
+}
+.guideBtn:disabled,
+.guideBtn.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  background: rgba(255,255,255,.02);
+  border-color: color-mix(in srgb, var(--edge) 75%, transparent);
+}
+.guideBtn:disabled:hover,
+.guideBtn.disabled:hover { background: rgba(255,255,255,.02) }
+.guideBtn:disabled:active,
+.guideBtn.disabled:active { transform: none }
 
 .volumeControl {
   display: flex;
@@ -457,9 +763,41 @@ video {
   color: var(--text);
   display: flex;
   align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.guideChannelNameText {
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.guideChannelBadges {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.guideBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 6px;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+  border: 1px solid var(--edge);
+  border-radius: 999px;
+  background: rgba(255,255,255,.03);
+  color: var(--muted);
+}
+.guideBadge-cc {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--edge));
+  background: color-mix(in srgb, var(--accent) 12%, rgba(255,255,255,.03));
+  color: color-mix(in srgb, var(--accent) 60%, var(--text));
 }
 
 .guideEpStrip {
@@ -505,6 +843,11 @@ video {
   width: 0%;
   background: color-mix(in srgb, var(--accent) 18%, transparent);
   pointer-events: none;
+}
+.guideEpBadge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
 }
 
 .guideEpBlockTitle {
@@ -652,6 +995,9 @@ video {
 .detailsContent { height: calc(100% - 52px); overflow-y: auto; padding: 12px 14px; display: flex; flex-direction: column; gap: 12px }
 .detailsTitle { font-weight: 750; font-size: 16px }
 .detailsSub { font-size: 12px; color: var(--muted) }
+.detailsFeatures { display: flex; gap: 14px; font-size: 12px; color: var(--muted) }
+.detailsFeature { font-variant-numeric: tabular-nums }
+.detailsFeature.available { color: var(--accent) }
 .detailsDesc { font-size: 13px; color: var(--text); opacity: .95; line-height: 1.45 }
 .detailsDesc a { color: var(--accent) }
 
@@ -671,6 +1017,11 @@ video {
   margin-bottom: 6px;
   font-weight: 650;
 }
+.detailsEnrichError { font-size: 12px; color: #e06c75; margin-bottom: 8px }
+.detailsEnrichHint { font-size: 12px; color: var(--muted); margin-bottom: 8px }
+.detailsTranscriptLinks { margin-top: 12px }
+.detailsTranscriptLink { display: block; font-size: 13px; color: var(--accent); margin-bottom: 4px }
+.detailsTranscriptLink:hover { text-decoration: underline }
 
 .chapters { display: flex; flex-direction: column; gap: 6px }
 .ch {

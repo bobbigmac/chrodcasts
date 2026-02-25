@@ -99,6 +99,10 @@ switch (cmd) {
       );
       process.exit(r.status ?? 1);
     } else if (cmd === "build") {
+      spawnSync(PY, ["-m", "scripts.update_feeds", "--feeds", feeds, "--cache", cache, "--quiet"], {
+        stdio: "inherit",
+        cwd: ROOT,
+      });
       const basePath = process.env.VOD_BASE_PATH || "/";
       const r = spawnSync(
         PY,

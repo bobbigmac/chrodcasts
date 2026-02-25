@@ -55,6 +55,8 @@
   border-radius: 0;
 }
 
+[data-theme="dos"] .guideBadge { border-radius: 0 }
+
 [data-theme="dos"] .guideBar,
 [data-theme="dos"] .guidePanel,
 [data-theme="dos"] .historyPanel,
@@ -97,4 +99,16 @@
 
 [data-theme="dos"] .ch.active {
   background: rgba(0,255,0,.2);
+}
+
+[data-theme="dos"] .guideBtn.longpressing::before,
+[data-theme="dos"] .speedBtn.longpressing::before,
+[data-theme="dos"] .volumeBtn.longpressing::before {
+  background: linear-gradient(90deg, rgba(0,255,0,.22), rgba(0,255,255,.18));
+}
+[data-theme="dos"] .guideBtn.longpressing::after,
+[data-theme="dos"] .speedBtn.longpressing::after,
+[data-theme="dos"] .volumeBtn.longpressing::after {
+  opacity: 0.18;
+  mix-blend-mode: normal;
 }

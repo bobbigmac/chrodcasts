@@ -30,22 +30,31 @@ export function createPlayerService({ env, log, history }) {
   const current = signal({ source: null, episode: null });
   const chapters = signal([]);
   const VOLUME_STEP = 0.1;
-  const RATE_STEPS = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.5, 3, 3.5, 4, 4.5, 5, 7, 12];
+  const DEFAULT_RATE_STEPS = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.5, 3, 3.5, 4, 4.5, 5, 7, 12];
   const playback = signal({
     paused: true,
     muted: true,
     volume: Number(persisted.volume) >= 0 ? clamp(Number(persisted.volume), 0, 1) : 1,
-    rate: normalizeRate(Number(persisted.rate) || 1),
+    rate: 1,
     time: 0,
     duration: NaN,
   });
   const captions = signal({ available: false, showing: false });
-  const sleep = signal({ active: false, label: "Sleep" });
+  const sleep = signal({ active: false, label: "" });
   const sourceEpisodes = signal({});
   const audioBlocked = signal(false);
+  const loading = signal(false);
+  const chaptersLoadError = signal(null);
+  const transcriptsLoadError = signal(null);
+  const subtitleBox = signal(null);
+  const subtitleCue = signal(null);
+  const skip = signal(normalizeSkip(persisted.skip));
+  const rateSteps = signal(normalizeRateSteps(persisted.rateSteps) || DEFAULT_RATE_STEPS.slice());
 
   const currentSourceId = computed(() => current.value.source?.id || null);
   const currentEpisodeId = computed(() => current.value.episode?.id || null);
+
+  const DEFAULT_SUBTITLE_PREFS = { x: 50, y: 78, w: 92, opacity: 1, scale: 1 };
 
   function loadState() {
     try {
@@ -65,12 +74,39 @@ export function createPlayerService({ env, log, history }) {
     return Math.min(b, Math.max(a, v));
   }
 
-  function normalizeRate(v) {
+  function normalizeSkip(input) {
+    const s = input && typeof input === "object" ? input : {};
+    return {
+      back: Number.isFinite(Number(s.back)) ? clamp(Math.round(Number(s.back)), 5, 120) : 10,
+      fwd: Number.isFinite(Number(s.fwd)) ? clamp(Math.round(Number(s.fwd)), 5, 180) : 30,
+    };
+  }
+
+  function normalizeRateSteps(v) {
+    const list = Array.isArray(v) ? v : [];
+    const out = [];
+    const seen = new Set();
+    for (const r0 of list) {
+      const r = Number(r0);
+      if (!Number.isFinite(r) || r <= 0) continue;
+      const clamped = clamp(r, 0.25, 12);
+      const key = Math.round(clamped * 1000) / 1000;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(key);
+    }
+    if (!out.includes(1)) out.push(1);
+    out.sort((a, b) => a - b);
+    return out.length ? out : null;
+  }
+
+  function normalizeRate(v, steps = DEFAULT_RATE_STEPS) {
     if (!Number.isFinite(v) || v <= 0) return 1;
-    let best = RATE_STEPS[0];
+    const arr = steps && steps.length ? steps : DEFAULT_RATE_STEPS;
+    let best = arr[0];
     let bestDist = Math.abs(v - best);
-    for (let i = 1; i < RATE_STEPS.length; i++) {
-      const r = RATE_STEPS[i];
+    for (let i = 1; i < arr.length; i++) {
+      const r = arr[i];
       const d = Math.abs(v - r);
       if (d < bestDist) {
         best = r;
@@ -126,6 +162,7 @@ export function createPlayerService({ env, log, history }) {
     [...(videoEl?.querySelectorAll?.("track") || [])].forEach((t) => t.remove());
     captions.value = { available: false, showing: false };
     chapters.value = [];
+    loading.value = false;
 
     if (hls) {
       try {
@@ -159,6 +196,27 @@ export function createPlayerService({ env, log, history }) {
     const res = await fetch(finalUrl, { cache: "no-store" });
     if (!res.ok) throw new Error(`fetch ${res.status}`);
     return await res.text();
+  }
+
+  async function preloadCachedFeeds() {
+    const cached = sources.filter((s) => s.has_cached_xml && s.feed_url);
+    if (!cached.length) return;
+    const results = await Promise.all(
+      cached.map(async (src) => {
+        try {
+          const xmlText = await fetchText(src.feed_url, src.fetch_via || "auto", { useCache: false });
+          const parsed = parseFeedXml(xmlText, src);
+          return { sourceId: src.id, episodes: parsed.episodes };
+        } catch (e) {
+          log.warn(`Preload ${src.id}: ${String(e?.message || e)}`);
+          return { sourceId: src.id, episodes: [] };
+        }
+      })
+    );
+    for (const { sourceId, episodes } of results) {
+      episodesBySource[sourceId] = episodes;
+    }
+    sourceEpisodes.value = { ...episodesBySource };
   }
 
   async function loadSourceEpisodes(sourceId) {
@@ -219,6 +277,9 @@ export function createPlayerService({ env, log, history }) {
     if (!videoEl) return log.error("Player: no <video> element attached");
 
     teardownPlayer();
+    chaptersLoadError.value = null;
+    transcriptsLoadError.value = null;
+    loading.value = true;
     currentEp = ep;
     current.value = { source: currentSource, episode: currentEp };
 
@@ -294,6 +355,7 @@ export function createPlayerService({ env, log, history }) {
   async function loadTranscripts(ep) {
     const list = ep.transcripts || [];
     if (!list.length || !videoEl) return;
+    transcriptsLoadError.value = null;
 
     for (const t of list) {
       try {
@@ -313,7 +375,7 @@ export function createPlayerService({ env, log, history }) {
           if (!env.isDev) throw new Error("direct fetch failed");
           txt = await fetchOne(proxyUrl);
         }
-        if (t.type === "application/x-subrip") txt = srtToWebVTT(txt);
+        if (t.type === "application/x-subrip" || t.type === "application/srt") txt = srtToWebVTT(txt);
         const blob = new Blob([txt], { type: "text/vtt" });
         const blobUrl = URL.createObjectURL(blob);
         transcriptBlobUrls.push(blobUrl);
@@ -322,30 +384,161 @@ export function createPlayerService({ env, log, history }) {
         track.src = blobUrl;
         track.srclang = t.lang;
         track.label = t.lang === "en" ? "English" : t.lang;
-        track.default = transcriptBlobUrls.length === 1;
+        track.default = false;
         videoEl.appendChild(track);
         log.info(`Subtitles: loaded ${t.lang} (${t.type})`);
-      } catch (_e) {
-        log.warn(`Subtitles failed: ${t.url}`);
+      } catch (e) {
+        const msg = String(e?.message || e || "fetch failed");
+        log.warn(`Subtitles failed: ${t.url} — ${msg}`);
+        transcriptsLoadError.value = msg;
       }
     }
 
-    if (transcriptBlobUrls.length) captions.value = { available: true, showing: false };
+    if (transcriptBlobUrls.length) {
+      const tracks = videoEl.textTracks;
+      for (const t of tracks) t.mode = "hidden";
+      if (tracks.length) setupCueListeners(tracks[0]);
+      captions.value = { available: true, showing: true };
+    } else if (list.length) transcriptsLoadError.value = transcriptsLoadError.value || "Failed to load subtitles";
   }
 
   async function loadChapters(ep) {
-    const list = await loadChaptersForEpisode({ env, episode: ep, fetchText });
-    chapters.value = list;
+    try {
+      const list = await loadChaptersForEpisode({ env, episode: ep, fetchText });
+      chapters.value = list;
+      chaptersLoadError.value = null;
+    } catch (e) {
+      const msg = String(e?.message || e || "fetch failed");
+      log.warn(`Chapters failed: ${msg}`);
+      chapters.value = [];
+      chaptersLoadError.value = msg;
+    }
   }
 
   function toggleCaptions() {
     if (!videoEl) return;
     const tracks = videoEl.textTracks;
     if (!tracks || !tracks.length) return;
-    const anyShowing = [...tracks].some((t) => t.mode === "showing");
+    const anyShowing = [...tracks].some((t) => t.mode === "showing" || t.mode === "hidden");
     for (const t of tracks) t.mode = anyShowing ? "disabled" : "hidden";
-    if (!anyShowing) tracks[0].mode = "showing";
+    if (!anyShowing) {
+      const track = tracks[0];
+      track.mode = "hidden";
+      setupCueListeners(track);
+    } else {
+      if (tracks.length && cueChangeHandler) clearCueListeners(tracks[0]);
+      subtitleCue.value = null;
+    }
     captions.value = { available: true, showing: !anyShowing };
+  }
+
+  let cueChangeHandler = null;
+  function setupCueListeners(track) {
+    if (cueChangeHandler) {
+      track.removeEventListener("cuechange", cueChangeHandler);
+      cueChangeHandler = null;
+    }
+    cueChangeHandler = () => {
+      const cues = [...(track.activeCues || [])];
+      const text = cues.map((c) => (c.getCueAsHTML ? stripHtml(c.getCueAsHTML()) : c.text || "")).join("\n");
+      subtitleCue.value = text ? { text } : null;
+    };
+    track.addEventListener("cuechange", cueChangeHandler);
+    cueChangeHandler();
+  }
+  function clearCueListeners(track) {
+    if (cueChangeHandler && track) {
+      track.removeEventListener("cuechange", cueChangeHandler);
+      cueChangeHandler = null;
+    }
+    subtitleCue.value = null;
+  }
+  function stripHtml(html) {
+    if (!html) return "";
+    if (typeof html === "string") {
+      const div = document.createElement("div");
+      div.innerHTML = html;
+      return div.textContent || "";
+    }
+    // VTTCue.getCueAsHTML() returns a DocumentFragment.
+    if (typeof html === "object" && (html.nodeType || "textContent" in html)) {
+      return html.textContent || "";
+    }
+    return String(html);
+  }
+
+  function normalizeSubtitlePrefs(input) {
+    const s = input && typeof input === "object" ? input : {};
+
+    const legacyHasH = Object.prototype.hasOwnProperty.call(s, "h");
+    const isOldDefault =
+      legacyHasH &&
+      Number(s.x) === 10 &&
+      Number(s.y) === 10 &&
+      Number(s.w) === 80 &&
+      Number(s.h) === 15 &&
+      (s.opacity == null || Math.abs(Number(s.opacity) - 0.95) < 0.0001);
+
+    if (isOldDefault) return { ...DEFAULT_SUBTITLE_PREFS };
+
+    if (legacyHasH) {
+      const x0 = Number.isFinite(Number(s.x)) ? Number(s.x) : 10;
+      const y0 = Number.isFinite(Number(s.y)) ? Number(s.y) : 10;
+      const w0 = Number.isFinite(Number(s.w)) ? Number(s.w) : 80;
+      const h0 = Number.isFinite(Number(s.h)) ? Number(s.h) : 15;
+      return {
+        x: clamp(x0 + w0 / 2, 0, 100),
+        y: clamp(y0 + h0 / 2, 0, 100),
+        w: clamp(w0, 30, 100),
+        opacity: Number.isFinite(Number(s.opacity)) ? clamp(Number(s.opacity), 0.15, 1) : DEFAULT_SUBTITLE_PREFS.opacity,
+        scale: 1,
+      };
+    }
+
+    return {
+      x: Number.isFinite(Number(s.x)) ? clamp(Number(s.x), 0, 100) : DEFAULT_SUBTITLE_PREFS.x,
+      y: Number.isFinite(Number(s.y)) ? clamp(Number(s.y), 0, 100) : DEFAULT_SUBTITLE_PREFS.y,
+      w: Number.isFinite(Number(s.w)) ? clamp(Number(s.w), 30, 100) : DEFAULT_SUBTITLE_PREFS.w,
+      opacity: Number.isFinite(Number(s.opacity)) ? clamp(Number(s.opacity), 0.15, 1) : DEFAULT_SUBTITLE_PREFS.opacity,
+      scale: Number.isFinite(Number(s.scale)) ? clamp(Number(s.scale), 0.6, 2.4) : DEFAULT_SUBTITLE_PREFS.scale,
+    };
+  }
+
+  function setSubtitleBox(s) {
+    const box = normalizeSubtitlePrefs(s);
+    persisted.subtitleBox = box;
+    saveState();
+    subtitleBox.value = box;
+  }
+
+  function setSkip(next) {
+    const v = normalizeSkip(next);
+    persisted.skip = v;
+    saveState();
+    skip.value = v;
+  }
+
+  function setRateSteps(next) {
+    const norm = normalizeRateSteps(next) || DEFAULT_RATE_STEPS.slice();
+    persisted.rateSteps = norm;
+    saveState();
+    rateSteps.value = norm;
+
+    const snapped = normalizeRate(playback.value.rate || 1, norm);
+    persisted.rate = snapped;
+    if (snapped !== 1) persisted.lastNonOneRate = snapped;
+    saveState();
+
+    playback.value = { ...playback.value, rate: snapped };
+    if (videoEl) {
+      try {
+        videoEl.playbackRate = snapped;
+      } catch {}
+    }
+  }
+
+  function resetRateSteps() {
+    setRateSteps(DEFAULT_RATE_STEPS.slice());
   }
 
   async function play({ userGesture = true } = {}) {
@@ -445,9 +638,10 @@ export function createPlayerService({ env, log, history }) {
 
   function rateUp() {
     if (!videoEl) return;
-    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1);
-    const idx = RATE_STEPS.indexOf(cur);
-    const next = RATE_STEPS[Math.min(RATE_STEPS.length - 1, (idx >= 0 ? idx : 2) + 1)] || 1;
+    const steps = rateSteps.value && rateSteps.value.length ? rateSteps.value : DEFAULT_RATE_STEPS;
+    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1, steps);
+    const idx = steps.indexOf(cur);
+    const next = steps[Math.min(steps.length - 1, (idx >= 0 ? idx : 2) + 1)] || 1;
     try {
       videoEl.playbackRate = next;
     } catch {}
@@ -459,9 +653,10 @@ export function createPlayerService({ env, log, history }) {
 
   function rateDown() {
     if (!videoEl) return;
-    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1);
-    const idx = RATE_STEPS.indexOf(cur);
-    const next = RATE_STEPS[Math.max(0, (idx >= 0 ? idx : 2) - 1)] || 1;
+    const steps = rateSteps.value && rateSteps.value.length ? rateSteps.value : DEFAULT_RATE_STEPS;
+    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1, steps);
+    const idx = steps.indexOf(cur);
+    const next = steps[Math.max(0, (idx >= 0 ? idx : 2) - 1)] || 1;
     try {
       videoEl.playbackRate = next;
     } catch {}
@@ -473,7 +668,8 @@ export function createPlayerService({ env, log, history }) {
 
   function toggleRate() {
     if (!videoEl) return;
-    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1);
+    const steps = rateSteps.value && rateSteps.value.length ? rateSteps.value : DEFAULT_RATE_STEPS;
+    const cur = normalizeRate(videoEl.playbackRate || playback.value.rate || 1, steps);
     const next = cur === 1 ? (persisted.lastNonOneRate || 1.5) : 1;
     try {
       videoEl.playbackRate = next;
@@ -529,25 +725,35 @@ export function createPlayerService({ env, log, history }) {
     playback.value = { ...v, muted: next };
   }
 
-  function setSources(nextSources) {
+  let preloadPromise = null;
+  function ensurePreload() {
+    if (!preloadPromise && sources.length) preloadPromise = preloadCachedFeeds();
+    return preloadPromise || Promise.resolve();
+  }
+
+  async function setSources(nextSources) {
     sources = Array.isArray(nextSources) ? nextSources : [];
     if (didInitLoad || !sources.length) return;
     const wantedSourceId = persisted.last?.sourceId || sources[0]?.id;
     if (!wantedSourceId) return;
     if (!videoEl) {
       pendingInitSourceId = wantedSourceId;
+      ensurePreload();
       return;
     }
     didInitLoad = true;
-    selectSource(wantedSourceId, { preserveEpisode: true }).catch((e) => {
+    try {
+      await ensurePreload();
+      await selectSource(wantedSourceId, { preserveEpisode: true });
+    } catch (e) {
       log.error(String(e?.message || e || "init load failed"));
-    });
+    }
   }
 
   function setSleepTimerMins(mins) {
     if (!videoEl) return;
     sleepEndAt = Date.now() + mins * 60 * 1000;
-    sleep.value = { active: true, label: `Sleep ${fmtTime(mins * 60)}` };
+    sleep.value = { active: true, label: `${fmtTime(mins * 60)}` };
     if (sleepTickId) clearInterval(sleepTickId);
     sleepTickId = setInterval(() => {
       if (!sleepEndAt) return;
@@ -559,7 +765,7 @@ export function createPlayerService({ env, log, history }) {
         return;
       }
       const leftSec = Math.ceil(leftMs / 1000);
-      sleep.value = { active: true, label: `Sleep ${fmtTime(leftSec)}` };
+      sleep.value = { active: true, label: `${fmtTime(leftSec)}` };
     }, 400);
   }
 
@@ -567,7 +773,7 @@ export function createPlayerService({ env, log, history }) {
     sleepEndAt = null;
     if (sleepTickId) clearInterval(sleepTickId);
     sleepTickId = null;
-    sleep.value = { active: false, label: "Sleep" };
+    sleep.value = { active: false, label: "" };
   }
 
   function attachVideo(el) {
@@ -575,8 +781,12 @@ export function createPlayerService({ env, log, history }) {
     if (!videoEl) return;
     const vol = Number(persisted.volume) >= 0 ? clamp(Number(persisted.volume), 0, 1) : 1;
     videoEl.volume = vol;
-    const muted = persisted.muted === true;
-    const rate = normalizeRate(Number(persisted.rate) || 1);
+    const muted = persisted.muted ?? true;
+    // Init configurable skip + speed steps from persisted state.
+    skip.value = normalizeSkip(persisted.skip);
+    rateSteps.value = normalizeRateSteps(persisted.rateSteps) || DEFAULT_RATE_STEPS.slice();
+
+    const rate = normalizeRate(Number(persisted.rate) || 1, rateSteps.value);
     try {
       videoEl.playbackRate = rate;
     } catch {}
@@ -584,6 +794,8 @@ export function createPlayerService({ env, log, history }) {
       videoEl.muted = muted;
     } catch {}
     playback.value = { ...playback.value, volume: vol, muted, rate };
+
+    if (persisted.subtitleBox) setSubtitleBox(persisted.subtitleBox);
 
     // Click/tap on video: unmute + toggle play/pause.
     videoEl.addEventListener("click", () => {
@@ -633,15 +845,23 @@ export function createPlayerService({ env, log, history }) {
       playback.value = { ...playback.value, paused: false };
     });
 
+    videoEl.addEventListener("loadstart", () => { loading.value = true; });
+    videoEl.addEventListener("waiting", () => { loading.value = true; });
+    videoEl.addEventListener("canplay", () => { loading.value = false; });
+    videoEl.addEventListener("canplaythrough", () => { loading.value = false; });
+    videoEl.addEventListener("playing", () => { loading.value = false; });
+
     window.addEventListener("beforeunload", () => history.finalize());
 
     if (!didInitLoad && pendingInitSourceId) {
       const sourceId = pendingInitSourceId;
       pendingInitSourceId = null;
       didInitLoad = true;
-      selectSource(sourceId, { preserveEpisode: true }).catch((e) => {
-        log.error(String(e?.message || e || "init load failed"));
-      });
+      ensurePreload()
+        .then(() => selectSource(sourceId, { preserveEpisode: true }))
+        .catch((e) => {
+          log.error(String(e?.message || e || "init load failed"));
+        });
     }
   }
 
@@ -668,7 +888,9 @@ export function createPlayerService({ env, log, history }) {
     currentSourceId,
     currentEpisodeId,
     chapters,
+    chaptersLoadError,
     captions,
+    transcriptsLoadError,
     playback,
     sleep,
     sourceEpisodes,
@@ -684,6 +906,7 @@ export function createPlayerService({ env, log, history }) {
     pause,
     togglePlay,
     audioBlocked,
+    loading,
     seekBy,
     seekToPct,
     seekToTime,
@@ -694,6 +917,14 @@ export function createPlayerService({ env, log, history }) {
     volumeDown,
     toggleMute,
     toggleCaptions,
+    subtitleBox,
+    subtitleCue,
+    setSubtitleBox,
+    skip,
+    setSkip,
+    rateSteps,
+    setRateSteps,
+    resetRateSteps,
     setSleepTimerMins,
     clearSleepTimer,
     playRandom,

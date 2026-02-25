@@ -11,7 +11,8 @@
     "use": "node scripts/vod.cjs use",
     "update": "node scripts/vod.cjs update",
     "build": "node scripts/vod.cjs build",
-    "dev": "node scripts/vod.cjs dev"
+    "dev": "node scripts/vod.cjs dev",
+    "find-feeds": "node scripts/find-feeds.js"
   },
   "packageManager": "yarn@1.22.22"
 }
