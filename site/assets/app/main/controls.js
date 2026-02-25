@@ -8,6 +8,16 @@ function ensureStyle() {
   const el = document.createElement("style");
   el.id = STYLE_ID;
   el.textContent = `
+.guideNowBlock:focus-visible { outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent) }
+.guideChannelRow:focus-visible { outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent); background: rgba(255,255,255,.03) }
+.guideBtn:focus-visible,
+.speedBtn:focus-visible,
+.volumeBtn:focus-visible,
+.cornerBtn:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent);
+  outline-offset: 2px;
+}
+
 .vodKeyHintBubble {
   position: fixed;
   z-index: 9999;
