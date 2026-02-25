@@ -476,6 +476,15 @@ export function installControls() {
     const typingComments = isTypingInComments();
     if (typingComments && !isMediaKey(e) && e.key !== "Escape") return;
 
+    if (e.key === "Escape" && document.fullscreenElement) {
+      try {
+        document.exitFullscreen?.();
+      } catch {}
+      e.preventDefault();
+      // Don't stop propagation: the app also uses Escape to close panels.
+      return;
+    }
+
     // Common TV/remote keys we might see (Roku/WebView/SmartTV variants).
     // Prefer semantics over UI visibility; app may be faded/backgrounded.
     const isBack =
@@ -515,6 +524,13 @@ export function installControls() {
 
     if (isBack) {
       if (typingComments) return;
+      if (document.fullscreenElement) {
+        try {
+          document.exitFullscreen?.();
+        } catch {}
+        e.preventDefault();
+        return;
+      }
       // Try close buttons first, then toggle panels, then fall back to Escape.
       const closed =
         clickIfVisible("#btnCloseGuide") ||
@@ -736,6 +752,12 @@ export function installControls() {
       return;
     }
     if (k === "f") {
+      if (typingComments) return;
+      toggleFullscreen();
+      e.preventDefault();
+      return;
+    }
+    if (e.key === "F11" || keyCodeOf(e) === 122) {
       if (typingComments) return;
       toggleFullscreen();
       e.preventDefault();

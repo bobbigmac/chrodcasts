@@ -12,7 +12,7 @@ import { RandomTakeover } from "../ui/takeover/random_takeover.js";
 import { SkipTakeover } from "../ui/takeover/skip_takeover.js";
 import { SpeedTakeover } from "../ui/takeover/speed_takeover.js";
 import { AudioTakeover } from "../ui/takeover/audio_takeover.js";
-import { MoonIcon, PauseIcon, PlayIcon } from "../ui/icons.js";
+import { ExitFullscreenIcon, FullscreenIcon, MoonIcon, MuteIcon, PauseIcon, PlayIcon } from "../ui/icons.js";
 import { useLongPress } from "../ui/long_press.js";
 import { installControls } from "./controls.js";
 
@@ -20,19 +20,33 @@ export function App({ env, log, sources, player, history }) {
   const guideOpen = useSignal(false);
   const detailsOpen = useSignal(false);
   const historyOpen = useSignal(false);
+  const isFullscreen = useSignal(false);
   const toast = useSignal({ show: false, msg: "", level: "info", ms: 2200 });
   const panelTakeover = usePanelTakeover({ defaultIdleMs: 5000 });
   const scrubPreview = useSignal({ show: false, label: "", pct: 50 });
   const theme = useSignal("modern");
 
   const videoRef = useRef(null);
+  const playerFrameRef = useRef(null);
   const guideBarRef = useRef(null);
   const progressRef = useRef(null);
   const durationRef = useRef(NaN);
+  const seekFxLeftRef = useRef(null);
+  const seekFxRightRef = useRef(null);
+  const seekFxHideRef = useRef(null);
 
   useEffect(() => {
     const cleanup = installControls();
     return () => cleanup?.();
+  }, []);
+
+  useEffect(() => {
+    const onFs = () => {
+      isFullscreen.value = !!document.fullscreenElement;
+    };
+    document.addEventListener("fullscreenchange", onFs);
+    onFs();
+    return () => document.removeEventListener("fullscreenchange", onFs);
   }, []);
 
   useEffect(() => {
@@ -75,10 +89,120 @@ export function App({ env, log, sources, player, history }) {
   }, []);
 
   useEffect(() => {
-    if (videoRef.current) {
-      player.attachVideo(videoRef.current);
-      log.info("Video ready");
-    }
+    const videoEl = videoRef.current;
+    const frameEl = playerFrameRef.current;
+    if (!videoEl) return;
+    player.attachVideo(videoEl);
+    log.info("Video ready");
+
+    if (!frameEl) return;
+
+    // Double-tap seek on the left/right half of the video frame (mobile UX).
+    // Uses configured skip values and suppresses the video's normal click-to-toggle behavior.
+    const TAP_MAX_MS = 260;
+    const DOUBLE_TAP_MS = 340;
+    const MOVE_MAX_PX = 18;
+    const SIDE_ZONE_PCT = 0.33; // left/right third; center area preserves normal click-to-toggle
+    let down = null;
+    let lastTap = { t: 0, side: null };
+    let suppressClickUntil = 0;
+
+    const flashSeek = (side, seconds) => {
+      const el = side === "left" ? seekFxLeftRef.current : seekFxRightRef.current;
+      if (!el) return;
+      const label = el.querySelector?.(".seekTapFxLabel");
+      if (label) label.textContent = `${side === "left" ? "−" : "+"}${Math.round(Math.abs(seconds))}s`;
+
+      el.classList.remove("show");
+      // Restart animation.
+      // eslint-disable-next-line no-unused-expressions
+      el.offsetWidth;
+      el.classList.add("show");
+
+      if (seekFxHideRef.current) clearTimeout(seekFxHideRef.current);
+      seekFxHideRef.current = setTimeout(() => {
+        try {
+          el.classList.remove("show");
+        } catch {}
+      }, 420);
+    };
+
+    const shouldHandle = (e) => {
+      // Ignore interactions with the seek bar.
+      const t = e?.target;
+      if (t?.closest?.(".progress")) return false;
+      // Only touch-like pointers should get double-tap seek.
+      if (e?.pointerType && e.pointerType !== "touch" && e.pointerType !== "pen") return false;
+      return true;
+    };
+
+    const onPointerDown = (e) => {
+      if (!shouldHandle(e)) return;
+      down = { t: performance.now(), x: e.clientX, y: e.clientY };
+    };
+
+    const onPointerUp = (e) => {
+      if (!shouldHandle(e)) return;
+      if (!down) return;
+      const dt = performance.now() - down.t;
+      const dx = (e.clientX || 0) - down.x;
+      const dy = (e.clientY || 0) - down.y;
+      down = null;
+      if (dt > TAP_MAX_MS) return;
+      if (Math.hypot(dx, dy) > MOVE_MAX_PX) return;
+
+      const r = videoEl.getBoundingClientRect();
+      if (!r.width || !r.height) return;
+      const x = (e.clientX || 0) - r.left;
+      const pct = x / r.width;
+      if (pct > SIDE_ZONE_PCT && pct < 1 - SIDE_ZONE_PCT) {
+        // Center zone: don't interfere with the existing click-to-toggle behavior.
+        lastTap = { t: 0, side: null };
+        suppressClickUntil = 0;
+        return;
+      }
+      const side = pct <= 0.5 ? "left" : "right";
+
+      const now = performance.now();
+      if (now - lastTap.t <= DOUBLE_TAP_MS && lastTap.side === side) {
+        lastTap = { t: 0, side: null };
+        const cfg = player.skip?.value || { back: 10, fwd: 30 };
+        const seconds = side === "left" ? -Math.max(0, Number(cfg.back) || 10) : Math.max(0, Number(cfg.fwd) || 30);
+        suppressClickUntil = Date.now() + 650;
+        player.seekBy(seconds);
+        flashSeek(side, seconds);
+      } else {
+        lastTap = { t: now, side };
+        // Suppress the underlying click-to-toggle until we know whether this is a double-tap.
+        suppressClickUntil = Date.now() + DOUBLE_TAP_MS + 80;
+      }
+    };
+
+    const onPointerCancel = () => {
+      down = null;
+    };
+
+    const onClickCapture = (e) => {
+      if (Date.now() < suppressClickUntil) {
+        e.preventDefault();
+        e.stopPropagation?.();
+        e.stopImmediatePropagation?.();
+      }
+    };
+
+    frameEl.addEventListener("pointerdown", onPointerDown, { passive: true });
+    frameEl.addEventListener("pointerup", onPointerUp, { passive: true });
+    frameEl.addEventListener("pointercancel", onPointerCancel);
+    frameEl.addEventListener("click", onClickCapture, true);
+
+    return () => {
+      frameEl.removeEventListener("pointerdown", onPointerDown);
+      frameEl.removeEventListener("pointerup", onPointerUp);
+      frameEl.removeEventListener("pointercancel", onPointerCancel);
+      frameEl.removeEventListener("click", onClickCapture, true);
+      if (seekFxHideRef.current) clearTimeout(seekFxHideRef.current);
+      seekFxHideRef.current = null;
+    };
   }, []);
 
   // Theme
@@ -111,6 +235,11 @@ export function App({ env, log, sources, player, history }) {
   useEffect(() => {
     const onKey = (e) => {
       if (e.key !== "Escape") return;
+      if (document.fullscreenElement) {
+        try {
+          document.exitFullscreen?.();
+        } catch {}
+      }
       if (guideOpen.value) guideOpen.value = false;
       if (detailsOpen.value) detailsOpen.value = false;
       if (historyOpen.value) historyOpen.value = false;
@@ -337,7 +466,7 @@ export function App({ env, log, sources, player, history }) {
   return html`
     <div class="app-inner">
       <${StatusToast} toast=${toast} />
-      <div class="player ${cap.showing ? "custom-captions" : ""}" id="player">
+      <div class="player ${cap.showing ? "custom-captions" : ""}" id="player" ref=${playerFrameRef}>
         <video id="video" playsinline ref=${videoRef}></video>
         <div
           class=${"playPauseOverlay" + (pb.paused || loading ? " visible" : "")}
@@ -357,6 +486,29 @@ export function App({ env, log, sources, player, history }) {
                   <span class="iconPlay">▶</span>
                 </span>
               `}
+        </div>
+        <div
+          class=${"muteIndicator" + (pb.muted ? " show" : "")}
+          title=${audioBlocked ? "Sound blocked by browser (tap video or Play)" : "Muted"}
+          aria-hidden=${pb.muted ? "false" : "true"}
+        >
+          <span class="muteIndicatorIcon"><${MuteIcon} /></span>
+        </div>
+        <div class="seekTapFx" aria-hidden="true">
+          <div class="seekTapFxSide seekTapFxLeft" ref=${seekFxLeftRef}>
+            <div class="seekTapFxChevrons">
+              <span class="seekTapChevron"></span>
+              <span class="seekTapChevron"></span>
+            </div>
+            <div class="seekTapFxLabel">−10s</div>
+          </div>
+          <div class="seekTapFxSide seekTapFxRight" ref=${seekFxRightRef}>
+            <div class="seekTapFxLabel">+30s</div>
+            <div class="seekTapFxChevrons">
+              <span class="seekTapChevron"></span>
+              <span class="seekTapChevron"></span>
+            </div>
+          </div>
         </div>
         <div
           class=${"progress" + (progressTime.crampedLeft ? " progress-crampedLeft" : progressTime.crampedRight ? " progress-crampedRight" : "")}
@@ -608,6 +760,28 @@ export function App({ env, log, sources, player, history }) {
         onClick=${() => (historyOpen.value = !historyOpen.value)}
       >
         ☰
+      </button>
+      <button
+        id="btnFullscreen"
+        class="cornerBtn cornerBtnMid"
+        title="Fullscreen"
+        data-navitem="1"
+        data-keyhint="F — Fullscreen"
+        onClick=${() => {
+          const el = document.getElementById("player") || document.querySelector(".player") || document.querySelector("video");
+          if (!el) return;
+          if (!document.fullscreenElement) {
+            try {
+              el.requestFullscreen?.();
+            } catch {}
+          } else {
+            try {
+              document.exitFullscreen?.();
+            } catch {}
+          }
+        }}
+      >
+        ${isFullscreen.value ? html`<${ExitFullscreenIcon} />` : html`<${FullscreenIcon} />`}
       </button>
       <button
         id="btnDetails"

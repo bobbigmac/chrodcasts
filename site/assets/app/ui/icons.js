@@ -55,3 +55,77 @@ export function PauseIcon({ size = 16, className = "" } = {}) {
     </svg>
   `;
 }
+
+export function FullscreenIcon({ size = 18, strokeWidth = 2, className = "" } = {}) {
+  const s = Number(size) > 0 ? Number(size) : 18;
+  const sw = Number(strokeWidth) > 0 ? Number(strokeWidth) : 2;
+  return html`
+    <svg
+      class=${className}
+      width=${s}
+      height=${s}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width=${sw}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M9 3H3v6"></path>
+      <path d="M15 3h6v6"></path>
+      <path d="M3 15v6h6"></path>
+      <path d="M21 15v6h-6"></path>
+    </svg>
+  `;
+}
+
+export function ExitFullscreenIcon({ size = 18, strokeWidth = 2, className = "" } = {}) {
+  const s = Number(size) > 0 ? Number(size) : 18;
+  const sw = Number(strokeWidth) > 0 ? Number(strokeWidth) : 2;
+  return html`
+    <svg
+      class=${className}
+      width=${s}
+      height=${s}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width=${sw}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M3 9h6V3"></path>
+      <path d="M21 9h-6V3"></path>
+      <path d="M3 15h6v6"></path>
+      <path d="M21 15h-6v6"></path>
+    </svg>
+  `;
+}
+
+export function MuteIcon({ size = 18, strokeWidth = 2, className = "" } = {}) {
+  const s = Number(size) > 0 ? Number(size) : 18;
+  const sw = Number(strokeWidth) > 0 ? Number(strokeWidth) : 2;
+  return html`
+    <svg
+      class=${className}
+      width=${s}
+      height=${s}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width=${sw}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M11 5 6 9H2v6h4l5 4V5Z"></path>
+      <path d="M23 9 17 15"></path>
+      <path d="M17 9 23 15"></path>
+    </svg>
+  `;
+}
