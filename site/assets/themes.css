@@ -75,6 +75,16 @@
   border-radius: 0;
 }
 
+[data-theme="dos"] .historySegBar {
+  border-radius: 0;
+  border-width: 2px;
+  background: rgba(0,0,0,.12);
+}
+[data-theme="dos"] .historySegBar::before {
+  background: linear-gradient(90deg, rgba(255,255,255,.22), rgba(0,255,255,.18));
+}
+[data-theme="dos"] .historySegRange { color: #fff; opacity: 0.9 }
+
 [data-theme="dos"] .guideBadge { border-radius: 0 }
 
 [data-theme="dos"] .guideBar,
@@ -113,6 +123,13 @@
   border-radius: 0;
   border-width: 2px;
   color: #fff;
+}
+
+[data-theme="dos"] .guideGridScroll .guideBadge-cc {
+  opacity: 0.35;
+  border-color: rgba(255,255,255,.55);
+  background: rgba(0,0,0,.10);
+  color: rgba(255,255,255,.9);
 }
 [data-theme="dos"] .guideGridEp.active {
   border-color: #fff;

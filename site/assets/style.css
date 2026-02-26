@@ -1104,6 +1104,18 @@ video {
   color: color-mix(in srgb, var(--accent) 60%, var(--text));
 }
 
+/* Guide grid: keep CC indicators subtle (present but not shouty). */
+.guideGridScroll .guideBadge-cc {
+  opacity: 0.38;
+  border-color: color-mix(in srgb, var(--muted) 50%, var(--edge));
+  background: rgba(255,255,255,.02);
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 2px 5px;
+  font-size: 9px;
+}
+
 .guideGridScroll {
   flex: 1;
   min-height: 0;
@@ -1171,7 +1183,7 @@ video {
 .guideGridRow {
   display: grid;
   grid-template-columns: 240px var(--guide-horizon, 1800px);
-  min-height: 64px;
+  min-height: 56px;
   border-bottom: 1px solid rgba(255,255,255,.04);
 }
 .guideGridRow.focused { background: rgba(255,255,255,.03) }
@@ -1185,7 +1197,7 @@ video {
   grid-template-columns: 54px 1fr;
   gap: 10px;
   align-items: center;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-right: 1px solid var(--edge);
   background: var(--guide-cell-bg, color-mix(in srgb, var(--panel) 86%, rgba(0,0,0,.2)));
   cursor: pointer;
@@ -1206,23 +1218,23 @@ video {
 
 .guideGridTrack {
   position: relative;
-  min-height: 64px;
-  padding: 7px 8px;
+  min-height: 56px;
+  padding: 6px 8px;
   background: var(--guide-track-bg, rgba(0,0,0,.08));
 }
 
 .guideGridEp {
   position: absolute;
-  top: 7px;
-  bottom: 7px;
-  padding: 7px 10px;
+  top: 0;
+  bottom: 0;
+  padding: 6px 8px;
   border-radius: 10px;
   border: 1px solid var(--edge);
   background: var(--guide-ep-bg, rgba(255,255,255,.03));
   color: var(--text);
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
   text-align: left;
   overflow: hidden;
   cursor: pointer;
@@ -1341,7 +1353,7 @@ video {
 
 .historyEntry {
   position: relative;
-  padding: 10px 10px 10px 54px;
+  padding: 10px 10px 12px;
   border: 1px solid var(--edge);
   border-radius: 10px;
   background: rgba(255,255,255,.03);
@@ -1359,20 +1371,54 @@ video {
 }
 .historyEntryTitle { font-weight: 650; font-size: 13px }
 .historyEntrySub { font-size: 12px; color: var(--muted); margin-top: 4px }
-.historyEntryBtn {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
+
+.historySegBar {
+  position: relative;
+  margin-top: 10px;
+  height: 20px;
+  border-radius: 999px;
   border: 1px solid var(--edge);
-  background: rgba(255,255,255,.03);
-  color: var(--text);
+  background: rgba(0,0,0,.22);
+  overflow: hidden;
   cursor: pointer;
 }
-.historyEntryBtnContinue { left: 44px }
-.historyEntryBtn:hover { background: rgba(255,255,255,.08) }
+.historySegBar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--hs-start, 0%);
+  width: calc(var(--hs-end, 0%) - var(--hs-start, 0%));
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+}
+.historySegBar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,.06), transparent 28%, transparent 72%, rgba(255,255,255,.05));
+  pointer-events: none;
+}
+.historySegBar:hover { background: rgba(0,0,0,.32) }
+.historySegIcon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  opacity: 0.85;
+  z-index: 1;
+  pointer-events: none;
+}
+.historySegRange {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 11px;
+  color: rgba(255,255,255,.85);
+  z-index: 1;
+  pointer-events: none;
+}
 
 .detailsPanel {
   position: fixed;

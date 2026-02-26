@@ -311,10 +311,14 @@ export function GuidePanel({ isOpen, sources, player }) {
                     : typeof player.getProgressSec === "function"
                       ? player.getProgressSec(src.id, ep.id)
                       : 0;
+                const knownDur =
+                  typeof player.getKnownDurationSec === "function" ? player.getKnownDurationSec(src.id, ep.id) : null;
                 const durSec =
                   Number.isFinite(durSecRaw) && durSecRaw > 0
                     ? durSecRaw
-                    : Math.max(DEFAULT_EP_SEC, Number.isFinite(maxSec) && maxSec > 0 ? Math.ceil(maxSec) + 60 : DEFAULT_EP_SEC);
+                    : Number.isFinite(Number(knownDur)) && Number(knownDur) > 0
+                      ? Number(knownDur)
+                      : Math.max(DEFAULT_EP_SEC, Number.isFinite(maxSec) && maxSec > 0 ? Math.ceil(maxSec) + 60 : DEFAULT_EP_SEC);
 
                 const x = Math.round((curSec / 60) * PX_PER_MIN);
                 const w0 = Math.round((durSec / 60) * PX_PER_MIN);

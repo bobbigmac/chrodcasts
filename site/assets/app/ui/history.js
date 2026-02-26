@@ -5,6 +5,10 @@ function titleShort(s, n) {
   return t.slice(0, n) + (t.length > n ? "…" : "");
 }
 
+function clamp(v, a, b) {
+  return Math.min(b, Math.max(a, v));
+}
+
 export function HistoryPanel({ isOpen, history, player }) {
   const all = history.all.value || [];
 
@@ -21,53 +25,66 @@ export function HistoryPanel({ isOpen, history, player }) {
           </div>
         </div>
 
-        <div class="historyList">
-          ${all.map((e, idx) => {
-            const isCurrent = idx === 0 && history.current.value;
-            const cls =
-              "historyEntry" +
-              (isCurrent ? " historyEntryCurrent" : "") +
-              (e.hadSleep ? " historyEntryHadSleep" : "");
-            const range = `${player.fmtTime(e.start)} → ${player.fmtTime(e.end)}`;
-            return html`
-              <div
-                class=${cls}
-                onClick=${(ev) => {
-                  if (ev.target.closest(".historyEntryBtn")) return;
-                  player.selectSourceAndEpisode(e.sourceId, e.episodeId, { autoplay: true });
-                  isOpen.value = false;
-                }}
-              >
-                <button
-                  class="historyEntryBtn historyEntryBtnRestart"
-                  title="Restart segment"
-                  onClick=${(ev) => {
-                    ev.stopPropagation();
-                    player.selectSourceAndEpisode(e.sourceId, e.episodeId, { autoplay: true, startAt: e.start });
-                    isOpen.value = false;
-                  }}
-                >
-                  ↺
-                </button>
-                <button
-                  class="historyEntryBtn historyEntryBtnContinue"
-                  title="Continue from before end"
-                  onClick=${(ev) => {
-                    ev.stopPropagation();
-                    player.selectSourceAndEpisode(e.sourceId, e.episodeId, { autoplay: true, startAt: Math.max(0, (e.end || 0) - 5) });
-                    isOpen.value = false;
-                  }}
-                >
-                  →
-                </button>
-                <div class="historyEntryTitle">${titleShort(e.episodeTitle, 50)}</div>
-                <div class="historyEntrySub">${titleShort(e.channelTitle, 30)} · ${range}</div>
-              </div>
-            `;
-          })}
-        </div>
+	        <div class="historyList">
+	          ${all.map((e, idx) => {
+	            const isCurrent = idx === 0 && history.current.value;
+	            const cls =
+	              "historyEntry" +
+	              (isCurrent ? " historyEntryCurrent" : "") +
+	              (e.hadSleep ? " historyEntryHadSleep" : "");
+	            const start = Number(e.start) || 0;
+	            const end = Number(e.end) || 0;
+	            const dur0 = Number(e.dur);
+	            const dur = Number.isFinite(dur0) && dur0 > 0 ? Math.max(dur0, end, start) : Math.max(end, start, 1);
+	            const startPct = clamp((start / dur) * 100, 0, 100);
+	            const endPct = clamp((end / dur) * 100, 0, 100);
+	            const range = `${player.fmtTime(start)} → ${player.fmtTime(end)}`;
+
+	            const onBarClick = (ev) => {
+	              ev.stopPropagation();
+	              const bar = ev.currentTarget;
+	              const r = bar.getBoundingClientRect?.();
+	              if (!r || r.width <= 0) return;
+	              const x = clamp((ev.clientX - r.left) / r.width, 0, 1);
+	              const pct = x * 100;
+
+	              // Three regions:
+	              // - before watched segment: restart at 0
+	              // - watched segment: resume from segment start
+	              // - after watched segment: resume near segment end
+	              let startAt = 0;
+	              if (pct < startPct) startAt = 0;
+	              else if (pct <= endPct) startAt = start;
+	              else startAt = Math.max(0, end - 5);
+
+	              player.selectSourceAndEpisode(e.sourceId, e.episodeId, { autoplay: true, startAt });
+	              isOpen.value = false;
+	            };
+	            return html`
+	              <div
+	                class=${cls}
+	                onClick=${(ev) => {
+	                  player.selectSourceAndEpisode(e.sourceId, e.episodeId, { autoplay: true, startAt: Math.max(0, end - 5) });
+	                  isOpen.value = false;
+	                }}
+	              >
+	                <div class="historyEntryTitle">${titleShort(e.episodeTitle, 50)}</div>
+	                <div class="historyEntrySub">${titleShort(e.channelTitle, 30)} · ${range}</div>
+	                <div
+	                  class="historySegBar"
+	                  role="button"
+	                  title="Click left: restart · middle: resume from segment start · right: resume near segment end"
+	                  style=${{ "--hs-start": `${startPct}%`, "--hs-end": `${endPct}%` }}
+	                  onClick=${onBarClick}
+	                >
+	                  <span class="historySegIcon" aria-hidden="true">↺</span>
+	                  <span class="historySegRange mono" aria-hidden="true">${range}</span>
+	                </div>
+	              </div>
+	            `;
+	          })}
+	        </div>
       </div>
     </div>
   `;
 }
-

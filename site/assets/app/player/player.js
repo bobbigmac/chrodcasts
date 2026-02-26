@@ -232,7 +232,12 @@ export function createPlayerService({ env, log, history }) {
 
   function startShuffle() {
     const cur = shuffle.value;
-    const intervalIdx = clamp(Math.round(Number(cur.intervalIdx) || DEFAULT_SHUFFLE.intervalIdx), 0, SHUFFLE_INTERVALS.length - 1);
+    const intervalIdxRaw = Number(cur.intervalIdx);
+    const intervalIdx = clamp(
+      Math.round(Number.isFinite(intervalIdxRaw) ? intervalIdxRaw : DEFAULT_SHUFFLE.intervalIdx),
+      0,
+      SHUFFLE_INTERVALS.length - 1
+    );
     const now = Date.now();
     const nextAt0 = Number.isFinite(Number(cur.nextAt)) ? Number(cur.nextAt) : null;
     const nextAt = nextAt0 && nextAt0 > now ? nextAt0 : now + SHUFFLE_INTERVALS[intervalIdx].ms;
@@ -380,6 +385,23 @@ export function createPlayerService({ env, log, history }) {
     const v = persisted.progressMax?.[k];
     if (Number.isFinite(v)) return v;
     return getProgressSec(sourceId, episodeId);
+  }
+
+  function getKnownDurationSec(sourceId, episodeId) {
+    const k = episodeKey(sourceId, episodeId);
+    const v = persisted.durByEpisode?.[k];
+    return Number.isFinite(v) && v > 0 ? v : null;
+  }
+
+  function setKnownDurationSec(sourceId, episodeId, durSec) {
+    const k = episodeKey(sourceId, episodeId);
+    const d = Number(durSec);
+    if (!Number.isFinite(d) || d <= 0) return;
+    persisted.durByEpisode ||= {};
+    const prev = persisted.durByEpisode[k];
+    // Keep the larger value in case metadata changes slightly.
+    persisted.durByEpisode[k] = Number.isFinite(prev) && prev > 0 ? Math.max(prev, d) : d;
+    saveState();
   }
 
   function setProgressSec(sourceId, episodeId, t) {
@@ -628,6 +650,9 @@ export function createPlayerService({ env, log, history }) {
       () => {
         const dur = videoEl.duration;
         if (Number.isFinite(dur) && dur > 2) {
+          try {
+            if (currentSource && currentEp) setKnownDurationSec(currentSource.id, currentEp.id, dur);
+          } catch {}
           const safe = startAt > dur - 20 ? 0 : clamp(startAt, 0, Math.max(0, dur - 0.25));
           if (safe > 0.25) videoEl.currentTime = safe;
         }
@@ -1275,5 +1300,6 @@ export function createPlayerService({ env, log, history }) {
     setShuffleSettings,
     getProgressSec,
     getProgressMaxSec,
+    getKnownDurationSec,
   };
 }
