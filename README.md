@@ -61,4 +61,4 @@ Schema notes live in `docs/supabase-comments.md`.
 - [ ] Details panel: add timed comments UI (per channel/episode/timestamp)
 - [ ] Build step: optionally parse + precompute chapters/transcripts JSON
 - [ ] PWA/offline: cache app shell + cached feed XML + (optional) user-selected media
-
+- [ ] Guide: category filter (toggle/selector to show only channels in a category; keep keyboard/remote navigation working)

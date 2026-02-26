@@ -476,8 +476,8 @@ export function App({ env, log, sources, player, history }) {
     return () => document.removeEventListener("keydown", onKey);
   }, []);
 
-  // Side panels auto-close after 10s of non-usage (no interaction within the panel).
-  const PANEL_IDLE_MS = 10000;
+  // Side panels auto-close after a short period of non-usage (no interaction within the panel).
+  const PANEL_IDLE_MS = 7000;
   const panelIds = ["guidePanel", "detailsPanel", "historyPanel"];
   useSignalEffect(() => {
     const anyOpen = guideOpen.value || detailsOpen.value || historyOpen.value;
@@ -501,11 +501,20 @@ export function App({ env, log, sources, player, history }) {
         }, PANEL_IDLE_MS);
       }
     };
-    const evs = ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "touchmove"];
-    evs.forEach((ev) => document.addEventListener(ev, reset, { passive: true }));
+    const evs = [
+      ["mousemove", { passive: true }],
+      ["mousedown", { passive: true }],
+      ["keydown", { passive: true }],
+      // Scroll doesn't bubble, so capture it.
+      ["scroll", { passive: true, capture: true }],
+      ["touchstart", { passive: true }],
+      ["touchmove", { passive: true }],
+      ["wheel", { passive: true }],
+    ];
+    evs.forEach(([ev, opts]) => document.addEventListener(ev, reset, opts));
     return () => {
       clearTimeout(t);
-      evs.forEach((ev) => document.removeEventListener(ev, reset));
+      evs.forEach(([ev, opts]) => document.removeEventListener(ev, reset, opts));
     };
   });
 

@@ -581,6 +581,9 @@ export function installControls() {
     // D-pad navigation (TV remotes + keyboard arrows).
     if (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown") {
       if (typingComments) return;
+      // Let the TV guide own arrow navigation when it's open.
+      const guidePanel = document.getElementById("guidePanel");
+      if (guidePanel && guidePanel.getAttribute("aria-hidden") === "false") return;
       const takeover = document.querySelector(".guideBarTakeover[data-navmode]");
       if (takeover && isVisible(takeover) && takeover.getAttribute("data-navmode") === "arrows") {
         return; // allow takeover (e.g. captions) to use arrows for adjustments

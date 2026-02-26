@@ -1067,12 +1067,11 @@ video {
   flex-direction: column;
   overflow: hidden;
   z-index: 100;
-  transform: translateY(100%);
-  transition: transform 0.25s ease, opacity 0.2s ease;
+  transition: bottom 0.25s ease, opacity 0.2s ease;
   backdrop-filter: blur(12px);
 }
-.guidePanel[aria-hidden="false"] { transform: translateY(0) }
-.guidePanel[aria-hidden="true"] { transform: translateY(100%); pointer-events: none }
+.guidePanel[aria-hidden="false"] { bottom: 0; opacity: 1 }
+.guidePanel[aria-hidden="true"] { bottom: -72vh; opacity: 0; pointer-events: none }
 
 .guidePanel-inner {
   display: flex;
@@ -1153,6 +1152,7 @@ video {
   padding: 10px 12px;
   border-right: 1px solid var(--edge);
   background: var(--guide-corner-bg, inherit);
+  cursor: pointer;
 }
 .guideGridCornerTop { font-size: 12px; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase }
 .guideGridCornerSub { font-size: 11px; color: var(--muted); margin-top: 2px }
@@ -1182,10 +1182,12 @@ video {
   display: flex;
   flex-direction: column;
 }
+.guideGridSpacer { flex: 0 0 auto }
 .guideGridRow {
   display: grid;
   grid-template-columns: 240px var(--guide-horizon, 1800px);
-  min-height: 56px;
+  height: var(--guide-row-h, 56px);
+  min-height: var(--guide-row-h, 56px);
   border-bottom: 1px solid rgba(255,255,255,.04);
 }
 .guideGridRow.focused { background: rgba(255,255,255,.03) }
@@ -1205,6 +1207,7 @@ video {
   cursor: pointer;
   text-align: left;
 }
+
 .guideGridRow.focused .guideGridChannelCell { outline: 2px solid color-mix(in srgb, var(--accent) 55%, transparent); outline-offset: -2px }
 .guideGridChanNo { font-weight: 750; color: var(--muted); font-size: 13px }
 .guideGridChanMeta { min-width: 0 }
