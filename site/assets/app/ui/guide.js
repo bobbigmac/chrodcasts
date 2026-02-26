@@ -13,9 +13,6 @@ const GUIDE_ROW_H_PX = 56;
 const ROW_OVERSCAN = 6;
 const TIME_BUFFER_MIN = 90;
 
-const RECENTER_MARGIN_PX = 1600;
-const RECENTER_SHIFT_MIN = Math.floor(VIRTUAL_MIN / 2);
-
 function fmtDuration(sec) {
   if (!Number.isFinite(sec) || sec < 0) return null;
   const h = Math.floor(sec / 3600);
@@ -109,9 +106,21 @@ export function GuidePanel({ isOpen, sources, player }) {
   const guideZeroTs = useSignal(roundToHalfHour(Date.now()));
   const trackStartTs = useSignal(roundToHalfHour(Date.now()));
   const tracksRef = useRef(null);
-  const channelsRef = useRef(null);
-  const headerRef = useRef(null);
   const loadingIdsRef = useRef(new Set());
+  const lastScrollAtRef = useRef(0);
+  const lastPointerMoveAtRef = useRef(0);
+  const focusModeRef = useRef("init"); // init | keys | hover
+
+  const shouldAllowHoverFocus = () => {
+    const last = Number(lastScrollAtRef.current) || 0;
+    const scrolling = Date.now() - last < 140;
+    const dragging = !!tracksRef.current?.classList?.contains?.("dragging");
+    // Pointer-enter can fire when content moves under a stationary cursor during programmatic scroll,
+    // which can create a focus/scroll feedback loop. Require recent mouse movement to accept hover focus.
+    const pm = Number(lastPointerMoveAtRef.current) || 0;
+    const pointerMovedRecently = Date.now() - pm < 250;
+    return !scrolling && !dragging && pointerMovedRecently;
+  };
 
   const DEFAULT_EP_SEC = 30 * 60;
   const MIN_EP_SEC = 5 * 60;
@@ -164,6 +173,52 @@ export function GuidePanel({ isOpen, sources, player }) {
     return { idx, ep: schedule.playable[idx], startTs, endTs, durSec };
   };
 
+  const pickBestProgForRange = (schedule, rangeStartTs, rangeEndTs) => {
+    if (!schedule) return null;
+    const a0 = Number(rangeStartTs);
+    const b0 = Number(rangeEndTs);
+    if (!Number.isFinite(a0) || !Number.isFinite(b0)) return null;
+    const a = Math.min(a0, b0);
+    const b = Math.max(a0, b0);
+    const mid = a + (b - a) / 2;
+
+    const candidates = [];
+    const seen = new Set();
+    const add = (p) => {
+      if (!p?.ep?.id) return;
+      const key = `${p.ep.id}::${Math.round(p.startTs)}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      candidates.push(p);
+    };
+
+    const samples = [mid, a + 1000, b - 1000].filter((t) => Number.isFinite(t));
+    for (const t of samples) {
+      const p = programAt(schedule, t);
+      if (!p) continue;
+      add(p);
+      // Also consider adjacent programs in case the range crosses a boundary.
+      add(programAt(schedule, p.startTs - 1000));
+      add(programAt(schedule, p.endTs + 1000));
+    }
+
+    if (!candidates.length) return programAt(schedule, mid);
+
+    let best = candidates[0];
+    let bestOverlap = -1;
+    let bestDist = Infinity;
+    for (const p of candidates) {
+      const overlap = Math.max(0, Math.min(p.endTs, b) - Math.max(p.startTs, a));
+      const dist = Math.abs((p.startTs + p.endTs) / 2 - mid);
+      if (overlap > bestOverlap || (overlap === bestOverlap && dist < bestDist)) {
+        best = p;
+        bestOverlap = overlap;
+        bestDist = dist;
+      }
+    }
+    return best;
+  };
+
   const blocksForRange = (schedule, startTs, endTs) => {
     const out = [];
     if (!schedule) return out;
@@ -191,7 +246,21 @@ export function GuidePanel({ isOpen, sources, player }) {
   const scrollLeftPx = useSignal(0);
   const scrollTopPx = useSignal(0);
 
+  const wheelToTracks = (e) => {
+    const el = tracksRef.current;
+    if (!el) return;
+    const dx = Number(e?.deltaX || 0);
+    const dy = Number(e?.deltaY || 0);
+    if (!dx && !dy) return;
+    el.scrollLeft += dx;
+    el.scrollTop += dy;
+    try {
+      e.preventDefault();
+    } catch {}
+  };
+
   const jumpToPlaying = async ({ alignNow = true } = {}) => {
+    focusModeRef.current = "keys";
     const srcId = player.current.value.source?.id || currentSourceId || null;
     if (!srcId) return;
     const srcIdx = Math.max(0, sourcesFlat.findIndex((s) => s.id === srcId));
@@ -228,7 +297,6 @@ export function GuidePanel({ isOpen, sources, player }) {
     }
 
     const tracksEl = tracksRef.current;
-    const channelsEl = channelsRef.current;
     if (!tracksEl) return;
     requestAnimationFrame(() => {
       try {
@@ -240,7 +308,6 @@ export function GuidePanel({ isOpen, sources, player }) {
         const rowTop = srcIdx * GUIDE_ROW_H_PX;
         const maxTop = Math.max(0, tracksEl.scrollHeight - tracksEl.clientHeight);
         tracksEl.scrollTop = clamp(Math.round(rowTop - (tracksEl.clientHeight || 1) * 0.35), 0, maxTop);
-        if (channelsEl) channelsEl.scrollTop = tracksEl.scrollTop;
       } catch {}
     });
   };
@@ -255,9 +322,6 @@ export function GuidePanel({ isOpen, sources, player }) {
     if (currentSourceId && !episodesBySource[currentSourceId]) {
       player.loadSourceEpisodes(currentSourceId).catch(() => {});
     }
-
-    // Best effort: jump to the playing episode + timestamp once data is available.
-    setTimeout(() => jumpToPlaying({ alignNow: true }), 0);
   }, [isOpen.value, currentSourceId, sourcesFlat.length]);
 
   // Ensure focused row is loaded (lazy load as the user navigates).
@@ -285,13 +349,56 @@ export function GuidePanel({ isOpen, sources, player }) {
       try {
         e.stopPropagation();
       } catch {}
+      focusModeRef.current = "keys";
 
       if (k === "ArrowUp") {
-        focusSourceIdx.value = Math.max(0, focusSourceIdx.value - 1);
+        const curSrc = sourcesFlat[focusSourceIdx.value] || null;
+        const curSchedule = getSchedule(curSrc?.id);
+        const curProg = curSchedule ? programAt(curSchedule, focusTs.value) : null;
+        const refA = curProg?.startTs ?? (focusTs.value - 15 * MS_PER_MIN);
+        const refB = curProg?.endTs ?? (focusTs.value + 15 * MS_PER_MIN);
+
+        const nextIdx = Math.max(0, focusSourceIdx.value - 1);
+        focusSourceIdx.value = nextIdx;
+
+        const nextSrc = sourcesFlat[nextIdx] || null;
+        const nextSchedule = getSchedule(nextSrc?.id);
+        if (nextSchedule) {
+          const p = pickBestProgForRange(nextSchedule, refA, refB);
+          if (p) {
+            const mid = Math.min(refA, refB) + (Math.abs(refB - refA) / 2);
+            const pad = 1000;
+            const t = (p.endTs - p.startTs > pad * 2)
+              ? clamp(mid, p.startTs + pad, p.endTs - pad)
+              : (p.startTs + p.endTs) / 2;
+            focusTs.value = t;
+          }
+        }
         return;
       }
       if (k === "ArrowDown") {
-        focusSourceIdx.value = Math.min(Math.max(0, sourcesFlat.length - 1), focusSourceIdx.value + 1);
+        const curSrc = sourcesFlat[focusSourceIdx.value] || null;
+        const curSchedule = getSchedule(curSrc?.id);
+        const curProg = curSchedule ? programAt(curSchedule, focusTs.value) : null;
+        const refA = curProg?.startTs ?? (focusTs.value - 15 * MS_PER_MIN);
+        const refB = curProg?.endTs ?? (focusTs.value + 15 * MS_PER_MIN);
+
+        const nextIdx = Math.min(Math.max(0, sourcesFlat.length - 1), focusSourceIdx.value + 1);
+        focusSourceIdx.value = nextIdx;
+
+        const nextSrc = sourcesFlat[nextIdx] || null;
+        const nextSchedule = getSchedule(nextSrc?.id);
+        if (nextSchedule) {
+          const p = pickBestProgForRange(nextSchedule, refA, refB);
+          if (p) {
+            const mid = Math.min(refA, refB) + (Math.abs(refB - refA) / 2);
+            const pad = 1000;
+            const t = (p.endTs - p.startTs > pad * 2)
+              ? clamp(mid, p.startTs + pad, p.endTs - pad)
+              : (p.startTs + p.endTs) / 2;
+            focusTs.value = t;
+          }
+        }
         return;
       }
 
@@ -336,60 +443,7 @@ export function GuidePanel({ isOpen, sources, player }) {
     return () => document.removeEventListener("keydown", onKey);
   }, []);
 
-  const shiftTrackStart = (deltaMin) => {
-    const tracksEl = tracksRef.current;
-    const headerEl = headerRef.current;
-    if (!tracksEl) return;
-    if (!Number.isFinite(deltaMin) || deltaMin === 0) return;
-    const px = deltaMin * PX_PER_MIN;
-    trackStartTs.value = trackStartTs.value + deltaMin * MS_PER_MIN;
-    tracksEl.scrollLeft = Math.round((tracksEl.scrollLeft || 0) - px);
-    if (headerEl) headerEl.scrollLeft = tracksEl.scrollLeft;
-    scrollLeftPx.value = tracksEl.scrollLeft;
-  };
-
-  const ensureFocusVisible = () => {
-    const tracksEl = tracksRef.current;
-    const channelsEl = channelsRef.current;
-    if (!tracksEl) return;
-
-    // Vertical.
-    const rowTop = focusSourceIdx.value * GUIDE_ROW_H_PX;
-    const rowBottom = rowTop + GUIDE_ROW_H_PX;
-    const top = tracksEl.scrollTop || 0;
-    const bottom = top + (tracksEl.clientHeight || 0);
-    const marginY = 12;
-    if (rowTop < top + marginY || rowBottom > bottom - marginY) {
-      const targetTop = clamp(rowTop - Math.round((tracksEl.clientHeight || 1) * 0.35), 0, Math.max(0, tracksEl.scrollHeight - tracksEl.clientHeight));
-      tracksEl.scrollTop = Math.round(targetTop);
-      if (channelsEl) channelsEl.scrollTop = tracksEl.scrollTop;
-      scrollTopPx.value = tracksEl.scrollTop;
-    }
-
-    // Horizontal (keep focus time within view).
-    const viewStart = trackStartTs.value + ((tracksEl.scrollLeft || 0) / PX_PER_MIN) * MS_PER_MIN;
-    const viewEnd = viewStart + ((tracksEl.clientWidth || 0) / PX_PER_MIN) * MS_PER_MIN;
-    const marginMin = 25;
-    const leftLimit = viewStart + marginMin * MS_PER_MIN;
-    const rightLimit = viewEnd - marginMin * MS_PER_MIN;
-    const t = focusTs.value;
-    if (t < leftLimit || t > rightLimit) {
-      const x = ((t - trackStartTs.value) / MS_PER_MIN) * PX_PER_MIN;
-      const max = Math.max(0, tracksEl.scrollWidth - tracksEl.clientWidth);
-      const target = clamp(Math.round(x - (tracksEl.clientWidth || 1) * 0.28), 0, max);
-      tracksEl.scrollLeft = Math.round(target);
-      const headerEl = headerRef.current;
-      if (headerEl) headerEl.scrollLeft = tracksEl.scrollLeft;
-      scrollLeftPx.value = tracksEl.scrollLeft;
-    }
-  };
-
-  useEffect(() => {
-    if (!isOpen.value) return;
-    ensureFocusVisible();
-  }, [isOpen.value, focusSourceIdx.value, focusTs.value]);
-
-  // Note: we do not force DOM focus on hover/state updates; it can cause scroll jitter on some platforms.
+  // Note: do not auto-scroll the guide to follow focus; only user-driven scroll/pan.
 
   // Drag-to-pan inside the guide grid (touch + mouse).
   useEffect(() => {
@@ -437,6 +491,21 @@ export function GuidePanel({ isOpen, sources, player }) {
     };
   }, []);
 
+  // Track real mouse movement so hover focus doesn't trigger from programmatic scrolling.
+  useEffect(() => {
+    if (!isOpen.value) return;
+    const onMove = (e) => {
+      if (e?.pointerType && e.pointerType !== "mouse") return;
+      lastPointerMoveAtRef.current = Date.now();
+    };
+    document.addEventListener("pointermove", onMove, { passive: true });
+    document.addEventListener("mousemove", onMove, { passive: true });
+    return () => {
+      document.removeEventListener("pointermove", onMove);
+      document.removeEventListener("mousemove", onMove);
+    };
+  }, [isOpen.value]);
+
   const currentSource = (sources.value || []).find((s) => s.id === currentSourceId) || null;
   const currentEpTitle = player.current.value.episode?.title || "—";
 
@@ -477,16 +546,14 @@ export function GuidePanel({ isOpen, sources, player }) {
     [sourcesFlat, visibleRange.startRow, visibleRange.endRow]
   );
 
-  // Keep scroll state up to date and re-center the virtual window as needed.
+  // Keep scroll state up to date (read-only; no pane sync and no focus-follow scrolling).
   useEffect(() => {
     const tracksEl = tracksRef.current;
-    const channelsEl = channelsRef.current;
-    const headerEl = headerRef.current;
-    if (!tracksEl || !channelsEl || !headerEl) return;
+    if (!tracksEl) return;
     let raf = 0;
-    let syncing = 0; // 0 none, 1 tracks, 2 channels, 3 header
+    let ro = null;
 
-    const updateFromTracks = () => {
+    const update = () => {
       if (raf) return;
       raf = requestAnimationFrame(() => {
         raf = 0;
@@ -494,62 +561,37 @@ export function GuidePanel({ isOpen, sources, player }) {
         viewportH.value = tracksEl.clientHeight || 0;
         scrollLeftPx.value = tracksEl.scrollLeft || 0;
         scrollTopPx.value = tracksEl.scrollTop || 0;
-
-        // Keep the other panes aligned.
-        if (syncing !== 2) channelsEl.scrollTop = tracksEl.scrollTop;
-        if (syncing !== 3) headerEl.scrollLeft = tracksEl.scrollLeft;
-
-        const max = Math.max(0, HORIZON_PX - (tracksEl.clientWidth || 0));
-        if (max <= 0) return;
-        const sl = tracksEl.scrollLeft || 0;
-        if (sl < RECENTER_MARGIN_PX) shiftTrackStart(-RECENTER_SHIFT_MIN);
-        else if (sl > max - RECENTER_MARGIN_PX) shiftTrackStart(RECENTER_SHIFT_MIN);
       });
     };
 
-    const onTracksScroll = () => {
-      if (syncing === 2 || syncing === 3) return updateFromTracks();
-      syncing = 1;
-      updateFromTracks();
-      syncing = 0;
-    };
-    const onChannelsScroll = () => {
-      if (syncing === 1) return;
-      syncing = 2;
-      tracksEl.scrollTop = channelsEl.scrollTop;
-      syncing = 0;
-    };
-    const onHeaderScroll = () => {
-      if (syncing === 1) return;
-      syncing = 3;
-      tracksEl.scrollLeft = headerEl.scrollLeft;
-      syncing = 0;
+    const onScroll = () => {
+      lastScrollAtRef.current = Date.now();
+      update();
     };
 
-    const onResize = () => {
-      viewportW.value = tracksEl.clientWidth || 0;
-      viewportH.value = tracksEl.clientHeight || 0;
-    };
-    onResize();
-    updateFromTracks();
+    update();
+    tracksEl.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", update);
 
-    tracksEl.addEventListener("scroll", onTracksScroll, { passive: true });
-    channelsEl.addEventListener("scroll", onChannelsScroll, { passive: true });
-    headerEl.addEventListener("scroll", onHeaderScroll, { passive: true });
-    window.addEventListener("resize", onResize);
+    if (typeof ResizeObserver !== "undefined") {
+      ro = new ResizeObserver(() => update());
+      try {
+        ro.observe(tracksEl);
+      } catch {}
+    }
+
     return () => {
       try {
-        tracksEl.removeEventListener("scroll", onTracksScroll);
+        tracksEl.removeEventListener("scroll", onScroll);
       } catch {}
       try {
-        channelsEl.removeEventListener("scroll", onChannelsScroll);
+        window.removeEventListener("resize", update);
       } catch {}
-      try {
-        headerEl.removeEventListener("scroll", onHeaderScroll);
-      } catch {}
-      try {
-        window.removeEventListener("resize", onResize);
-      } catch {}
+      if (ro) {
+        try {
+          ro.disconnect();
+        } catch {}
+      }
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
@@ -604,8 +646,8 @@ export function GuidePanel({ isOpen, sources, player }) {
               <div class="guideGridCornerTop">All Channels</div>
               <div class="guideGridCornerSub">Today ${fmtClock(viewStartTs)}</div>
             </div>
-            <div class="guideGridHeaderScroll" ref=${headerRef} aria-hidden="true">
-              <div class="guideGridTimeAxis" style=${{ width: `${HORIZON_PX}px` }}>
+            <div class="guideGridHeaderScroll" aria-hidden="true" onWheel=${wheelToTracks}>
+              <div class="guideGridTimeAxis" style=${{ width: `${HORIZON_PX}px`, transform: `translateX(${-scrollLeftPx.value}px)` }}>
                 ${timeTicks.map((t) => {
                   return html`
                     <div class="guideGridTick" style=${{ left: `${t.x}px` }}>
@@ -618,56 +660,62 @@ export function GuidePanel({ isOpen, sources, player }) {
           </div>
 
           <div class="guideGridBodyRow">
-            <div class="guideGridChannelsScroll" ref=${channelsRef} aria-label="Channels">
-              <div class="guideGridSpacer" style=${{ height: `${visibleRange.startRow * GUIDE_ROW_H_PX}px` }} aria-hidden="true"></div>
-              ${visibleSources.map((src, vi) => {
-                const i = visibleRange.startRow + vi;
-                const eps = episodesBySource[src.id] || null;
-                const feat = src.features || {};
-                const ccLikely = !!feat.hasPlayableTranscript || (!!eps && eps.some((ep) => (ep.transcripts || []).length));
+            <div class="guideGridChannelsScroll" aria-label="Channels" onWheel=${wheelToTracks}>
+              <div class="guideGridChannelsInner" style=${{ transform: `translateY(${-scrollTopPx.value}px)` }}>
+                <div class="guideGridSpacer" style=${{ height: `${visibleRange.startRow * GUIDE_ROW_H_PX}px` }} aria-hidden="true"></div>
+                ${visibleSources.map((src, vi) => {
+                  const i = visibleRange.startRow + vi;
+                  const eps = episodesBySource[src.id] || null;
+                  const feat = src.features || {};
+                  const ccLikely = !!feat.hasPlayableTranscript || (!!eps && eps.some((ep) => (ep.transcripts || []).length));
 
-                const rowClass =
-                  "guideGridChanRow" +
-                  (i === focusSourceIdx.value ? " focused" : "") +
-                  (currentSourceId === src.id ? " playing" : "");
-                const chanNo = String(101 + i).padStart(3, "0");
-                return html`
-                  <div class=${rowClass} data-source-id=${src.id}>
-                    <div
-                      class="guideGridChannelCell"
-                      role="button"
-                      tabIndex=${0}
-                      data-navitem="1"
-                      onPointerEnter=${() => {
-                        focusSourceIdx.value = i;
-                      }}
-                      onClick=${() => {
-                        focusSourceIdx.value = i;
-                        if (!episodesBySource[src.id]) player.loadSourceEpisodes(src.id).catch(() => {});
-                      }}
-                      onKeyDown=${(e) => {
-                        if (e.key === "Enter") {
+                  const rowClass =
+                    "guideGridChanRow" +
+                    (i === focusSourceIdx.value ? " focused" : "") +
+                    (currentSourceId === src.id ? " playing" : "");
+                  const chanNo = String(101 + i).padStart(3, "0");
+                  return html`
+                    <div class=${rowClass} data-source-id=${src.id}>
+                      <div
+                        class="guideGridChannelCell"
+                        role="button"
+                        tabIndex=${0}
+                        data-navitem="1"
+                        onPointerEnter=${() => {
+                          if (!shouldAllowHoverFocus()) return;
+                          focusModeRef.current = "hover";
+                          focusSourceIdx.value = i;
+                        }}
+                        onClick=${() => {
+                          focusModeRef.current = "keys";
                           focusSourceIdx.value = i;
                           if (!episodesBySource[src.id]) player.loadSourceEpisodes(src.id).catch(() => {});
-                        }
-                      }}
-                    >
-                      <div class="guideGridChanNo mono">${chanNo}</div>
-                      <div class="guideGridChanMeta">
-                        <div class="guideGridChanName">${src.title || src.id}</div>
-                        <div class="guideGridChanBadges">
-                          ${ccLikely ? html`<span class="guideBadge guideBadge-cc" title="Captions likely available">CC</span>` : ""}
+                        }}
+                        onKeyDown=${(e) => {
+                          if (e.key === "Enter") {
+                            focusModeRef.current = "keys";
+                            focusSourceIdx.value = i;
+                            if (!episodesBySource[src.id]) player.loadSourceEpisodes(src.id).catch(() => {});
+                          }
+                        }}
+                      >
+                        <div class="guideGridChanNo mono">${chanNo}</div>
+                        <div class="guideGridChanMeta">
+                          <div class="guideGridChanName">${src.title || src.id}</div>
+                          <div class="guideGridChanBadges">
+                            ${ccLikely ? html`<span class="guideBadge guideBadge-cc" title="Captions likely available">CC</span>` : ""}
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                `;
-              })}
-              <div
-                class="guideGridSpacer"
-                style=${{ height: `${Math.max(0, (sourcesFlat.length - visibleRange.endRow) * GUIDE_ROW_H_PX)}px` }}
-                aria-hidden="true"
-              ></div>
+                  `;
+                })}
+                <div
+                  class="guideGridSpacer"
+                  style=${{ height: `${Math.max(0, (sourcesFlat.length - visibleRange.endRow) * GUIDE_ROW_H_PX)}px` }}
+                  aria-hidden="true"
+                ></div>
+              </div>
             </div>
 
             <div class="guideGridTracksScroll" ref=${tracksRef} aria-label="Schedule">
@@ -719,10 +767,13 @@ export function GuidePanel({ isOpen, sources, player }) {
                                   data-navitem="1"
                                   aria-label=${`${ep.title || "Episode"}${epHasCc ? " (CC)" : ""}`}
                                   onPointerEnter=${() => {
+                                    if (!shouldAllowHoverFocus()) return;
+                                    focusModeRef.current = "hover";
                                     focusSourceIdx.value = i;
                                     focusTs.value = Number(b.startTs) + 1000;
                                   }}
                                   onClick=${async () => {
+                                    focusModeRef.current = "keys";
                                     await player.selectSource(src.id, { preserveEpisode: false, skipAutoEpisode: true, autoplay: true });
                                     await player.selectEpisode(ep.id, { autoplay: true });
                                     isOpen.value = false;

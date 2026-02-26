@@ -489,8 +489,8 @@ export function createPlayerService({ env, log, history }) {
       for (const f of feeds) {
         const id = String(f?.id || "").trim();
         if (!id) continue;
-        const eps = Array.isArray(f?.episodes) ? f.episodes : null;
-        if (!eps) continue;
+        // Ensure every feed gets a stable entry so the guide doesn't stay stuck on "Loading…".
+        const eps = Array.isArray(f?.episodes) ? f.episodes : [];
         episodesBySource[id] = eps;
         added++;
       }
@@ -527,7 +527,12 @@ export function createPlayerService({ env, log, history }) {
     const existing = episodesBySource[sourceId];
     if (existing && Array.isArray(existing) && existing.some((e) => e?.media?.url)) return existing;
     const src = sources.find((s) => s.id === sourceId);
-    if (!src) return Array.isArray(existing) ? existing : [];
+    if (!src) {
+      const fallback = Array.isArray(existing) ? existing : [];
+      episodesBySource[sourceId] = fallback;
+      sourceEpisodes.value = { ...episodesBySource };
+      return fallback;
+    }
     try {
       const xmlText = await fetchText(src.feed_url, src.fetch_via || "auto", { useCache: true });
       const parsed = parseFeedXml(xmlText, src);
@@ -536,7 +541,11 @@ export function createPlayerService({ env, log, history }) {
       return parsed.episodes;
     } catch {
       trackEvent("feed_fetch_error", { channel_id: sourceId });
-      return Array.isArray(existing) ? existing : [];
+      // Important: set an empty list so the guide doesn't remain stuck in a "Loading…" state.
+      const fallback = Array.isArray(existing) ? existing : [];
+      episodesBySource[sourceId] = fallback;
+      sourceEpisodes.value = { ...episodesBySource };
+      return fallback;
     }
   }
 
@@ -594,6 +603,10 @@ export function createPlayerService({ env, log, history }) {
       if (wanted) await selectEpisode(wanted, { autoplay: autoplay && !userPaused });
     } catch (e) {
       episodes = [];
+      try {
+        episodesBySource[src.id] = [];
+        sourceEpisodes.value = { ...episodesBySource };
+      } catch {}
       log.error(`Feed error: ${String(e?.message || e)} — ${src.feed_url}`);
     }
   }

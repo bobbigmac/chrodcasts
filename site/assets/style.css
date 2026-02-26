@@ -1148,13 +1148,11 @@ video {
 
 .guideGridChannelsScroll {
   width: 240px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--edge) transparent;
+  overflow: hidden;
+  position: relative;
   background: var(--guide-grid-bg, rgba(0,0,0,.12));
 }
+.guideGridChannelsInner { will-change: transform }
 .guideGridChannelsScroll::-webkit-scrollbar { width: 10px }
 .guideGridChannelsScroll::-webkit-scrollbar-track { background: transparent }
 .guideGridChannelsScroll::-webkit-scrollbar-thumb { background: var(--edge); border-radius: 6px }
@@ -1182,6 +1180,7 @@ video {
 .guideGridTimeAxis {
   position: relative;
   height: 46px;
+  will-change: transform;
 }
 .guideGridTick {
   position: absolute;
@@ -1202,11 +1201,8 @@ video {
 
 .guideGridHeaderScroll {
   flex: 1;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--edge) transparent;
+  overflow: hidden;
+  position: relative;
 }
 .guideGridHeaderScroll::-webkit-scrollbar { height: 10px }
 .guideGridHeaderScroll::-webkit-scrollbar-track { background: transparent }
