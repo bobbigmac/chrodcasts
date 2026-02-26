@@ -14,6 +14,11 @@ MEDIA_NS = "http://search.yahoo.com/mrss/"
 
 _VIDEO_EXT_RE = re.compile(r"\.(mp4|m4v|mov|webm)(\?|$)", re.IGNORECASE)
 
+try:  # best-effort: tolerate broken XML from the open web
+    from lxml import etree as LET  # type: ignore
+except Exception:  # pragma: no cover
+    LET = None
+
 
 @dataclass(frozen=True)
 class FeedFeatures:
@@ -33,13 +38,13 @@ def _ns(tag: str) -> str:
     return ""
 
 
-def _text(el: ET.Element | None) -> str:
+def _text(el: Any | None) -> str:
     if el is None:
         return ""
     return (el.text or "").strip()
 
 
-def _attr(el: ET.Element | None, key: str) -> str:
+def _attr(el: Any | None, key: str) -> str:
     if el is None:
         return ""
     return str(el.attrib.get(key) or "").strip()
@@ -202,7 +207,11 @@ def parse_feed_for_manifest(xml_text: str, *, source_id: str, source_title: str)
         return FeedFeatures(False, False, False, False), (source_title or source_id), []
 
     try:
-        root = ET.fromstring(xml)
+        if LET is not None:
+            parser = LET.XMLParser(recover=True, resolve_entities=False, no_network=True, huge_tree=True)
+            root = LET.fromstring(xml.encode("utf-8", errors="ignore"), parser=parser)
+        else:
+            root = ET.fromstring(xml)
     except Exception:
         return FeedFeatures(False, False, False, False), (source_title or source_id), []
 
@@ -295,8 +304,12 @@ def parse_feed_for_manifest(xml_text: str, *, source_id: str, source_title: str)
 
         # Enclosures
         enclosures: list[dict[str, Any]] = []
+        # Some feeds (especially MRSS) nest enclosure-like elements inside groups; scan descendants.
+        it = item.iter() if hasattr(item, "iter") else list(item)
         if is_atom:
-            for l in [c for c in list(item) if _local(c.tag).lower() == "link"]:
+            for l in it:
+                if _local(l.tag).lower() != "link":
+                    continue
                 rel = _attr(l, "rel").lower()
                 if rel and rel != "enclosure":
                     continue
@@ -304,10 +317,18 @@ def parse_feed_for_manifest(xml_text: str, *, source_id: str, source_title: str)
                 if href:
                     enclosures.append({"url": href, "type": _attr(l, "type"), "length": _attr(l, "length")})
         else:
-            for e in [c for c in list(item) if _local(c.tag).lower() == "enclosure"]:
+            for e in it:
+                if _local(e.tag).lower() != "enclosure":
+                    continue
                 enclosures.append({"url": _attr(e, "url"), "type": _attr(e, "type"), "length": _attr(e, "length")})
 
-        for m in [c for c in list(item) if _local(c.tag).lower() == "content" and (_ns(c.tag) == MEDIA_NS or "mrss" in c.tag.lower() or "media" in c.tag.lower())]:
+        it2 = item.iter() if hasattr(item, "iter") else list(item)
+        for m in it2:
+            if _local(m.tag).lower() != "content":
+                continue
+            tag0 = str(m.tag).lower()
+            if not (_ns(m.tag) == MEDIA_NS or "mrss" in tag0 or "media" in tag0):
+                continue
             enclosures.append({"url": _attr(m, "url"), "type": _attr(m, "type"), "length": _attr(m, "fileSize") or _attr(m, "length")})
 
         media = _pick_best_enclosure(enclosures)

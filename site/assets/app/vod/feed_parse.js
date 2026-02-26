@@ -1,5 +1,11 @@
+const INVISIBLE_RE = /[\u0000-\u001f\u007f-\u009f\u200b\u200e\u200f\u202a-\u202e\u2066-\u2069\ufeff]/g;
+
 function normalizeWhitespace(s) {
-  return String(s ?? "").replace(/\\s+\\n/g, "\\n").replace(/\\n{3,}/g, "\\n\\n").trim();
+  return String(s ?? "")
+    .replace(INVISIBLE_RE, "")
+    .replace(/\\s+\\n/g, "\\n")
+    .replace(/\\n{3,}/g, "\\n\\n")
+    .trim();
 }
 
 export function sanitizeHtml(html) {

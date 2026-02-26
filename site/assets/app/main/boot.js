@@ -6,12 +6,14 @@ import { createHistoryStore } from "../state/history.js";
 import { createPlayerService } from "../player/player.js";
 import { App } from "./app.js";
 import { getRouteFromUrl } from "./route.js";
+import { trackPageView } from "../runtime/analytics.js";
 
 export async function bootApp() {
   const env = getEnv();
   const log = createLogger();
   const sources = signal([]);
   const initialRoute = getRouteFromUrl();
+  trackPageView(window.location.pathname);
 
   const history = createHistoryStore({ storageKey: "vodcasts_history_v1" });
   const player = createPlayerService({ env, log, history });

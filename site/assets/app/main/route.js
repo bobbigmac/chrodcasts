@@ -67,6 +67,11 @@ export function getRouteFromUrl() {
   };
 }
 
+function shouldTrackPageView({ feed, ep } = {}) {
+  // Avoid double counting (feed-only then episode) since we also emit explicit select events.
+  return !!(feed && ep);
+}
+
 export function setRouteInUrl({ feed, ep } = {}, { replace = true } = {}) {
   const u = new URL(window.location.href);
   const bp = basePath();
@@ -83,6 +88,13 @@ export function setRouteInUrl({ feed, ep } = {}, { replace = true } = {}) {
     if (replace) history.replaceState({}, "", next);
     else history.pushState({}, "", next);
   } catch {}
+
+  if (shouldTrackPageView({ feed, ep })) {
+    try {
+      // Lazy import to keep the router side-effect free when analytics is disabled.
+      import("../runtime/analytics.js").then((m) => m.trackPageView(next)).catch(() => {});
+    } catch {}
+  }
 }
 
 export function buildShareUrl({ feed, ep, t } = {}) {

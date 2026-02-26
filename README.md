@@ -29,6 +29,13 @@ Run these from inside the `vodcasts/` folder:
 - `yarn build` — build static site into `dist/`
 - `yarn dev` — dev server on port `8000` (small feed set)
 
+## Analytics (optional)
+
+GA4 can be enabled by setting a measurement id:
+
+- In a feeds `.md` under `# Site`: `- ga_measurement_id: G-XXXX`
+- Or via env var: `VOD_GA_MEASUREMENT_ID=G-XXXX`
+
 ## Deployments
 
 Each deployment is just a different feeds file (and optionally a different cache dir):

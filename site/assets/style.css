@@ -1132,7 +1132,7 @@ video {
   flex: 1;
   min-height: 0;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--edge) transparent;
   background: var(--guide-grid-bg, rgba(0,0,0,.12));
@@ -1150,7 +1150,7 @@ video {
   width: 240px;
   overflow-y: auto;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--edge) transparent;
   background: var(--guide-grid-bg, rgba(0,0,0,.12));
@@ -1204,7 +1204,7 @@ video {
   flex: 1;
   overflow-x: auto;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--edge) transparent;
 }

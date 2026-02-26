@@ -2,6 +2,7 @@ import { computed, effect, signal } from "../runtime/vendor.js";
 import { fetchCached } from "../vod/feed_cache.js";
 import { parseFeedXml } from "../vod/feed_parse.js";
 import { loadChaptersForEpisode } from "../ui/chapters.js";
+import { trackEvent } from "../runtime/analytics.js";
 
 export function createPlayerService({ env, log, history }) {
   const STORAGE_KEY = "vodcasts_state_v1";
@@ -534,6 +535,7 @@ export function createPlayerService({ env, log, history }) {
       sourceEpisodes.value = { ...episodesBySource };
       return parsed.episodes;
     } catch {
+      trackEvent("feed_fetch_error", { channel_id: sourceId });
       return Array.isArray(existing) ? existing : [];
     }
   }
@@ -571,6 +573,7 @@ export function createPlayerService({ env, log, history }) {
 
       const playable = episodes.filter((e) => e.media?.url);
       log.info(`${src.title || src.id}: ${playable.length} media (of ${episodes.length})`);
+      trackEvent("select_channel", { channel_id: src.id, channel_title: src.title || src.id, playable_count: playable.length });
 
       let wanted = null;
       if (!skipAutoEpisode) {
@@ -641,6 +644,13 @@ export function createPlayerService({ env, log, history }) {
     loading.value = true;
     currentEp = ep;
     current.value = { source: currentSource, episode: currentEp };
+    trackEvent("select_episode", {
+      channel_id: currentSource.id,
+      channel_title: currentSource.title || currentSource.id,
+      episode_slug: ep.slug || "",
+      has_captions: (ep.transcripts || []).length > 0,
+      has_chapters: !!(ep.chaptersInline && ep.chaptersInline.length) || !!ep.chaptersExternal,
+    });
 
     const startAt = overrideStartAt ?? getProgressSec(currentSource.id, ep.id) ?? 0;
     history.startSegment({

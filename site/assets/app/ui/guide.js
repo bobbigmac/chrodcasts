@@ -114,11 +114,14 @@ export function GuidePanel({ isOpen, sources, player }) {
   const loadingIdsRef = useRef(new Set());
 
   const DEFAULT_EP_SEC = 30 * 60;
-  const MAX_EP_SEC = 6 * 3600;
+  const MIN_EP_SEC = 5 * 60;
+  const MAX_EP_SEC = 9 * 3600;
 
   const estimateDurSec = (sourceId, ep) => {
     const ds = Number(ep?.durationSec);
-    if (Number.isFinite(ds) && ds > 0) return Math.min(MAX_EP_SEC, ds);
+    // Some feeds publish bogus tiny durations (e.g. 5s), which makes the guide try to
+    // render thousands of blocks and the UI gets janky. Clamp to a sane minimum.
+    if (Number.isFinite(ds) && ds > 0) return clamp(ds, MIN_EP_SEC, MAX_EP_SEC);
     // We intentionally do NOT use learned durations here to avoid twitchy relayout.
     return DEFAULT_EP_SEC;
   };
@@ -169,7 +172,8 @@ export function GuidePanel({ isOpen, sources, player }) {
     let idx = first.idx;
     let curTs = first.startTs;
     let guard = 0;
-    while (curTs < endTs && guard < 2000) {
+    // Safety: avoid pathological rows generating massive DOM.
+    while (curTs < endTs && guard < 800) {
       const ep = schedule.playable[idx];
       const durSec = schedule.dursSec[idx];
       const nextTs = curTs + durSec * 1000;

@@ -4,6 +4,7 @@
 - subtitle: Static vodcast browser
 - description: Video podcast channels + TV-style guide. Built from RSS/Atom feeds.
 - base_path: /
+- ga_measurement_id: G-RHXR1K9NDR
 
 # Defaults
 - min_hours_between_checks: 2

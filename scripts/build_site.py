@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 import time
@@ -30,7 +31,20 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument("--cache", default=str(VODCASTS_ROOT / "cache" / "dev"), help="Cache directory.")
     p.add_argument("--out", default=str(VODCASTS_ROOT / "dist"), help="Output directory.")
     p.add_argument("--base-path", default="/", help="Base path the site is hosted under (e.g. /vodcasts/).")
-    p.add_argument("--fetch-missing-feeds", action="store_true", help="Fetch feeds missing from cache_dir/feeds/ during build.")
+    g = p.add_mutually_exclusive_group()
+    g.add_argument(
+        "--fetch-missing-feeds",
+        dest="fetch_missing_feeds",
+        action="store_true",
+        help="Fetch feeds missing from cache_dir/feeds/ during build (default).",
+    )
+    g.add_argument(
+        "--no-fetch-missing-feeds",
+        dest="fetch_missing_feeds",
+        action="store_false",
+        help="Do not fetch missing feeds during build (may leave feeds empty in the guide due to CORS).",
+    )
+    p.set_defaults(fetch_missing_feeds=True)
     p.add_argument(
         "--enrich-media",
         action="store_true",
@@ -124,6 +138,18 @@ def _read_defaults_from_feeds_md(feeds_path: Path) -> dict[str, Any]:
         return d if isinstance(d, dict) else {}
     except Exception:
         return {}
+
+def _read_ga_measurement_id_from_feeds_md(feeds_path: Path) -> str:
+    if feeds_path.suffix.lower() != ".md":
+        return ""
+    try:
+        cfg = read_feeds_config(feeds_path)
+        site = cfg.get("site") if isinstance(cfg.get("site"), dict) else {}
+        defaults = cfg.get("defaults") if isinstance(cfg.get("defaults"), dict) else {}
+        v = site.get("ga_measurement_id") or defaults.get("ga_measurement_id") or ""
+        return str(v or "").strip()
+    except Exception:
+        return ""
 
 
 def _maybe_fetch_missing_feed(
@@ -226,12 +252,27 @@ def main() -> None:
     timeout_seconds = int(defaults.get("request_timeout_seconds") or 25)
     user_agent = str(defaults.get("user_agent") or "actual-plays/vodcasts")
     enrich_items_per_feed = max(0, int(args.enrich_items_per_feed or 0))
+    ga_measurement_id = (os.getenv("VOD_GA_MEASUREMENT_ID", "") or "").strip() or _read_ga_measurement_id_from_feeds_md(feeds_path)
+    if ga_measurement_id and not re.fullmatch(r"G-[A-Z0-9]+", ga_measurement_id, flags=re.IGNORECASE):
+        _log("warning: VOD_GA_MEASUREMENT_ID does not look like a GA4 measurement id (expected G-XXXX)")
 
     _log("load config…")
     cfg = load_sources_config(feeds_path)
     _log(f"  {len(cfg.sources)} sources ({time.perf_counter() - t0:.1f}s)")
 
-    if args.fetch_missing_feeds:
+    # Cache coverage diagnostics.
+    wanted_ids = [s.id for s in cfg.sources]
+    cache_feeds_dir = cache_dir / "feeds"
+    cached_ids = {p.stem for p in cache_feeds_dir.glob("*.xml")} if cache_feeds_dir.exists() else set()
+    missing_ids = [sid for sid in wanted_ids if sid not in cached_ids]
+    extra_ids = sorted([sid for sid in cached_ids if sid not in set(wanted_ids)])
+    if missing_ids:
+        _log(f"warning: cache missing {len(missing_ids)}/{len(wanted_ids)} feeds ({cache_feeds_dir})")
+        _log(f"  e.g. {', '.join(missing_ids[:6])}{'…' if len(missing_ids) > 6 else ''}")
+    if extra_ids:
+        _log(f"note: cache has {len(extra_ids)} extra feeds not in config (likely old slugs)")
+
+    if args.fetch_missing_feeds and missing_ids:
         _log("fetch missing feeds (cache warm)…")
         t = time.perf_counter()
         had = 0
@@ -244,6 +285,13 @@ def main() -> None:
             if _maybe_fetch_missing_feed(s, cache_dir=cache_dir, timeout_seconds=timeout_seconds, user_agent=user_agent):
                 fetched += 1
         _log(f"  had {had}, fetched {fetched} ({time.perf_counter() - t:.1f}s)")
+        cached_ids = {p.stem for p in cache_feeds_dir.glob("*.xml")} if cache_feeds_dir.exists() else set()
+        still_missing = [sid for sid in wanted_ids if sid not in cached_ids]
+        if still_missing:
+            _log(f"warning: still missing {len(still_missing)}/{len(wanted_ids)} feeds after fetch")
+            _log(f"  e.g. {', '.join(still_missing[:6])}{'…' if len(still_missing) > 6 else ''}")
+    elif (not args.fetch_missing_feeds) and missing_ids:
+        _log("hint: pass --fetch-missing-feeds (or run scripts.update_feeds) to avoid empty channels in the guide")
 
     supabase_url = os.getenv("VOD_SUPABASE_URL", "").strip()
     supabase_anon_key = os.getenv("VOD_SUPABASE_ANON_KEY", "").strip()
@@ -285,6 +333,10 @@ def main() -> None:
             "supabaseUrl": supabase_url,
             "supabaseAnonKey": supabase_anon_key,
             "hcaptchaSitekey": hcaptcha_sitekey,
+        },
+        "analytics": {
+            "provider": "ga4" if ga_measurement_id else "",
+            "measurementId": ga_measurement_id,
         },
     }
     write_json(out_dir / "site.json", site_json)

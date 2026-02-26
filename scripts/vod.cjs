@@ -104,7 +104,8 @@ switch (cmd) {
         cwd: ROOT,
       });
       const basePath = process.env.VOD_BASE_PATH || "/";
-      const extraBuildArgs = rest.includes("--fetch-missing-feeds") ? [] : ["--fetch-missing-feeds"];
+      const hasFetchMissingFlag = rest.includes("--fetch-missing-feeds") || rest.includes("--no-fetch-missing-feeds");
+      const extraBuildArgs = hasFetchMissingFlag ? [] : ["--fetch-missing-feeds"];
       const r = spawnSync(
         PY,
         [

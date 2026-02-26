@@ -19,6 +19,7 @@ import { ExitFullscreenIcon, FullscreenIcon, MoonIcon, MuteIcon, PauseIcon, Play
 import { useLongPress } from "../ui/long_press.js";
 import { installControls } from "./controls.js";
 import { setRouteInUrl } from "./route.js";
+import { trackEvent } from "../runtime/analytics.js";
 
 function chapterIndexAt(chapters, tSec) {
   const t = Number(tSec) || 0;
@@ -46,6 +47,7 @@ export function App({ env, log, sources, player, history }) {
   const panelTakeover = usePanelTakeover({ defaultIdleMs: 5000 });
   const scrubPreview = useSignal({ show: false, label: "", pct: 50, t: 0 });
   const theme = useSignal("modern");
+  const guideWasOpenRef = useRef(false);
 
   const videoRef = useRef(null);
   const playerFrameRef = useRef(null);
@@ -134,6 +136,14 @@ export function App({ env, log, sources, player, history }) {
     const cleanup = installControls();
     return () => cleanup?.();
   }, []);
+
+  // Analytics: guide opens.
+  useSignalEffect(() => {
+    const nowOpen = !!guideOpen.value;
+    const wasOpen = !!guideWasOpenRef.current;
+    if (nowOpen && !wasOpen) trackEvent("open_guide");
+    guideWasOpenRef.current = nowOpen;
+  });
 
   // Global UI idle: while playing, hide chrome (except mute + thin progress bar) after a short delay.
   useEffect(() => {

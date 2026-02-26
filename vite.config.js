@@ -153,7 +153,19 @@ function devBuilderPlugin() {
       }
       await run(
         py,
-        ["-m", "scripts.build_site", "--feeds", feedsConfig, "--cache", cacheDir, "--base-path", "/", "--out", distRoot],
+        [
+          "-m",
+          "scripts.build_site",
+          "--feeds",
+          feedsConfig,
+          "--cache",
+          cacheDir,
+          "--base-path",
+          "/",
+          "--out",
+          distRoot,
+          "--fetch-missing-feeds",
+        ],
         { cwd: projectRoot }
       );
       sendFullReload();
@@ -180,7 +192,9 @@ function devBuilderPlugin() {
       ];
       server.watcher.add(watch);
 
-      buildSite({ alsoUpdateFeeds: false }).catch((e) => server.config.logger.error(String(e?.message || e)));
+      // Build once on startup, and update the feed cache so the guide isn't empty
+      // when the local cache doesn't match the active feeds config.
+      buildSite({ alsoUpdateFeeds: true }).catch((e) => server.config.logger.error(String(e?.message || e)));
 
       server.watcher.on("all", async (event, file) => {
         if (!file) return;
