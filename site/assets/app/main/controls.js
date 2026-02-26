@@ -69,6 +69,13 @@ function isTypingInComments() {
   return !!el.closest?.(".commentsPanel, .commentsForm");
 }
 
+function isTypingInEditable(e) {
+  const t = e?.target;
+  if (t && isEditableEl(t)) return true;
+  const a = document.activeElement;
+  return !!(a && isEditableEl(a));
+}
+
 function isVisible(el) {
   if (!el) return false;
   if (el.disabled) return false;
@@ -483,8 +490,11 @@ export function installControls() {
   const onKeyDown = (e) => {
     const k = normalizeKey(e);
 
+    const typingEditable = isTypingInEditable(e);
+
     // Alt-held "legend" overlay.
     if (e.key === "Alt") {
+      if (typingEditable) return;
       if (!altHeld) {
         altHeld = true;
         hintMode = "alt";
@@ -495,7 +505,6 @@ export function installControls() {
     }
 
     const typingComments = isTypingInComments();
-    if (typingComments && !isMediaKey(e) && e.key !== "Escape") return;
 
     if (e.key === "Escape" && document.fullscreenElement) {
       try {
@@ -505,6 +514,8 @@ export function installControls() {
       // Don't stop propagation: the app also uses Escape to close panels.
       return;
     }
+
+    if ((typingComments || typingEditable) && !isMediaKey(e) && e.key !== "Escape") return;
 
     // Common TV/remote keys we might see (Roku/WebView/SmartTV variants).
     // Prefer semantics over UI visibility; app may be faded/backgrounded.
