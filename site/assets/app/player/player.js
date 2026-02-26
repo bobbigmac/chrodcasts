@@ -21,6 +21,7 @@ export function createPlayerService({ env, log, history }) {
   let userPaused = false;
   let didInitLoad = false;
   let pendingInitSourceId = null;
+  let pendingInitRoute = null;
 
   let sleepEndAt = null;
   let sleepTickId = null;
@@ -232,7 +233,14 @@ export function createPlayerService({ env, log, history }) {
 
   async function selectSource(
     sourceId,
-    { preserveEpisode = true, pickRandomEpisode = false, skipAutoEpisode = false, autoplay = true } = {}
+    {
+      preserveEpisode = true,
+      pickRandomEpisode = false,
+      skipAutoEpisode = false,
+      autoplay = true,
+      ignoreLastBySource = false,
+      preferEpisodeId = null,
+    } = {}
   ) {
     const src = sources.find((s) => s.id === sourceId) || sources[0];
     if (!src) return;
@@ -253,8 +261,12 @@ export function createPlayerService({ env, log, history }) {
 
       let wanted = null;
       if (!skipAutoEpisode) {
-        if (pickRandomEpisode && playable.length) {
+        if (preferEpisodeId && playable.some((e) => e.id === preferEpisodeId)) {
+          wanted = preferEpisodeId;
+        } else if (pickRandomEpisode && playable.length) {
           wanted = playable[Math.floor(Math.random() * playable.length)].id;
+        } else if (ignoreLastBySource) {
+          wanted = playable[0]?.id || null;
         } else {
           const lastId =
             persisted.lastBySource?.[src.id] || (preserveEpisode && persisted.last?.sourceId === src.id ? persisted.last?.episodeId : null);
@@ -268,6 +280,40 @@ export function createPlayerService({ env, log, history }) {
       episodes = [];
       log.error(`Feed error: ${String(e?.message || e)} — ${src.feed_url}`);
     }
+  }
+
+  function resolveEpisodeIdBySlugOrId(epSlugOrId) {
+    const q = String(epSlugOrId || "").trim();
+    if (!q) return null;
+    const bySlug = episodes.find((e) => String(e.slug || "").toLowerCase() === q.toLowerCase());
+    if (bySlug?.id) return bySlug.id;
+    const byId = episodes.find((e) => e.id === q);
+    return byId?.id || null;
+  }
+
+  function firstPlayableEpisodeId() {
+    const playable = episodes.filter((e) => e.media?.url);
+    return playable[0]?.id || null;
+  }
+
+  async function applyRoute(route, { autoplay = true } = {}) {
+    const feed = route?.feed ? String(route.feed) : "";
+    const ep = route?.ep ? String(route.ep) : "";
+    const t = Number(route?.t);
+    if (!feed) return false;
+    if (!sources.some((s) => s.id === feed)) return false;
+
+    if (ep) {
+      await selectSource(feed, { preserveEpisode: false, skipAutoEpisode: true, autoplay, ignoreLastBySource: true });
+      const episodeId = resolveEpisodeIdBySlugOrId(ep) || firstPlayableEpisodeId();
+      if (!episodeId) return true;
+      await selectEpisode(episodeId, { autoplay, startAt: Number.isFinite(t) ? Math.max(0, t) : undefined });
+      return true;
+    }
+
+    // Feed-only routes should not depend on local "last watched" state.
+    await selectSource(feed, { preserveEpisode: false, skipAutoEpisode: false, autoplay, ignoreLastBySource: true });
+    return true;
   }
 
   async function selectEpisode(episodeId, { autoplay = true, startAt: overrideStartAt } = {}) {
@@ -731,20 +777,27 @@ export function createPlayerService({ env, log, history }) {
     return preloadPromise || Promise.resolve();
   }
 
-  async function setSources(nextSources) {
+  async function setSources(nextSources, { initialRoute } = {}) {
     sources = Array.isArray(nextSources) ? nextSources : [];
     if (didInitLoad || !sources.length) return;
-    const wantedSourceId = persisted.last?.sourceId || sources[0]?.id;
+    const routeSourceId =
+      initialRoute?.feed && typeof initialRoute.feed === "string" && sources.some((s) => s.id === initialRoute.feed) ? initialRoute.feed : null;
+    const wantedSourceId = routeSourceId || persisted.last?.sourceId || sources[0]?.id;
     if (!wantedSourceId) return;
     if (!videoEl) {
       pendingInitSourceId = wantedSourceId;
+      pendingInitRoute = routeSourceId ? initialRoute : null;
       ensurePreload();
       return;
     }
     didInitLoad = true;
     try {
       await ensurePreload();
-      await selectSource(wantedSourceId, { preserveEpisode: true });
+      if (routeSourceId) {
+        await applyRoute(initialRoute, { autoplay: true });
+      } else {
+        await selectSource(wantedSourceId, { preserveEpisode: true });
+      }
     } catch (e) {
       log.error(String(e?.message || e || "init load failed"));
     }
@@ -856,9 +909,11 @@ export function createPlayerService({ env, log, history }) {
     if (!didInitLoad && pendingInitSourceId) {
       const sourceId = pendingInitSourceId;
       pendingInitSourceId = null;
+      const route = pendingInitRoute;
+      pendingInitRoute = null;
       didInitLoad = true;
       ensurePreload()
-        .then(() => selectSource(sourceId, { preserveEpisode: true }))
+        .then(() => (route && route.feed === sourceId ? applyRoute(route, { autoplay: true }) : selectSource(sourceId, { preserveEpisode: true })))
         .catch((e) => {
           log.error(String(e?.message || e || "init load failed"));
         });
@@ -902,6 +957,7 @@ export function createPlayerService({ env, log, history }) {
     selectSource,
     selectEpisode,
     selectSourceAndEpisode,
+    applyRoute,
     play,
     pause,
     togglePlay,

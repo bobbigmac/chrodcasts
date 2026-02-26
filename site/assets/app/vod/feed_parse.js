@@ -54,6 +54,45 @@ function parseTimeToSeconds(v) {
   return Math.max(0, a * 3600 + b * 60 + c);
 }
 
+function stripDiacritics(s) {
+  const t = String(s || "");
+  try {
+    return t.normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
+  } catch {
+    return t;
+  }
+}
+
+function slugifySafe(s) {
+  return stripDiacritics(String(s || "").toLowerCase())
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
+}
+
+function fnv1a32(str) {
+  let h = 0x811c9dc5;
+  const s = String(str || "");
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
+function shortHash(str, len = 6) {
+  const h = fnv1a32(str);
+  const out = h.toString(36);
+  return out.slice(0, Math.max(4, Math.min(10, len)));
+}
+
+function makeEpisodeSlug({ title, dateText, id }) {
+  const baseTitle = slugifySafe(title);
+  const base = (dateText ? `${dateText}-${baseTitle}` : baseTitle) || "episode";
+  const h = shortHash(id || title || base, 6);
+  return `${base.slice(0, 72)}-${h}`;
+}
+
 function pickBestEnclosure(cands) {
   const norm = cands
     .map((c) => ({
@@ -161,9 +200,11 @@ export function parseFeedXml(xmlText, source) {
 
     idx += 1;
     const id = (guid || media?.url || link || `${title}#${idx}`).slice(0, 240);
+    const slug = makeEpisodeSlug({ title, dateText: date && !Number.isNaN(date.valueOf()) ? date.toISOString().slice(0, 10) : "", id });
 
     parsed.push({
       id,
+      slug,
       title,
       link,
       date,
@@ -181,4 +222,3 @@ export function parseFeedXml(xmlText, source) {
 
   return { channelTitle, episodes: parsed };
 }
-

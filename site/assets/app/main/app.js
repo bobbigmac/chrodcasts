@@ -7,14 +7,34 @@ import { SubtitleBox } from "../ui/subtitle_box.js";
 import { usePanelTakeover } from "../ui/takeover/panel_takeover.js";
 import { CaptionsTakeover } from "../ui/takeover/captions_takeover.js";
 import { ThemeTakeover } from "../ui/takeover/theme_takeover.js";
-import { SleepTakeover } from "../ui/takeover/sleep_takeover.js";
+import { SleepSettingsTakeover, SleepTakeover } from "../ui/takeover/sleep_takeover.js";
 import { RandomTakeover } from "../ui/takeover/random_takeover.js";
 import { SkipTakeover } from "../ui/takeover/skip_takeover.js";
 import { SpeedTakeover } from "../ui/takeover/speed_takeover.js";
 import { AudioTakeover } from "../ui/takeover/audio_takeover.js";
-import { ExitFullscreenIcon, FullscreenIcon, MoonIcon, MuteIcon, PauseIcon, PlayIcon } from "../ui/icons.js";
+import { ChaptersNavSettingsTakeover, ChaptersNavTakeover } from "../ui/takeover/chapters_nav_takeover.js";
+import { ShareTakeover } from "../ui/takeover/share_takeover.js";
+import { ExitFullscreenIcon, FullscreenIcon, MoonIcon, MuteIcon, PauseIcon, PlayIcon, ShareIcon } from "../ui/icons.js";
 import { useLongPress } from "../ui/long_press.js";
 import { installControls } from "./controls.js";
+import { setRouteInUrl } from "./route.js";
+
+function chapterIndexAt(chapters, tSec) {
+  const t = Number(tSec) || 0;
+  let idx = -1;
+  for (let i = 0; i < (chapters || []).length; i++) {
+    const ct = Number(chapters[i]?.t) || 0;
+    if (ct <= t) idx = i;
+    else break;
+  }
+  return idx;
+}
+
+function chapterNameAt(chapters, tSec) {
+  const idx = chapterIndexAt(chapters, tSec);
+  const ch = idx >= 0 ? chapters[idx] : null;
+  return ch?.name ? String(ch.name) : "";
+}
 
 export function App({ env, log, sources, player, history }) {
   const guideOpen = useSignal(false);
@@ -23,7 +43,7 @@ export function App({ env, log, sources, player, history }) {
   const isFullscreen = useSignal(false);
   const toast = useSignal({ show: false, msg: "", level: "info", ms: 2200 });
   const panelTakeover = usePanelTakeover({ defaultIdleMs: 5000 });
-  const scrubPreview = useSignal({ show: false, label: "", pct: 50 });
+  const scrubPreview = useSignal({ show: false, label: "", pct: 50, t: 0 });
   const theme = useSignal("modern");
 
   const videoRef = useRef(null);
@@ -34,11 +54,137 @@ export function App({ env, log, sources, player, history }) {
   const seekFxLeftRef = useRef(null);
   const seekFxRightRef = useRef(null);
   const seekFxHideRef = useRef(null);
+  const uiIdleToRef = useRef(null);
+  const uiIdleRef = useRef(false);
+  const appRootRef = useRef(null);
+  const uiIdleDepsRef = useRef({
+    paused: null,
+    ended: null,
+    loading: null,
+    guideOpen: null,
+    detailsOpen: null,
+    historyOpen: null,
+  });
+
+  const UI_IDLE_MS = 3200;
+  const setUiIdle = (next) => {
+    const appEl = appRootRef.current || document.getElementById("app");
+    if (!appEl) return;
+    if (uiIdleRef.current === next) return;
+    uiIdleRef.current = next;
+    appEl.classList.toggle("uiIdle", next);
+    if (next) {
+      // Blur focus so we don't hide a focused control (keyboard / remote UX).
+      const a = document.activeElement;
+      if (a && a !== document.body) {
+        try {
+          if (appEl.contains(a) && typeof a.blur === "function") a.blur();
+        } catch {}
+      }
+      // Ensure the progress hover state can't get "stuck" on touch browsers.
+      try {
+        const el = progressRef.current;
+        if (el) {
+          el.style.removeProperty("--scrubber-x");
+          el.style.removeProperty("--scrub-pct");
+        }
+      } catch {}
+      scrubPreview.value = { ...scrubPreview.value, show: false };
+      panelTakeover.close();
+    }
+  };
+
+  const canUiIdleNow = () => {
+    const pb = player.playback.value;
+    const loading = !!player.loading.value;
+    const playing = !loading && !pb.paused && !pb.ended;
+    if (!playing) return false;
+    if (guideOpen.value || detailsOpen.value || historyOpen.value) return false;
+    if (progressRef.current?.classList?.contains("scrubbing")) return false;
+    return true;
+  };
+
+  const clearUiIdleTimer = () => {
+    if (uiIdleToRef.current) {
+      clearTimeout(uiIdleToRef.current);
+      uiIdleToRef.current = null;
+    }
+  };
+
+  const scheduleUiIdle = () => {
+    clearUiIdleTimer();
+    if (!canUiIdleNow()) {
+      setUiIdle(false);
+      return;
+    }
+    setUiIdle(false);
+    uiIdleToRef.current = setTimeout(() => {
+      uiIdleToRef.current = null;
+      if (canUiIdleNow()) setUiIdle(true);
+    }, UI_IDLE_MS);
+  };
+
+  const wakeUi = () => {
+    setUiIdle(false);
+    scheduleUiIdle();
+  };
 
   useEffect(() => {
     const cleanup = installControls();
     return () => cleanup?.();
   }, []);
+
+  // Global UI idle: while playing, hide chrome (except mute + thin progress bar) after a short delay.
+  useEffect(() => {
+    appRootRef.current = document.getElementById("app");
+
+    const onActivity = () => wakeUi();
+    const evs = [
+      "mousemove",
+      "mousedown",
+      "mouseup",
+      "keydown",
+      "touchstart",
+      "touchmove",
+      "touchend",
+      "touchcancel",
+      "pointerdown",
+      "pointermove",
+      "pointerup",
+      "pointercancel",
+      "wheel",
+    ];
+    evs.forEach((ev) => document.addEventListener(ev, onActivity, { passive: true }));
+    scheduleUiIdle();
+    return () => {
+      clearUiIdleTimer();
+      evs.forEach((ev) => document.removeEventListener(ev, onActivity));
+    };
+  }, []);
+
+  // Reschedule when playback / overlays change (e.g. ended, buffering, panels opening).
+  useSignalEffect(() => {
+    const pb = player.playback.value;
+    const next = {
+      paused: !!pb.paused,
+      ended: !!pb.ended,
+      loading: !!player.loading.value,
+      guideOpen: !!guideOpen.value,
+      detailsOpen: !!detailsOpen.value,
+      historyOpen: !!historyOpen.value,
+    };
+    const prev = uiIdleDepsRef.current;
+    const changed =
+      next.paused !== prev.paused ||
+      next.ended !== prev.ended ||
+      next.loading !== prev.loading ||
+      next.guideOpen !== prev.guideOpen ||
+      next.detailsOpen !== prev.detailsOpen ||
+      next.historyOpen !== prev.historyOpen;
+    if (!changed) return;
+    uiIdleDepsRef.current = next;
+    scheduleUiIdle();
+  });
 
   useEffect(() => {
     const onFs = () => {
@@ -52,39 +198,119 @@ export function App({ env, log, sources, player, history }) {
   useEffect(() => {
     const el = progressRef.current;
     if (!el) return;
-    const updatePos = (clientX) => {
+    let scrubbing = false;
+    let pointerId = null;
+    let rafId = null;
+    let lastPct = null;
+    let lastFromScrub = false;
+    let hideTo = null;
+
+    const pctFromClientX = (clientX) => {
       const r = el.getBoundingClientRect();
-      const pct = Math.min(100, Math.max(0, ((clientX - r.left) / r.width) * 100));
+      const w = Math.max(1, r.width || 1);
+      return Math.min(100, Math.max(0, ((clientX - r.left) / w) * 100));
+    };
+
+    const setPreview = (pct, { fromScrub = false } = {}) => {
       el.style.setProperty("--scrubber-x", `${pct}%`);
       const dur = durationRef.current;
       if (Number.isFinite(dur) && dur > 0) {
         const t = (dur * pct) / 100;
-        scrubPreview.value = { show: true, label: player.fmtTime(t), pct };
+        scrubPreview.value = { show: true, label: player.fmtTime(t), pct, t };
       } else {
-        scrubPreview.value = { show: false, label: "", pct };
+        scrubPreview.value = { show: false, label: "", pct, t: 0 };
       }
+      if (fromScrub) el.style.setProperty("--scrub-pct", `${pct}%`);
+      else el.style.removeProperty("--scrub-pct");
     };
-    const onMove = (e) => {
-      const x = e.touches ? e.touches[0]?.clientX : e.clientX;
-      if (x != null) updatePos(x);
-    };
-    const onLeave = () => {
+
+    const hidePreview = () => {
       scrubPreview.value = { ...scrubPreview.value, show: false };
       el.style.removeProperty("--scrubber-x");
+      el.style.removeProperty("--scrub-pct");
     };
-    el.addEventListener("mousemove", onMove, { passive: true });
-    el.addEventListener("mouseleave", onLeave);
-    el.addEventListener("mousedown", onMove, { passive: true });
-    el.addEventListener("touchstart", onMove, { passive: true });
-    el.addEventListener("touchmove", onMove, { passive: true });
-    el.addEventListener("touchend", onLeave);
+
+    const schedule = (pct, { fromScrub = false } = {}) => {
+      lastPct = pct;
+      lastFromScrub = fromScrub;
+      if (rafId) return;
+      rafId = requestAnimationFrame(() => {
+        rafId = null;
+        const p = Number(lastPct);
+        if (!Number.isFinite(p)) return;
+        setPreview(p, { fromScrub: lastFromScrub });
+        if (lastFromScrub) player.seekToPct(p / 100);
+      });
+    };
+
+    const onPointerDown = (e) => {
+      if (e.button != null && e.button !== 0) return;
+      scrubbing = true;
+      pointerId = e.pointerId;
+      el.classList.add("scrubbing");
+      el.dataset.scrub = e.pointerType === "touch" || e.pointerType === "pen" ? "touch" : "mouse";
+      try {
+        el.setPointerCapture(pointerId);
+      } catch {}
+      if (hideTo) clearTimeout(hideTo);
+      hideTo = null;
+      schedule(pctFromClientX(e.clientX), { fromScrub: true });
+      try {
+        e.preventDefault();
+      } catch {}
+    };
+
+    const onPointerMove = (e) => {
+      if (!scrubbing && e.pointerType === "mouse") {
+        schedule(pctFromClientX(e.clientX), { fromScrub: false });
+        return;
+      }
+      if (!scrubbing || pointerId == null || e.pointerId !== pointerId) return;
+      schedule(pctFromClientX(e.clientX), { fromScrub: true });
+    };
+
+    const finish = () => {
+      scrubbing = false;
+      pointerId = null;
+      el.classList.remove("scrubbing");
+      el.dataset.scrub = "";
+      if (hideTo) clearTimeout(hideTo);
+      hideTo = setTimeout(() => hidePreview(), 900);
+    };
+
+    const onPointerUp = (e) => {
+      if (!scrubbing || pointerId == null || e.pointerId !== pointerId) return;
+      schedule(pctFromClientX(e.clientX), { fromScrub: true });
+      try {
+        el.releasePointerCapture(pointerId);
+      } catch {}
+      finish();
+    };
+
+    const onPointerCancel = () => {
+      if (!scrubbing) return;
+      finish();
+    };
+
+    const onLeave = () => {
+      if (scrubbing) return;
+      if (hideTo) clearTimeout(hideTo);
+      hideTo = setTimeout(() => hidePreview(), 250);
+    };
+
+    el.addEventListener("pointerdown", onPointerDown);
+    el.addEventListener("pointermove", onPointerMove);
+    el.addEventListener("pointerup", onPointerUp);
+    el.addEventListener("pointercancel", onPointerCancel);
+    el.addEventListener("pointerleave", onLeave);
     return () => {
-      el.removeEventListener("mousemove", onMove);
-      el.removeEventListener("mouseleave", onLeave);
-      el.removeEventListener("mousedown", onMove);
-      el.removeEventListener("touchstart", onMove);
-      el.removeEventListener("touchmove", onMove);
-      el.removeEventListener("touchend", onLeave);
+      if (rafId) cancelAnimationFrame(rafId);
+      if (hideTo) clearTimeout(hideTo);
+      el.removeEventListener("pointerdown", onPointerDown);
+      el.removeEventListener("pointermove", onPointerMove);
+      el.removeEventListener("pointerup", onPointerUp);
+      el.removeEventListener("pointercancel", onPointerCancel);
+      el.removeEventListener("pointerleave", onLeave);
     };
   }, []);
 
@@ -303,10 +529,19 @@ export function App({ env, log, sources, player, history }) {
       wasIdle = false;
     };
     const tick = () => {
-      const isIdle = Date.now() > idleTo;
+      const isIdle = canUiIdleNow() && Date.now() > idleTo;
       if (isIdle) el.classList.add("idle");
       else el.classList.remove("idle");
-      if (isIdle && !wasIdle) panelTakeover.close();
+      if (isIdle && !wasIdle) {
+        // If the focused element is inside the guide bar, blur it so we don't hide a focused control.
+        const a = document.activeElement;
+        if (a && a !== document.body) {
+          try {
+            if (el.contains(a) && typeof a.blur === "function") a.blur();
+          } catch {}
+        }
+        panelTakeover.close();
+      }
       wasIdle = isIdle;
       requestAnimationFrame(tick);
     };
@@ -317,6 +552,14 @@ export function App({ env, log, sources, player, history }) {
     };
   }, []);
 
+  // Keep the URL shareable (feed + episode) as playback changes.
+  useSignalEffect(() => {
+    const s = player.current.value.source?.id;
+    const e = player.current.value.episode?.slug;
+    if (!s) return;
+    setRouteInUrl({ feed: s, ep: e }, { replace: true });
+  });
+
   const cur = player.current.value;
   const pb = player.playback.value;
   const cap = player.captions.value;
@@ -324,6 +567,13 @@ export function App({ env, log, sources, player, history }) {
   const sleep = player.sleep.value;
   const audioBlocked = player.audioBlocked.value;
   const skip = player.skip?.value || { back: 10, fwd: 30 };
+  const chaptersRaw = player.chapters?.value || [];
+  const chapters = useMemo(() => {
+    const list = Array.isArray(chaptersRaw) ? chaptersRaw.slice() : [];
+    list.sort((a, b) => (Number(a?.t) || 0) - (Number(b?.t) || 0));
+    return list;
+  }, [chaptersRaw]);
+  const hasChapters = chapters.length > 0;
   const ccLongPress = useLongPress({
     ms: 500,
     enabled: cap.available,
@@ -365,9 +615,9 @@ export function App({ env, log, sources, player, history }) {
     enabled: true,
     onLongPress: () => {
       panelTakeover.open({
-        id: "sleep",
+        id: "sleep_settings",
         idleMs: 7000,
-        render: (takeover) => html`<${SleepTakeover} player=${player} takeover=${takeover} />`,
+        render: (takeover) => html`<${SleepSettingsTakeover} takeover=${takeover} />`,
       });
     },
   });
@@ -420,6 +670,18 @@ export function App({ env, log, sources, player, history }) {
     },
   });
 
+  const navLongPress = useLongPress({
+    ms: 500,
+    enabled: hasChapters,
+    onLongPress: () => {
+      panelTakeover.open({
+        id: "nav_settings",
+        idleMs: 7000,
+        render: (takeover) => html`<${ChaptersNavSettingsTakeover} takeover=${takeover} />`,
+      });
+    },
+  });
+
   const rateLabel = useMemo(() => {
     const r = Number(pb.rate) > 0 ? Number(pb.rate) : 1;
     return (Math.round(r * 100) / 100).toString().replace(/\.0+$/, "").replace(/(\.\d)0$/, "$1") + "x";
@@ -455,13 +717,22 @@ export function App({ env, log, sources, player, history }) {
     return { passed, total, remaining, crampedLeft, crampedRight };
   }, [pb.time, pb.duration, pct]);
 
-  const onSeekBarClick = (ev, el) => {
-    if (!el) return;
-    const r = el.getBoundingClientRect();
-    const x = ev.clientX - r.left;
-    const pct01 = Math.min(1, Math.max(0, x / r.width));
-    player.seekToPct(pct01);
-  };
+  const chapterMarks = useMemo(() => {
+    const dur = pb.duration;
+    if (!Number.isFinite(dur) || dur <= 0) return [];
+    return (chapters || [])
+      .map((c, i) => {
+        const t = Number(c?.t) || 0;
+        const pct = (t / dur) * 100;
+        return { i, t, name: String(c?.name || "Chapter"), pct: Math.min(100, Math.max(0, pct)) };
+      })
+      .filter((m) => Number.isFinite(m.pct));
+  }, [pb.duration, chapters]);
+
+  const hoveredChapter = scrubPreview.value.show ? chapterNameAt(chapters, scrubPreview.value.t) : "";
+  const currentChapter = chapterNameAt(chapters, pb.time || 0);
+  const chapterTitle = hoveredChapter || currentChapter || "";
+  const currentChapterIdx = chapterIndexAt(chapters, pb.time || 0);
 
   return html`
     <div class="app-inner">
@@ -516,9 +787,22 @@ export function App({ env, log, sources, player, history }) {
           ref=${progressRef}
           title="Seek"
           style=${{ "--progress-pct": `${pct}%` }}
-          onClick=${(e) => { e.stopPropagation(); onSeekBarClick(e, e.currentTarget); }}
         >
           <div class="progressFill" id="progressFill" style=${{ width: `${pct}%` }}></div>
+          ${chapterMarks.length
+            ? html`
+                <div class="progressMarks" aria-hidden="true">
+                  ${chapterMarks.map((m) => {
+                    const active = currentChapterIdx === m.i;
+                    return html`<span class=${"progressMark" + (active ? " active" : "")} style=${{ left: `${m.pct}%` }} title=${m.name}></span>`;
+                  })}
+                </div>
+              `
+            : ""}
+          <div class="progressThumb" aria-hidden="true"></div>
+          <div class=${"progressChapterTitle" + (scrubPreview.value.show || !chapterTitle ? " hide" : "")} aria-hidden="true">
+            ${chapterTitle}
+          </div>
           <div
             class=${"scrubPreview" +
               (scrubPreview.value.show ? " show" : "") +
@@ -526,7 +810,8 @@ export function App({ env, log, sources, player, history }) {
             style=${{ left: `${scrubPreview.value.pct}%` }}
             aria-hidden=${scrubPreview.value.show ? "false" : "true"}
           >
-            ${scrubPreview.value.label}
+            <span class="scrubTime">${scrubPreview.value.label}</span>
+            ${hoveredChapter ? html`<span class="scrubChapter">${hoveredChapter}</span>` : ""}
           </div>
           ${progressTime.total
             ? html`
@@ -553,6 +838,55 @@ export function App({ env, log, sources, player, history }) {
             ? panelTakeover.active.value.render?.(panelTakeover)
             : html`
                 <div class="guideBar-row1">
+                  <div
+                    class=${"volumeControl" + (audioBlocked ? " audioBlocked" : "") + (pb.muted && !audioBlocked ? " muted" : "")}
+                    title=${audioBlocked ? "Click video or Play to enable sound (browser restriction)" : pb.muted ? "Muted" : "Volume"}
+                  >
+                    <button class="volumeBtn volumeDown" title="Volume down" data-navitem="1" onClick=${() => player.volumeDown()}>−</button>
+                    <button
+                      class=${"volumeBtn volumeLevel" + (audioLongPress.pressing.value ? " longpressing" : "")}
+                      data-state=${audioBlocked ? "blocked" : pb.muted ? "muted" : "on"}
+                      title=${audioBlocked ? "Click video or Play to enable sound" : "Click to toggle mute (long-press: Audio settings)"}
+                      data-navitem="1"
+                      data-keyhint="M — Mute"
+                      style=${{ "--lp": `${Math.round(audioLongPress.progress.value * 100)}%` }}
+                      onPointerDown=${audioLongPress.onPointerDown}
+                      onPointerUp=${audioLongPress.onPointerUp}
+                      onPointerCancel=${audioLongPress.onPointerCancel}
+                      onClick=${() => {
+                        if (audioLongPress.consumeClick()) return;
+                        player.toggleMute();
+                      }}
+                    >
+                      ${audioBlocked ? "blocked" : pb.muted ? "M" : Math.round((pb.volume ?? 1) * 100)}
+                    </button>
+                    <button class="volumeBtn volumeUp" title="Volume up" data-navitem="1" onClick=${() => player.volumeUp()}>+</button>
+                    ${audioBlocked ? html`<span class="volumeHint">Tap to unmute</span>` : ""}
+                  </div>
+                  <div
+                    class="guideNowBlock"
+                    title="Channels"
+                    role="button"
+                    tabIndex=${0}
+                    data-navitem="1"
+                    data-keyhint="G — Guide"
+                    onKeyDown=${(e) => { if (e.key === "Enter") guideOpen.value = true; }}
+                    onClick=${() => (guideOpen.value = true)}
+                  >
+                    <div class="guideChannel" id="guideChannel">${srcTitle}</div>
+                    <div class="guideNow" id="guideNow">${epTitle}</div>
+                  </div>
+                  <button
+                    id="btnPlay"
+                    class="guideBtn"
+                    title="Play/Pause"
+                    aria-label=${pb.paused ? "Play" : "Pause"}
+                    data-navitem="1"
+                    data-keyhint="K — Play"
+                    onClick=${() => player.togglePlay()}
+                  >
+                    <span class="guideBtnIcon">${pb.paused ? html`<${PlayIcon} size=${18} />` : html`<${PauseIcon} size=${18} />`}</span>
+                  </button>
                   <button
                     id="btnSeekBack"
                     class=${"guideBtn guideBtnSeek" + (seekBackLongPress.pressing.value ? " longpressing" : "")}
@@ -587,55 +921,6 @@ export function App({ env, log, sources, player, history }) {
                   >
                     +${Math.round(skip.fwd || 30)}
                   </button>
-                  <div
-                    class="guideNowBlock"
-                    title="Channels"
-                    role="button"
-                    tabIndex=${0}
-                    data-navitem="1"
-                    data-keyhint="G — Guide"
-                    onKeyDown=${(e) => { if (e.key === "Enter") guideOpen.value = true; }}
-                    onClick=${() => (guideOpen.value = true)}
-                  >
-                    <div class="guideChannel" id="guideChannel">${srcTitle}</div>
-                    <div class="guideNow" id="guideNow">${epTitle}</div>
-                  </div>
-                  <button
-                    id="btnPlay"
-                    class="guideBtn"
-                    title="Play/Pause"
-                    aria-label=${pb.paused ? "Play" : "Pause"}
-                    data-navitem="1"
-                    data-keyhint="K — Play"
-                    onClick=${() => player.togglePlay()}
-                  >
-                    <span class="guideBtnIcon">${pb.paused ? html`<${PlayIcon} size=${18} />` : html`<${PauseIcon} size=${18} />`}</span>
-                  </button>
-                  <div
-                    class=${"volumeControl" + (audioBlocked ? " audioBlocked" : "") + (pb.muted && !audioBlocked ? " muted" : "")}
-                    title=${audioBlocked ? "Click video or Play to enable sound (browser restriction)" : pb.muted ? "Muted" : "Volume"}
-                  >
-                    <button class="volumeBtn volumeUp" title="Volume up" data-navitem="1" onClick=${() => player.volumeUp()}>+</button>
-                    <button
-                      class=${"volumeBtn volumeLevel" + (audioLongPress.pressing.value ? " longpressing" : "")}
-                      data-state=${audioBlocked ? "blocked" : pb.muted ? "muted" : "on"}
-                      title=${audioBlocked ? "Click video or Play to enable sound" : "Click to toggle mute (long-press: Audio settings)"}
-                      data-navitem="1"
-                      data-keyhint="M — Mute"
-                      style=${{ "--lp": `${Math.round(audioLongPress.progress.value * 100)}%` }}
-                      onPointerDown=${audioLongPress.onPointerDown}
-                      onPointerUp=${audioLongPress.onPointerUp}
-                      onPointerCancel=${audioLongPress.onPointerCancel}
-                      onClick=${() => {
-                        if (audioLongPress.consumeClick()) return;
-                        player.toggleMute();
-                      }}
-                    >
-                      ${audioBlocked ? "blocked" : pb.muted ? "M" : Math.round((pb.volume ?? 1) * 100)}
-                    </button>
-                    <button class="volumeBtn volumeDown" title="Volume down" data-navitem="1" onClick=${() => player.volumeDown()}>−</button>
-                    ${audioBlocked ? html`<span class="volumeHint">Tap to unmute</span>` : ""}
-                  </div>
                 </div>
                 <div class="guideBar-row2">
                   <button
@@ -654,6 +939,33 @@ export function App({ env, log, sources, player, history }) {
                     }}
                   >
                     Random
+                  </button>
+                  <button
+                    id="btnNav"
+                    class=${"guideBtn" + (!hasChapters ? " disabled" : "") + (navLongPress.pressing.value ? " longpressing" : "")}
+                    title=${hasChapters ? "Chapters navigation (long-press: settings)" : "No chapters for this episode"}
+                    aria-disabled=${hasChapters ? "false" : "true"}
+                    disabled=${!hasChapters}
+                    data-navitem="1"
+                    data-keyhint="N — Nav"
+                    style=${{ "--lp": `${Math.round(navLongPress.progress.value * 100)}%` }}
+                    onPointerDown=${navLongPress.onPointerDown}
+                    onPointerUp=${navLongPress.onPointerUp}
+                    onPointerCancel=${navLongPress.onPointerCancel}
+                    onClick=${() => {
+                      if (!hasChapters) {
+                        log.warn("No chapters available for this episode.");
+                        return;
+                      }
+                      if (navLongPress.consumeClick()) return;
+                      panelTakeover.open({
+                        id: "nav",
+                        idleMs: 7000,
+                        render: (takeover) => html`<${ChaptersNavTakeover} player=${player} takeover=${takeover} />`,
+                      });
+                    }}
+                  >
+                    Nav
                   </button>
                   <div class="speedControl" title="Playback speed">
                     <button class="speedBtn speedDown" title="Slower" data-navitem="1" onClick=${() => player.rateDown()}>−</button>
@@ -679,7 +991,7 @@ export function App({ env, log, sources, player, history }) {
                     <button
                       id="btnSleep"
                       class=${"guideBtn guideBtnHasIcon" + (sleepLongPress.pressing.value ? " longpressing" : "")}
-                      title="Sleep timer"
+                      title="Sleep timer (long-press: configure)"
                       data-navitem="1"
                       data-keyhint="S — Sleep"
                       style=${{ "--lp": `${Math.round(sleepLongPress.progress.value * 100)}%` }}
@@ -689,7 +1001,6 @@ export function App({ env, log, sources, player, history }) {
                       onClick=${(e) => {
                         e.stopPropagation();
                         if (sleepLongPress.consumeClick()) return;
-                        if (sleep.active) return player.clearSleepTimer();
                         panelTakeover.open({
                           id: "sleep",
                           idleMs: 7000,
@@ -762,18 +1073,43 @@ export function App({ env, log, sources, player, history }) {
         ☰
       </button>
       <button
+        id="btnShare"
+        class="cornerBtn cornerBtnShare"
+        title="Share"
+        data-navitem="1"
+        data-keyhint="U — Share"
+        onClick=${() => {
+          panelTakeover.open({
+            id: "share",
+            idleMs: 8000,
+            render: (takeover) => html`<${ShareTakeover} player=${player} log=${log} takeover=${takeover} />`,
+          });
+        }}
+      >
+        <${ShareIcon} />
+      </button>
+      <button
         id="btnFullscreen"
         class="cornerBtn cornerBtnMid"
         title="Fullscreen"
         data-navitem="1"
         data-keyhint="F — Fullscreen"
         onClick=${() => {
-          const el = document.getElementById("player") || document.querySelector(".player") || document.querySelector("video");
-          if (!el) return;
+          const appEl = document.getElementById("app") || document.querySelector(".app") || document.documentElement;
+          const videoEl = document.getElementById("video") || document.querySelector("video");
           if (!document.fullscreenElement) {
             try {
-              el.requestFullscreen?.();
-            } catch {}
+              appEl.requestFullscreen?.();
+              return;
+            } catch {
+              try {
+                videoEl?.requestFullscreen?.();
+                return;
+              } catch {}
+              try {
+                videoEl?.webkitEnterFullscreen?.();
+              } catch {}
+            }
           } else {
             try {
               document.exitFullscreen?.();

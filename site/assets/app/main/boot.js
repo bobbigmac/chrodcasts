@@ -5,11 +5,13 @@ import { loadSources } from "../vod/sources.js";
 import { createHistoryStore } from "../state/history.js";
 import { createPlayerService } from "../player/player.js";
 import { App } from "./app.js";
+import { getRouteFromUrl } from "./route.js";
 
 export async function bootApp() {
   const env = getEnv();
   const log = createLogger();
   const sources = signal([]);
+  const initialRoute = getRouteFromUrl();
 
   const history = createHistoryStore({ storageKey: "vodcasts_history_v1" });
   const player = createPlayerService({ env, log, history });
@@ -24,7 +26,7 @@ export async function bootApp() {
     const loaded = await loadSources(env);
     sources.value = loaded;
     log.info(`Sources loaded: ${loaded.length}`);
-    player.setSources(loaded);
+    player.setSources(loaded, { initialRoute });
   } catch (err) {
     log.error(String(err?.message || err || "sources load failed"));
     throw err;

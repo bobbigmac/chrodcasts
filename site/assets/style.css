@@ -57,11 +57,19 @@ video {
   background: rgba(0,0,0,.4);
   transition: height 0.15s cubic-bezier(0.4, 0, 0.2, 1), background 0.15s ease;
   overflow: visible;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
-.player:hover .progress,
-.progress:hover {
+.progress.scrubbing {
   height: 24px;
   background: rgba(0,0,0,.65);
+}
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover {
+    height: 24px;
+    background: rgba(0,0,0,.65);
+  }
 }
 .progressFill {
   position: absolute;
@@ -72,6 +80,91 @@ video {
   background: var(--accent);
   transition: width 0.1s ease;
   z-index: 0;
+}
+.progressMarks {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.progressMark {
+  position: absolute;
+  bottom: 0;
+  width: 2px;
+  transform: translateX(-1px);
+  background: rgba(255,255,255,.14);
+  height: 70%;
+  opacity: 0.65;
+}
+.progress.scrubbing .progressMark {
+  height: 100%;
+  opacity: 0.95;
+}
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover .progressMark {
+    height: 100%;
+    opacity: 0.95;
+  }
+}
+.progressMark.active {
+  background: color-mix(in srgb, var(--accent) 70%, rgba(255,255,255,.12));
+  opacity: 0.9;
+}
+.progressThumb {
+  position: absolute;
+  left: var(--scrubber-x, 50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 6px 18px rgba(0,0,0,.45);
+  opacity: 0;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  z-index: 3;
+  pointer-events: none;
+}
+.progress.scrubbing .progressThumb {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.02);
+}
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover .progressThumb {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.02);
+  }
+}
+.progressChapterTitle {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  max-width: min(520px, calc(100vw - 48px));
+  font-size: 12px;
+  color: rgba(255,255,255,.92);
+  background: rgba(0,0,0,.55);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 4;
+  pointer-events: none;
+}
+.progressChapterTitle.hide { display: none }
+.progress.scrubbing .progressChapterTitle {
+  opacity: 1;
+}
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover .progressChapterTitle {
+    opacity: 1;
+  }
 }
 .progress::after {
   content: "";
@@ -88,11 +181,18 @@ video {
   pointer-events: none;
   transition: opacity 0.15s ease;
 }
-.player:hover .progress::after,
-.progress:hover::after {
+.progress.scrubbing::after {
   opacity: 1;
 }
-.player:hover .progressFill { background: rgba(138,180,248,.8) }
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover::after {
+    opacity: 1;
+  }
+}
+.progress.scrubbing .progressFill { background: rgba(138,180,248,.8) }
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover .progressFill { background: rgba(138,180,248,.8) }
+}
 
 .player.custom-captions video::-webkit-media-text-track-display,
 .player.custom-captions video::-webkit-media-text-track-container { display: none !important }
@@ -141,8 +241,10 @@ video {
   opacity: 0;
   transition: opacity 0.15s ease;
 }
-.player:hover .progressTimeLabels,
-.progress:hover .progressTimeLabels { opacity: 1 }
+.progress.scrubbing .progressTimeLabels { opacity: 0 }
+@media (hover: hover) and (pointer: fine) {
+  .progress:hover .progressTimeLabels { opacity: 1 }
+}
 .progressTimePassed { order: 1 }
 .progressTimeRemaining { order: 2 }
 .progress.progress-crampedLeft .progressTimeLabels {
@@ -157,20 +259,38 @@ video {
 .scrubPreview {
   position: absolute;
   bottom: 100%;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   transform: translateX(-50%);
-  padding: 3px 6px;
-  font-size: 11px;
+  padding: 7px 10px;
+  font-size: 12px;
   font-variant-numeric: tabular-nums;
   color: var(--text);
-  background: rgba(0,0,0,.7);
-  border: 1px solid var(--edge);
-  border-radius: 8px;
+  background: rgba(0,0,0,.78);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.12s ease;
-  z-index: 3;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  max-width: min(520px, calc(100vw - 48px));
+  backdrop-filter: blur(8px);
+}
+.progress[data-scrub="touch"] .scrubPreview {
+  margin-bottom: 26px;
+  padding: 8px 12px;
+}
+.scrubTime { font-weight: 650; letter-spacing: 0.02em }
+.scrubChapter {
+  font-size: 11px;
+  color: rgba(255,255,255,.78);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .scrubPreview.show { opacity: 1 }
 .scrubPreview-left { transform: translateX(0) }
@@ -413,8 +533,6 @@ video {
   opacity: 0;
   pointer-events: none;
 }
-.app:hover .guideBar.idle,
-.app:focus-within .guideBar.idle { opacity: 1; pointer-events: auto }
 
 .guideBar-inner {
   display: flex;
@@ -472,6 +590,105 @@ video {
 .takeoverHint {
   font-size: 12px;
   color: var(--muted);
+}
+
+.chapNavBrowser {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: min(560px, calc(100vw - 40px));
+  margin-inline: auto;
+}
+.chapNavCard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--edge);
+  background: rgba(255,255,255,.03);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  outline: none;
+}
+.chapNavCard:hover { background: rgba(255,255,255,.07) }
+.chapNavCard:active { transform: translateY(1px) }
+.chapNavCardDim { opacity: 0.62; cursor: default }
+.chapNavCardDim:hover { background: rgba(255,255,255,.03) }
+.chapNavCardCurrent {
+  border-color: color-mix(in srgb, var(--accent) 70%, var(--edge));
+  background: rgba(138,180,248,.10);
+}
+.chapNavCardCurrent .chapNavCardTitle { font-weight: 750 }
+.chapNavCardCurrent {
+  background: linear-gradient(180deg, rgba(138,180,248,.12), rgba(255,255,255,.03));
+}
+.chapNavCardTop {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.chapNavCardLabel {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex: 0 0 auto;
+}
+.chapNavCardIdx {
+  font-size: 11px;
+  color: color-mix(in srgb, var(--muted) 80%, var(--text));
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
+}
+.chapNavCardTime {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
+}
+.chapNavCardTitle {
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--text);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chapNavCardMeta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.chapNavPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.22);
+  font-size: 11px;
+  color: rgba(255,255,255,.86);
+  font-variant-numeric: tabular-nums;
+}
+.chapNavPillDim { color: rgba(255,255,255,.62) }
+
+.chapNav-detailed .chapNavBrowser {
+  max-width: min(660px, calc(100vw - 40px));
+  gap: 10px;
+}
+.chapNav-detailed .chapNavCard {
+  padding: 12px 14px;
+  border-radius: 12px;
+}
+.chapNav-detailed .chapNavCardTitle {
+  font-size: 14px;
 }
 
 @media (max-width: 520px) {
@@ -1227,8 +1444,34 @@ video {
   color: var(--text);
   cursor: pointer;
   z-index: 90;
+  transition: opacity 0.35s ease, background 0.15s ease;
 }
 .cornerBtnLeft { left: 18px }
 .cornerBtn:not(.cornerBtnLeft) { right: 18px }
 .cornerBtn.cornerBtnMid { right: 72px }
+.cornerBtn.cornerBtnShare { right: 126px }
 .cornerBtn:hover { background: rgba(0,0,0,.7) }
+
+.app.uiIdle,
+.app.uiIdle * { cursor: none !important }
+.app.uiIdle .guideBar {
+  opacity: 0;
+  pointer-events: none;
+}
+.app.uiIdle .cornerBtn {
+  opacity: 0;
+  pointer-events: none;
+}
+.app.uiIdle .statusToast {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+.app.uiIdle .progress {
+  height: 6px !important;
+  background: rgba(0,0,0,.4) !important;
+}
+.app.uiIdle .progress::after { opacity: 0 !important }
+.app.uiIdle .progressThumb { opacity: 0 !important }
+.app.uiIdle .progressChapterTitle { opacity: 0 !important }
+.app.uiIdle .scrubPreview { opacity: 0 !important }
+.app.uiIdle .progressTimeLabels { opacity: 0 !important }

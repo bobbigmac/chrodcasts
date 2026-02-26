@@ -129,3 +129,27 @@ export function MuteIcon({ size = 18, strokeWidth = 2, className = "" } = {}) {
     </svg>
   `;
 }
+
+export function ShareIcon({ size = 18, strokeWidth = 2, className = "" } = {}) {
+  const s = Number(size) > 0 ? Number(size) : 18;
+  const sw = Number(strokeWidth) > 0 ? Number(strokeWidth) : 2;
+  return html`
+    <svg
+      class=${className}
+      width=${s}
+      height=${s}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width=${sw}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M12 3v10"></path>
+      <path d="M8 7l4-4 4 4"></path>
+      <path d="M6 11v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8"></path>
+    </svg>
+  `;
+}

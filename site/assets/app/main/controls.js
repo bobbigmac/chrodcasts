@@ -166,14 +166,24 @@ function clickIfPresent(sel) {
 }
 
 function toggleFullscreen() {
-  const playerEl = document.getElementById("player") || document.querySelector(".player") || document.querySelector("video");
-  if (!playerEl) return;
+  const appEl = document.getElementById("app") || document.querySelector(".app") || document.documentElement;
+  const videoEl = document.getElementById("video") || document.querySelector("video");
   const doc = document;
   const fsEl = doc.fullscreenElement;
   if (!fsEl) {
     try {
-      playerEl.requestFullscreen?.();
-    } catch {}
+      appEl.requestFullscreen?.();
+      return;
+    } catch {
+      // Fallback: some platforms (notably older iOS Safari) only allow fullscreen video.
+      try {
+        videoEl?.requestFullscreen?.();
+        return;
+      } catch {}
+      try {
+        videoEl?.webkitEnterFullscreen?.();
+      } catch {}
+    }
   } else {
     try {
       doc.exitFullscreen?.();
@@ -404,10 +414,21 @@ function positionHints(hints) {
     const r = h.target.getBoundingClientRect();
     const b = h.bubble;
     const pad = 6;
-    const x = Math.min(window.innerWidth - pad, Math.max(pad, r.right));
-    const y = Math.min(window.innerHeight - pad, Math.max(pad, r.top));
-    b.style.left = `${x}px`;
-    b.style.top = `${y}px`;
+    const bw = b.offsetWidth || 0;
+    const bh = b.offsetHeight || 0;
+
+    // Prefer placing to the right of the element, but flip to the left if we'd overflow.
+    let x = r.right;
+    if (x + bw + pad > window.innerWidth) x = r.left - bw;
+    x = Math.min(window.innerWidth - bw - pad, Math.max(pad, x));
+
+    // Prefer aligning to the element's top, but keep inside viewport.
+    let y = r.top;
+    if (y + bh + pad > window.innerHeight) y = r.bottom - bh;
+    y = Math.min(window.innerHeight - bh - pad, Math.max(pad, y));
+
+    b.style.left = `${Math.round(x)}px`;
+    b.style.top = `${Math.round(y)}px`;
     b.classList.add("show");
   }
 }
@@ -701,6 +722,13 @@ export function installControls() {
       }
       return;
     }
+    if (k === "n") {
+      if (typingComments) return;
+      if (clickIfPresent("#btnNav")) {
+        e.preventDefault();
+      }
+      return;
+    }
     if (k === "[") {
       if (typingComments) return;
       if (clickIfPresent(".speedBtn.speedDown")) {
@@ -747,6 +775,13 @@ export function installControls() {
     if (k === "y") {
       if (typingComments) return;
       if (clickIfPresent("#btnHistory")) {
+        e.preventDefault();
+      }
+      return;
+    }
+    if (k === "u") {
+      if (typingComments) return;
+      if (clickIfPresent("#btnShare")) {
         e.preventDefault();
       }
       return;
