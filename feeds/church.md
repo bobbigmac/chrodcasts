@@ -12,25 +12,25 @@
 
 # Feeds
 
-## eaglebrook
+## eagle-brook
 - url: https://www.eaglebrookchurch.com/mediafiles/eagle-brook-church-videocast.xml
 - title: Eagle Brook Church (videocast)
 - category: church
 - fetch_via: auto
 
-## jamesriver_podbean
+## james-river-podbean
 - url: https://jamesriver.podbean.com/feed.xml
 - title: James River Church (podbean)
 - category: church
 - fetch_via: auto
 
-## jamesriver_feedpodbean
+## james-river-feed-podbean
 - url: https://feed.podbean.com/jamesriverchurch/feed.xml
 - title: James River Church (feed.podbean.com)
 - category: church
 - fetch_via: auto
 
-## freshlife
+## fresh-life
 - url: https://freshlife.podbean.com/feed.xml
 - title: Fresh Life Church
 - category: church
@@ -42,25 +42,25 @@
 - category: church
 - fetch_via: auto
 
-## restorationchurch
+## restoration-church
 - url: https://restorationchurch.podbean.com/feed.xml
 - title: Restoration Church Port Orange (video?)
 - category: church
 - fetch_via: auto
 
-## woodlandhills
+## woodland-hills
 - url: https://whchurch.org/feed/video
 - title: Woodland Hills Church
 - category: church
 - fetch_via: auto
 
-## gracechapelknoxville
+## grace-chapel-knoxville
 - url: https://gracechapelknoxville.podbean.com/feed.xml
 - title: Grace Chapel Knoxville (video?)
 - category: church
 - fetch_via: auto
 
-## bufordroadbaptist
+## buford-road-baptist
 - url: https://bufordroadbaptist.podbean.com/feed.xml
 - title: Buford Road Baptist (video?)
 - category: church
@@ -72,25 +72,25 @@
 - category: church
 - fetch_via: auto
 
-## citizenchurch
+## citizen-church
 - url: https://citizenchurchpodcast.com/feed.xml
 - title: Citizen Church (video?)
 - category: church
 - fetch_via: auto
 
-## jerrysavelle
+## jerry-savelle
 - url: https://www.jerrysavelle.org/rssfeeds/tvvideo.xml
 - title: Jerry Savelle Ministries (TV video)
 - category: church
 - fetch_via: auto
 
-## menlochurchvideo
+## menlo-church-video
 - url: https://menlochurchvideo.podbean.com/feed.xml
 - title: Menlo Church
 - category: church
 - fetch_via: auto
 
-## connexus
+## connexus-church
 - url: https://connexuschurchvideo.libsyn.com/rss
 - title: Connexus Church
 - category: church
@@ -120,67 +120,67 @@
 - category: church
 - fetch_via: auto
 
-## foothillschurch
+## foothills-church
 - url: https://foothillschurch.org/feed/video
 - title: Foothills Church
 - category: church
 - fetch_via: auto
 
-## faithlifechurch
+## faith-life-church
 - url: https://faithlifechurch.org/feed/video
 - title: Faith Life Church
 - category: church
 - fetch_via: auto
 
-## atheycreek
+## athey-creek
 - url: https://atheycreek.com/feed/video
 - title: Athey Creek
 - category: church
 - fetch_via: auto
 
-## theporch
+## the-porch
 - url: https://www.theporch.tv/feed/video
 - title: The Porch
 - category: church
 - fetch_via: auto
 
-## lancasterbaptist
+## lancaster-baptist
 - url: https://lancasterbaptist.org/feed/video
 - title: Lancaster Baptist
 - category: church
 - fetch_via: auto
 
-## edyoung
+## ed-young
 - url: https://edyoung.com/feed/video
 - title: Ed Young
 - category: church
 - fetch_via: auto
 
-## lifechurch
+## life-church
 - url: https://www.life.church/feed/video
 - title: Life.Church
 - category: church
 - fetch_via: auto
 
-## newspring
+## new-spring
 - url: https://newspring.cc/feed/video
 - title: NewSpring
 - category: church
 - fetch_via: auto
 
-## marshill_video
+## mars-hill-video
 - url: http://marshill.info/feeds/video.xml
 - title: Mars Hill
 - category: church
 - fetch_via: auto
 
-## c3naz_video
+## c3naz-video
 - url: https://www.c3naz.net/sermon-archives-video.rss
 - title: C3Naz
 - category: church
 - fetch_via: auto
 
-## pointofgrace
+## point-of-grace
 - url: https://pointofgracechurch.com/feed/video
 - title: Point of Grace Church
 - category: church
