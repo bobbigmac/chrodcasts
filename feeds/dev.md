@@ -4,6 +4,7 @@
 - subtitle: Static vodcast browser
 - description: Small feed set for fast local dev.
 - base_path: /
+- favicons_path: assets/images/prays-be-favicons
 
 # Defaults
 - min_hours_between_checks: 0

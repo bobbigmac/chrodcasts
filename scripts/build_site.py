@@ -139,6 +139,7 @@ def _read_defaults_from_feeds_md(feeds_path: Path) -> dict[str, Any]:
     except Exception:
         return {}
 
+
 def _read_ga_measurement_id_from_feeds_md(feeds_path: Path) -> str:
     if feeds_path.suffix.lower() != ".md":
         return ""
@@ -150,6 +151,107 @@ def _read_ga_measurement_id_from_feeds_md(feeds_path: Path) -> str:
         return str(v or "").strip()
     except Exception:
         return ""
+
+
+def _read_favicons_path_from_feeds_md(feeds_path: Path) -> str:
+    if feeds_path.suffix.lower() != ".md":
+        return ""
+    try:
+        cfg = read_feeds_config(feeds_path)
+        site = cfg.get("site") if isinstance(cfg.get("site"), dict) else {}
+        v = site.get("favicons_path") or site.get("favicon_path") or site.get("favicons") or ""
+        return str(v or "").strip()
+    except Exception:
+        return ""
+
+
+def _norm_rel_web_path(path: str) -> str:
+    s = str(path or "").strip()
+    if not s:
+        return ""
+    s = s.replace("\\", "/").strip()
+    s = re.sub(r"/+", "/", s)
+    return s.strip("/")
+
+
+def _url_join(base_path: str, rel: str) -> str:
+    r = _norm_rel_web_path(rel)
+    if not r:
+        return base_path
+    return f"{base_path}{r}"
+
+
+def _build_favicon_head_html(*, base_path: str, feeds_path: Path) -> str:
+    favicons_path = _norm_rel_web_path(_read_favicons_path_from_feeds_md(feeds_path))
+
+    lines: list[str] = []
+    lines.append(f'<link rel="manifest" href="{base_path}manifest.webmanifest" />')
+
+    if not favicons_path:
+        # Legacy default (keeps existing deployments unchanged).
+        lines.append(f'<link rel="icon" href="{base_path}assets/icon-192.png" />')
+        lines.append(f'<link rel="apple-touch-icon" href="{base_path}assets/apple-touch-icon.png" />')
+        return "\n  ".join(lines)
+
+    # Prefer “favicon generator” style outputs when present.
+    fs_dir = VODCASTS_ROOT / "site" / favicons_path
+    url_dir = _url_join(base_path, favicons_path) + "/"
+
+    if (fs_dir / "favicon.ico").exists():
+        lines.append(f'<link rel="icon" href="{url_dir}favicon.ico" sizes="any" />')
+        lines.append(f'<link rel="shortcut icon" href="{url_dir}favicon.ico" />')
+    if (fs_dir / "favicon.svg").exists():
+        lines.append(f'<link rel="icon" href="{url_dir}favicon.svg" type="image/svg+xml" />')
+    if (fs_dir / "favicon-96x96.png").exists():
+        lines.append(f'<link rel="icon" type="image/png" sizes="96x96" href="{url_dir}favicon-96x96.png" />')
+    if (fs_dir / "apple-touch-icon.png").exists():
+        lines.append(f'<link rel="apple-touch-icon" href="{url_dir}apple-touch-icon.png" />')
+
+    # If the folder exists but we didn't recognize files, fall back to the legacy defaults.
+    if len(lines) <= 1:
+        lines.append(f'<link rel="icon" href="{base_path}assets/icon-192.png" />')
+        lines.append(f'<link rel="apple-touch-icon" href="{base_path}assets/apple-touch-icon.png" />')
+
+    return "\n  ".join(lines)
+
+
+def _pwa_icons_for_manifest(*, base_path: str, feeds_path: Path) -> list[dict[str, str]]:
+    favicons_path = _norm_rel_web_path(_read_favicons_path_from_feeds_md(feeds_path))
+    if favicons_path:
+        fs_dir = VODCASTS_ROOT / "site" / favicons_path
+        url_dir = _url_join(base_path, favicons_path) + "/"
+        p192 = fs_dir / "web-app-manifest-192x192.png"
+        p512 = fs_dir / "web-app-manifest-512x512.png"
+        if p192.exists() and p512.exists():
+            return [
+                {
+                    "src": f"{url_dir}web-app-manifest-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png",
+                    "purpose": "any maskable",
+                },
+                {
+                    "src": f"{url_dir}web-app-manifest-512x512.png",
+                    "sizes": "512x512",
+                    "type": "image/png",
+                    "purpose": "any maskable",
+                },
+            ]
+
+    return [
+        {
+            "src": f"{base_path}assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable",
+        },
+        {
+            "src": f"{base_path}assets/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable",
+        },
+    ]
 
 
 def _maybe_fetch_missing_feed(
@@ -351,20 +453,7 @@ def main() -> None:
         "display": "standalone",
         "background_color": "#0b0c10",
         "theme_color": "#0b0c10",
-        "icons": [
-            {
-                "src": f"{base_path}assets/icon-192.png",
-                "sizes": "192x192",
-                "type": "image/png",
-                "purpose": "any maskable",
-            },
-            {
-                "src": f"{base_path}assets/icon-512.png",
-                "sizes": "512x512",
-                "type": "image/png",
-                "purpose": "any maskable",
-            },
-        ],
+        "icons": _pwa_icons_for_manifest(base_path=base_path, feeds_path=feeds_path),
     }
     write_json(out_dir / "manifest.webmanifest", manifest)
 
@@ -429,6 +518,7 @@ def main() -> None:
             "base_path_json": json.dumps(base_path),
             "site_json": json.dumps(site_json, ensure_ascii=False),
             "page_title": cfg.site.title,
+            "favicon_head_html": _build_favicon_head_html(base_path=base_path, feeds_path=feeds_path),
         },
     )
     (out_dir / "index.html").write_text(html, encoding="utf-8")

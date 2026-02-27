@@ -4,6 +4,7 @@
 - subtitle: Static vodcast browser
 - description: Video podcast channels + TV-style guide. Built from RSS/Atom feeds.
 - base_path: /
+- favicons_path: assets/images/prays-be-favicons
 - ga_measurement_id: G-RHXR1K9NDR
 
 # Defaults
