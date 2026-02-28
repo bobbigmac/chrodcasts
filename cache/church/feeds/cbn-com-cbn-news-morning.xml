@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+  <title><![CDATA[CBN.com - CBN News Morning - Video Podcast]]></title>
+  <description><![CDATA[With reports from around the globe, CBN News Morning features the latest news in politics, religion, finance and more. Watch 24/7 at cbnnewschannel.com]]></description>
+  <link>http://www.cbn.com/podcast</link>
+  <language><![CDATA[en-us]]></language>
+  <copyright><![CDATA[(c) 2026 The Christian Broadcasting Network]]></copyright>
+  <lastBuildDate>Fri, 27 Feb 2026 11:29:17 -0500</lastBuildDate>
+  <pubDate>Fri, 27 Feb 2026 11:29:17 -0500</pubDate>
+  <generator>CBN RSS Generator v1.0</generator>
+  <image>
+    <url>http://www.cbn.com/CBNNews_Files/images/shows/CBNNewsMorning_MD_header.jpg</url>
+    <title><![CDATA[CBN.com - CBN News Morning - Video Podcast]]></title>
+    <description><![CDATA[With reports from around the globe, CBN News Morning features the latest news in politics, religion, finance and more. Watch 24/7 at cbnnewschannel.com]]></description>
+    <width>144 </width>
+    <height>144</height>
+    <link>http://www.cbn.com/podcast</link>
+  </image>
+  <itunes:category text="News &amp; Politics" />
+  <itunes:category text="Religion &amp; Spirituality" />
+  <itunes:subtitle><![CDATA[CBN.com - CBN News Morning - Video Podcast]]></itunes:subtitle>
+  <itunes:summary><![CDATA[With reports from around the globe, CBN News Morning features the latest news in politics, religion, finance and more. Watch 24/7 at cbnnewschannel.com]]></itunes:summary>
+  <itunes:author>The Christian Broadcasting Network</itunes:author> 
+  <itunes:owner>
+    <itunes:name>The Christian Broadcasting Network</itunes:name>
+    <itunes:email>cbnpodcasts@gmail.com</itunes:email>
+  </itunes:owner>
+  <itunes:keywords><![CDATA[CBN, Christianity, Christian, CBN News Morning, God, Bible, Christian News, CBN News, CBN News Channel, Spiritual, Religion]]></itunes:keywords>
+  <itunes:image href="http://www.cbn.com/CBNNews_Files/images/shows/CBNNewsMorning_MD_header.jpg" />
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:block>no</itunes:block>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 13, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 13: Father of slain ISIS teen: &#39;my son was no spy&#39;; Bishop&#39;s urgent plea to prevent Christian Annihilation; Americans say government is the problem; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/37216960-525b-4871-9c05-bb8521aebbfc/10s/master.m3u8?fastly_token=NmI4M2FmNWFfOWUxOTJiMjk4ZjQ0ZjAwMWU1MjRlMmIxNTJkYTlkMzA4ZjhlODE0YjRjODk0N2NkNDVmY2FmMTU2M2JhOTc1Mw%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/37216960-525b-4871-9c05-bb8521aebbfc/10s/master.m3u8?fastly_token=NmI4M2FmNWFfOWUxOTJiMjk4ZjQ0ZjAwMWU1MjRlMmIxNTJkYTlkMzA4ZjhlODE0YjRjODk0N2NkNDVmY2FmMTU2M2JhOTc1Mw%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/37216960-525b-4871-9c05-bb8521aebbfc/10s/master.m3u8?fastly_token=NmI4M2FmNWFfOWUxOTJiMjk4ZjQ0ZjAwMWU1MjRlMmIxNTJkYTlkMzA4ZjhlODE0YjRjODk0N2NkNDVmY2FmMTU2M2JhOTc1Mw%3D%3D</guid> 
+    <pubDate>Fri, 13 Mar 2015 09:55:11 -0400</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 13: Father of slain ISIS teen: &#39;my son was no spy&#39;; Bishop&#39;s urgent plea to prevent Christian Annihilation; Americans say government is the problem; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 13: Father of slain ISIS teen: &#39;my son was no spy&#39;; Bishop&#39;s urgent plea to prevent Christian Annihilation; Americans say government is the problem; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 12, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 12: Record Religious Genocide: &#39;ISIS as Toxic as Nazis&#39;; Police officers shot during Ferguson protests; Israeli voters divided, Christians urged to pray; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/9a6207f6-8236-47f6-bbe2-c0610fa252cb/10s/master.m3u8?fastly_token=NmI4M2FmMzdfNWVjMDQyZjRjNmY2NzgwOWM0YTI5MGQ3OWIyZTA5YTAwZGYzYmNhNmIyZDg1YTVjYTQwYTFkMGY3ZTBkNWQwYQ%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/9a6207f6-8236-47f6-bbe2-c0610fa252cb/10s/master.m3u8?fastly_token=NmI4M2FmMzdfNWVjMDQyZjRjNmY2NzgwOWM0YTI5MGQ3OWIyZTA5YTAwZGYzYmNhNmIyZDg1YTVjYTQwYTFkMGY3ZTBkNWQwYQ%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/9a6207f6-8236-47f6-bbe2-c0610fa252cb/10s/master.m3u8?fastly_token=NmI4M2FmMzdfNWVjMDQyZjRjNmY2NzgwOWM0YTI5MGQ3OWIyZTA5YTAwZGYzYmNhNmIyZDg1YTVjYTQwYTFkMGY3ZTBkNWQwYQ%3D%3D</guid> 
+    <pubDate>Thu, 12 Mar 2015 09:01:30 -0400</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 12: Record Religious Genocide: &#39;ISIS as Toxic as Nazis&#39;; Police officers shot during Ferguson protests; Israeli voters divided, Christians urged to pray; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 12: Record Religious Genocide: &#39;ISIS as Toxic as Nazis&#39;; Police officers shot during Ferguson protests; Israeli voters divided, Christians urged to pray; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 11, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 11: For critics, Clinton email explanation falls flat; Israeli voters divided, Christians urged to pray; Iraqi forces recapture key town from ISIS; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/615529a3-14eb-43b9-86c2-75d2a4cd6713/10s/master.m3u8?fastly_token=NmI4M2FmMzlfOWI2YjEwMjlmNTRjNjllZTA1MGI5NGQ3OGFmMzc0NWY2NzA1NzBjYTQ4NzQ5MmM5MDkzYmNmNjk5MThhMzBlZQ%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/615529a3-14eb-43b9-86c2-75d2a4cd6713/10s/master.m3u8?fastly_token=NmI4M2FmMzlfOWI2YjEwMjlmNTRjNjllZTA1MGI5NGQ3OGFmMzc0NWY2NzA1NzBjYTQ4NzQ5MmM5MDkzYmNmNjk5MThhMzBlZQ%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/615529a3-14eb-43b9-86c2-75d2a4cd6713/10s/master.m3u8?fastly_token=NmI4M2FmMzlfOWI2YjEwMjlmNTRjNjllZTA1MGI5NGQ3OGFmMzc0NWY2NzA1NzBjYTQ4NzQ5MmM5MDkzYmNmNjk5MThhMzBlZQ%3D%3D</guid> 
+    <pubDate>Wed, 11 Mar 2015 09:07:39 -0400</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 11: For critics, Clinton email explanation falls flat; Israeli voters divided, Christians urged to pray; Iraqi forces recapture key town from ISIS; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 11: For critics, Clinton email explanation falls flat; Israeli voters divided, Christians urged to pray; Iraqi forces recapture key town from ISIS; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 10, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 10: Bipartisan group appeals Gov. McDonnell&#39;s conviction; GOP Senators&#39; letter to Iran draws White House ire; Chaplain&#39;s choice: &#39;Religious freedom or your career&#39;; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/a5927c44-9559-4642-ad08-6e5efabf635e/10s/master.m3u8?fastly_token=NmI4M2FmNThfN2ZiZjNiYzc0MmFjMjRjMzIxZDZlZDVjOGJlYjM3Y2M1MWRlZGMwOWZlY2FiY2M4ODE4MWY5YTJjZWE0NWJiMQ%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/a5927c44-9559-4642-ad08-6e5efabf635e/10s/master.m3u8?fastly_token=NmI4M2FmNThfN2ZiZjNiYzc0MmFjMjRjMzIxZDZlZDVjOGJlYjM3Y2M1MWRlZGMwOWZlY2FiY2M4ODE4MWY5YTJjZWE0NWJiMQ%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/a5927c44-9559-4642-ad08-6e5efabf635e/10s/master.m3u8?fastly_token=NmI4M2FmNThfN2ZiZjNiYzc0MmFjMjRjMzIxZDZlZDVjOGJlYjM3Y2M1MWRlZGMwOWZlY2FiY2M4ODE4MWY5YTJjZWE0NWJiMQ%3D%3D</guid> 
+    <pubDate>Tue, 10 Mar 2015 09:19:33 -0400</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 10: Bipartisan group appeals Gov. McDonnell&#39;s conviction; GOP Senators&#39; letter to Iran draws White House ire; Chaplain&#39;s choice: &#39;Religious freedom or your career&#39;; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 10: Bipartisan group appeals Gov. McDonnell&#39;s conviction; GOP Senators&#39; letter to Iran draws White House ire; Chaplain&#39;s choice: &#39;Religious freedom or your career&#39;; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 9, 2015]]></title>
+    <description><![CDATA[On CBN&#39;s Newswatch, March 9: Boko Haram swears allegiance to ISIS, now what?; Remembering Selma: thousands mark &#39;Bloody Sunday&#39;; Anti-Netanyahu rally speaker &#39;blind to reality&#39;; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/596e6b4a-d879-48f1-a14e-295d466b192a/10s/master.m3u8?fastly_token=NmI4M2FmNTlfZDU1Y2I3Y2NhMDcyMzQ4MmRlNTUyNzk0YzFhZjI3Yjc2YTczMjE4Mjg5ODUyMGFlN2Q0M2M0ZWY5M2ZjOTE4NQ%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/596e6b4a-d879-48f1-a14e-295d466b192a/10s/master.m3u8?fastly_token=NmI4M2FmNTlfZDU1Y2I3Y2NhMDcyMzQ4MmRlNTUyNzk0YzFhZjI3Yjc2YTczMjE4Mjg5ODUyMGFlN2Q0M2M0ZWY5M2ZjOTE4NQ%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/596e6b4a-d879-48f1-a14e-295d466b192a/10s/master.m3u8?fastly_token=NmI4M2FmNTlfZDU1Y2I3Y2NhMDcyMzQ4MmRlNTUyNzk0YzFhZjI3Yjc2YTczMjE4Mjg5ODUyMGFlN2Q0M2M0ZWY5M2ZjOTE4NQ%3D%3D</guid> 
+    <pubDate>Mon, 09 Mar 2015 09:01:35 -0400</pubDate>
+    <itunes:subtitle><![CDATA[On CBN&#39;s Newswatch, March 9: Boko Haram swears allegiance to ISIS, now what?; Remembering Selma: thousands mark &#39;Bloody Sunday&#39;; Anti-Netanyahu rally speaker &#39;blind to reality&#39;; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN&#39;s Newswatch, March 9: Boko Haram swears allegiance to ISIS, now what?; Remembering Selma: thousands mark &#39;Bloody Sunday&#39;; Anti-Netanyahu rally speaker &#39;blind to reality&#39;; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 6, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 6: What speech means for Netanyahu&#39;s political future; Storm strands drivers, leaves thousands powerless; Five wounded in Jerusalem vehicular attack; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/ce94ecc9-2375-48e9-88a6-cc541600f811/10s/master.m3u8?fastly_token=NmI4M2FmMzlfMjgzNWM4YmIxMDQxODMxYmVjOTMwZmU0ZTA4NmIzMzkyZjFlNmQyMGE1NzVjMWQzYjRkYmU2YTZmMGY5OGE5ZQ%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/ce94ecc9-2375-48e9-88a6-cc541600f811/10s/master.m3u8?fastly_token=NmI4M2FmMzlfMjgzNWM4YmIxMDQxODMxYmVjOTMwZmU0ZTA4NmIzMzkyZjFlNmQyMGE1NzVjMWQzYjRkYmU2YTZmMGY5OGE5ZQ%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/ce94ecc9-2375-48e9-88a6-cc541600f811/10s/master.m3u8?fastly_token=NmI4M2FmMzlfMjgzNWM4YmIxMDQxODMxYmVjOTMwZmU0ZTA4NmIzMzkyZjFlNmQyMGE1NzVjMWQzYjRkYmU2YTZmMGY5OGE5ZQ%3D%3D</guid> 
+    <pubDate>Fri, 06 Mar 2015 09:08:20 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 6: What speech means for Netanyahu&#39;s political future; Storm strands drivers, leaves thousands powerless; Five wounded in Jerusalem vehicular attack; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 6: What speech means for Netanyahu&#39;s political future; Storm strands drivers, leaves thousands powerless; Five wounded in Jerusalem vehicular attack; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 5, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 5: Millions of Americans brace for &#39;winter&#39;s last stand&#39;; Hillary Clinton&#39;s State Dept. e-mail scandal deepens; US envoy &#39;stable&#39; after knife attack in S. Korea; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/bc8adb96-b5a3-4af7-9e28-f2342884a9c6/10s/master.m3u8?fastly_token=NmI4M2FmMzlfZWU5N2FhYzNkMWIyMjlhNzVjYzE0ZmE0OTViZWE5NjU5MGYwNmJjYWY5YzY1Nzg3ZTJmZDZkZDRiYWYwYWRmYw%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/bc8adb96-b5a3-4af7-9e28-f2342884a9c6/10s/master.m3u8?fastly_token=NmI4M2FmMzlfZWU5N2FhYzNkMWIyMjlhNzVjYzE0ZmE0OTViZWE5NjU5MGYwNmJjYWY5YzY1Nzg3ZTJmZDZkZDRiYWYwYWRmYw%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/bc8adb96-b5a3-4af7-9e28-f2342884a9c6/10s/master.m3u8?fastly_token=NmI4M2FmMzlfZWU5N2FhYzNkMWIyMjlhNzVjYzE0ZmE0OTViZWE5NjU5MGYwNmJjYWY5YzY1Nzg3ZTJmZDZkZDRiYWYwYWRmYw%3D%3D</guid> 
+    <pubDate>Thu, 05 Mar 2015 09:29:09 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 5: Millions of Americans brace for &#39;winter&#39;s last stand&#39;; Hillary Clinton&#39;s State Dept. e-mail scandal deepens; US envoy &#39;stable&#39; after knife attack in S. Korea; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 5: Millions of Americans brace for &#39;winter&#39;s last stand&#39;; Hillary Clinton&#39;s State Dept. e-mail scandal deepens; US envoy &#39;stable&#39; after knife attack in S. Korea; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 4, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, March 4: Obama antagonism to Israel called &#39;heartbreaking&#39;; Is it the beginning of the end for Obamacare?; Alabama Supreme Court halts same-sex marriage; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/54a3921b-0cee-4105-956d-cd22a1600f42/10s/master.m3u8?fastly_token=NmI4M2FmNWJfYzI0Yzg1YzQ1NmY2YzliMDJiYTcxMzI4MTZjZmZmMzk0YjYxY2MxYjczYWU5ZWY4ODYwNWE3MjNjM2ZiNTQwYg%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/54a3921b-0cee-4105-956d-cd22a1600f42/10s/master.m3u8?fastly_token=NmI4M2FmNWJfYzI0Yzg1YzQ1NmY2YzliMDJiYTcxMzI4MTZjZmZmMzk0YjYxY2MxYjczYWU5ZWY4ODYwNWE3MjNjM2ZiNTQwYg%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/54a3921b-0cee-4105-956d-cd22a1600f42/10s/master.m3u8?fastly_token=NmI4M2FmNWJfYzI0Yzg1YzQ1NmY2YzliMDJiYTcxMzI4MTZjZmZmMzk0YjYxY2MxYjczYWU5ZWY4ODYwNWE3MjNjM2ZiNTQwYg%3D%3D</guid> 
+    <pubDate>Wed, 04 Mar 2015 09:16:29 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, March 4: Obama antagonism to Israel called &#39;heartbreaking&#39;; Is it the beginning of the end for Obamacare?; Alabama Supreme Court halts same-sex marriage; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, March 4: Obama antagonism to Israel called &#39;heartbreaking&#39;; Is it the beginning of the end for Obamacare?; Alabama Supreme Court halts same-sex marriage; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 3, 2015]]></title>
+    <description><![CDATA[On Newswatch CBN, March 3: Today&#39;s the day: Netanyahu addresses Congress; ISIS sends death threats to Twitter CEO, employees; Boko Haram beheading video a &#39;Hallmark of ISIS&#39;; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/4e04fd8a-f8ab-4c5b-9908-c83e7f989c69/10s/master.m3u8?fastly_token=NmI4M2EzNjlfMzA2M2Q4Nzc0OWJjZmNlN2IwMjI2NmE1ZDViYTdlNzE2YjFmMDM0MjY1OWU2NjU0N2Y4N2E5NmEwNWRkNWEwMw%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/4e04fd8a-f8ab-4c5b-9908-c83e7f989c69/10s/master.m3u8?fastly_token=NmI4M2EzNjlfMzA2M2Q4Nzc0OWJjZmNlN2IwMjI2NmE1ZDViYTdlNzE2YjFmMDM0MjY1OWU2NjU0N2Y4N2E5NmEwNWRkNWEwMw%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/4e04fd8a-f8ab-4c5b-9908-c83e7f989c69/10s/master.m3u8?fastly_token=NmI4M2EzNjlfMzA2M2Q4Nzc0OWJjZmNlN2IwMjI2NmE1ZDViYTdlNzE2YjFmMDM0MjY1OWU2NjU0N2Y4N2E5NmEwNWRkNWEwMw%3D%3D</guid> 
+    <pubDate>Tue, 03 Mar 2015 09:43:19 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On Newswatch CBN, March 3: Today&#39;s the day: Netanyahu addresses Congress; ISIS sends death threats to Twitter CEO, employees; Boko Haram beheading video a &#39;Hallmark of ISIS&#39;; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On Newswatch CBN, March 3: Today&#39;s the day: Netanyahu addresses Congress; ISIS sends death threats to Twitter CEO, employees; Boko Haram beheading video a &#39;Hallmark of ISIS&#39;; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: March 2, 2015]]></title>
+    <description><![CDATA[CBN NewsWatch: March 2, 2015: Netanyahu in US for &#39;fateful, historic mission&#39;; ISIS frees 19 Assyrian Christian captives; Rand Paul, Scott Walker - what you missed at CPAC; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/480ecc1d-bb20-45bd-ba6b-a5431ebaf7fe/10s/master.m3u8?fastly_token=NmI4M2FmN2NfYzNmYWFjNzA4NWIwYzk4Y2MxZmE5MWU2YTc4M2Q2YjExM2JiMDkzOTQ1OTA3OGQ5NGEyYTVmNmU1MjJhMzYzNQ%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/480ecc1d-bb20-45bd-ba6b-a5431ebaf7fe/10s/master.m3u8?fastly_token=NmI4M2FmN2NfYzNmYWFjNzA4NWIwYzk4Y2MxZmE5MWU2YTc4M2Q2YjExM2JiMDkzOTQ1OTA3OGQ5NGEyYTVmNmU1MjJhMzYzNQ%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/480ecc1d-bb20-45bd-ba6b-a5431ebaf7fe/10s/master.m3u8?fastly_token=NmI4M2FmN2NfYzNmYWFjNzA4NWIwYzk4Y2MxZmE5MWU2YTc4M2Q2YjExM2JiMDkzOTQ1OTA3OGQ5NGEyYTVmNmU1MjJhMzYzNQ%3D%3D</guid> 
+    <pubDate>Mon, 02 Mar 2015 10:01:53 -0500</pubDate>
+    <itunes:subtitle><![CDATA[CBN NewsWatch: March 2, 2015: Netanyahu in US for &#39;fateful, historic mission&#39;; ISIS frees 19 Assyrian Christian captives; Rand Paul, Scott Walker - what you missed at CPAC; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[CBN NewsWatch: March 2, 2015: Netanyahu in US for &#39;fateful, historic mission&#39;; ISIS frees 19 Assyrian Christian captives; Rand Paul, Scott Walker - what you missed at CPAC; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: February 27, 2015]]></title>
+    <description><![CDATA[On CBN Newswatch, Feb. 27: Boko Haram becoming the &#39;Islamic State&#39; of Africa?; Acquaintances &#39;Jihadi John&#39;: he was &#39;kind, gentle&#39;; Video: ISIS destroys Biblical artifacts in Iraq; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/66096190-5e8c-48ec-8f41-eab39f3acfbd/10s/master.m3u8?fastly_token=NmI4M2FmMzZfNzg3YzNiYTYwMTZjYWQ2MDVkNmZjNjFiMzdjYTE0MzJiNzc3OTQ0ODBiMjhlNWJiNjQ1MTM2ZTEyNGU0M2E4Ng%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/66096190-5e8c-48ec-8f41-eab39f3acfbd/10s/master.m3u8?fastly_token=NmI4M2FmMzZfNzg3YzNiYTYwMTZjYWQ2MDVkNmZjNjFiMzdjYTE0MzJiNzc3OTQ0ODBiMjhlNWJiNjQ1MTM2ZTEyNGU0M2E4Ng%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/66096190-5e8c-48ec-8f41-eab39f3acfbd/10s/master.m3u8?fastly_token=NmI4M2FmMzZfNzg3YzNiYTYwMTZjYWQ2MDVkNmZjNjFiMzdjYTE0MzJiNzc3OTQ0ODBiMjhlNWJiNjQ1MTM2ZTEyNGU0M2E4Ng%3D%3D</guid> 
+    <pubDate>Fri, 27 Feb 2015 10:04:39 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN Newswatch, Feb. 27: Boko Haram becoming the &#39;Islamic State&#39; of Africa?; Acquaintances &#39;Jihadi John&#39;: he was &#39;kind, gentle&#39;; Video: ISIS destroys Biblical artifacts in Iraq; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN Newswatch, Feb. 27: Boko Haram becoming the &#39;Islamic State&#39; of Africa?; Acquaintances &#39;Jihadi John&#39;: he was &#39;kind, gentle&#39;; Video: ISIS destroys Biblical artifacts in Iraq; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: February 26, 2015]]></title>
+    <description><![CDATA[CBN NewsWatch: February 26, 2015: Sleet, snow - old man winter keeps on coming; Netanyahu: World powers gave up on stopping Iran; Obama predicts court victory in amnesty battle; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/f309d0cf-49a2-4fae-8ca2-8c54d7991198/10s/master.m3u8?fastly_token=NmI4M2EzNjNfMDJhZDUxMWI2NDlkOGIwNDZlYWM5YjFlMThiYTI0OWNkNzZjNDY3YWJmNGE5YWEzYmEzNzdlMTRmZmU4Yjg1NA%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/f309d0cf-49a2-4fae-8ca2-8c54d7991198/10s/master.m3u8?fastly_token=NmI4M2EzNjNfMDJhZDUxMWI2NDlkOGIwNDZlYWM5YjFlMThiYTI0OWNkNzZjNDY3YWJmNGE5YWEzYmEzNzdlMTRmZmU4Yjg1NA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/f309d0cf-49a2-4fae-8ca2-8c54d7991198/10s/master.m3u8?fastly_token=NmI4M2EzNjNfMDJhZDUxMWI2NDlkOGIwNDZlYWM5YjFlMThiYTI0OWNkNzZjNDY3YWJmNGE5YWEzYmEzNzdlMTRmZmU4Yjg1NA%3D%3D</guid> 
+    <pubDate>Thu, 26 Feb 2015 09:27:39 -0500</pubDate>
+    <itunes:subtitle><![CDATA[CBN NewsWatch: February 26, 2015: Sleet, snow - old man winter keeps on coming; Netanyahu: World powers gave up on stopping Iran; Obama predicts court victory in amnesty battle; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[CBN NewsWatch: February 26, 2015: Sleet, snow - old man winter keeps on coming; Netanyahu: World powers gave up on stopping Iran; Obama predicts court victory in amnesty battle; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: February 25, 2015]]></title>
+    <description><![CDATA[On CBN&#39;s Newswatch, Feb. 25: &#39;Why is the West silent?&#39; ISIS captives cry for help; US missionary held for $300K ransom in Nigeria; Why American &#39;Soldier of Christ&#39; Is Taking on ISIS; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/5a8ed4a1-4acd-4ca6-932c-58d1a1a2ddbd/10s/master.m3u8?fastly_token=NmI4M2FmN2RfYzllMGEwZDIyYTkzNGNhOWNmZDE3ZjIxMGY0YmQ1YTc3MWM3YmU4N2QxYjA4OGY2NTBiOGViMzQ4ZjM2OGE2Mw%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/5a8ed4a1-4acd-4ca6-932c-58d1a1a2ddbd/10s/master.m3u8?fastly_token=NmI4M2FmN2RfYzllMGEwZDIyYTkzNGNhOWNmZDE3ZjIxMGY0YmQ1YTc3MWM3YmU4N2QxYjA4OGY2NTBiOGViMzQ4ZjM2OGE2Mw%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/5a8ed4a1-4acd-4ca6-932c-58d1a1a2ddbd/10s/master.m3u8?fastly_token=NmI4M2FmN2RfYzllMGEwZDIyYTkzNGNhOWNmZDE3ZjIxMGY0YmQ1YTc3MWM3YmU4N2QxYjA4OGY2NTBiOGViMzQ4ZjM2OGE2Mw%3D%3D</guid> 
+    <pubDate>Wed, 25 Feb 2015 09:06:27 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN&#39;s Newswatch, Feb. 25: &#39;Why is the West silent?&#39; ISIS captives cry for help; US missionary held for $300K ransom in Nigeria; Why American &#39;Soldier of Christ&#39; Is Taking on ISIS; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN&#39;s Newswatch, Feb. 25: &#39;Why is the West silent?&#39; ISIS captives cry for help; US missionary held for $300K ransom in Nigeria; Why American &#39;Soldier of Christ&#39; Is Taking on ISIS; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN NewsWatch: February 24, 2015]]></title>
+    <description><![CDATA[CBN NewsWatch: February 24, Two-thousand-mile storm crippling much of US; Egypt: US playing &#39;double game&#39; in war on terror; What to do in the event of a terror attack; and more.]]></description>
+    <link>https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/995f1f0d-2201-4330-ab9d-50771629f628/10s/master.m3u8?fastly_token=NmI4M2FmNThfZTBlYmUxOTQ2M2QwMTJiZDA4ZmNiMGRmNzY0ZmQ4YTJkNDVmZjg0ZmI5ZGU3YmFiZjlhZGUxNzliYTZjYzMxYg%3D%3D</link>
+    <enclosure url="https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/995f1f0d-2201-4330-ab9d-50771629f628/10s/master.m3u8?fastly_token=NmI4M2FmNThfZTBlYmUxOTQ2M2QwMTJiZDA4ZmNiMGRmNzY0ZmQ4YTJkNDVmZjg0ZmI5ZGU3YmFiZjlhZGUxNzliYTZjYzMxYg%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://manifest.prod.boltdns.net/manifest/v1/hls/v4/clear/734546207001/995f1f0d-2201-4330-ab9d-50771629f628/10s/master.m3u8?fastly_token=NmI4M2FmNThfZTBlYmUxOTQ2M2QwMTJiZDA4ZmNiMGRmNzY0ZmQ4YTJkNDVmZjg0ZmI5ZGU3YmFiZjlhZGUxNzliYTZjYzMxYg%3D%3D</guid> 
+    <pubDate>Tue, 24 Feb 2015 11:00:08 -0500</pubDate>
+    <itunes:subtitle><![CDATA[CBN NewsWatch: February 24, Two-thousand-mile storm crippling much of US; Egypt: US playing &#39;double game&#39; in war on terror; What to do in the event of a terror attack; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[CBN NewsWatch: February 24, Two-thousand-mile storm crippling much of US; Egypt: US playing &#39;double game&#39; in war on terror; What to do in the event of a terror attack; and more.]]></itunes:summary>
+    <itunes:duration>00:00:00</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 23, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 23: Mall threat: Intel Chief warns US &#39;in a new phase&#39;; WH willing to negotiate with Congress on war powers; Jerusalem Mayor tackles terrorist; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/2fb4aba8-109c-4d42-b1d9-b8d890d534b7/e82ee908-4c0b-42c6-a7f0-8193a03d932e/main.mp4?fastly_token=NmI4M2FmN2VfZDZmMzY1YTBlNzQ5ZjAwMGQ2Yjg4ZGFhNWUxMDJmYTE3YTFmM2UyZjNlYThmNDhlYjcxMmQ3NWVhYzE2YjE1NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMmZiNGFiYTgtMTA5Yy00ZDQyLWIxZDktYjhkODkwZDUzNGI3L2U4MmVlOTA4LTRjMGItNDJjNi1hN2YwLTgxOTNhMDNkOTMyZS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/2fb4aba8-109c-4d42-b1d9-b8d890d534b7/e82ee908-4c0b-42c6-a7f0-8193a03d932e/main.mp4?fastly_token=NmI4M2FmN2VfZDZmMzY1YTBlNzQ5ZjAwMGQ2Yjg4ZGFhNWUxMDJmYTE3YTFmM2UyZjNlYThmNDhlYjcxMmQ3NWVhYzE2YjE1NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMmZiNGFiYTgtMTA5Yy00ZDQyLWIxZDktYjhkODkwZDUzNGI3L2U4MmVlOTA4LTRjMGItNDJjNi1hN2YwLTgxOTNhMDNkOTMyZS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/2fb4aba8-109c-4d42-b1d9-b8d890d534b7/e82ee908-4c0b-42c6-a7f0-8193a03d932e/main.mp4?fastly_token=NmI4M2FmN2VfZDZmMzY1YTBlNzQ5ZjAwMGQ2Yjg4ZGFhNWUxMDJmYTE3YTFmM2UyZjNlYThmNDhlYjcxMmQ3NWVhYzE2YjE1NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMmZiNGFiYTgtMTA5Yy00ZDQyLWIxZDktYjhkODkwZDUzNGI3L2U4MmVlOTA4LTRjMGItNDJjNi1hN2YwLTgxOTNhMDNkOTMyZS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 23 Feb 2015 09:08:11 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 23: Mall threat: Intel Chief warns US &#39;in a new phase&#39;; WH willing to negotiate with Congress on war powers; Jerusalem Mayor tackles terrorist; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 23: Mall threat: Intel Chief warns US &#39;in a new phase&#39;; WH willing to negotiate with Congress on war powers; Jerusalem Mayor tackles terrorist; and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 20, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 20: Critics on Islam: time to face facts, Mr. President; School transformed after church gives up &#39;right to preach&#39;; Pakistan aquits Christian of false murder charges; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/75737faa-53a1-47a8-bb7b-599ef21c1d06/d97a1098-b5a9-4aae-88ad-a0e94c59c711/main.mp4?fastly_token=NmI4M2EzNjVfMTMzMjcxNmNkMmQ3OTNiZWEyYjdiY2I4NjY5MGUzMjQzNTlkMmI2NThiOGNkZDExNjk0NWJmZDZiYjcyODU5Nl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzU3MzdmYWEtNTNhMS00N2E4LWJiN2ItNTk5ZWYyMWMxZDA2L2Q5N2ExMDk4LWI1YTktNGFhZS04OGFkLWEwZTk0YzU5YzcxMS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/75737faa-53a1-47a8-bb7b-599ef21c1d06/d97a1098-b5a9-4aae-88ad-a0e94c59c711/main.mp4?fastly_token=NmI4M2EzNjVfMTMzMjcxNmNkMmQ3OTNiZWEyYjdiY2I4NjY5MGUzMjQzNTlkMmI2NThiOGNkZDExNjk0NWJmZDZiYjcyODU5Nl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzU3MzdmYWEtNTNhMS00N2E4LWJiN2ItNTk5ZWYyMWMxZDA2L2Q5N2ExMDk4LWI1YTktNGFhZS04OGFkLWEwZTk0YzU5YzcxMS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/75737faa-53a1-47a8-bb7b-599ef21c1d06/d97a1098-b5a9-4aae-88ad-a0e94c59c711/main.mp4?fastly_token=NmI4M2EzNjVfMTMzMjcxNmNkMmQ3OTNiZWEyYjdiY2I4NjY5MGUzMjQzNTlkMmI2NThiOGNkZDExNjk0NWJmZDZiYjcyODU5Nl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzU3MzdmYWEtNTNhMS00N2E4LWJiN2ItNTk5ZWYyMWMxZDA2L2Q5N2ExMDk4LWI1YTktNGFhZS04OGFkLWEwZTk0YzU5YzcxMS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Fri, 20 Feb 2015 09:31:48 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 20: Critics on Islam: time to face facts, Mr. President; School transformed after church gives up &#39;right to preach&#39;; Pakistan aquits Christian of false murder charges; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 20: Critics on Islam: time to face facts, Mr. President; School transformed after church gives up &#39;right to preach&#39;; Pakistan aquits Christian of false murder charges; and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 19, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 19: Sub-zero temps from Midwest to mid-Atlantic; Then and now: a look at Libya in the age of ISIS; Obama &#39;not at war with Islam&#39; declaration mocked; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1f382597-d296-440b-9ee2-380bc5d10ae5/547df99e-83e4-4b4c-8868-7a0bf13b2afd/main.mp4?fastly_token=NmI4M2I1OWJfOTdiZTMzNDdkMGRlMmI0NDI2MWI0YjlmM2YyOGNkYzNlNDRiNGNjODQyNmVlZTJiNzdkNTMxNjQxNzg0NzEzOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWYzODI1OTctZDI5Ni00NDBiLTllZTItMzgwYmM1ZDEwYWU1LzU0N2RmOTllLTgzZTQtNGI0Yy04ODY4LTdhMGJmMTNiMmFmZC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1f382597-d296-440b-9ee2-380bc5d10ae5/547df99e-83e4-4b4c-8868-7a0bf13b2afd/main.mp4?fastly_token=NmI4M2I1OWJfOTdiZTMzNDdkMGRlMmI0NDI2MWI0YjlmM2YyOGNkYzNlNDRiNGNjODQyNmVlZTJiNzdkNTMxNjQxNzg0NzEzOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWYzODI1OTctZDI5Ni00NDBiLTllZTItMzgwYmM1ZDEwYWU1LzU0N2RmOTllLTgzZTQtNGI0Yy04ODY4LTdhMGJmMTNiMmFmZC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1f382597-d296-440b-9ee2-380bc5d10ae5/547df99e-83e4-4b4c-8868-7a0bf13b2afd/main.mp4?fastly_token=NmI4M2I1OWJfOTdiZTMzNDdkMGRlMmI0NDI2MWI0YjlmM2YyOGNkYzNlNDRiNGNjODQyNmVlZTJiNzdkNTMxNjQxNzg0NzEzOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWYzODI1OTctZDI5Ni00NDBiLTllZTItMzgwYmM1ZDEwYWU1LzU0N2RmOTllLTgzZTQtNGI0Yy04ODY4LTdhMGJmMTNiMmFmZC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Thu, 19 Feb 2015 09:07:17 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 19: Sub-zero temps from Midwest to mid-Atlantic; Then and now: a look at Libya in the age of ISIS; Obama &#39;not at war with Islam&#39; declaration mocked; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 19: Sub-zero temps from Midwest to mid-Atlantic; Then and now: a look at Libya in the age of ISIS; Obama &#39;not at war with Islam&#39; declaration mocked; and more.]]></itunes:summary>
+    <itunes:duration>00:21:25</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 18, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 18: White House &#39;Terrorism&#39; Summit missing the point?; France hunting down terrorist sleeper cells; Travel big concern as storm slams Northeast, South; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/64f7aa1b-2117-420c-b92d-ec4a6bef0e04/mid.mp4?fastly_token=NmI4M2I1YmZfMGZlOGQxODAyMzU4N2MzZDg2MDBkZDg1NDA4YjkxM2E4NzU3YWI5Y2Q4NWRmYmIyNjk5OTQ5ZTY0Nzg4NTE4M18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNjRmN2FhMWItMjExNy00MjBjLWI5MmQtZWM0YTZiZWYwZTA0L21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/64f7aa1b-2117-420c-b92d-ec4a6bef0e04/mid.mp4?fastly_token=NmI4M2I1YmZfMGZlOGQxODAyMzU4N2MzZDg2MDBkZDg1NDA4YjkxM2E4NzU3YWI5Y2Q4NWRmYmIyNjk5OTQ5ZTY0Nzg4NTE4M18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNjRmN2FhMWItMjExNy00MjBjLWI5MmQtZWM0YTZiZWYwZTA0L21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/64f7aa1b-2117-420c-b92d-ec4a6bef0e04/mid.mp4?fastly_token=NmI4M2I1YmZfMGZlOGQxODAyMzU4N2MzZDg2MDBkZDg1NDA4YjkxM2E4NzU3YWI5Y2Q4NWRmYmIyNjk5OTQ5ZTY0Nzg4NTE4M18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNjRmN2FhMWItMjExNy00MjBjLWI5MmQtZWM0YTZiZWYwZTA0L21pZC5tcDQ%3D</guid> 
+    <pubDate>Wed, 18 Feb 2015 10:19:54 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 18: White House &#39;Terrorism&#39; Summit missing the point?; France hunting down terrorist sleeper cells; Travel big concern as storm slams Northeast, South; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 18: White House &#39;Terrorism&#39; Summit missing the point?; France hunting down terrorist sleeper cells; Travel big concern as storm slams Northeast, South; and more.]]></itunes:summary>
+    <itunes:duration>00:21:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 17, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 17: Record-shattering storm freezes South, Mid-Atlantic, Judge blocks President Obama&#39;s immigration order, and more]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1ba214f9-7262-434c-9aed-2d970e6f61f0/217fa1f3-f361-4897-9a88-f76d5634a70a/main.mp4?fastly_token=NmI4M2I1YzFfNzgxM2M1NjE5OGI2ODBhOTczMjI5ZjBjZWE0ZTYwNzMyMThlMGFkYjlhYWJjYjhkNzIyODU0MjJlZTIwNTRjZV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWJhMjE0ZjktNzI2Mi00MzRjLTlhZWQtMmQ5NzBlNmY2MWYwLzIxN2ZhMWYzLWYzNjEtNDg5Ny05YTg4LWY3NmQ1NjM0YTcwYS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1ba214f9-7262-434c-9aed-2d970e6f61f0/217fa1f3-f361-4897-9a88-f76d5634a70a/main.mp4?fastly_token=NmI4M2I1YzFfNzgxM2M1NjE5OGI2ODBhOTczMjI5ZjBjZWE0ZTYwNzMyMThlMGFkYjlhYWJjYjhkNzIyODU0MjJlZTIwNTRjZV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWJhMjE0ZjktNzI2Mi00MzRjLTlhZWQtMmQ5NzBlNmY2MWYwLzIxN2ZhMWYzLWYzNjEtNDg5Ny05YTg4LWY3NmQ1NjM0YTcwYS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1ba214f9-7262-434c-9aed-2d970e6f61f0/217fa1f3-f361-4897-9a88-f76d5634a70a/main.mp4?fastly_token=NmI4M2I1YzFfNzgxM2M1NjE5OGI2ODBhOTczMjI5ZjBjZWE0ZTYwNzMyMThlMGFkYjlhYWJjYjhkNzIyODU0MjJlZTIwNTRjZV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWJhMjE0ZjktNzI2Mi00MzRjLTlhZWQtMmQ5NzBlNmY2MWYwLzIxN2ZhMWYzLWYzNjEtNDg5Ny05YTg4LWY3NmQ1NjM0YTcwYS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Tue, 17 Feb 2015 09:13:34 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 17: Record-shattering storm freezes South, Mid-Atlantic, Judge blocks President Obama&#39;s immigration order, and more]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 17: Record-shattering storm freezes South, Mid-Atlantic, Judge blocks President Obama&#39;s immigration order, and more]]></itunes:summary>
+    <itunes:duration>00:21:58</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 16, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 16: Revenge strikes: Egypt bombs ISIS after beheadings; Netanyahu to Denmark Jews: &#39;Israel is your home&#39;; No end in sight for snow-battered Boston; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3f4c4c8e-218b-432f-b0ac-07b6aa6f2045/9056b389-6191-4073-aba8-59675ae8c317/main.mp4?fastly_token=NmI4M2I1ZTNfNWQyNmRiM2IyNTY5MGI5Y2UyYWRhNjQzNTYwZmIwMDMwZWE3YjhmMmRkNmU1ODM2NjI5MjNjZTFjZDJmYTg4MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvM2Y0YzRjOGUtMjE4Yi00MzJmLWIwYWMtMDdiNmFhNmYyMDQ1LzkwNTZiMzg5LTYxOTEtNDA3My1hYmE4LTU5Njc1YWU4YzMxNy9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3f4c4c8e-218b-432f-b0ac-07b6aa6f2045/9056b389-6191-4073-aba8-59675ae8c317/main.mp4?fastly_token=NmI4M2I1ZTNfNWQyNmRiM2IyNTY5MGI5Y2UyYWRhNjQzNTYwZmIwMDMwZWE3YjhmMmRkNmU1ODM2NjI5MjNjZTFjZDJmYTg4MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvM2Y0YzRjOGUtMjE4Yi00MzJmLWIwYWMtMDdiNmFhNmYyMDQ1LzkwNTZiMzg5LTYxOTEtNDA3My1hYmE4LTU5Njc1YWU4YzMxNy9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3f4c4c8e-218b-432f-b0ac-07b6aa6f2045/9056b389-6191-4073-aba8-59675ae8c317/main.mp4?fastly_token=NmI4M2I1ZTNfNWQyNmRiM2IyNTY5MGI5Y2UyYWRhNjQzNTYwZmIwMDMwZWE3YjhmMmRkNmU1ODM2NjI5MjNjZTFjZDJmYTg4MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvM2Y0YzRjOGUtMjE4Yi00MzJmLWIwYWMtMDdiNmFhNmYyMDQ1LzkwNTZiMzg5LTYxOTEtNDA3My1hYmE4LTU5Njc1YWU4YzMxNy9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 16 Feb 2015 09:55:38 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 16: Revenge strikes: Egypt bombs ISIS after beheadings; Netanyahu to Denmark Jews: &#39;Israel is your home&#39;; No end in sight for snow-battered Boston; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 16: Revenge strikes: Egypt bombs ISIS after beheadings; Netanyahu to Denmark Jews: &#39;Israel is your home&#39;; No end in sight for snow-battered Boston; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 13, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 13: New England digs out, preps for Valentine&#39;s storm, Construction begins: DC museum to bring Bible alive, and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/60e0401c-141b-4eb8-808c-9d354e0065d6/a349fbb4-cc4e-49d9-aaba-2fd525c09650/main.mp4?fastly_token=NmI4M2I1ZTNfYWE1YzdjZGE3ZGYyZTYzYzIwYmVmMDg5YzdlNWM4Zjc4ZmYxNzI0ZTAwZGZmZjFkMGJhMmUzOTNkYzg0MTE4ZV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNjBlMDQwMWMtMTQxYi00ZWI4LTgwOGMtOWQzNTRlMDA2NWQ2L2EzNDlmYmI0LWNjNGUtNDlkOS1hYWJhLTJmZDUyNWMwOTY1MC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/60e0401c-141b-4eb8-808c-9d354e0065d6/a349fbb4-cc4e-49d9-aaba-2fd525c09650/main.mp4?fastly_token=NmI4M2I1ZTNfYWE1YzdjZGE3ZGYyZTYzYzIwYmVmMDg5YzdlNWM4Zjc4ZmYxNzI0ZTAwZGZmZjFkMGJhMmUzOTNkYzg0MTE4ZV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNjBlMDQwMWMtMTQxYi00ZWI4LTgwOGMtOWQzNTRlMDA2NWQ2L2EzNDlmYmI0LWNjNGUtNDlkOS1hYWJhLTJmZDUyNWMwOTY1MC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/60e0401c-141b-4eb8-808c-9d354e0065d6/a349fbb4-cc4e-49d9-aaba-2fd525c09650/main.mp4?fastly_token=NmI4M2I1ZTNfYWE1YzdjZGE3ZGYyZTYzYzIwYmVmMDg5YzdlNWM4Zjc4ZmYxNzI0ZTAwZGZmZjFkMGJhMmUzOTNkYzg0MTE4ZV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNjBlMDQwMWMtMTQxYi00ZWI4LTgwOGMtOWQzNTRlMDA2NWQ2L2EzNDlmYmI0LWNjNGUtNDlkOS1hYWJhLTJmZDUyNWMwOTY1MC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Fri, 13 Feb 2015 09:04:15 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 13: New England digs out, preps for Valentine&#39;s storm, Construction begins: DC museum to bring Bible alive, and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 13: New England digs out, preps for Valentine&#39;s storm, Construction begins: DC museum to bring Bible alive, and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 12, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 12: Ukraine peace deal reached after marathon talks; How Yemen fits Iran plans for Mideast rule, beyond; Israeli Minister on Iran: US stepping on landmine; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/78918cad-7add-4916-b603-f2d4b62b1907/2869ab6f-bee2-49e8-8f13-bde04780137d/main.mp4?fastly_token=NmI4M2EzNjJfMmU1MjQ3Yzk2MWRhMWZiN2FmYjYzMzk1NzA5YjJjYWM5ZTcxNTVkMjUzNWE0ZmUwZjliMjQ4MzU0ZWZiNGE4NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzg5MThjYWQtN2FkZC00OTE2LWI2MDMtZjJkNGI2MmIxOTA3LzI4NjlhYjZmLWJlZTItNDllOC04ZjEzLWJkZTA0NzgwMTM3ZC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/78918cad-7add-4916-b603-f2d4b62b1907/2869ab6f-bee2-49e8-8f13-bde04780137d/main.mp4?fastly_token=NmI4M2EzNjJfMmU1MjQ3Yzk2MWRhMWZiN2FmYjYzMzk1NzA5YjJjYWM5ZTcxNTVkMjUzNWE0ZmUwZjliMjQ4MzU0ZWZiNGE4NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzg5MThjYWQtN2FkZC00OTE2LWI2MDMtZjJkNGI2MmIxOTA3LzI4NjlhYjZmLWJlZTItNDllOC04ZjEzLWJkZTA0NzgwMTM3ZC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/78918cad-7add-4916-b603-f2d4b62b1907/2869ab6f-bee2-49e8-8f13-bde04780137d/main.mp4?fastly_token=NmI4M2EzNjJfMmU1MjQ3Yzk2MWRhMWZiN2FmYjYzMzk1NzA5YjJjYWM5ZTcxNTVkMjUzNWE0ZmUwZjliMjQ4MzU0ZWZiNGE4NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzg5MThjYWQtN2FkZC00OTE2LWI2MDMtZjJkNGI2MmIxOTA3LzI4NjlhYjZmLWJlZTItNDllOC04ZjEzLWJkZTA0NzgwMTM3ZC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Thu, 12 Feb 2015 09:11:16 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 12: Ukraine peace deal reached after marathon talks; How Yemen fits Iran plans for Mideast rule, beyond; Israeli Minister on Iran: US stepping on landmine; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 12: Ukraine peace deal reached after marathon talks; How Yemen fits Iran plans for Mideast rule, beyond; Israeli Minister on Iran: US stepping on landmine; and more.]]></itunes:summary>
+    <itunes:duration>00:22:26</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 11, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 11: New details emerge about Mueller&#39;s time with ISIS; Australia thwarts ISIS machete attack; Intense fighting in Ukraine overshadows peace talks; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/dd6a63ea-d774-4049-bc19-d2aea5fa795e/9725c89b-684f-42fe-9c04-f9748e6d599a/main.mp4?fastly_token=NmI4M2EyZjhfMTcwZjk4MzQ5OTc4MGE3N2IyNTMwYTVlZmE1MmY0ZGNjZWM1ZDJiZWJiZDJkZmU1NDZmMmUxOGQ0Mjc4OGQzNV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZGQ2YTYzZWEtZDc3NC00MDQ5LWJjMTktZDJhZWE1ZmE3OTVlLzk3MjVjODliLTY4NGYtNDJmZS05YzA0LWY5NzQ4ZTZkNTk5YS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/dd6a63ea-d774-4049-bc19-d2aea5fa795e/9725c89b-684f-42fe-9c04-f9748e6d599a/main.mp4?fastly_token=NmI4M2EyZjhfMTcwZjk4MzQ5OTc4MGE3N2IyNTMwYTVlZmE1MmY0ZGNjZWM1ZDJiZWJiZDJkZmU1NDZmMmUxOGQ0Mjc4OGQzNV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZGQ2YTYzZWEtZDc3NC00MDQ5LWJjMTktZDJhZWE1ZmE3OTVlLzk3MjVjODliLTY4NGYtNDJmZS05YzA0LWY5NzQ4ZTZkNTk5YS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/dd6a63ea-d774-4049-bc19-d2aea5fa795e/9725c89b-684f-42fe-9c04-f9748e6d599a/main.mp4?fastly_token=NmI4M2EyZjhfMTcwZjk4MzQ5OTc4MGE3N2IyNTMwYTVlZmE1MmY0ZGNjZWM1ZDJiZWJiZDJkZmU1NDZmMmUxOGQ0Mjc4OGQzNV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZGQ2YTYzZWEtZDc3NC00MDQ5LWJjMTktZDJhZWE1ZmE3OTVlLzk3MjVjODliLTY4NGYtNDJmZS05YzA0LWY5NzQ4ZTZkNTk5YS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Wed, 11 Feb 2015 09:14:48 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 11: New details emerge about Mueller&#39;s time with ISIS; Australia thwarts ISIS machete attack; Intense fighting in Ukraine overshadows peace talks; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 11: New details emerge about Mueller&#39;s time with ISIS; Australia thwarts ISIS machete attack; Intense fighting in Ukraine overshadows peace talks; and more.]]></itunes:summary>
+    <itunes:duration>00:20:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 10, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 10: Pilot&#39;s burning death a turning point for Jordan; Boston: enough snow to fill a stadium &#39;90 times&#39;; Obama to ask Congress for war powers to fight ISIS; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0e953053-8ea1-4a71-b7f0-fcc8c583bf51/accb9fc6-6567-457a-8e18-3b3c57cb1dc4/main.mp4?fastly_token=NmI4M2EzNjNfODdhNGE0ZTgyMTk1YWIxYjA4OTBjZGRhMDhmY2Q5N2Q2MzQ1NDliMGJhMTI3NGY2NDA0OTg2NDg5MTY5ZWM1Ml8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGU5NTMwNTMtOGVhMS00YTcxLWI3ZjAtZmNjOGM1ODNiZjUxL2FjY2I5ZmM2LTY1NjctNDU3YS04ZTE4LTNiM2M1N2NiMWRjNC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0e953053-8ea1-4a71-b7f0-fcc8c583bf51/accb9fc6-6567-457a-8e18-3b3c57cb1dc4/main.mp4?fastly_token=NmI4M2EzNjNfODdhNGE0ZTgyMTk1YWIxYjA4OTBjZGRhMDhmY2Q5N2Q2MzQ1NDliMGJhMTI3NGY2NDA0OTg2NDg5MTY5ZWM1Ml8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGU5NTMwNTMtOGVhMS00YTcxLWI3ZjAtZmNjOGM1ODNiZjUxL2FjY2I5ZmM2LTY1NjctNDU3YS04ZTE4LTNiM2M1N2NiMWRjNC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0e953053-8ea1-4a71-b7f0-fcc8c583bf51/accb9fc6-6567-457a-8e18-3b3c57cb1dc4/main.mp4?fastly_token=NmI4M2EzNjNfODdhNGE0ZTgyMTk1YWIxYjA4OTBjZGRhMDhmY2Q5N2Q2MzQ1NDliMGJhMTI3NGY2NDA0OTg2NDg5MTY5ZWM1Ml8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGU5NTMwNTMtOGVhMS00YTcxLWI3ZjAtZmNjOGM1ODNiZjUxL2FjY2I5ZmM2LTY1NjctNDU3YS04ZTE4LTNiM2M1N2NiMWRjNC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Tue, 10 Feb 2015 09:00:41 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 10: Pilot&#39;s burning death a turning point for Jordan; Boston: enough snow to fill a stadium &#39;90 times&#39;; Obama to ask Congress for war powers to fight ISIS; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 10: Pilot&#39;s burning death a turning point for Jordan; Boston: enough snow to fill a stadium &#39;90 times&#39;; Obama to ask Congress for war powers to fight ISIS; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 9, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 9: More snow for Northeast: &#39;We&#39;ve never seen this&#39;; Ex-Intel Chief on the enemy US &#39;won&#39;t admit exists&#39;; Jordan continues campaign to &#39;wipe out&#39; ISIS; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/f5890a31-7458-4176-b4a1-53c08701c09a/94e0ecc1-1282-4776-b4d0-e13fb323284a/main.mp4?fastly_token=NmI4M2EzM2NfOTQ1YmQ1ODI3ODUzYTc1MjhjNmRkMjJkYzkyMzlhOWE0NzA3YjBmZjUwMGNiMDgwYmMyZTk0ZGYxNGNjYWQ3NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZjU4OTBhMzEtNzQ1OC00MTc2LWI0YTEtNTNjMDg3MDFjMDlhLzk0ZTBlY2MxLTEyODItNDc3Ni1iNGQwLWUxM2ZiMzIzMjg0YS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/f5890a31-7458-4176-b4a1-53c08701c09a/94e0ecc1-1282-4776-b4d0-e13fb323284a/main.mp4?fastly_token=NmI4M2EzM2NfOTQ1YmQ1ODI3ODUzYTc1MjhjNmRkMjJkYzkyMzlhOWE0NzA3YjBmZjUwMGNiMDgwYmMyZTk0ZGYxNGNjYWQ3NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZjU4OTBhMzEtNzQ1OC00MTc2LWI0YTEtNTNjMDg3MDFjMDlhLzk0ZTBlY2MxLTEyODItNDc3Ni1iNGQwLWUxM2ZiMzIzMjg0YS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/f5890a31-7458-4176-b4a1-53c08701c09a/94e0ecc1-1282-4776-b4d0-e13fb323284a/main.mp4?fastly_token=NmI4M2EzM2NfOTQ1YmQ1ODI3ODUzYTc1MjhjNmRkMjJkYzkyMzlhOWE0NzA3YjBmZjUwMGNiMDgwYmMyZTk0ZGYxNGNjYWQ3NF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZjU4OTBhMzEtNzQ1OC00MTc2LWI0YTEtNTNjMDg3MDFjMDlhLzk0ZTBlY2MxLTEyODItNDc3Ni1iNGQwLWUxM2ZiMzIzMjg0YS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 09 Feb 2015 09:34:06 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 9: More snow for Northeast: &#39;We&#39;ve never seen this&#39;; Ex-Intel Chief on the enemy US &#39;won&#39;t admit exists&#39;; Jordan continues campaign to &#39;wipe out&#39; ISIS; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 9: More snow for Northeast: &#39;We&#39;ve never seen this&#39;; Ex-Intel Chief on the enemy US &#39;won&#39;t admit exists&#39;; Jordan continues campaign to &#39;wipe out&#39; ISIS; and more.]]></itunes:summary>
+    <itunes:duration>00:21:54</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 6, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 6: China hackers suspected in Anthem Inc. breach; Indian police arrest church attack protesters; Netanyahu in the crosshairs: who is &#39;OneVoice&#39;?; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3705e2c3-3659-4543-8658-bd5828e928e5/mid.mp4?fastly_token=NmI4M2EzNjNfYTAyNTliZTkzZDQwOWQyMWM1ZDdlM2I2MTMyZDBmMTkyNDQyMjBmNTc0ZThhNWFiYTk5Mzc4NWFhODM2Y2NiY18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzcwNWUyYzMtMzY1OS00NTQzLTg2NTgtYmQ1ODI4ZTkyOGU1L21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3705e2c3-3659-4543-8658-bd5828e928e5/mid.mp4?fastly_token=NmI4M2EzNjNfYTAyNTliZTkzZDQwOWQyMWM1ZDdlM2I2MTMyZDBmMTkyNDQyMjBmNTc0ZThhNWFiYTk5Mzc4NWFhODM2Y2NiY18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzcwNWUyYzMtMzY1OS00NTQzLTg2NTgtYmQ1ODI4ZTkyOGU1L21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3705e2c3-3659-4543-8658-bd5828e928e5/mid.mp4?fastly_token=NmI4M2EzNjNfYTAyNTliZTkzZDQwOWQyMWM1ZDdlM2I2MTMyZDBmMTkyNDQyMjBmNTc0ZThhNWFiYTk5Mzc4NWFhODM2Y2NiY18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzcwNWUyYzMtMzY1OS00NTQzLTg2NTgtYmQ1ODI4ZTkyOGU1L21pZC5tcDQ%3D</guid> 
+    <pubDate>Fri, 06 Feb 2015 09:15:51 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 6: China hackers suspected in Anthem Inc. breach; Indian police arrest church attack protesters; Netanyahu in the crosshairs: who is &#39;OneVoice&#39;?; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 6: China hackers suspected in Anthem Inc. breach; Indian police arrest church attack protesters; Netanyahu in the crosshairs: who is &#39;OneVoice&#39;?; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 5, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 5: Second major storm heads toward New England; US, NATO step up support for Ukraine; UN: ISIS torturing, murdering Iraqi children; and more]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/be09269b-f3fe-4b14-8867-f945288aed24/mid.mp4?fastly_token=NmI4M2EzM2ZfZDg0YmE1ZjI5MmM3MDFiMjhkNmYyZmIxMmY5NDI1ZmZkMDhlZjMwYzA1ZjEzMWQ1NmYzMTM1OTU5NGMyZTU1NV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYmUwOTI2OWItZjNmZS00YjE0LTg4NjctZjk0NTI4OGFlZDI0L21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/be09269b-f3fe-4b14-8867-f945288aed24/mid.mp4?fastly_token=NmI4M2EzM2ZfZDg0YmE1ZjI5MmM3MDFiMjhkNmYyZmIxMmY5NDI1ZmZkMDhlZjMwYzA1ZjEzMWQ1NmYzMTM1OTU5NGMyZTU1NV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYmUwOTI2OWItZjNmZS00YjE0LTg4NjctZjk0NTI4OGFlZDI0L21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/be09269b-f3fe-4b14-8867-f945288aed24/mid.mp4?fastly_token=NmI4M2EzM2ZfZDg0YmE1ZjI5MmM3MDFiMjhkNmYyZmIxMmY5NDI1ZmZkMDhlZjMwYzA1ZjEzMWQ1NmYzMTM1OTU5NGMyZTU1NV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYmUwOTI2OWItZjNmZS00YjE0LTg4NjctZjk0NTI4OGFlZDI0L21pZC5tcDQ%3D</guid> 
+    <pubDate>Thu, 05 Feb 2015 09:40:05 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 5: Second major storm heads toward New England; US, NATO step up support for Ukraine; UN: ISIS torturing, murdering Iraqi children; and more]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 5: Second major storm heads toward New England; US, NATO step up support for Ukraine; UN: ISIS torturing, murdering Iraqi children; and more]]></itunes:summary>
+    <itunes:duration>00:21:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 4, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 4: Jihadis executed after Jordan pilot&#39;s burning death; &#39;Christ is Lord.&#39; westerners join fight against ISIS; Islamic Shariah tribunal begins operating in Texas; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/cfc40eb3-f7a1-4b86-ac4f-eaf95dffe4be/bcf32940-a78a-4c23-956c-66d3bae43ff1/main.mp4?fastly_token=NmI4M2I1NzdfYjVhYzhlZjNmNmI0MDY0Njk4MjAzOTg1ODk1OWJlOTAyM2MyOTA5MThkNzI5OTYzMDM0Mzc2MGIxNDdkNjgzYV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvY2ZjNDBlYjMtZjdhMS00Yjg2LWFjNGYtZWFmOTVkZmZlNGJlL2JjZjMyOTQwLWE3OGEtNGMyMy05NTZjLTY2ZDNiYWU0M2ZmMS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/cfc40eb3-f7a1-4b86-ac4f-eaf95dffe4be/bcf32940-a78a-4c23-956c-66d3bae43ff1/main.mp4?fastly_token=NmI4M2I1NzdfYjVhYzhlZjNmNmI0MDY0Njk4MjAzOTg1ODk1OWJlOTAyM2MyOTA5MThkNzI5OTYzMDM0Mzc2MGIxNDdkNjgzYV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvY2ZjNDBlYjMtZjdhMS00Yjg2LWFjNGYtZWFmOTVkZmZlNGJlL2JjZjMyOTQwLWE3OGEtNGMyMy05NTZjLTY2ZDNiYWU0M2ZmMS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/cfc40eb3-f7a1-4b86-ac4f-eaf95dffe4be/bcf32940-a78a-4c23-956c-66d3bae43ff1/main.mp4?fastly_token=NmI4M2I1NzdfYjVhYzhlZjNmNmI0MDY0Njk4MjAzOTg1ODk1OWJlOTAyM2MyOTA5MThkNzI5OTYzMDM0Mzc2MGIxNDdkNjgzYV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvY2ZjNDBlYjMtZjdhMS00Yjg2LWFjNGYtZWFmOTVkZmZlNGJlL2JjZjMyOTQwLWE3OGEtNGMyMy05NTZjLTY2ZDNiYWU0M2ZmMS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Wed, 04 Feb 2015 09:08:14 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 4: Jihadis executed after Jordan pilot&#39;s burning death; &#39;Christ is Lord.&#39; westerners join fight against ISIS; Islamic Shariah tribunal begins operating in Texas; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 4: Jihadis executed after Jordan pilot&#39;s burning death; &#39;Christ is Lord.&#39; westerners join fight against ISIS; Islamic Shariah tribunal begins operating in Texas; and more.]]></itunes:summary>
+    <itunes:duration>00:20:55</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 3, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Feb. 3: Storms leave deadly trail across Midwest, Northeast; Obama admin targets nuns over birth control mandate; Obama $4T budget derided as &#39;envy economics&#39;; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/824cf5b9-1890-4910-8dc8-5a37a4f326e0/6942bf72-22cf-4325-b282-acb26c1c109b/main.mp4?fastly_token=NmI4M2I1ZTNfNGFmYTMxMzZhNGNlY2YxOWFlZmRlMTI0NGFjOWNjZTRmMzFiMWMzYTZiODI4ODYyYjc2YzZkNjY0Mjc5ZDUxOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvODI0Y2Y1YjktMTg5MC00OTEwLThkYzgtNWEzN2E0ZjMyNmUwLzY5NDJiZjcyLTIyY2YtNDMyNS1iMjgyLWFjYjI2YzFjMTA5Yi9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/824cf5b9-1890-4910-8dc8-5a37a4f326e0/6942bf72-22cf-4325-b282-acb26c1c109b/main.mp4?fastly_token=NmI4M2I1ZTNfNGFmYTMxMzZhNGNlY2YxOWFlZmRlMTI0NGFjOWNjZTRmMzFiMWMzYTZiODI4ODYyYjc2YzZkNjY0Mjc5ZDUxOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvODI0Y2Y1YjktMTg5MC00OTEwLThkYzgtNWEzN2E0ZjMyNmUwLzY5NDJiZjcyLTIyY2YtNDMyNS1iMjgyLWFjYjI2YzFjMTA5Yi9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/824cf5b9-1890-4910-8dc8-5a37a4f326e0/6942bf72-22cf-4325-b282-acb26c1c109b/main.mp4?fastly_token=NmI4M2I1ZTNfNGFmYTMxMzZhNGNlY2YxOWFlZmRlMTI0NGFjOWNjZTRmMzFiMWMzYTZiODI4ODYyYjc2YzZkNjY0Mjc5ZDUxOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvODI0Y2Y1YjktMTg5MC00OTEwLThkYzgtNWEzN2E0ZjMyNmUwLzY5NDJiZjcyLTIyY2YtNDMyNS1iMjgyLWFjYjI2YzFjMTA5Yi9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Tue, 03 Feb 2015 09:18:06 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Feb. 3: Storms leave deadly trail across Midwest, Northeast; Obama admin targets nuns over birth control mandate; Obama $4T budget derided as &#39;envy economics&#39;; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Feb. 3: Storms leave deadly trail across Midwest, Northeast; Obama admin targets nuns over birth control mandate; Obama $4T budget derided as &#39;envy economics&#39;; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: February 2, 2015]]></title>
+    <description><![CDATA[On CBN News, Feb. 2: Huge snow storm broadsides Midwest, heads East; Caliphate: Islamic world&#39;s &#39;dream come true&#39;; Washington insiders: Obama $4T budget &#39;DOA&#39;; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/339dd976-9803-4bb3-af48-f21b5b688e54/4af8902d-bf45-4c37-8c6d-4381fc19dc3a/main.mp4?fastly_token=NmI4M2I1ZTNfYWE4Yjk2YTQ0NTdmYjRjNzUzMGFjZDMwZGEzYjI5NzlhODFiMDJhZGYzOGVhOTMwMzFkMjE1ZDBjNzAxY2M3NV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzM5ZGQ5NzYtOTgwMy00YmIzLWFmNDgtZjIxYjViNjg4ZTU0LzRhZjg5MDJkLWJmNDUtNGMzNy04YzZkLTQzODFmYzE5ZGMzYS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/339dd976-9803-4bb3-af48-f21b5b688e54/4af8902d-bf45-4c37-8c6d-4381fc19dc3a/main.mp4?fastly_token=NmI4M2I1ZTNfYWE4Yjk2YTQ0NTdmYjRjNzUzMGFjZDMwZGEzYjI5NzlhODFiMDJhZGYzOGVhOTMwMzFkMjE1ZDBjNzAxY2M3NV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzM5ZGQ5NzYtOTgwMy00YmIzLWFmNDgtZjIxYjViNjg4ZTU0LzRhZjg5MDJkLWJmNDUtNGMzNy04YzZkLTQzODFmYzE5ZGMzYS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/339dd976-9803-4bb3-af48-f21b5b688e54/4af8902d-bf45-4c37-8c6d-4381fc19dc3a/main.mp4?fastly_token=NmI4M2I1ZTNfYWE4Yjk2YTQ0NTdmYjRjNzUzMGFjZDMwZGEzYjI5NzlhODFiMDJhZGYzOGVhOTMwMzFkMjE1ZDBjNzAxY2M3NV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzM5ZGQ5NzYtOTgwMy00YmIzLWFmNDgtZjIxYjViNjg4ZTU0LzRhZjg5MDJkLWJmNDUtNGMzNy04YzZkLTQzODFmYzE5ZGMzYS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 02 Feb 2015 09:47:00 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News, Feb. 2: Huge snow storm broadsides Midwest, heads East; Caliphate: Islamic world&#39;s &#39;dream come true&#39;; Washington insiders: Obama $4T budget &#39;DOA&#39;; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News, Feb. 2: Huge snow storm broadsides Midwest, heads East; Caliphate: Islamic world&#39;s &#39;dream come true&#39;; Washington insiders: Obama $4T budget &#39;DOA&#39;; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 30, 2015]]></title>
+    <description><![CDATA[On CBN News, Jan. 30: Families anxious, ISIS hostages&#39; fate in limbo; Senate approves XL Pipeline measure; Dozens recovering from Mexico City hospital blast; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/af31ea36-474e-42ae-932b-49469628b415/8d57595f-ee64-49a1-ac2e-39e70e623595/main.mp4?fastly_token=NmI4M2I1NzlfNjM0MGEwZTg2ZTFlNzA0YjEzMDM1NTljODU5NDVlYzk4ZjIxNGE5NDU0MzllMThjNGQwMjgwMjg5YTlkNmI4MV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYWYzMWVhMzYtNDc0ZS00MmFlLTkzMmItNDk0Njk2MjhiNDE1LzhkNTc1OTVmLWVlNjQtNDlhMS1hYzJlLTM5ZTcwZTYyMzU5NS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/af31ea36-474e-42ae-932b-49469628b415/8d57595f-ee64-49a1-ac2e-39e70e623595/main.mp4?fastly_token=NmI4M2I1NzlfNjM0MGEwZTg2ZTFlNzA0YjEzMDM1NTljODU5NDVlYzk4ZjIxNGE5NDU0MzllMThjNGQwMjgwMjg5YTlkNmI4MV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYWYzMWVhMzYtNDc0ZS00MmFlLTkzMmItNDk0Njk2MjhiNDE1LzhkNTc1OTVmLWVlNjQtNDlhMS1hYzJlLTM5ZTcwZTYyMzU5NS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/af31ea36-474e-42ae-932b-49469628b415/8d57595f-ee64-49a1-ac2e-39e70e623595/main.mp4?fastly_token=NmI4M2I1NzlfNjM0MGEwZTg2ZTFlNzA0YjEzMDM1NTljODU5NDVlYzk4ZjIxNGE5NDU0MzllMThjNGQwMjgwMjg5YTlkNmI4MV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYWYzMWVhMzYtNDc0ZS00MmFlLTkzMmItNDk0Njk2MjhiNDE1LzhkNTc1OTVmLWVlNjQtNDlhMS1hYzJlLTM5ZTcwZTYyMzU5NS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Fri, 30 Jan 2015 09:23:48 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News, Jan. 30: Families anxious, ISIS hostages&#39; fate in limbo; Senate approves XL Pipeline measure; Dozens recovering from Mexico City hospital blast; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News, Jan. 30: Families anxious, ISIS hostages&#39; fate in limbo; Senate approves XL Pipeline measure; Dozens recovering from Mexico City hospital blast; and more.]]></itunes:summary>
+    <itunes:duration>00:20:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 29, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 29: New ISIS deadline: &#39;you have till sunset&#39;; Battle is His: &#39;brave German woman&#39; draws backlash; Cuba demands US relinquish Guantanamo Bay; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/9e5b4416-85dc-40a4-83ae-20e8692db510/2d1f18b2-da3a-4f20-9282-f5923aadf931/main.mp4?fastly_token=NmI4M2I1NzlfY2U4MjZmNTA4MzFjMDgxNzAzMTUxNjE5MGMzZjA5OWM5MDBmY2UyZjNmYmNmZmZmOGEwZDMyODNhZWMwYWZlMl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvOWU1YjQ0MTYtODVkYy00MGE0LTgzYWUtMjBlODY5MmRiNTEwLzJkMWYxOGIyLWRhM2EtNGYyMC05MjgyLWY1OTIzYWFkZjkzMS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/9e5b4416-85dc-40a4-83ae-20e8692db510/2d1f18b2-da3a-4f20-9282-f5923aadf931/main.mp4?fastly_token=NmI4M2I1NzlfY2U4MjZmNTA4MzFjMDgxNzAzMTUxNjE5MGMzZjA5OWM5MDBmY2UyZjNmYmNmZmZmOGEwZDMyODNhZWMwYWZlMl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvOWU1YjQ0MTYtODVkYy00MGE0LTgzYWUtMjBlODY5MmRiNTEwLzJkMWYxOGIyLWRhM2EtNGYyMC05MjgyLWY1OTIzYWFkZjkzMS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/9e5b4416-85dc-40a4-83ae-20e8692db510/2d1f18b2-da3a-4f20-9282-f5923aadf931/main.mp4?fastly_token=NmI4M2I1NzlfY2U4MjZmNTA4MzFjMDgxNzAzMTUxNjE5MGMzZjA5OWM5MDBmY2UyZjNmYmNmZmZmOGEwZDMyODNhZWMwYWZlMl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvOWU1YjQ0MTYtODVkYy00MGE0LTgzYWUtMjBlODY5MmRiNTEwLzJkMWYxOGIyLWRhM2EtNGYyMC05MjgyLWY1OTIzYWFkZjkzMS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Thu, 29 Jan 2015 09:12:09 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 29: New ISIS deadline: &#39;you have till sunset&#39;; Battle is His: &#39;brave German woman&#39; draws backlash; Cuba demands US relinquish Guantanamo Bay; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 29: New ISIS deadline: &#39;you have till sunset&#39;; Battle is His: &#39;brave German woman&#39; draws backlash; Cuba demands US relinquish Guantanamo Bay; and more.]]></itunes:summary>
+    <itunes:duration>00:20:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 28, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 28: New England digging out from winter storm Juno; Jordan to swap terrorist for ISIS hostages; ISIS affiliate claims Libya totel attack; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3ff733c0-3cfe-4036-bfd5-7a5e2546323d/ff0365bd-d738-4cfb-ae96-0fefc1b56b2d/main.mp4?fastly_token=NmI4M2FlZjRfOTBhN2E4Mzk2Y2Y0M2YyZTA5ZDA4MjlkN2RkODJiOWIzMzM0ZTk5NjM5Y2I5NGQ0NTlkOGRlMjE0YWRkNTdiOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvM2ZmNzMzYzAtM2NmZS00MDM2LWJmZDUtN2E1ZTI1NDYzMjNkL2ZmMDM2NWJkLWQ3MzgtNGNmYi1hZTk2LTBmZWZjMWI1NmIyZC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3ff733c0-3cfe-4036-bfd5-7a5e2546323d/ff0365bd-d738-4cfb-ae96-0fefc1b56b2d/main.mp4?fastly_token=NmI4M2FlZjRfOTBhN2E4Mzk2Y2Y0M2YyZTA5ZDA4MjlkN2RkODJiOWIzMzM0ZTk5NjM5Y2I5NGQ0NTlkOGRlMjE0YWRkNTdiOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvM2ZmNzMzYzAtM2NmZS00MDM2LWJmZDUtN2E1ZTI1NDYzMjNkL2ZmMDM2NWJkLWQ3MzgtNGNmYi1hZTk2LTBmZWZjMWI1NmIyZC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/3ff733c0-3cfe-4036-bfd5-7a5e2546323d/ff0365bd-d738-4cfb-ae96-0fefc1b56b2d/main.mp4?fastly_token=NmI4M2FlZjRfOTBhN2E4Mzk2Y2Y0M2YyZTA5ZDA4MjlkN2RkODJiOWIzMzM0ZTk5NjM5Y2I5NGQ0NTlkOGRlMjE0YWRkNTdiOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvM2ZmNzMzYzAtM2NmZS00MDM2LWJmZDUtN2E1ZTI1NDYzMjNkL2ZmMDM2NWJkLWQ3MzgtNGNmYi1hZTk2LTBmZWZjMWI1NmIyZC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Wed, 28 Jan 2015 09:10:07 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 28: New England digging out from winter storm Juno; Jordan to swap terrorist for ISIS hostages; ISIS affiliate claims Libya totel attack; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 28: New England digging out from winter storm Juno; Jordan to swap terrorist for ISIS hostages; ISIS affiliate claims Libya totel attack; and more.]]></itunes:summary>
+    <itunes:duration>00:21:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 27, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 27: Blizzard predictions scaled back for New York; Gunmen at Libya hotel take hostages, eight dead; Memo to Washington: Iran missiles can reach US; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/7a99c001-0638-457f-9585-1f08cd2ff368/55c7ec8c-6b19-4182-9aa0-20173e67e9d0/main.mp4?fastly_token=NmI4M2I1YmZfOWQxNzRmZTVhMjg4MGFjNzkzNGUyZDkzYmYwZDY3YjMwOTlmMjZkZmQ0MWFjN2NkNjZhYmQxMTk4ZTU3MmYyOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvN2E5OWMwMDEtMDYzOC00NTdmLTk1ODUtMWYwOGNkMmZmMzY4LzU1YzdlYzhjLTZiMTktNDE4Mi05YWEwLTIwMTczZTY3ZTlkMC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/7a99c001-0638-457f-9585-1f08cd2ff368/55c7ec8c-6b19-4182-9aa0-20173e67e9d0/main.mp4?fastly_token=NmI4M2I1YmZfOWQxNzRmZTVhMjg4MGFjNzkzNGUyZDkzYmYwZDY3YjMwOTlmMjZkZmQ0MWFjN2NkNjZhYmQxMTk4ZTU3MmYyOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvN2E5OWMwMDEtMDYzOC00NTdmLTk1ODUtMWYwOGNkMmZmMzY4LzU1YzdlYzhjLTZiMTktNDE4Mi05YWEwLTIwMTczZTY3ZTlkMC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/7a99c001-0638-457f-9585-1f08cd2ff368/55c7ec8c-6b19-4182-9aa0-20173e67e9d0/main.mp4?fastly_token=NmI4M2I1YmZfOWQxNzRmZTVhMjg4MGFjNzkzNGUyZDkzYmYwZDY3YjMwOTlmMjZkZmQ0MWFjN2NkNjZhYmQxMTk4ZTU3MmYyOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvN2E5OWMwMDEtMDYzOC00NTdmLTk1ODUtMWYwOGNkMmZmMzY4LzU1YzdlYzhjLTZiMTktNDE4Mi05YWEwLTIwMTczZTY3ZTlkMC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Tue, 27 Jan 2015 09:41:07 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 27: Blizzard predictions scaled back for New York; Gunmen at Libya hotel take hostages, eight dead; Memo to Washington: Iran missiles can reach US; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 27: Blizzard predictions scaled back for New York; Gunmen at Libya hotel take hostages, eight dead; Memo to Washington: Iran missiles can reach US; and more.]]></itunes:summary>
+    <itunes:duration>00:21:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 23, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 23: Oil spikes on news of King Abdullah&#39;s death; Yemen&#39;s president steps down; &#39;Answered prayer.&#39; Obama calls Saeed &#39;top priority&#39;; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/e9fefbf3-9fe7-494e-bbbc-871a44ea0dac/mid.mp4?fastly_token=NmI4M2I1YmVfYWIyMzI3OTZkM2ZmM2UwM2Q1OGVkNzEzYjZmNjFmZDE2OGYyNmE4OGZiNWM4NzAwZjA4MjRjNWU1MmM3NTk1YV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZTlmZWZiZjMtOWZlNy00OTRlLWJiYmMtODcxYTQ0ZWEwZGFjL21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/e9fefbf3-9fe7-494e-bbbc-871a44ea0dac/mid.mp4?fastly_token=NmI4M2I1YmVfYWIyMzI3OTZkM2ZmM2UwM2Q1OGVkNzEzYjZmNjFmZDE2OGYyNmE4OGZiNWM4NzAwZjA4MjRjNWU1MmM3NTk1YV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZTlmZWZiZjMtOWZlNy00OTRlLWJiYmMtODcxYTQ0ZWEwZGFjL21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/e9fefbf3-9fe7-494e-bbbc-871a44ea0dac/mid.mp4?fastly_token=NmI4M2I1YmVfYWIyMzI3OTZkM2ZmM2UwM2Q1OGVkNzEzYjZmNjFmZDE2OGYyNmE4OGZiNWM4NzAwZjA4MjRjNWU1MmM3NTk1YV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZTlmZWZiZjMtOWZlNy00OTRlLWJiYmMtODcxYTQ0ZWEwZGFjL21pZC5tcDQ%3D</guid> 
+    <pubDate>Fri, 23 Jan 2015 09:14:13 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 23: Oil spikes on news of King Abdullah&#39;s death; Yemen&#39;s president steps down; &#39;Answered prayer.&#39; Obama calls Saeed &#39;top priority&#39;; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 23: Oil spikes on news of King Abdullah&#39;s death; Yemen&#39;s president steps down; &#39;Answered prayer.&#39; Obama calls Saeed &#39;top priority&#39;; and more.]]></itunes:summary>
+    <itunes:duration>00:21:55</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 22, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 22: &#39;Answered prayer.&#39; Obama calls Saeed &#39;top priority&#39;; US, Cuba tackle obstacles to normalizing relations; ISIS silent as Japan ransom deadline nears; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/29c8e5a6-2b3a-439c-bde5-599f17fa5ff4/91854d22-1dc5-4e9f-90a3-ca2c080e96dc/main.mp4?fastly_token=NmI4M2I1ZTNfNWM4MjM4ZTU1YmUzMDk0YzQzYjMzMjBmNWY5OGVmYWQzNDcxM2FlM2NiZDRhZWViYzlkNThkNWJkYTA2YTMwYV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMjljOGU1YTYtMmIzYS00MzljLWJkZTUtNTk5ZjE3ZmE1ZmY0LzkxODU0ZDIyLTFkYzUtNGU5Zi05MGEzLWNhMmMwODBlOTZkYy9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/29c8e5a6-2b3a-439c-bde5-599f17fa5ff4/91854d22-1dc5-4e9f-90a3-ca2c080e96dc/main.mp4?fastly_token=NmI4M2I1ZTNfNWM4MjM4ZTU1YmUzMDk0YzQzYjMzMjBmNWY5OGVmYWQzNDcxM2FlM2NiZDRhZWViYzlkNThkNWJkYTA2YTMwYV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMjljOGU1YTYtMmIzYS00MzljLWJkZTUtNTk5ZjE3ZmE1ZmY0LzkxODU0ZDIyLTFkYzUtNGU5Zi05MGEzLWNhMmMwODBlOTZkYy9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/29c8e5a6-2b3a-439c-bde5-599f17fa5ff4/91854d22-1dc5-4e9f-90a3-ca2c080e96dc/main.mp4?fastly_token=NmI4M2I1ZTNfNWM4MjM4ZTU1YmUzMDk0YzQzYjMzMjBmNWY5OGVmYWQzNDcxM2FlM2NiZDRhZWViYzlkNThkNWJkYTA2YTMwYV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMjljOGU1YTYtMmIzYS00MzljLWJkZTUtNTk5ZjE3ZmE1ZmY0LzkxODU0ZDIyLTFkYzUtNGU5Zi05MGEzLWNhMmMwODBlOTZkYy9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Thu, 22 Jan 2015 09:52:38 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 22: &#39;Answered prayer.&#39; Obama calls Saeed &#39;top priority&#39;; US, Cuba tackle obstacles to normalizing relations; ISIS silent as Japan ransom deadline nears; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 22: &#39;Answered prayer.&#39; Obama calls Saeed &#39;top priority&#39;; US, Cuba tackle obstacles to normalizing relations; ISIS silent as Japan ransom deadline nears; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 21, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 21: Defiant Obama pushes ambitious economic agenda; Four corroborators in Paris terror attack indicted; 17 injured in Tel Aviv bus stabbing; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/704258d1-b44c-40ec-afee-546c6fec141f/mid.mp4?fastly_token=NmI4M2I1ZTRfNDI3YTliY2I5NTM1MzFhMDA0ZGU0NjI0MDdiNGUwNGU2ZjJkNjFkZTQ1NDFkYWVkYjJjMDk1Yzc4OGYzOGZhNV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzA0MjU4ZDEtYjQ0Yy00MGVjLWFmZWUtNTQ2YzZmZWMxNDFmL21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/704258d1-b44c-40ec-afee-546c6fec141f/mid.mp4?fastly_token=NmI4M2I1ZTRfNDI3YTliY2I5NTM1MzFhMDA0ZGU0NjI0MDdiNGUwNGU2ZjJkNjFkZTQ1NDFkYWVkYjJjMDk1Yzc4OGYzOGZhNV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzA0MjU4ZDEtYjQ0Yy00MGVjLWFmZWUtNTQ2YzZmZWMxNDFmL21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/704258d1-b44c-40ec-afee-546c6fec141f/mid.mp4?fastly_token=NmI4M2I1ZTRfNDI3YTliY2I5NTM1MzFhMDA0ZGU0NjI0MDdiNGUwNGU2ZjJkNjFkZTQ1NDFkYWVkYjJjMDk1Yzc4OGYzOGZhNV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzA0MjU4ZDEtYjQ0Yy00MGVjLWFmZWUtNTQ2YzZmZWMxNDFmL21pZC5tcDQ%3D</guid> 
+    <pubDate>Wed, 21 Jan 2015 09:14:29 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 21: Defiant Obama pushes ambitious economic agenda; Four corroborators in Paris terror attack indicted; 17 injured in Tel Aviv bus stabbing; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 21: Defiant Obama pushes ambitious economic agenda; Four corroborators in Paris terror attack indicted; 17 injured in Tel Aviv bus stabbing; and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 20, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 20: ISIS threatens Japan: pay up or hostages die; State of Union preview: Obama tackles taxes, terror; Niger Christians on edge after church burnings; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/214e08e4-b883-42de-9086-cb73ef700f05/mid.mp4?fastly_token=NmI4M2I1ZTRfZmZhZWYwODQwNmNjYzg4MDUzZGYzODU4YzhhNjRmMjhiZTYwM2NkNDQwYTE2MmQ5YzM5OGQ5NjNmNzQ5YzliZl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMjE0ZTA4ZTQtYjg4My00MmRlLTkwODYtY2I3M2VmNzAwZjA1L21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/214e08e4-b883-42de-9086-cb73ef700f05/mid.mp4?fastly_token=NmI4M2I1ZTRfZmZhZWYwODQwNmNjYzg4MDUzZGYzODU4YzhhNjRmMjhiZTYwM2NkNDQwYTE2MmQ5YzM5OGQ5NjNmNzQ5YzliZl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMjE0ZTA4ZTQtYjg4My00MmRlLTkwODYtY2I3M2VmNzAwZjA1L21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/214e08e4-b883-42de-9086-cb73ef700f05/mid.mp4?fastly_token=NmI4M2I1ZTRfZmZhZWYwODQwNmNjYzg4MDUzZGYzODU4YzhhNjRmMjhiZTYwM2NkNDQwYTE2MmQ5YzM5OGQ5NjNmNzQ5YzliZl8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMjE0ZTA4ZTQtYjg4My00MmRlLTkwODYtY2I3M2VmNzAwZjA1L21pZC5tcDQ%3D</guid> 
+    <pubDate>Tue, 20 Jan 2015 09:23:24 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 20: ISIS threatens Japan: pay up or hostages die; State of Union preview: Obama tackles taxes, terror; Niger Christians on edge after church burnings; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 20: ISIS threatens Japan: pay up or hostages die; State of Union preview: Obama tackles taxes, terror; Niger Christians on edge after church burnings; and more.]]></itunes:summary>
+    <itunes:duration>00:22:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 19, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan 19: &#39;Death to France!&#39;: Muslim protests spreading; &#39;Selma&#39; stars, others march to honor King&#39;s legacy; Yemen in chaos as Shia seek to overthrow gov&#39;t; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0cb07e7d-ad7f-46ae-b8a8-c932082c8568/16e52c68-38ac-4313-b778-0c3721da1658/main.mp4?fastly_token=NmI4M2I1ZTRfOWUzZDExMDI3MTdlMTE1Yjk5MmZjY2Y0N2RjNWU4OGMwOTQzYTZjNWI0YWZkZTgxZjg2NjRmYjkxZjRhM2Q0YV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGNiMDdlN2QtYWQ3Zi00NmFlLWI4YTgtYzkzMjA4MmM4NTY4LzE2ZTUyYzY4LTM4YWMtNDMxMy1iNzc4LTBjMzcyMWRhMTY1OC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0cb07e7d-ad7f-46ae-b8a8-c932082c8568/16e52c68-38ac-4313-b778-0c3721da1658/main.mp4?fastly_token=NmI4M2I1ZTRfOWUzZDExMDI3MTdlMTE1Yjk5MmZjY2Y0N2RjNWU4OGMwOTQzYTZjNWI0YWZkZTgxZjg2NjRmYjkxZjRhM2Q0YV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGNiMDdlN2QtYWQ3Zi00NmFlLWI4YTgtYzkzMjA4MmM4NTY4LzE2ZTUyYzY4LTM4YWMtNDMxMy1iNzc4LTBjMzcyMWRhMTY1OC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0cb07e7d-ad7f-46ae-b8a8-c932082c8568/16e52c68-38ac-4313-b778-0c3721da1658/main.mp4?fastly_token=NmI4M2I1ZTRfOWUzZDExMDI3MTdlMTE1Yjk5MmZjY2Y0N2RjNWU4OGMwOTQzYTZjNWI0YWZkZTgxZjg2NjRmYjkxZjRhM2Q0YV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGNiMDdlN2QtYWQ3Zi00NmFlLWI4YTgtYzkzMjA4MmM4NTY4LzE2ZTUyYzY4LTM4YWMtNDMxMy1iNzc4LTBjMzcyMWRhMTY1OC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 19 Jan 2015 09:44:11 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan 19: &#39;Death to France!&#39;: Muslim protests spreading; &#39;Selma&#39; stars, others march to honor King&#39;s legacy; Yemen in chaos as Shia seek to overthrow gov&#39;t; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan 19: &#39;Death to France!&#39;: Muslim protests spreading; &#39;Selma&#39; stars, others march to honor King&#39;s legacy; Yemen in chaos as Shia seek to overthrow gov&#39;t; and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 16, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 16: Two dozen nabbed in Europe anti-terror raids; Duke University cancels plans for Muslim call to prayer; US eases Cuba travel, trade restrictions; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1b9a7a67-a1ce-4a48-ae8b-f52a04a66ecc/b55dc0bb-d16d-4708-864e-b38f5b31cba3/main.mp4?fastly_token=NmI4M2I1ZTRfYTM0ZjkzMGE1NDE1NTcyNjBkYjZmNjZlYmQwY2YwYjVjY2Q1OTE2NzBmZGVlZGJjY2JiNTliNmM4Yzg3ZDg5MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWI5YTdhNjctYTFjZS00YTQ4LWFlOGItZjUyYTA0YTY2ZWNjL2I1NWRjMGJiLWQxNmQtNDcwOC04NjRlLWIzOGY1YjMxY2JhMy9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1b9a7a67-a1ce-4a48-ae8b-f52a04a66ecc/b55dc0bb-d16d-4708-864e-b38f5b31cba3/main.mp4?fastly_token=NmI4M2I1ZTRfYTM0ZjkzMGE1NDE1NTcyNjBkYjZmNjZlYmQwY2YwYjVjY2Q1OTE2NzBmZGVlZGJjY2JiNTliNmM4Yzg3ZDg5MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWI5YTdhNjctYTFjZS00YTQ4LWFlOGItZjUyYTA0YTY2ZWNjL2I1NWRjMGJiLWQxNmQtNDcwOC04NjRlLWIzOGY1YjMxY2JhMy9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1b9a7a67-a1ce-4a48-ae8b-f52a04a66ecc/b55dc0bb-d16d-4708-864e-b38f5b31cba3/main.mp4?fastly_token=NmI4M2I1ZTRfYTM0ZjkzMGE1NDE1NTcyNjBkYjZmNjZlYmQwY2YwYjVjY2Q1OTE2NzBmZGVlZGJjY2JiNTliNmM4Yzg3ZDg5MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMWI5YTdhNjctYTFjZS00YTQ4LWFlOGItZjUyYTA0YTY2ZWNjL2I1NWRjMGJiLWQxNmQtNDcwOC04NjRlLWIzOGY1YjMxY2JhMy9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Fri, 16 Jan 2015 09:46:44 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 16: Two dozen nabbed in Europe anti-terror raids; Duke University cancels plans for Muslim call to prayer; US eases Cuba travel, trade restrictions; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 16: Two dozen nabbed in Europe anti-terror raids; Duke University cancels plans for Muslim call to prayer; US eases Cuba travel, trade restrictions; and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 15, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan: 15: Feds foil ISIS-inspired attack on US Capitol; Flu season in full swing: what you should know; Charlie Hebdo sees record sales after attacks; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/4e12b816-3f26-413e-be7b-eb2b70de84d5/mid.mp4?fastly_token=NmI4M2E5NmVfNjFmY2FhNTNjOGQzN2U2ZjU2YWJjZWZiMWZkZWZmNjk5ZDU4ZWI5ZWEyZWM1MjJkZTM1MTkxOGUxZGY2M2UyOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNGUxMmI4MTYtM2YyNi00MTNlLWJlN2ItZWIyYjcwZGU4NGQ1L21pZC5tcDQ%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/4e12b816-3f26-413e-be7b-eb2b70de84d5/mid.mp4?fastly_token=NmI4M2E5NmVfNjFmY2FhNTNjOGQzN2U2ZjU2YWJjZWZiMWZkZWZmNjk5ZDU4ZWI5ZWEyZWM1MjJkZTM1MTkxOGUxZGY2M2UyOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNGUxMmI4MTYtM2YyNi00MTNlLWJlN2ItZWIyYjcwZGU4NGQ1L21pZC5tcDQ%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/4e12b816-3f26-413e-be7b-eb2b70de84d5/mid.mp4?fastly_token=NmI4M2E5NmVfNjFmY2FhNTNjOGQzN2U2ZjU2YWJjZWZiMWZkZWZmNjk5ZDU4ZWI5ZWEyZWM1MjJkZTM1MTkxOGUxZGY2M2UyOF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNGUxMmI4MTYtM2YyNi00MTNlLWJlN2ItZWIyYjcwZGU4NGQ1L21pZC5tcDQ%3D</guid> 
+    <pubDate>Thu, 15 Jan 2015 09:09:38 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan: 15: Feds foil ISIS-inspired attack on US Capitol; Flu season in full swing: what you should know; Charlie Hebdo sees record sales after attacks; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan: 15: Feds foil ISIS-inspired attack on US Capitol; Flu season in full swing: what you should know; Charlie Hebdo sees record sales after attacks; and more.]]></itunes:summary>
+    <itunes:duration>00:21:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 14, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 14: Pakistani Muslims celebrate Paris massacre; Hundreds rally in support of sacked Fire Chief; Activism could be key to ending legal abortion; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/2cc28673-725a-462a-a5c0-56274c123e41/9a365c2f-624c-4621-94f0-07fab0d20e6c/main.mp4?fastly_token=NmI4M2I1ZTRfNGM0NmJiNmJiYmVmMjYyYmYyNzEwMmNiOTIwMDFiYTgzMmZlM2Q2YmI0MGI2MWUxYzI3MDllYjk2ODliY2RlN18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMmNjMjg2NzMtNzI1YS00NjJhLWE1YzAtNTYyNzRjMTIzZTQxLzlhMzY1YzJmLTYyNGMtNDYyMS05NGYwLTA3ZmFiMGQyMGU2Yy9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/2cc28673-725a-462a-a5c0-56274c123e41/9a365c2f-624c-4621-94f0-07fab0d20e6c/main.mp4?fastly_token=NmI4M2I1ZTRfNGM0NmJiNmJiYmVmMjYyYmYyNzEwMmNiOTIwMDFiYTgzMmZlM2Q2YmI0MGI2MWUxYzI3MDllYjk2ODliY2RlN18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMmNjMjg2NzMtNzI1YS00NjJhLWE1YzAtNTYyNzRjMTIzZTQxLzlhMzY1YzJmLTYyNGMtNDYyMS05NGYwLTA3ZmFiMGQyMGU2Yy9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/2cc28673-725a-462a-a5c0-56274c123e41/9a365c2f-624c-4621-94f0-07fab0d20e6c/main.mp4?fastly_token=NmI4M2I1ZTRfNGM0NmJiNmJiYmVmMjYyYmYyNzEwMmNiOTIwMDFiYTgzMmZlM2Q2YmI0MGI2MWUxYzI3MDllYjk2ODliY2RlN18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMmNjMjg2NzMtNzI1YS00NjJhLWE1YzAtNTYyNzRjMTIzZTQxLzlhMzY1YzJmLTYyNGMtNDYyMS05NGYwLTA3ZmFiMGQyMGU2Yy9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Wed, 14 Jan 2015 09:55:51 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 14: Pakistani Muslims celebrate Paris massacre; Hundreds rally in support of sacked Fire Chief; Activism could be key to ending legal abortion; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 14: Pakistani Muslims celebrate Paris massacre; Hundreds rally in support of sacked Fire Chief; Activism could be key to ending legal abortion; and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 13, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 13: Security tight ahead of new &#39;Charlie Hebdo&#39; cartoon; Ebola survivor Rick Sacra returns to Liberia; Deadly DC metro smoke incident under investigation; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1765971c-e4aa-4f2b-8b88-e4836e37bfe8/bcb8c842-31be-4c0f-8fbb-49fc6271d1b8/main.mp4?fastly_token=NmI4M2I1OWRfMGJjZjczYjg3ZWYxMGQ3OTQ0MmI1ZjJmZWM2ZjU0MWRkYmZiZTYwNzdiNjNhNWIxZWE4MTNlNTRmNTc1ODcwZF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMTc2NTk3MWMtZTRhYS00ZjJiLThiODgtZTQ4MzZlMzdiZmU4L2JjYjhjODQyLTMxYmUtNGMwZi04ZmJiLTQ5ZmM2MjcxZDFiOC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1765971c-e4aa-4f2b-8b88-e4836e37bfe8/bcb8c842-31be-4c0f-8fbb-49fc6271d1b8/main.mp4?fastly_token=NmI4M2I1OWRfMGJjZjczYjg3ZWYxMGQ3OTQ0MmI1ZjJmZWM2ZjU0MWRkYmZiZTYwNzdiNjNhNWIxZWE4MTNlNTRmNTc1ODcwZF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMTc2NTk3MWMtZTRhYS00ZjJiLThiODgtZTQ4MzZlMzdiZmU4L2JjYjhjODQyLTMxYmUtNGMwZi04ZmJiLTQ5ZmM2MjcxZDFiOC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/1765971c-e4aa-4f2b-8b88-e4836e37bfe8/bcb8c842-31be-4c0f-8fbb-49fc6271d1b8/main.mp4?fastly_token=NmI4M2I1OWRfMGJjZjczYjg3ZWYxMGQ3OTQ0MmI1ZjJmZWM2ZjU0MWRkYmZiZTYwNzdiNjNhNWIxZWE4MTNlNTRmNTc1ODcwZF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMTc2NTk3MWMtZTRhYS00ZjJiLThiODgtZTQ4MzZlMzdiZmU4L2JjYjhjODQyLTMxYmUtNGMwZi04ZmJiLTQ5ZmM2MjcxZDFiOC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Tue, 13 Jan 2015 09:45:08 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 13: Security tight ahead of new &#39;Charlie Hebdo&#39; cartoon; Ebola survivor Rick Sacra returns to Liberia; Deadly DC metro smoke incident under investigation; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 13: Security tight ahead of new &#39;Charlie Hebdo&#39; cartoon; Ebola survivor Rick Sacra returns to Liberia; Deadly DC metro smoke incident under investigation; and more.]]></itunes:summary>
+    <itunes:duration>00:21:27</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 12, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 12: &#39;Charlie&#39; rallies continue amid global jihad threat, Memorial services to be held for Andra&#233; Crouch, and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/376c14dd-879f-4958-b69c-2f1ea413ce75/15364995-a4c8-4f05-9e5f-c1cf44b5c7f2/main.mp4?fastly_token=NmI4M2I1ZTRfOWI0OGMyMjE1MDE3MWUwNzMyZGM3MWRlMWEwMTQ0OTE3ZGQ5NDlhZmQ5NTRkNDNhYmM0NWQzYjNjNjEyNDUwN18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzc2YzE0ZGQtODc5Zi00OTU4LWI2OWMtMmYxZWE0MTNjZTc1LzE1MzY0OTk1LWE0YzgtNGYwNS05ZTVmLWMxY2Y0NGI1YzdmMi9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/376c14dd-879f-4958-b69c-2f1ea413ce75/15364995-a4c8-4f05-9e5f-c1cf44b5c7f2/main.mp4?fastly_token=NmI4M2I1ZTRfOWI0OGMyMjE1MDE3MWUwNzMyZGM3MWRlMWEwMTQ0OTE3ZGQ5NDlhZmQ5NTRkNDNhYmM0NWQzYjNjNjEyNDUwN18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzc2YzE0ZGQtODc5Zi00OTU4LWI2OWMtMmYxZWE0MTNjZTc1LzE1MzY0OTk1LWE0YzgtNGYwNS05ZTVmLWMxY2Y0NGI1YzdmMi9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/376c14dd-879f-4958-b69c-2f1ea413ce75/15364995-a4c8-4f05-9e5f-c1cf44b5c7f2/main.mp4?fastly_token=NmI4M2I1ZTRfOWI0OGMyMjE1MDE3MWUwNzMyZGM3MWRlMWEwMTQ0OTE3ZGQ5NDlhZmQ5NTRkNDNhYmM0NWQzYjNjNjEyNDUwN18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMzc2YzE0ZGQtODc5Zi00OTU4LWI2OWMtMmYxZWE0MTNjZTc1LzE1MzY0OTk1LWE0YzgtNGYwNS05ZTVmLWMxY2Y0NGI1YzdmMi9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 12 Jan 2015 09:22:18 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 12: &#39;Charlie&#39; rallies continue amid global jihad threat, Memorial services to be held for Andra&#233; Crouch, and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 12: &#39;Charlie&#39; rallies continue amid global jihad threat, Memorial services to be held for Andra&#233; Crouch, and more.]]></itunes:summary>
+    <itunes:duration>00:22:28</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 9, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 9: French police in stand-off with terror suspects; The life, legacy of gospel legend Andra&#233; Crouch; Senate pipeline bill advances despite veto threat; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/8d21cd3e-617a-4f26-9d26-32e0944bb821/d1e9585c-5861-4769-8ec1-77c590578938/main.mp4?fastly_token=NmI4M2I1ZTJfYzMxMDBlZTI2OTdjYTIwNzc3NzI2OWI3NDhmNjE2ODBlY2UyZmM5ODY4ZWJjYmFiOTdlMjgwOTk3ODY0ODVmNF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvOGQyMWNkM2UtNjE3YS00ZjI2LTlkMjYtMzJlMDk0NGJiODIxL2QxZTk1ODVjLTU4NjEtNDc2OS04ZWMxLTc3YzU5MDU3ODkzOC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/8d21cd3e-617a-4f26-9d26-32e0944bb821/d1e9585c-5861-4769-8ec1-77c590578938/main.mp4?fastly_token=NmI4M2I1ZTJfYzMxMDBlZTI2OTdjYTIwNzc3NzI2OWI3NDhmNjE2ODBlY2UyZmM5ODY4ZWJjYmFiOTdlMjgwOTk3ODY0ODVmNF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvOGQyMWNkM2UtNjE3YS00ZjI2LTlkMjYtMzJlMDk0NGJiODIxL2QxZTk1ODVjLTU4NjEtNDc2OS04ZWMxLTc3YzU5MDU3ODkzOC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/8d21cd3e-617a-4f26-9d26-32e0944bb821/d1e9585c-5861-4769-8ec1-77c590578938/main.mp4?fastly_token=NmI4M2I1ZTJfYzMxMDBlZTI2OTdjYTIwNzc3NzI2OWI3NDhmNjE2ODBlY2UyZmM5ODY4ZWJjYmFiOTdlMjgwOTk3ODY0ODVmNF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvOGQyMWNkM2UtNjE3YS00ZjI2LTlkMjYtMzJlMDk0NGJiODIxL2QxZTk1ODVjLTU4NjEtNDc2OS04ZWMxLTc3YzU5MDU3ODkzOC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Fri, 09 Jan 2015 09:08:32 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 9: French police in stand-off with terror suspects; The life, legacy of gospel legend Andra&#233; Crouch; Senate pipeline bill advances despite veto threat; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 9: French police in stand-off with terror suspects; The life, legacy of gospel legend Andra&#233; Crouch; Senate pipeline bill advances despite veto threat; and more.]]></itunes:summary>
+    <itunes:duration>00:22:26</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 8, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 8: Cop killed in new attack, Paris manhunt continues; Brutal temps: &#39;this is die-in-your-sleep-cold&#39;; Protesters worldwide stand in solidarity with France; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/4d4ccfee-8e85-4859-ac02-32a52e32532d/650d8edf-fbb0-4b21-b39b-08f3fbff889c/main.mp4?fastly_token=NmI4M2I1ZTNfNDNmZWM4OGVhMTM2MWZlZTEwZjZhMzBkZjRjMWJmYTJiZGY1Y2E0YWFmOWQ4ZjkzYTQyYjI4NGIxNDE2ODk3M18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNGQ0Y2NmZWUtOGU4NS00ODU5LWFjMDItMzJhNTJlMzI1MzJkLzY1MGQ4ZWRmLWZiYjAtNGIyMS1iMzliLTA4ZjNmYmZmODg5Yy9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/4d4ccfee-8e85-4859-ac02-32a52e32532d/650d8edf-fbb0-4b21-b39b-08f3fbff889c/main.mp4?fastly_token=NmI4M2I1ZTNfNDNmZWM4OGVhMTM2MWZlZTEwZjZhMzBkZjRjMWJmYTJiZGY1Y2E0YWFmOWQ4ZjkzYTQyYjI4NGIxNDE2ODk3M18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNGQ0Y2NmZWUtOGU4NS00ODU5LWFjMDItMzJhNTJlMzI1MzJkLzY1MGQ4ZWRmLWZiYjAtNGIyMS1iMzliLTA4ZjNmYmZmODg5Yy9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/4d4ccfee-8e85-4859-ac02-32a52e32532d/650d8edf-fbb0-4b21-b39b-08f3fbff889c/main.mp4?fastly_token=NmI4M2I1ZTNfNDNmZWM4OGVhMTM2MWZlZTEwZjZhMzBkZjRjMWJmYTJiZGY1Y2E0YWFmOWQ4ZjkzYTQyYjI4NGIxNDE2ODk3M18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNGQ0Y2NmZWUtOGU4NS00ODU5LWFjMDItMzJhNTJlMzI1MzJkLzY1MGQ4ZWRmLWZiYjAtNGIyMS1iMzliLTA4ZjNmYmZmODg5Yy9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Thu, 08 Jan 2015 09:14:24 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 8: Cop killed in new attack, Paris manhunt continues; Brutal temps: &#39;this is die-in-your-sleep-cold&#39;; Protesters worldwide stand in solidarity with France; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 8: Cop killed in new attack, Paris manhunt continues; Brutal temps: &#39;this is die-in-your-sleep-cold&#39;; Protesters worldwide stand in solidarity with France; and more.]]></itunes:summary>
+    <itunes:duration>00:22:26</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 7, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 7: Much of nation in the icy grip of Old Man Winter; Obama, new Congress clash over pipeline, healthcare; Fmr. Gov. Bob McDonnell sentenced to 2 years in prison; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/74a08d20-38b8-4bd8-9773-a386a5eb503f/4dac08b8-d0e5-4ae5-a9f4-4b6deed47e3c/main.mp4?fastly_token=NmI4M2I1YmVfMDk5NTMzMGY0MDgyZGMzM2YxY2Q5MWI5ZDkwMDEwMjVkMGZhM2Q2OWQzNjdmMTAyNmI5MDdlOTliZTcyMmNiM18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzRhMDhkMjAtMzhiOC00YmQ4LTk3NzMtYTM4NmE1ZWI1MDNmLzRkYWMwOGI4LWQwZTUtNGFlNS1hOWY0LTRiNmRlZWQ0N2UzYy9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/74a08d20-38b8-4bd8-9773-a386a5eb503f/4dac08b8-d0e5-4ae5-a9f4-4b6deed47e3c/main.mp4?fastly_token=NmI4M2I1YmVfMDk5NTMzMGY0MDgyZGMzM2YxY2Q5MWI5ZDkwMDEwMjVkMGZhM2Q2OWQzNjdmMTAyNmI5MDdlOTliZTcyMmNiM18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzRhMDhkMjAtMzhiOC00YmQ4LTk3NzMtYTM4NmE1ZWI1MDNmLzRkYWMwOGI4LWQwZTUtNGFlNS1hOWY0LTRiNmRlZWQ0N2UzYy9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/74a08d20-38b8-4bd8-9773-a386a5eb503f/4dac08b8-d0e5-4ae5-a9f4-4b6deed47e3c/main.mp4?fastly_token=NmI4M2I1YmVfMDk5NTMzMGY0MDgyZGMzM2YxY2Q5MWI5ZDkwMDEwMjVkMGZhM2Q2OWQzNjdmMTAyNmI5MDdlOTliZTcyMmNiM18vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvNzRhMDhkMjAtMzhiOC00YmQ4LTk3NzMtYTM4NmE1ZWI1MDNmLzRkYWMwOGI4LWQwZTUtNGFlNS1hOWY0LTRiNmRlZWQ0N2UzYy9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Wed, 07 Jan 2015 09:11:46 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 7: Much of nation in the icy grip of Old Man Winter; Obama, new Congress clash over pipeline, healthcare; Fmr. Gov. Bob McDonnell sentenced to 2 years in prison; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 7: Much of nation in the icy grip of Old Man Winter; Obama, new Congress clash over pipeline, healthcare; Fmr. Gov. Bob McDonnell sentenced to 2 years in prison; and more.]]></itunes:summary>
+    <itunes:duration>00:21:55</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 6, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 6: Stay home! Arctic blast puts nation in deep freeze; New sheriff in town: GOP takes aim at Obama agenda; Sharyl Attisson sues Obama admin. over hacking; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/e6b4fea5-abbf-4b92-a6a2-f294162741e3/1f4f5d84-d837-4ce5-92ea-34a5e3bc8f11/main.mp4?fastly_token=NmI4M2I1YzBfN2FhMDM2MWVhNDEzNjkxYWViNjhmNTgyZDlmZjFmZThjYjdjOTY0NjE3M2E4M2VkNTE4NDg4NjAxMzBlN2ZkOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZTZiNGZlYTUtYWJiZi00YjkyLWE2YTItZjI5NDE2Mjc0MWUzLzFmNGY1ZDg0LWQ4MzctNGNlNS05MmVhLTM0YTVlM2JjOGYxMS9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/e6b4fea5-abbf-4b92-a6a2-f294162741e3/1f4f5d84-d837-4ce5-92ea-34a5e3bc8f11/main.mp4?fastly_token=NmI4M2I1YzBfN2FhMDM2MWVhNDEzNjkxYWViNjhmNTgyZDlmZjFmZThjYjdjOTY0NjE3M2E4M2VkNTE4NDg4NjAxMzBlN2ZkOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZTZiNGZlYTUtYWJiZi00YjkyLWE2YTItZjI5NDE2Mjc0MWUzLzFmNGY1ZDg0LWQ4MzctNGNlNS05MmVhLTM0YTVlM2JjOGYxMS9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/e6b4fea5-abbf-4b92-a6a2-f294162741e3/1f4f5d84-d837-4ce5-92ea-34a5e3bc8f11/main.mp4?fastly_token=NmI4M2I1YzBfN2FhMDM2MWVhNDEzNjkxYWViNjhmNTgyZDlmZjFmZThjYjdjOTY0NjE3M2E4M2VkNTE4NDg4NjAxMzBlN2ZkOV8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvZTZiNGZlYTUtYWJiZi00YjkyLWE2YTItZjI5NDE2Mjc0MWUzLzFmNGY1ZDg0LWQ4MzctNGNlNS05MmVhLTM0YTVlM2JjOGYxMS9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Tue, 06 Jan 2015 09:27:05 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 6: Stay home! Arctic blast puts nation in deep freeze; New sheriff in town: GOP takes aim at Obama agenda; Sharyl Attisson sues Obama admin. over hacking; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 6: Stay home! Arctic blast puts nation in deep freeze; New sheriff in town: GOP takes aim at Obama agenda; Sharyl Attisson sues Obama admin. over hacking; and more.]]></itunes:summary>
+    <itunes:duration>00:21:57</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 5, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan 5: Trial for Boston Marathon bomber begins; Wild weather slams US, dip in jet stream blamed; American exposed to Ebola returns to US; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0a9348ec-0ece-41f0-b853-1a6aa7a244ba/086b5376-e053-42d9-b3b9-61425da6ab86/main.mp4?fastly_token=NmI4M2I1YmZfNzIyYWRlMmY0ODNhOWNkODRiMTUyYzRkZGVkNmIzNmUzNWFiMWIwOGRkOGYyZjAxMTFjZmM5NzY0NjMzNzNkZF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGE5MzQ4ZWMtMGVjZS00MWYwLWI4NTMtMWE2YWE3YTI0NGJhLzA4NmI1Mzc2LWUwNTMtNDJkOS1iM2I5LTYxNDI1ZGE2YWI4Ni9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0a9348ec-0ece-41f0-b853-1a6aa7a244ba/086b5376-e053-42d9-b3b9-61425da6ab86/main.mp4?fastly_token=NmI4M2I1YmZfNzIyYWRlMmY0ODNhOWNkODRiMTUyYzRkZGVkNmIzNmUzNWFiMWIwOGRkOGYyZjAxMTFjZmM5NzY0NjMzNzNkZF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGE5MzQ4ZWMtMGVjZS00MWYwLWI4NTMtMWE2YWE3YTI0NGJhLzA4NmI1Mzc2LWUwNTMtNDJkOS1iM2I5LTYxNDI1ZGE2YWI4Ni9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/0a9348ec-0ece-41f0-b853-1a6aa7a244ba/086b5376-e053-42d9-b3b9-61425da6ab86/main.mp4?fastly_token=NmI4M2I1YmZfNzIyYWRlMmY0ODNhOWNkODRiMTUyYzRkZGVkNmIzNmUzNWFiMWIwOGRkOGYyZjAxMTFjZmM5NzY0NjMzNzNkZF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvMGE5MzQ4ZWMtMGVjZS00MWYwLWI4NTMtMWE2YWE3YTI0NGJhLzA4NmI1Mzc2LWUwNTMtNDJkOS1iM2I5LTYxNDI1ZGE2YWI4Ni9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Mon, 05 Jan 2015 09:42:44 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan 5: Trial for Boston Marathon bomber begins; Wild weather slams US, dip in jet stream blamed; American exposed to Ebola returns to US; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan 5: Trial for Boston Marathon bomber begins; Wild weather slams US, dip in jet stream blamed; American exposed to Ebola returns to US; and more.]]></itunes:summary>
+    <itunes:duration>00:21:56</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+  <item>
+    <title><![CDATA[CBN News Today: January 2, 2015]]></title>
+    <description><![CDATA[On CBN News Today, Jan. 2: Winter headaches hit unexpected parts of the country; Fomer New York Gov. Mario Cuomo dies; What&#39;s at stake for Israel&#39;s future this year?; and more.]]></description>
+    <link>https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/b55b07a4-7763-41a9-b2b5-798100b03f41/bf24e8ba-e17c-4a32-9f7a-b63fd7843048/main.mp4?fastly_token=NmI4M2I1YmRfOTRlYmQwYzA2N2RiZDkwMjY4ZjAyMGFjOGE1YjMyNWYyMjY3OTI5MzE5YTk1NDJmZTMwOWI5YzAwNzBlY2E4MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYjU1YjA3YTQtNzc2My00MWE5LWIyYjUtNzk4MTAwYjAzZjQxL2JmMjRlOGJhLWUxN2MtNGEzMi05ZjdhLWI2M2ZkNzg0MzA0OC9tYWluLm1wNA%3D%3D</link>
+    <enclosure url="https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/b55b07a4-7763-41a9-b2b5-798100b03f41/bf24e8ba-e17c-4a32-9f7a-b63fd7843048/main.mp4?fastly_token=NmI4M2I1YmRfOTRlYmQwYzA2N2RiZDkwMjY4ZjAyMGFjOGE1YjMyNWYyMjY3OTI5MzE5YTk1NDJmZTMwOWI5YzAwNzBlY2E4MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYjU1YjA3YTQtNzc2My00MWE5LWIyYjUtNzk4MTAwYjAzZjQxL2JmMjRlOGJhLWUxN2MtNGEzMi05ZjdhLWI2M2ZkNzg0MzA0OC9tYWluLm1wNA%3D%3D" type="video/mp4" length="0" /> 
+    <guid isPermaLink="false">https://cbn.brightcovecdn.com/media/v1/pmp4/static/clear/734546207001/b55b07a4-7763-41a9-b2b5-798100b03f41/bf24e8ba-e17c-4a32-9f7a-b63fd7843048/main.mp4?fastly_token=NmI4M2I1YmRfOTRlYmQwYzA2N2RiZDkwMjY4ZjAyMGFjOGE1YjMyNWYyMjY3OTI5MzE5YTk1NDJmZTMwOWI5YzAwNzBlY2E4MF8vL2Nibi5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS9wbXA0L3N0YXRpYy9jbGVhci83MzQ1NDYyMDcwMDEvYjU1YjA3YTQtNzc2My00MWE5LWIyYjUtNzk4MTAwYjAzZjQxL2JmMjRlOGJhLWUxN2MtNGEzMi05ZjdhLWI2M2ZkNzg0MzA0OC9tYWluLm1wNA%3D%3D</guid> 
+    <pubDate>Fri, 02 Jan 2015 10:27:17 -0500</pubDate>
+    <itunes:subtitle><![CDATA[On CBN News Today, Jan. 2: Winter headaches hit unexpected parts of the country; Fomer New York Gov. Mario Cuomo dies; What&#39;s at stake for Israel&#39;s future this year?; and more.]]></itunes:subtitle>
+    <itunes:summary><![CDATA[On CBN News Today, Jan. 2: Winter headaches hit unexpected parts of the country; Fomer New York Gov. Mario Cuomo dies; What&#39;s at stake for Israel&#39;s future this year?; and more.]]></itunes:summary>
+    <itunes:duration>00:21:54</itunes:duration>
+    <itunes:author>The Christian Broadcasting Network</itunes:author>
+    <itunes:keywords><![CDATA[CBN,Christian Broadcasting Network,CBN.com - CBN News Morning - Video Podcast]]></itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+  </item>
+</channel>
+</rss>

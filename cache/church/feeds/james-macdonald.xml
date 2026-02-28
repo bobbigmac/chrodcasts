@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:spotify="http://www.spotify.com/ns/rss">
+    <channel>
+        <title>James MacDonald Video Podcast</title>
+        <generator>Castos</generator>
+        <atom:link href="https://feeds.castos.com/xrkq" rel="self" type="application/rss+xml" />
+        <link>https://james-macdonald-podcast.castos.com</link>
+        <description>The James MacDonald Podcast</description>
+        <lastBuildDate>Wed, 04 Aug 2021 07:40:00 +0000</lastBuildDate>
+        <language>en</language>
+        <copyright>© 2020</copyright>
+        
+        <spotify:limit recentCount="25" />
+        
+        <spotify:countryOfOrigin>
+              
+        </spotify:countryOfOrigin>
+                    <image>
+                <url>https://episodes.castos.com/5e7515d0a29e34-21660127/images/JMM-video.png</url>
+                <title>James MacDonald Video Podcast</title>
+                <link>https://james-macdonald-podcast.castos.com</link>
+            </image>
+                <itunes:subtitle>The James MacDonald Podcast</itunes:subtitle>
+        <itunes:author>James MacDonald Ministries</itunes:author>
+        <itunes:type>episodic</itunes:type>
+        <itunes:summary>The James MacDonald Podcast</itunes:summary>
+        <itunes:owner>
+            <itunes:name>James MacDonald Ministries</itunes:name>
+            <itunes:email>admin@jamesmacdonaldministries.org</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>false</itunes:explicit>
+                    <itunes:image href="https://episodes.castos.com/5e7515d0a29e34-21660127/images/JMM-video.png"></itunes:image>
+        
+                                    <itunes:category text="Religion &amp; Spirituality" />
+                    
+                    <itunes:new-feed-url>https://feeds.castos.com/xrkq</itunes:new-feed-url>
+                
+        
+        <podcast:locked>yes</podcast:locked>
+                                    <item>
+                <title>
+                    <![CDATA[Home Church Network]]>
+                </title>
+                <pubDate>Wed, 04 Aug 2021 07:40:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/home-church-network</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/home-church-network</link>
+                                <description>
+                                            <![CDATA[<p><a href="https://jamesmacdonaldministries.org/register/">CLICK HERE to Register for the Home Church Network.</a><br /><br />All Digital.<br />All Free.<br />All The Time.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[CLICK HERE to Register for the Home Church Network.All Digital.All Free.All The Time.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Home Church Network]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><a href="https://jamesmacdonaldministries.org/register/">CLICK HERE to Register for the Home Church Network.</a><br /><br />All Digital.<br />All Free.<br />All The Time.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/INSECURITY-COMMERCIAL.mp4" length="73358623"
+                        type="video/mp4">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[CLICK HERE to Register for the Home Church Network.All Digital.All Free.All The Time.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:01:00</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Determined To Do My Part]]>
+                </title>
+                <pubDate>Mon, 14 Sep 2020 05:55:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/determined-to-do-my-part</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/determined-to-do-my-part</link>
+                                <description>
+                                            <![CDATA[<p>Live from the Holy Land, Pastor James leads us through Nehemiah chapter 3.<span class="Apple-converted-space">  </span>Have you ever stopped to consider exactly who contributed to the rebuilding project?<span class="Apple-converted-space">  </span>The list is important because every servant of God matters to God.<span class="Apple-converted-space">  </span>And if you find yourself facing a difficult task, with God’s help you will find a way forward.<span class="Apple-converted-space">  </span>Big things can happen when we work together.</p>
+<p><span class="style-scope yt-formatted-string">Subscribe for devotionals and ministry updates:</span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbVRhTmo3VW41ekQ3UXdKNnNHRURiLVdYN1hMd3xBQ3Jtc0ttMXNma1VaVDJzZHVkdy1JTFR1Z2Q5QXlnR2tvcDlRWnpmQXZ3Z2l3OWQyUDBRWF9aREktdi1fMFBHa0NKZGlmN3ZoVXdlc2IxWlNFaVRRME5WdGVSUkF0QXNDaUJtcndoYnlUaVpEYjRNMW5NUGFOZw%3D%3D&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbUtpZGZDU29RSGJLLXlBcmN0UlpxNVpsOTlqQXxBQ3Jtc0tucUhRdUUyZkJjbU5PMk9YTU9ZM0Z3Z25iZjNJa0lrd1JxYmloZl92MTFUMUQtQVpLalFGMUFhajlaRmVMVkxVVG9HVmNveVA0eWdqWHo0OGgwVGtQOUlJV24zRXlQNWxDbWVvc3pfNEdZUjk4Tmc0QQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbEVnWC1CYXU5QnF5eGt2aHNyQ3RYNWgySTVwQXxBQ3Jtc0tuMGhJdG4xYUdvQnJYYWN1T3l1UFBoaV9XM0FaM0xyLU5aRGhvMTl0cHNNUF9jSldyYmRkSW0ySWVQSS1TbGdvVDlkVXRPdks0NXBoZHZuel96Y19fV1NnYllJcUV6TE9mdHp0RzJKLXI2aDhSdldoUQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbmhaVnlqTzNDUFF1RHczc1lGT1Q2VkdHLVhud3xBQ3Jtc0tuT0R1b3N6dTRudGliTlN1cnl4X3Jwak5VMVNYTGRFRDFkRVlwZ3daMmRwa2tQM291aHYySG9PbUF5VjIyUVVpcFVUZGZ0UGJ5VXhPc1lGWHdQb1gzbVdxaHJkZlJzMjJLSWdMSWxuRDRRX0tlclpYcw%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Live from the Holy Land, Pastor James leads us through Nehemiah chapter 3.  Have you ever stopped to consider exactly who contributed to the rebuilding project?  The list is important because every servant of God matters to God.  And if you find yourself facing a difficult task, with God’s help you will find a way forward.  Big things can happen when we work together.
+Subscribe for devotionals and ministry updates:https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Determined To Do My Part]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>Live from the Holy Land, Pastor James leads us through Nehemiah chapter 3.<span class="Apple-converted-space">  </span>Have you ever stopped to consider exactly who contributed to the rebuilding project?<span class="Apple-converted-space">  </span>The list is important because every servant of God matters to God.<span class="Apple-converted-space">  </span>And if you find yourself facing a difficult task, with God’s help you will find a way forward.<span class="Apple-converted-space">  </span>Big things can happen when we work together.</p>
+<p><span class="style-scope yt-formatted-string">Subscribe for devotionals and ministry updates:</span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbVRhTmo3VW41ekQ3UXdKNnNHRURiLVdYN1hMd3xBQ3Jtc0ttMXNma1VaVDJzZHVkdy1JTFR1Z2Q5QXlnR2tvcDlRWnpmQXZ3Z2l3OWQyUDBRWF9aREktdi1fMFBHa0NKZGlmN3ZoVXdlc2IxWlNFaVRRME5WdGVSUkF0QXNDaUJtcndoYnlUaVpEYjRNMW5NUGFOZw%3D%3D&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbUtpZGZDU29RSGJLLXlBcmN0UlpxNVpsOTlqQXxBQ3Jtc0tucUhRdUUyZkJjbU5PMk9YTU9ZM0Z3Z25iZjNJa0lrd1JxYmloZl92MTFUMUQtQVpLalFGMUFhajlaRmVMVkxVVG9HVmNveVA0eWdqWHo0OGgwVGtQOUlJV24zRXlQNWxDbWVvc3pfNEdZUjk4Tmc0QQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbEVnWC1CYXU5QnF5eGt2aHNyQ3RYNWgySTVwQXxBQ3Jtc0tuMGhJdG4xYUdvQnJYYWN1T3l1UFBoaV9XM0FaM0xyLU5aRGhvMTl0cHNNUF9jSldyYmRkSW0ySWVQSS1TbGdvVDlkVXRPdks0NXBoZHZuel96Y19fV1NnYllJcUV6TE9mdHp0RzJKLXI2aDhSdldoUQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbmhaVnlqTzNDUFF1RHczc1lGT1Q2VkdHLVhud3xBQ3Jtc0tuT0R1b3N6dTRudGliTlN1cnl4X3Jwak5VMVNYTGRFRDFkRVlwZ3daMmRwa2tQM291aHYySG9PbUF5VjIyUVVpcFVUZGZ0UGJ5VXhPc1lGWHdQb1gzbVdxaHJkZlJzMjJLSWdMSWxuRDRRX0tlclpYcw%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Determine-to-do-my-part-fb-pod-yt-HD-1080p.mov" length="3967622581"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Live from the Holy Land, Pastor James leads us through Nehemiah chapter 3.  Have you ever stopped to consider exactly who contributed to the rebuilding project?  The list is important because every servant of God matters to God.  And if you find yourself facing a difficult task, with God’s help you will find a way forward.  Big things can happen when we work together.
+Subscribe for devotionals and ministry updates:https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:35:01</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Determined To Achieve]]>
+                </title>
+                <pubDate>Mon, 07 Sep 2020 05:41:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/determined-to-achieve-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/determined-to-achieve-1</link>
+                                <description>
+                                            <![CDATA[<p>Each of us has a natural inclination toward being or doing.<br /> If you’re more of a being person, maybe you like sitting, savoring, and seeking - you’re content just being.<br /> You might lean more toward delegation, determination, and duty - you’re all about accomplishing. You’re a doer.<br /> While both of these matter in their appropriate setting, none of the doing is worth doing if it’s not growing out of the being.<br /> In Nehemiah chapter 2,<span class="Apple-converted-space">  </span>we will take a candid assessment of where we are and make a plan for where we are going.<br /><span class="style-scope yt-formatted-string"><br />Subscribe for devotionals and ministry updates:</span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbVRhTmo3VW41ekQ3UXdKNnNHRURiLVdYN1hMd3xBQ3Jtc0ttMXNma1VaVDJzZHVkdy1JTFR1Z2Q5QXlnR2tvcDlRWnpmQXZ3Z2l3OWQyUDBRWF9aREktdi1fMFBHa0NKZGlmN3ZoVXdlc2IxWlNFaVRRME5WdGVSUkF0QXNDaUJtcndoYnlUaVpEYjRNMW5NUGFOZw%3D%3D&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbUtpZGZDU29RSGJLLXlBcmN0UlpxNVpsOTlqQXxBQ3Jtc0tucUhRdUUyZkJjbU5PMk9YTU9ZM0Z3Z25iZjNJa0lrd1JxYmloZl92MTFUMUQtQVpLalFGMUFhajlaRmVMVkxVVG9HVmNveVA0eWdqWHo0OGgwVGtQOUlJV24zRXlQNWxDbWVvc3pfNEdZUjk4Tmc0QQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbEVnWC1CYXU5QnF5eGt2aHNyQ3RYNWgySTVwQXxBQ3Jtc0tuMGhJdG4xYUdvQnJYYWN1T3l1UFBoaV9XM0FaM0xyLU5aRGhvMTl0cHNNUF9jSldyYmRkSW0ySWVQSS1TbGdvVDlkVXRPdks0NXBoZHZuel96Y19fV1NnYllJcUV6TE9mdHp0RzJKLXI2aDhSdldoUQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbmhaVnlqTzNDUFF1RHczc1lGT1Q2VkdHLVhud3xBQ3Jtc0tuT0R1b3N6dTRudGliTlN1cnl4X3Jwak5VMVNYTGRFRDFkRVlwZ3daMmRwa2tQM291aHYySG9PbUF5VjIyUVVpcFVUZGZ0UGJ5VXhPc1lGWHdQb1gzbVdxaHJkZlJzMjJLSWdMSWxuRDRRX0tlclpYcw%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Each of us has a natural inclination toward being or doing. If you’re more of a being person, maybe you like sitting, savoring, and seeking - you’re content just being. You might lean more toward delegation, determination, and duty - you’re all about accomplishing. You’re a doer. While both of these matter in their appropriate setting, none of the doing is worth doing if it’s not growing out of the being. In Nehemiah chapter 2,  we will take a candid assessment of where we are and make a plan for where we are going.Subscribe for devotionals and ministry updates:https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                <itunes:title>
+                    <![CDATA[Determined To Achieve]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>Each of us has a natural inclination toward being or doing.<br /> If you’re more of a being person, maybe you like sitting, savoring, and seeking - you’re content just being.<br /> You might lean more toward delegation, determination, and duty - you’re all about accomplishing. You’re a doer.<br /> While both of these matter in their appropriate setting, none of the doing is worth doing if it’s not growing out of the being.<br /> In Nehemiah chapter 2,<span class="Apple-converted-space">  </span>we will take a candid assessment of where we are and make a plan for where we are going.<br /><span class="style-scope yt-formatted-string"><br />Subscribe for devotionals and ministry updates:</span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbVRhTmo3VW41ekQ3UXdKNnNHRURiLVdYN1hMd3xBQ3Jtc0ttMXNma1VaVDJzZHVkdy1JTFR1Z2Q5QXlnR2tvcDlRWnpmQXZ3Z2l3OWQyUDBRWF9aREktdi1fMFBHa0NKZGlmN3ZoVXdlc2IxWlNFaVRRME5WdGVSUkF0QXNDaUJtcndoYnlUaVpEYjRNMW5NUGFOZw%3D%3D&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbUtpZGZDU29RSGJLLXlBcmN0UlpxNVpsOTlqQXxBQ3Jtc0tucUhRdUUyZkJjbU5PMk9YTU9ZM0Z3Z25iZjNJa0lrd1JxYmloZl92MTFUMUQtQVpLalFGMUFhajlaRmVMVkxVVG9HVmNveVA0eWdqWHo0OGgwVGtQOUlJV24zRXlQNWxDbWVvc3pfNEdZUjk4Tmc0QQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbEVnWC1CYXU5QnF5eGt2aHNyQ3RYNWgySTVwQXxBQ3Jtc0tuMGhJdG4xYUdvQnJYYWN1T3l1UFBoaV9XM0FaM0xyLU5aRGhvMTl0cHNNUF9jSldyYmRkSW0ySWVQSS1TbGdvVDlkVXRPdks0NXBoZHZuel96Y19fV1NnYllJcUV6TE9mdHp0RzJKLXI2aDhSdldoUQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbmhaVnlqTzNDUFF1RHczc1lGT1Q2VkdHLVhud3xBQ3Jtc0tuT0R1b3N6dTRudGliTlN1cnl4X3Jwak5VMVNYTGRFRDFkRVlwZ3daMmRwa2tQM291aHYySG9PbUF5VjIyUVVpcFVUZGZ0UGJ5VXhPc1lGWHdQb1gzbVdxaHJkZlJzMjJLSWdMSWxuRDRRX0tlclpYcw%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Determined-To-Acheive-yt-pod-HD-1080p.mov" length="5924373103"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Each of us has a natural inclination toward being or doing. If you’re more of a being person, maybe you like sitting, savoring, and seeking - you’re content just being. You might lean more toward delegation, determination, and duty - you’re all about accomplishing. You’re a doer. While both of these matter in their appropriate setting, none of the doing is worth doing if it’s not growing out of the being. In Nehemiah chapter 2,  we will take a candid assessment of where we are and make a plan for where we are going.Subscribe for devotionals and ministry updates:https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>NaN</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Determined to Care]]>
+                </title>
+                <pubDate>Sat, 05 Sep 2020 21:51:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/determined-to-care-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/determined-to-care-1</link>
+                                <description>
+                                            <![CDATA[<p>In a world of quitters, God’s people are determined. And their determination reveals itself in many aspects of a believer’s life - especially in how they care. There are things yet undone that God wants accomplished in the world you live in. Do you care? There is no ministry that is not deeply connected to caring for people. <br /><br /><strong>Nehemiah 1</strong></p>
+<p><span class="style-scope yt-formatted-string">Subscribe for devotionals and ministry updates:</span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbVRhTmo3VW41ekQ3UXdKNnNHRURiLVdYN1hMd3xBQ3Jtc0ttMXNma1VaVDJzZHVkdy1JTFR1Z2Q5QXlnR2tvcDlRWnpmQXZ3Z2l3OWQyUDBRWF9aREktdi1fMFBHa0NKZGlmN3ZoVXdlc2IxWlNFaVRRME5WdGVSUkF0QXNDaUJtcndoYnlUaVpEYjRNMW5NUGFOZw%3D%3D&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbUtpZGZDU29RSGJLLXlBcmN0UlpxNVpsOTlqQXxBQ3Jtc0tucUhRdUUyZkJjbU5PMk9YTU9ZM0Z3Z25iZjNJa0lrd1JxYmloZl92MTFUMUQtQVpLalFGMUFhajlaRmVMVkxVVG9HVmNveVA0eWdqWHo0OGgwVGtQOUlJV24zRXlQNWxDbWVvc3pfNEdZUjk4Tmc0QQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbEVnWC1CYXU5QnF5eGt2aHNyQ3RYNWgySTVwQXxBQ3Jtc0tuMGhJdG4xYUdvQnJYYWN1T3l1UFBoaV9XM0FaM0xyLU5aRGhvMTl0cHNNUF9jSldyYmRkSW0ySWVQSS1TbGdvVDlkVXRPdks0NXBoZHZuel96Y19fV1NnYllJcUV6TE9mdHp0RzJKLXI2aDhSdldoUQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbmhaVnlqTzNDUFF1RHczc1lGT1Q2VkdHLVhud3xBQ3Jtc0tuT0R1b3N6dTRudGliTlN1cnl4X3Jwak5VMVNYTGRFRDFkRVlwZ3daMmRwa2tQM291aHYySG9PbUF5VjIyUVVpcFVUZGZ0UGJ5VXhPc1lGWHdQb1gzbVdxaHJkZlJzMjJLSWdMSWxuRDRRX0tlclpYcw%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[In a world of quitters, God’s people are determined. And their determination reveals itself in many aspects of a believer’s life - especially in how they care. There are things yet undone that God wants accomplished in the world you live in. Do you care? There is no ministry that is not deeply connected to caring for people. Nehemiah 1
+Subscribe for devotionals and ministry updates:https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Determined to Care]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>In a world of quitters, God’s people are determined. And their determination reveals itself in many aspects of a believer’s life - especially in how they care. There are things yet undone that God wants accomplished in the world you live in. Do you care? There is no ministry that is not deeply connected to caring for people. <br /><br /><strong>Nehemiah 1</strong></p>
+<p><span class="style-scope yt-formatted-string">Subscribe for devotionals and ministry updates:</span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbVRhTmo3VW41ekQ3UXdKNnNHRURiLVdYN1hMd3xBQ3Jtc0ttMXNma1VaVDJzZHVkdy1JTFR1Z2Q5QXlnR2tvcDlRWnpmQXZ3Z2l3OWQyUDBRWF9aREktdi1fMFBHa0NKZGlmN3ZoVXdlc2IxWlNFaVRRME5WdGVSUkF0QXNDaUJtcndoYnlUaVpEYjRNMW5NUGFOZw%3D%3D&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbUtpZGZDU29RSGJLLXlBcmN0UlpxNVpsOTlqQXxBQ3Jtc0tucUhRdUUyZkJjbU5PMk9YTU9ZM0Z3Z25iZjNJa0lrd1JxYmloZl92MTFUMUQtQVpLalFGMUFhajlaRmVMVkxVVG9HVmNveVA0eWdqWHo0OGgwVGtQOUlJV24zRXlQNWxDbWVvc3pfNEdZUjk4Tmc0QQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbEVnWC1CYXU5QnF5eGt2aHNyQ3RYNWgySTVwQXxBQ3Jtc0tuMGhJdG4xYUdvQnJYYWN1T3l1UFBoaV9XM0FaM0xyLU5aRGhvMTl0cHNNUF9jSldyYmRkSW0ySWVQSS1TbGdvVDlkVXRPdks0NXBoZHZuel96Y19fV1NnYllJcUV6TE9mdHp0RzJKLXI2aDhSdldoUQ%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqbmhaVnlqTzNDUFF1RHczc1lGT1Q2VkdHLVhud3xBQ3Jtc0tuT0R1b3N6dTRudGliTlN1cnl4X3Jwak5VMVNYTGRFRDFkRVlwZ3daMmRwa2tQM291aHYySG9PbUF5VjIyUVVpcFVUZGZ0UGJ5VXhPc1lGWHdQb1gzbVdxaHJkZlJzMjJLSWdMSWxuRDRRX0tlclpYcw%3D%3D&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;v=SrU6J-9tWbc&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Determined-to-Care.mp4" length="2319941376"
+                        type="video/mp4">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[In a world of quitters, God’s people are determined. And their determination reveals itself in many aspects of a believer’s life - especially in how they care. There are things yet undone that God wants accomplished in the world you live in. Do you care? There is no ministry that is not deeply connected to caring for people. Nehemiah 1
+Subscribe for devotionals and ministry updates:https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:47:14</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[5 Reasons To Forgive | Vertical Living: [11]]]>
+                </title>
+                <pubDate>Mon, 17 Aug 2020 04:00:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/5-reasons-to-forgive-vertical-living-11</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/5-reasons-to-forgive-vertical-living-11</link>
+                                <description>
+                                            <![CDATA[<p>God accepts no love from human hearts that are gripped by hate.<br /> In Vertical Living, we have come to discover from God’s word that mercy halts offense by withholding and grace limits offense by covering. In this sermon, we will see how forgiveness ends offense by releasing.<span class="Apple-converted-space">  </span>While there are many rationalizations for our unforgiveness - Scripture offers a roadmap for the vehicle of forgiveness which leads to freedom from self incarceration and a lifetime of bitterness.<br /><br />Matthew 6:14-15, 18:21-35</p>
+<p><strong>Subscribe for devotionals and ministry updates: </strong><a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><strong><br /><br />Follow on social media: <br /></strong>IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><strong><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[God accepts no love from human hearts that are gripped by hate. In Vertical Living, we have come to discover from God’s word that mercy halts offense by withholding and grace limits offense by covering. In this sermon, we will see how forgiveness ends offense by releasing.  While there are many rationalizations for our unforgiveness - Scripture offers a roadmap for the vehicle of forgiveness which leads to freedom from self incarceration and a lifetime of bitterness.Matthew 6:14-15, 18:21-35
+Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[5 Reasons To Forgive | Vertical Living: [11]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>God accepts no love from human hearts that are gripped by hate.<br /> In Vertical Living, we have come to discover from God’s word that mercy halts offense by withholding and grace limits offense by covering. In this sermon, we will see how forgiveness ends offense by releasing.<span class="Apple-converted-space">  </span>While there are many rationalizations for our unforgiveness - Scripture offers a roadmap for the vehicle of forgiveness which leads to freedom from self incarceration and a lifetime of bitterness.<br /><br />Matthew 6:14-15, 18:21-35</p>
+<p><strong>Subscribe for devotionals and ministry updates: </strong><a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><strong><br /><br />Follow on social media: <br /></strong>IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><strong><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/5-reasons-youtube-HD-720p.mov" length="1842644569"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[God accepts no love from human hearts that are gripped by hate. In Vertical Living, we have come to discover from God’s word that mercy halts offense by withholding and grace limits offense by covering. In this sermon, we will see how forgiveness ends offense by releasing.  While there are many rationalizations for our unforgiveness - Scripture offers a roadmap for the vehicle of forgiveness which leads to freedom from self incarceration and a lifetime of bitterness.Matthew 6:14-15, 18:21-35
+Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:41:51</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Grace When It's Hardest To Love | Vertical Living: [10]]]>
+                </title>
+                <pubDate>Sun, 09 Aug 2020 20:46:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/grace-when-it39s-hardest-to-love-vertical-living-10</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/grace-when-it39s-hardest-to-love-vertical-living-10</link>
+                                <description>
+                                            <![CDATA[<p><strong>Love2Live2Love</strong> - most people want that in concept. But in reality, most of us find ourselves not loving as God would have us. We want to…but we don’t.  In today’s sermon, we will be equipped with scriptural tools to overcome the obstacles of grace.  Grace is continuing to love even when offended.<br /><br /><strong>Matthew 5:38-48</strong></p>
+<p><strong>Subscribe for devotionals and ministry updates: </strong><a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><strong><br /><br />Follow on social media: <br /></strong>IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><strong><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Love2Live2Love - most people want that in concept. But in reality, most of us find ourselves not loving as God would have us. We want to…but we don’t.  In today’s sermon, we will be equipped with scriptural tools to overcome the obstacles of grace.  Grace is continuing to love even when offended.Matthew 5:38-48
+Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Grace When It's Hardest To Love | Vertical Living: [10]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><strong>Love2Live2Love</strong> - most people want that in concept. But in reality, most of us find ourselves not loving as God would have us. We want to…but we don’t.  In today’s sermon, we will be equipped with scriptural tools to overcome the obstacles of grace.  Grace is continuing to love even when offended.<br /><br /><strong>Matthew 5:38-48</strong></p>
+<p><strong>Subscribe for devotionals and ministry updates: </strong><a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><strong><br /><br />Follow on social media: <br /></strong>IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><strong><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Grace-when-it-s-hard-youtube-HD-720p.mov" length="2753076328"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Love2Live2Love - most people want that in concept. But in reality, most of us find ourselves not loving as God would have us. We want to…but we don’t.  In today’s sermon, we will be equipped with scriptural tools to overcome the obstacles of grace.  Grace is continuing to love even when offended.Matthew 5:38-48
+Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:52:42</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Mercy Over Judgment | Vertical Living: [09]]]>
+                </title>
+                <pubDate>Mon, 03 Aug 2020 12:38:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/mercy-over-judgment-vertical-living-09</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/mercy-over-judgment-vertical-living-09</link>
+                                <description>
+                                            <![CDATA[<p>Christ followers are not just responsible for what they do - but also for the impression they give. This week will be a paradigm shift for each of us as we transition from an easy and average perspective of judgment to one of mercy. Mercy is diffi cult and must be learned - because where it is absent, God is blasphemed, Satan will gain a foothold and Christianity becomes a joke. <br />Matthew 9:9-13 <br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Christ followers are not just responsible for what they do - but also for the impression they give. This week will be a paradigm shift for each of us as we transition from an easy and average perspective of judgment to one of mercy. Mercy is diffi cult and must be learned - because where it is absent, God is blasphemed, Satan will gain a foothold and Christianity becomes a joke. Matthew 9:9-13 Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Mercy Over Judgment | Vertical Living: [09]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>Christ followers are not just responsible for what they do - but also for the impression they give. This week will be a paradigm shift for each of us as we transition from an easy and average perspective of judgment to one of mercy. Mercy is diffi cult and must be learned - because where it is absent, God is blasphemed, Satan will gain a foothold and Christianity becomes a joke. <br />Matthew 9:9-13 <br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/MERCY-TRIUMPHS-YOUTUBE-HD-720p.mov" length="2506157287"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Christ followers are not just responsible for what they do - but also for the impression they give. This week will be a paradigm shift for each of us as we transition from an easy and average perspective of judgment to one of mercy. Mercy is diffi cult and must be learned - because where it is absent, God is blasphemed, Satan will gain a foothold and Christianity becomes a joke. Matthew 9:9-13 Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:46:13</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[The Necessity of Resolving Offense | Vertical Living: [08]]]>
+                </title>
+                <pubDate>Mon, 27 Jul 2020 23:16:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/the-necessity-of-resolving-offense-vertical-living-08-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/the-necessity-of-resolving-offense-vertical-living-08-1</link>
+                                <description>
+                                            <![CDATA[<div class="page" title="Page 1">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Offense is an obstacle to love. And the cost of unresolved offense is great. For this cause, God takes it very seriously. No matter your personality, the prescription for resolution is universal. God is the resource and reason for loving others. <strong>Matthew 5:21-47<br /></strong></p>
+<p> </p>
+<p><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media:<br /> IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>
+</div>
+</div>
+</div>
+</div>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[
+
+
+
+Offense is an obstacle to love. And the cost of unresolved offense is great. For this cause, God takes it very seriously. No matter your personality, the prescription for resolution is universal. God is the resource and reason for loving others. Matthew 5:21-47
+ 
+Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.
+
+
+
+]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[The Necessity of Resolving Offense | Vertical Living: [08]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<div class="page" title="Page 1">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Offense is an obstacle to love. And the cost of unresolved offense is great. For this cause, God takes it very seriously. No matter your personality, the prescription for resolution is universal. God is the resource and reason for loving others. <strong>Matthew 5:21-47<br /></strong></p>
+<p> </p>
+<p><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media:<br /> IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>
+</div>
+</div>
+</div>
+</div>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/necessity-video-podcast-SD-480p.mov" length="549748247"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[
+
+
+
+Offense is an obstacle to love. And the cost of unresolved offense is great. For this cause, God takes it very seriously. No matter your personality, the prescription for resolution is universal. God is the resource and reason for loving others. Matthew 5:21-47
+ 
+Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.
+
+
+
+]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:45:12</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Love: The Greatest Thing | Vertical Living [07]]]>
+                </title>
+                <pubDate>Mon, 20 Jul 2020 04:00:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/love-the-greatest-thing-vertical-living-07</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/love-the-greatest-thing-vertical-living-07</link>
+                                <description>
+                                            <![CDATA[<p>What is your love story as it pertains to love for God? Jesus said, the sincerity of your love for God is on display in the record of your actions toward the person in your life you find hardest to love. As followers of Christ we do this willingly and gladly. And while love is not the only thing that matters - it is the method to accomplish everything that does. <br />Matthew 22:34-40 <br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media:<br /> IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[What is your love story as it pertains to love for God? Jesus said, the sincerity of your love for God is on display in the record of your actions toward the person in your life you find hardest to love. As followers of Christ we do this willingly and gladly. And while love is not the only thing that matters - it is the method to accomplish everything that does. Matthew 22:34-40 Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Love: The Greatest Thing | Vertical Living [07]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>What is your love story as it pertains to love for God? Jesus said, the sincerity of your love for God is on display in the record of your actions toward the person in your life you find hardest to love. As followers of Christ we do this willingly and gladly. And while love is not the only thing that matters - it is the method to accomplish everything that does. <br />Matthew 22:34-40 <br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media:<br /> IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/lovethegreatestthingytfbpc-HD-720p.mov" length="2057178184"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[What is your love story as it pertains to love for God? Jesus said, the sincerity of your love for God is on display in the record of your actions toward the person in your life you find hardest to love. As followers of Christ we do this willingly and gladly. And while love is not the only thing that matters - it is the method to accomplish everything that does. Matthew 22:34-40 Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:37:38</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Competing Loves | Vertical Living [06]]]>
+                </title>
+                <pubDate>Mon, 13 Jul 2020 15:13:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/competing-loves-vertical-living-06-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/competing-loves-vertical-living-06-1</link>
+                                <description>
+                                            <![CDATA[<p>Competing loves are a common problem. And as we are being challenged with the Great Commandment, we are realizing that the problem is not our capacity to love or understanding of the concept - as much as it is that which is competing. “Do you love me more than these?” The question of Jesus to Peter is the one we must all wrestle with today. <strong>John 21:1-19</strong> <br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Competing loves are a common problem. And as we are being challenged with the Great Commandment, we are realizing that the problem is not our capacity to love or understanding of the concept - as much as it is that which is competing. “Do you love me more than these?” The question of Jesus to Peter is the one we must all wrestle with today. John 21:1-19 Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Competing Loves | Vertical Living [06]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>Competing loves are a common problem. And as we are being challenged with the Great Commandment, we are realizing that the problem is not our capacity to love or understanding of the concept - as much as it is that which is competing. “Do you love me more than these?” The question of Jesus to Peter is the one we must all wrestle with today. <strong>John 21:1-19</strong> <br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Competing-Loves-vertical-living-ytfb-HD-720p.mov" length="2218772198"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Competing loves are a common problem. And as we are being challenged with the Great Commandment, we are realizing that the problem is not our capacity to love or understanding of the concept - as much as it is that which is competing. “Do you love me more than these?” The question of Jesus to Peter is the one we must all wrestle with today. John 21:1-19 Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:43:26</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Love Gone Right | Vertical Living [05]]]>
+                </title>
+                <pubDate>Mon, 06 Jul 2020 00:54:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/love-gone-right-vertical-living-05-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/love-gone-right-vertical-living-05-1</link>
+                                <description>
+                                            <![CDATA[<p><span class="style-scope yt-formatted-string">Loving Jesus means keeping his commandments - and most of them are about loving our neighbors. Loving others is loving Jesus because He commands it - and it leads to a deeper experience with Him. <br /><br /><strong>John </strong></span><strong><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/watch?v=Qq6oZ-7v_NU&amp;t=861s">14:21</a></strong><span class="style-scope yt-formatted-string"><strong> &amp; 1 Corinthians 13</strong><br /><br /><strong>Subscribe for devotionals and ministry updates:</strong> <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a> <br /><br /><strong>Follow on social media:</strong> <br />IG: <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a> <br />FB: <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a> <br />TW: <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.<br /></span></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Loving Jesus means keeping his commandments - and most of them are about loving our neighbors. Loving others is loving Jesus because He commands it - and it leads to a deeper experience with Him. John 14:21 & 1 Corinthians 13Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Love Gone Right | Vertical Living [05]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><span class="style-scope yt-formatted-string">Loving Jesus means keeping his commandments - and most of them are about loving our neighbors. Loving others is loving Jesus because He commands it - and it leads to a deeper experience with Him. <br /><br /><strong>John </strong></span><strong><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/watch?v=Qq6oZ-7v_NU&amp;t=861s">14:21</a></strong><span class="style-scope yt-formatted-string"><strong> &amp; 1 Corinthians 13</strong><br /><br /><strong>Subscribe for devotionals and ministry updates:</strong> <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a> <br /><br /><strong>Follow on social media:</strong> <br />IG: <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a> <br />FB: <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a> <br />TW: <a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?redir_token=xjT_xt4AOD64MYSYw1fdOxBTE9R8MTU5NDA4MzI2N0AxNTkzOTk2ODY3&amp;event=video_description&amp;v=Qq6oZ-7v_NU&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.<br /></span></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Love-Gone-Right-fb-HD-720p.mov" length="2419973404"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Loving Jesus means keeping his commandments - and most of them are about loving our neighbors. Loving others is loving Jesus because He commands it - and it leads to a deeper experience with Him. John 14:21 & 1 Corinthians 13Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:48:03</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Love Gone Wrong | Vertical Living: [04]]]>
+                </title>
+                <pubDate>Mon, 29 Jun 2020 04:24:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/love-gone-wrong-vertical-living-04</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/love-gone-wrong-vertical-living-04</link>
+                                <description>
+                                            <![CDATA[<p>You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another.   God has given each of us the capacity to love.  Vertical love is God before me.  Horizontal love is you before me.  But as with anything,  the enemy has something else in mind.</p>
+<p>Satan can’t create anything - he just takes the beautiful things that God has created - twists them and attempts to use them to destroy us. One such twisting is taking a love for God &amp; others and converting it to “legalism.”  Maybe you have been the recipient of a pointed finger or found yourself with the "three pointed back at you."</p>
+<p>In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE.<br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-">http://bit.ly/JamesMacDonald-TW</a><br /><br /> Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another.   God has given each of us the capacity to love.  Vertical love is God before me.  Horizontal love is you before me.  But as with anything,  the enemy has something else in mind.
+Satan can’t create anything - he just takes the beautiful things that God has created - twists them and attempts to use them to destroy us. One such twisting is taking a love for God & others and converting it to “legalism.”  Maybe you have been the recipient of a pointed finger or found yourself with the "three pointed back at you."
+In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE.Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Love Gone Wrong | Vertical Living: [04]]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another.   God has given each of us the capacity to love.  Vertical love is God before me.  Horizontal love is you before me.  But as with anything,  the enemy has something else in mind.</p>
+<p>Satan can’t create anything - he just takes the beautiful things that God has created - twists them and attempts to use them to destroy us. One such twisting is taking a love for God &amp; others and converting it to “legalism.”  Maybe you have been the recipient of a pointed finger or found yourself with the "three pointed back at you."</p>
+<p>In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE.<br /><br />Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-">http://bit.ly/JamesMacDonald-TW</a><br /><br /> Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Love-Gone-Wrong-HD-720p.mov" length="2545970840"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another.   God has given each of us the capacity to love.  Vertical love is God before me.  Horizontal love is you before me.  But as with anything,  the enemy has something else in mind.
+Satan can’t create anything - he just takes the beautiful things that God has created - twists them and attempts to use them to destroy us. One such twisting is taking a love for God & others and converting it to “legalism.”  Maybe you have been the recipient of a pointed finger or found yourself with the "three pointed back at you."
+In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE.Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:50:32</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Vertical Living | Intro: Part 3]]>
+                </title>
+                <pubDate>Mon, 22 Jun 2020 13:34:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/vertical-living-intro-part-3-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/vertical-living-intro-part-3-1</link>
+                                <description>
+                                            <![CDATA[<p><span class="style-scope yt-formatted-string">You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another. <br /><br />Loving other people adds logs on the fire of personal revival and personal love for God. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. There are things about the Lord you will not comprehend until you are growing in love. <br /><br />In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE. <br /><br />Subscribe for devotionals and ministry updates: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another. Loving other people adds logs on the fire of personal revival and personal love for God. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. There are things about the Lord you will not comprehend until you are growing in love. In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE. Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Vertical Living | Intro: Part 3]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><span class="style-scope yt-formatted-string">You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another. <br /><br />Loving other people adds logs on the fire of personal revival and personal love for God. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. There are things about the Lord you will not comprehend until you are growing in love. <br /><br />In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE. <br /><br />Subscribe for devotionals and ministry updates: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F&amp;event=video_description" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=t1KwR4cgDKk&amp;redir_token=ns-DGCNPYVlzCfi7m8kZ4yzoGEV8MTU5MjkxOTM0OUAxNTkyODMyOTQ5&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW&amp;event=video_description" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/VL-Intro-3-HD-720p.mov" length="2187167071"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of one another. Loving other people adds logs on the fire of personal revival and personal love for God. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. There are things about the Lord you will not comprehend until you are growing in love. In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE. Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:40:05</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Vertical Living - Intro Part 2]]>
+                </title>
+                <pubDate>Mon, 15 Jun 2020 14:33:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/vertical-living-intro-part-2</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/vertical-living-intro-part-2</link>
+                                <description>
+                                            <![CDATA[<p>You cannot live – really live – until you love God. Love to live!</p>
+<p>And you cannot really love God unless that shows up in your loving of others. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. In Vertical Living, God will take you to the mat with the full weight of all that He is. <br /><br />Watch and learn how to LOVE2LIVE2LOVE. <br /><br />Subscribe for devotionals and ministry updates: <a href="http://jamesmacdonaldministries.org">http://jamesmacdonaldministries.org</a>.<br /><br /> Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live!
+And you cannot really love God unless that shows up in your loving of others. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE. Subscribe for devotionals and ministry updates: http://jamesmacdonaldministries.org. Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                <itunes:title>
+                    <![CDATA[Vertical Living - Intro Part 2]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>You cannot live – really live – until you love God. Love to live!</p>
+<p>And you cannot really love God unless that shows up in your loving of others. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. In Vertical Living, God will take you to the mat with the full weight of all that He is. <br /><br />Watch and learn how to LOVE2LIVE2LOVE. <br /><br />Subscribe for devotionals and ministry updates: <a href="http://jamesmacdonaldministries.org">http://jamesmacdonaldministries.org</a>.<br /><br /> Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Vertical-Living-Intro-Part-TWO-HD-1080p.mov" length="3130095178"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live!
+And you cannot really love God unless that shows up in your loving of others. In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love. In Vertical Living, God will take you to the mat with the full weight of all that He is. Watch and learn how to LOVE2LIVE2LOVE. Subscribe for devotionals and ministry updates: http://jamesmacdonaldministries.org. Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:38:26</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Vertical Living - Intro Part 1]]>
+                </title>
+                <pubDate>Mon, 08 Jun 2020 03:10:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/vertical-living-intro-part-1-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/vertical-living-intro-part-1-1</link>
+                                <description>
+                                            <![CDATA[<p>You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of others.</p>
+<p>In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love.</p>
+<p>In Vertical Living, God will take you to the mat with the full weight of all that He is... watch and learn how to LOVE2LIVE2LOVE.</p>
+<p>Subscribe for devotionals and ministry updates: <br /><a href="http://jamesmacdonaldministries.org.">http://jamesmacdonaldministries.org. </a><br /><br />Follow on social media:<br /> IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of others.
+In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love.
+In Vertical Living, God will take you to the mat with the full weight of all that He is... watch and learn how to LOVE2LIVE2LOVE.
+Subscribe for devotionals and ministry updates: http://jamesmacdonaldministries.org. Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Vertical Living - Intro Part 1]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of others.</p>
+<p>In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love.</p>
+<p>In Vertical Living, God will take you to the mat with the full weight of all that He is... watch and learn how to LOVE2LIVE2LOVE.</p>
+<p>Subscribe for devotionals and ministry updates: <br /><a href="http://jamesmacdonaldministries.org.">http://jamesmacdonaldministries.org. </a><br /><br />Follow on social media:<br /> IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/vertical-living-1-youtube-HD-1080p.mov" length="4728472177"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[You cannot live – really live – until you love God. Love to live! And you cannot really love God unless that shows up in your loving of others.
+In fact, the two are so closely interrelated that God is not interested in our expressions of love when we have hatred in our hearts toward another person – especially another one of His children, and most especially those of God’s family who are hardest of all to love.
+In Vertical Living, God will take you to the mat with the full weight of all that He is... watch and learn how to LOVE2LIVE2LOVE.
+Subscribe for devotionals and ministry updates: http://jamesmacdonaldministries.org. Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:41:55</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Drop The Rock]]>
+                </title>
+                <pubDate>Sun, 31 May 2020 21:59:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/drop-the-rock</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/drop-the-rock</link>
+                                <description>
+                                            <![CDATA[<p>Chances are you are not seeing clearly . . . Especially when it comes to your sin and how you react to the sins of others. And chances are you will soon face a situation where you need to Drop the Rock. Let this message from John 8 show you how to avoid the modern-day stoning: labeling, condemning, and the kind of judgment that Jesus hates. The Word of God and the example of Christ give you the only perspective you really need: His.<br /><br />Follow us on social media:<br />IG: <a href="http://bit.ly/JamesMacDonaldIG">http://bit.ly/JamesMacDonaldIG </a><br />FB: <a href="http://bit.ly/JamesMacDonaldFB">http://bit.ly/JamesMacDonaldFB </a><br />TW: <a href="http://bit.ly/JamesMacDonaldTW">http://bit.ly/JamesMacDonaldTW </a><br /><br />Pastor James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith. His Bible teaching ministry, Walk in the Word, launched on as a radio broadcast in 1997, with the mission of "igniting passion in the people of God through the proclamation of truth."</p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Chances are you are not seeing clearly . . . Especially when it comes to your sin and how you react to the sins of others. And chances are you will soon face a situation where you need to Drop the Rock. Let this message from John 8 show you how to avoid the modern-day stoning: labeling, condemning, and the kind of judgment that Jesus hates. The Word of God and the example of Christ give you the only perspective you really need: His.Follow us on social media:IG: http://bit.ly/JamesMacDonaldIG FB: http://bit.ly/JamesMacDonaldFB TW: http://bit.ly/JamesMacDonaldTW Pastor James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith. His Bible teaching ministry, Walk in the Word, launched on as a radio broadcast in 1997, with the mission of "igniting passion in the people of God through the proclamation of truth."]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Drop The Rock]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>Chances are you are not seeing clearly . . . Especially when it comes to your sin and how you react to the sins of others. And chances are you will soon face a situation where you need to Drop the Rock. Let this message from John 8 show you how to avoid the modern-day stoning: labeling, condemning, and the kind of judgment that Jesus hates. The Word of God and the example of Christ give you the only perspective you really need: His.<br /><br />Follow us on social media:<br />IG: <a href="http://bit.ly/JamesMacDonaldIG">http://bit.ly/JamesMacDonaldIG </a><br />FB: <a href="http://bit.ly/JamesMacDonaldFB">http://bit.ly/JamesMacDonaldFB </a><br />TW: <a href="http://bit.ly/JamesMacDonaldTW">http://bit.ly/JamesMacDonaldTW </a><br /><br />Pastor James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith. His Bible teaching ministry, Walk in the Word, launched on as a radio broadcast in 1997, with the mission of "igniting passion in the people of God through the proclamation of truth."</p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Drop-the-Rock-2-facebook-HD-720p.mov" length="1394150858"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Chances are you are not seeing clearly . . . Especially when it comes to your sin and how you react to the sins of others. And chances are you will soon face a situation where you need to Drop the Rock. Let this message from John 8 show you how to avoid the modern-day stoning: labeling, condemning, and the kind of judgment that Jesus hates. The Word of God and the example of Christ give you the only perspective you really need: His.Follow us on social media:IG: http://bit.ly/JamesMacDonaldIG FB: http://bit.ly/JamesMacDonaldFB TW: http://bit.ly/JamesMacDonaldTW Pastor James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith. His Bible teaching ministry, Walk in the Word, launched on as a radio broadcast in 1997, with the mission of "igniting passion in the people of God through the proclamation of truth."]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:37:58</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Forgive Without Limit]]>
+                </title>
+                <pubDate>Mon, 25 May 2020 01:52:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/forgive-without-limit-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/forgive-without-limit-1</link>
+                                <description>
+                                            <![CDATA[<p>There are no enduring relationships without forgiveness.</p>
+<p>If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.<br /><br />Forgive without limit...THIS is what we do.</p>
+<p><strong>Subscribe for devotionals and ministry updates:</strong> jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[There are no enduring relationships without forgiveness.
+If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.Forgive without limit...THIS is what we do.
+Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Forgive Without Limit]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>There are no enduring relationships without forgiveness.</p>
+<p>If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.<br /><br />Forgive without limit...THIS is what we do.</p>
+<p><strong>Subscribe for devotionals and ministry updates:</strong> jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Forgive-YouTube-HD-1080p.mov" length="4363305500"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[There are no enduring relationships without forgiveness.
+If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.Forgive without limit...THIS is what we do.
+Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:42:59</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Forgive Without Limit]]>
+                </title>
+                <pubDate>Mon, 25 May 2020 01:52:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/forgive-without-limit</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/forgive-without-limit</link>
+                                <description>
+                                            <![CDATA[<p>There are no enduring relationships without forgiveness.</p>
+<p>If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.<br /><br />Forgive without limit...THIS is what we do.</p>
+<p><strong>Subscribe for devotionals and ministry updates:</strong> jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[There are no enduring relationships without forgiveness.
+If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.Forgive without limit...THIS is what we do.
+Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Forgive Without Limit]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>There are no enduring relationships without forgiveness.</p>
+<p>If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.<br /><br />Forgive without limit...THIS is what we do.</p>
+<p><strong>Subscribe for devotionals and ministry updates:</strong> jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Forgive-YouTube-HD-1080p.mov" length="4363305500"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[There are no enduring relationships without forgiveness.
+If you think you have the right to withhold forgiveness it is because you have not properly calculated the debt of sin owed to a Holy God. Even when it's hard... Even when it's hurtful... Forgiven people forgive people. You might be surprised what Jesus said hangs in the balance when it comes to forgiveness.Forgive without limit...THIS is what we do.
+Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:42:59</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Love Without Condition]]>
+                </title>
+                <pubDate>Mon, 18 May 2020 03:10:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/love-without-condition-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/love-without-condition-1</link>
+                                <description>
+                                            <![CDATA[<p><strong>God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships.</strong> <br /><br />Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships. Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Love Without Condition]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><strong>God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships.</strong> <br /><br />Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Love-Without-Condition-HD-1080p.mov" length="4677663288"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships. Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:41:32</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Love Without Condition]]>
+                </title>
+                <pubDate>Mon, 18 May 2020 03:10:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/love-without-condition</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/love-without-condition</link>
+                                <description>
+                                            <![CDATA[<p><strong>God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships.</strong> <br /><br />Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships. Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Love Without Condition]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><strong>God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships.</strong> <br /><br />Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org <br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/Love-Without-Condition-HD-1080p.mov" length="4677663288"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[God’s house should be a beacon of unconditional love. Get rid of love substitutes and discover how truly unconditional love supercharges relationships. Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:41:32</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Welcome Without Judgment]]>
+                </title>
+                <pubDate>Mon, 11 May 2020 19:22:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/welcome-without-judgment-1</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/welcome-without-judgment-1</link>
+                                <description>
+                                            <![CDATA[<p>No matter where you’ve been or what you’ve done… you should feel welcomed in church. This message in Luke 7 is from Dr. James MacDonald's teaching series<strong> "This Is What We Do."</strong> <br /><br />Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org <br /><br /><strong>Follow on social media:</strong> <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[No matter where you’ve been or what you’ve done… you should feel welcomed in church. This message in Luke 7 is from Dr. James MacDonald's teaching series "This Is What We Do." Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Welcome Without Judgment]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>No matter where you’ve been or what you’ve done… you should feel welcomed in church. This message in Luke 7 is from Dr. James MacDonald's teaching series<strong> "This Is What We Do."</strong> <br /><br />Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org <br /><br /><strong>Follow on social media:</strong> <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/TIWWD-final-youtube.mov" length="5077068939"
+                        type="video/quicktime">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[No matter where you’ve been or what you’ve done… you should feel welcomed in church. This message in Luke 7 is from Dr. James MacDonald's teaching series "This Is What We Do." Subscribe for devotionals and ministry updates: jamesmacdonaldministries.org Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>NaN</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[Turning to God in a Crisis]]>
+                </title>
+                <pubDate>Mon, 04 May 2020 04:05:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/turning-to-god-in-a-crisis</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/turning-to-god-in-a-crisis</link>
+                                <description>
+                                            <![CDATA[<p><strong>5 more exceeding great and precious promises </strong><br /><br /><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a></strong><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[5 more exceeding great and precious promises Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[Turning to God in a Crisis]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><strong>5 more exceeding great and precious promises </strong><br /><br /><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a></strong><br /><br />Follow on social media: <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/SN20200503-James-MacDonald-clean-edit.mp4" length="5510765825"
+                        type="video/mp4">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[5 more exceeding great and precious promises Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>NaN</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[God Is Always Victorious]]>
+                </title>
+                <pubDate>Mon, 27 Apr 2020 13:21:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/god-is-always-victorious</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/god-is-always-victorious</link>
+                                <description>
+                                            <![CDATA[<p><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a></strong><br /><br /><strong>Follow on social media:</strong> <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[God Is Always Victorious]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a></strong><br /><br /><strong>Follow on social media:</strong> <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/SN20200426-James-MacDonald-clean-edit.mp4" length="5671021697"
+                        type="video/mp4">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>NaN</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[God Is Always Watching]]>
+                </title>
+                <pubDate>Mon, 20 Apr 2020 01:00:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/god-is-always-watching</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/god-is-always-watching</link>
+                                <description>
+                                            <![CDATA[<p><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a></strong><br /><br /><strong>Follow on social media:</strong> <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[God Is Always Watching]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p><strong>Subscribe for devotionals and ministry updates: <a href="https://jamesmacdonaldministries.org/">https://jamesmacdonaldministries.org/ </a></strong><br /><br /><strong>Follow on social media:</strong> <br />IG: <a href="http://bit.ly/JamesMacDonald-IG">http://bit.ly/JamesMacDonald-IG </a><br />FB: <a href="http://bit.ly/JamesMacDonald-FB">http://bit.ly/JamesMacDonald-FB </a><br />TW: <a href="http://bit.ly/JamesMacDonald-TW">http://bit.ly/JamesMacDonald-TW </a><br /><br /><strong>Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</strong></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/SN20200419-James-MacDonald-clean-edit.mp4" length="5947787358"
+                        type="video/mp4">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>NaN</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+                    <item>
+                <title>
+                    <![CDATA[The Pivotal Piece • Resurrection]]>
+                </title>
+                <pubDate>Mon, 13 Apr 2020 16:26:00 +0000</pubDate>
+                <dc:creator>James MacDonald Ministries</dc:creator>
+                <guid isPermaLink="true">
+                    https://james-macdonald-podcast.castos.com/podcasts/6524/episodes/the-pivotal-piece-resurrection</guid>
+                                    <link>https://james-macdonald-podcast.castos.com/episodes/the-pivotal-piece-resurrection</link>
+                                <description>
+                                            <![CDATA[<p>1 Corinthians 15<br />Without one pivotal piece, the entirety of Christianity comes tumbling down. Thankfully, there are many supporting details and truths surrounding this. Tune in as Pastor James preaches from 1 Corinthians 15 regarding the resurrection of Jesus Christ.<br /><br /><span class="style-scope yt-formatted-string">Subscribe for devotionals and ministry updates: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                                    </description>
+                <itunes:subtitle>
+                    <![CDATA[1 Corinthians 15Without one pivotal piece, the entirety of Christianity comes tumbling down. Thankfully, there are many supporting details and truths surrounding this. Tune in as Pastor James preaches from 1 Corinthians 15 regarding the resurrection of Jesus Christ.Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:subtitle>
+                                    <itunes:episodeType>full</itunes:episodeType>
+                                <itunes:title>
+                    <![CDATA[The Pivotal Piece • Resurrection]]>
+                </itunes:title>
+                                                <itunes:explicit>false</itunes:explicit>
+                <content:encoded>
+                    <![CDATA[<p>1 Corinthians 15<br />Without one pivotal piece, the entirety of Christianity comes tumbling down. Thankfully, there are many supporting details and truths surrounding this. Tune in as Pastor James preaches from 1 Corinthians 15 regarding the resurrection of Jesus Christ.<br /><br /><span class="style-scope yt-formatted-string">Subscribe for devotionals and ministry updates: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=https%3A%2F%2Fjamesmacdonaldministries.org%2F" target="_blank" rel="noreferrer noopener">https://jamesmacdonaldministries.org/</a><span class="style-scope yt-formatted-string"> <br /><br />Follow on social media: <br />IG: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-IG" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-IG</a><span class="style-scope yt-formatted-string"> <br />FB: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-FB" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-FB</a><span class="style-scope yt-formatted-string"> <br />TW: </span><a class="yt-simple-endpoint style-scope yt-formatted-string" href="https://www.youtube.com/redirect?v=8lzsqJb_TGs&amp;redir_token=ysDg4RCRmCEDSweOnisd19zhJ3x8MTU4Njg4MTUwM0AxNTg2Nzk1MTAz&amp;event=video_description&amp;q=http%3A%2F%2Fbit.ly%2FJamesMacDonald-TW" target="_blank" rel="noreferrer noopener">http://bit.ly/JamesMacDonald-TW</a><span class="style-scope yt-formatted-string"> <br /><br />Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.</span></p>]]>
+                </content:encoded>
+                                    <enclosure url="https://episodes.castos.com/5e7515d0a29e34-21660127/SN20204012-James-MacDonald-clean-edit.mp4" length="5328311040"
+                        type="video/mp4">
+                    </enclosure>
+                                <itunes:summary>
+                    <![CDATA[1 Corinthians 15Without one pivotal piece, the entirety of Christianity comes tumbling down. Thankfully, there are many supporting details and truths surrounding this. Tune in as Pastor James preaches from 1 Corinthians 15 regarding the resurrection of Jesus Christ.Subscribe for devotionals and ministry updates: https://jamesmacdonaldministries.org/ Follow on social media: IG: http://bit.ly/JamesMacDonald-IG FB: http://bit.ly/JamesMacDonald-FB TW: http://bit.ly/JamesMacDonald-TW Dr. James MacDonald preaches without apology straight from the pages of Scripture, provoking Christians to think and act on their faith.]]>
+                </itunes:summary>
+                                                                            <itunes:duration>00:43:33</itunes:duration>
+                                                    <itunes:author>
+                    <![CDATA[James MacDonald Ministries]]>
+                </itunes:author>
+                            </item>
+            </channel>
+</rss>

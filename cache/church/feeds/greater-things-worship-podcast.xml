@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/xsl/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Greater Things Worship Podcast</title>
+    <link>https://www.podomatic.com/podcasts/greaterthingsworship</link>
+    <description>
+      <![CDATA[We talk about what is on our heart as it relates to worship &amp; community.  We also use this time to share worship songs that we are working on as well as the process of creating those songs from start to finish.]]>
+    </description>
+    <language>en-us</language>
+    <generator>Podomatic RSS Generator</generator>
+    <pubDate>Tue, 04 Feb 2025 22:24:15 +0000</pubDate>
+    <itunes:keywords>worship, ,music, ,song, ,writing, ,bethel, ,hillsong, </itunes:keywords>
+    <copyright>Copyright 2025 Sunday Night Videos</copyright>
+    <itunes:subtitle>Sunday Night Videos</itunes:subtitle>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>no</itunes:block>
+    <itunes:image href="https://assets.podomatic.net/ts/bc/30/9a/fredbutson/1400x1400_8378833.jpg"/>
+    <image>
+      <url>https://assets.podomatic.net/ts/bc/30/9a/fredbutson/1400x1400_8378833.jpg</url>
+      <title>Greater Things Worship Podcast</title>
+      <link>https://www.podomatic.com/podcasts/greaterthingsworship</link>
+    </image>
+    <itunes:author>Sunday Night Videos</itunes:author>
+    <itunes:summary>We talk about what is on our heart as it relates to worship &amp; community.  We also use this time to share worship songs that we are working on as well as the process of creating those songs from start to finish.</itunes:summary>
+    <itunes:category text="Music"></itunes:category>
+    <atom:link href="https://greaterthingsworship.podomatic.com/rss2.xml" rel="self" title="Greater Things Worship Podcast" type="application/rss+xml"/>
+    <item>
+      <title>Episode #4 - Creativity in Worship - GreaterThingsWorship.com</title>
+      <description>
+        <![CDATA[This week we discuss creativity in worship and how we all can benefit from collaboration.  We also bring back another old song that we started working on a few years ago.  We hope to share this song in a few weeks in a more developed way.  At least that is the goal ;)  http://www.greaterthingsworship.com
+]]>
+      </description>
+      <guid isPermaLink="true">https://greaterthingsworship.podomatic.com/entry/2013-06-23T20_09_05-07_00</guid>
+      <comments>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-23T20_09_05-07_00</comments>
+      <pubDate>Mon, 24 Jun 2013 03:09:05 +0000</pubDate>
+      <dcterms:modified>2013-12-11</dcterms:modified>
+      <dcterms:created>2013-12-11</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-23T20_09_05-07_00</link>
+      <dc:creator>Sunday Night Videos</dc:creator>
+      <itunes:keywords>videos,worship,bethel,fred,hillsong,music,passion,podcast,recording,song,writing,&quot;greater,&quot;song,greater,inspirational,night,sunday,live</itunes:keywords>
+      <enclosure url="https://greaterthingsworship.podomatic.com/enclosure/2013-06-23T20_09_05-07_00.mp4?_=1372043345.8422917" length="155169117" type="video/mp4"/>
+      <itunes:duration>567</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/bc/30/9a/fredbutson/1400x1400_8422514.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>This week we discuss creativity in worship and how we all can benefit from collaboration.  We also bring back another old song that we started working on a few years ago.  We hope to share this song in a few weeks in a more developed way.  At least that is the goal ;)  http://www.greaterthingsworship.com
+</itunes:summary>
+      <itunes:subtitle>This week we discuss creativity in worship and how we all can benefit from collaboration.  We als...</itunes:subtitle>
+    </item>
+    <item>
+      <title>Episode #3 - The Father Heart of God - GreaterThingsWorship.com</title>
+      <description>
+        <![CDATA[We share on our experience in understanding the Father heart of God in worship &amp; Fred finishes with an acoustic version of "Fathers Smile" which is a song on our Cd. (Available for free on http://www.greaterthingsworship.com )]]>
+      </description>
+      <guid isPermaLink="true">https://greaterthingsworship.podomatic.com/entry/2013-06-22T14_51_53-07_00</guid>
+      <comments>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-22T14_51_53-07_00</comments>
+      <pubDate>Sat, 22 Jun 2013 21:51:53 +0000</pubDate>
+      <dcterms:modified>2013-12-11</dcterms:modified>
+      <dcterms:created>2013-12-11</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-22T14_51_53-07_00</link>
+      <dc:creator>Sunday Night Videos</dc:creator>
+      <itunes:keywords>&quot;greater,&quot;song,greater,inspirational,night,podcast,sunday,recording,music,live,hillsong,fred,bethel,worship,videos</itunes:keywords>
+      <enclosure url="https://greaterthingsworship.podomatic.com/enclosure/2013-06-22T14_51_53-07_00.mp4?_=1371937919.8418307" length="134362961" type="video/mp4"/>
+      <itunes:duration>816</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/bc/30/9a/fredbutson/1400x1400_8418302.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>We share on our experience in understanding the Father heart of God in worship &amp; Fred finishes with an acoustic version of &quot;Fathers Smile&quot; which is a song on our Cd. (Available for free on http://www.greaterthingsworship.com )</itunes:summary>
+      <itunes:subtitle>We share on our experience in understanding the Father heart of God in worship &amp; Fred finishes wi...</itunes:subtitle>
+    </item>
+    <item>
+      <title>Episode #2 - The Presence of God in Worship - GreaterThingsWorship.com</title>
+      <description>
+        <![CDATA[This week we talk about the presence of God in worship &amp; we end with a new song that we are working on about this topic.]]>
+      </description>
+      <guid isPermaLink="true">https://greaterthingsworship.podomatic.com/entry/2013-06-22T14_27_16-07_00</guid>
+      <comments>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-22T14_27_16-07_00</comments>
+      <pubDate>Sat, 22 Jun 2013 21:27:16 +0000</pubDate>
+      <dcterms:modified>2013-12-11</dcterms:modified>
+      <dcterms:created>2013-12-11</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-22T14_27_16-07_00</link>
+      <dc:creator>Sunday Night Videos</dc:creator>
+      <itunes:keywords>videos,worship,bethel,hillsong,home,inspirational,greater,&quot;greater,sunday,podcast,recording,song,writing,things&quot;,live</itunes:keywords>
+      <enclosure url="https://greaterthingsworship.podomatic.com/enclosure/2013-06-22T14_27_16-07_00.mp4?_=1371936436.8418291" length="137258534" type="video/mp4"/>
+      <itunes:duration>3982</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/bc/30/9a/fredbutson/1400x1400_8418288.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>This week we talk about the presence of God in worship &amp; we end with a new song that we are working on about this topic.</itunes:summary>
+      <itunes:subtitle>This week we talk about the presence of God in worship &amp; we end with a new song that we are worki...</itunes:subtitle>
+    </item>
+    <item>
+      <title>Episode #1 - Sunday Night Videos Intro - GreaterThingsWorship.com</title>
+      <description>
+        <![CDATA[A big thank you to all who have supported us with the Greater Things CD.  We also talk about our desire to communicate with you about worship, community, song writing etc.]]>
+      </description>
+      <guid isPermaLink="true">https://greaterthingsworship.podomatic.com/entry/2013-06-21T07_01_30-07_00</guid>
+      <comments>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-21T07_01_30-07_00</comments>
+      <pubDate>Fri, 21 Jun 2013 14:01:30 +0000</pubDate>
+      <dcterms:modified>2013-12-11</dcterms:modified>
+      <dcterms:created>2013-12-11</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/greaterthingsworship/episodes/2013-06-21T07_01_30-07_00</link>
+      <dc:creator>Sunday Night Videos</dc:creator>
+      <itunes:keywords>&quot;greater,&quot;song,bethel,fred,greater,hillsong,live,music,night,passion,podcast,recording,song,sunday,things,video/mp4,worship,writing</itunes:keywords>
+      <enclosure url="https://greaterthingsworship.podomatic.com/enclosure/2013-06-21T07_01_30-07_00.mp4?_=1371823295.8413962" length="37514268" type="video/mp4"/>
+      <itunes:duration>191</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/bc/30/9a/fredbutson/1400x1400_8413965.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:summary>A big thank you to all who have supported us with the Greater Things CD.  We also talk about our desire to communicate with you about worship, community, song writing etc.</itunes:summary>
+      <itunes:subtitle>A big thank you to all who have supported us with the Greater Things CD.  We also talk about our ...</itunes:subtitle>
+    </item>
+  </channel>
+</rss>

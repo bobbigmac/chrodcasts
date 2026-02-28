@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  
+  <channel>
+
+      <title>COTR Behind The Scenes Video Podcast</title>
+      <link>http://www.cotr.org</link>
+      <language>en-us</language>
+      <copyright>© 2008 Church On The Rock</copyright>
+	  <itunes:subtitle>Taking a behind the scenes look at different ministries, programs, and events that happen at Church On The Rock.</itunes:subtitle>
+	  <itunes:author>Church On The Rock</itunes:author>
+	  <itunes:summary>Taking a behind the scenes look at different ministries, programs, and events that happen at Church On The Rock.</itunes:summary>
+      <description>Taking a behind the scenes look at different ministries, programs, and events that happen at Church On The Rock.</description>
+	  <itunes:owner>
+	 		<itunes:name>David Blunt</itunes:name>
+      		<itunes:email>webservant@cotr.org</itunes:email>
+	  </itunes:owner>
+	  <itunes:category text="Christianity">
+	  </itunes:category>
+		
+      <ttl>60</ttl>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <webMaster>webservant@cotr.org</webMaster>
+		<itunes:explicit>no</itunes:explicit>
+
+
+			<item>
+				<title>Episode 2 - The Making of an Evite</title>
+				<description>A behind the scenes look at the making of a weekly evite for COTR.</description>
+				<enclosure length="7266304" type="video/x-m4v" url="http://www.cotr.org/Podcast/btsvideo/Episode2.m4v"/>
+				<category>Podcasts</category>
+				<pubDate>Fri, 12 Dec 2008 12:00:00 -0600</pubDate>
+
+				<itunes:author>David Blunt</itunes:author>
+				<itunes:explicit>No</itunes:explicit>
+				<itunes:subtitle>Behind The Scenes - The Making of an Evite</itunes:subtitle>
+				<itunes:summary>Behind The Scenes - The Making of an Evite</itunes:summary>
+				<itunes:duration>00:03:44</itunes:duration>
+				<itunes:keywords>podcast, podcasting, podcaster, sermon, David, Blunt, praise, changes, things, church, rock</itunes:keywords>
+			</item>					
+
+			<item>
+				<title>Episode 1 - The Choir and Band</title>
+				<description>A behind the scenes look at the choir and band of COTR as they prepare for Sunday Mornings and Wednesday Nights.</description>
+				<enclosure length="7266304" type="video/x-m4v" url="http://www.cotr.org/Podcast/btsvideo/Episode1.m4v"/>
+				<category>Podcasts</category>
+				<pubDate>Fri, 5 Dec 2008 12:00:00 -0600</pubDate>
+
+				<itunes:author>David Blunt</itunes:author>
+				<itunes:explicit>No</itunes:explicit>
+				<itunes:subtitle>Behind The Scenes - The Choir and Band</itunes:subtitle>
+				<itunes:summary>Behind The Scenes - The Choir and Band</itunes:summary>
+				<itunes:duration>00:04:06</itunes:duration>
+				<itunes:keywords>podcast, podcasting, podcaster, sermon, David, Blunt, praise, changes, things, church, rock</itunes:keywords>
+			</item>					
+	
+	</channel>
+
+</rss>

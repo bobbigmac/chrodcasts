@@ -1,0 +1,2256 @@
+<?xml version="1.0"?>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+
+<title>NWLife Church Video Podcast</title>
+
+<link>http://www.nwlifechurch.com</link>
+<description>Sunday Messages at NWLife Church</description>
+<copyright>2015 Northwest Life Church</copyright>
+<webMaster>sjones@nwlifechurch.com</webMaster>
+
+<itunes:author>NWLife Church Video Podcast</itunes:author>
+<itunes:owner>
+	<itunes:name>Shaun Jones, Audio/Visual Director</itunes:name>
+	<itunes:email>shaun@nwlifechurch.com</itunes:email>
+</itunes:owner>
+<itunes:category>Religious</itunes:category>
+<itunes:summary>
+Free weekly video podcast of every Sunday message at NWLife Church.
+</itunes:summary>
+<itunes:image href="http://nwlifearchive.com/sermons/podcastimage.jpg" />
+<itunes:keywords>Brian Dolleman, Andy Jones, Angela Hagebusch, DJ Marin, Kyle Wheeler, John Oletzke, Wes Lindseth,
+Kevin Geer, Micahn Carter, April Carter, Tim Tebow, Paul Scanlon, Matthew Barnett, Tommy Barnett,
+Northwest, Life, NWLife, NW, NWL, Fairwood, Church</itunes:keywords>
+
+
+
+
+		<item>
+			<title>Together Nights: Mark Francey</title>
+			<description>Wednesday Night of Together Nights 2016</description>
+			<pubDate>Wed, 11 May 2016 09:30:00 PST</pubDate>*
+			<enclosure url="http://www.nwlifearchive.com/sermons/2016/05_11_together1.mp4"
+				length="2978205900" type="audio/mpeg"/>
+		
+			<itunes:author>Pastor Mark Francey</itunes:author>
+			<itunes:duration>45:19</itunes:duration>
+			<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+		</item>
+
+<item>
+	<title>Rise: Service &amp; Generosity</title>
+	<description>Together We Rise Series, Week 2</description>
+	<pubDate>Sun, 08 May 2016 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2016/05_08_rise2.mp4"
+		length="1976999824" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>28:11</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Rise: Faith, Hope, Love</title>
+	<description>Together We Rise Series, Week 1</description>
+	<pubDate>Sun, 01 May 2016 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2016/05_01_rise1.mp4"
+		length="2584810478" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:54</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+<item>
+	<title>A Stable Christmas</title>
+	<description>2015 Christmas Series</description>
+	<pubDate>Sun, 13 Dec 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/12_13_stable_christmas2.mp4"
+		length="2251885496" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:25</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>A Stable King</title>
+	<description>2015 Christmas Series</description>
+	<pubDate>Sun, 06 Dec 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/12_06_stable_christmas1.mp4"
+		length="3107569079" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:02</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+<item>
+	<title>People Make The Life Giving</title>
+	<description>People Make The Church, Week 9</description>
+	<pubDate>Sun, 29 Nov 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/11_29_people_make_the_church9.mp4"
+		length="2332251327" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:40</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Full Of Grace</title>
+	<description>People Make The Church, Week 8</description>
+	<pubDate>Sun, 22 Nov 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/11_22_people_make_the_church8.mp4"
+		length="30494709" type="audio/mpeg"/>
+
+	<itunes:author>Guest Speaker - Moses Masitha</itunes:author>
+	<itunes:duration>31:45</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Compassionate</title>
+	<description>People Make The Church, Week 7</description>
+	<pubDate>Sun, 15 Nov 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/11_15_people_make_the_church7.mp4"
+		length="2339014584" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:35</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Others Focused</title>
+	<description>People Make The Church, Week 5</description>
+	<pubDate>Sun, 08 Nov 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/11_08_people_make_the_church6.mp4"
+		length="2984849248" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>34:54</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Generous</title>
+	<description>People Make The Church, Week 5</description>
+	<pubDate>Sun, 01 Nov 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/11_01_people_make_the_church5.mp4"
+		length="2984849248" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:54</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Courageous</title>
+	<description>People Make The Church, Week 4</description>
+	<pubDate>Sun, 25 Oct 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/10_25_people_make_the_church4.mp4"
+		length="2984849248" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:54</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Alive</title>
+	<description>People Make The Church, Week 3</description>
+	<pubDate>Sun, 18 Oct 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/10_18_people_make_the_church3.mp4"
+		length="2280115282" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>26:47</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Young &amp; Free</title>
+	<description>People Make The Church, Week 2</description>
+	<pubDate>Sun, 11 Oct 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/10_11_people_make_the_church2.mp4"
+		length="3334017479" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>37:09</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>People Make The Church Strong</title>
+	<description>People Make The Church, Week 1</description>
+	<pubDate>Sun, 04 Oct 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/10_04_people_make_the_church1.mp4"
+		length="1361327336" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>31:57</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+<item>
+	<title>Brave In Our Welcome</title>
+	<description>Welcoming The Stranger</description>
+	<pubDate>Sun, 27 Sep 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/09_27_brave7.mp4"
+		length="2805861501" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:20</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Brave - Putting It All On The Line</title>
+	<description>The Widow of Zarephath</description>
+	<pubDate>Sun, 20 Sep 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/09_20_brave6.mp4"
+		length="2481382067" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>29:27</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Brave - A Better and More Beautiful Way</title>
+	<description>Paul's conversion - new practices and behavior.</description>
+	<pubDate>Sun, 13 Sep 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/09_13_brave5.mp4"
+		length="3018299895" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>35:03</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Brave - Worshiping All-In</title>
+	<description>The woman with the alabaster jar wasn't concerned with her image.</description>
+	<pubDate>Sun, 06 Sep 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/09_06_brave4.mp4"
+		length="2092606959" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>24:50</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Brave - Rebounder</title>
+	<description>Peter failed, but didn't stay down.</description>
+	<pubDate>Sun, 23 Aug 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/08_23_brave3.mp4"
+		length="2792700381" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:55</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Brave - Faithful Withness</title>
+	<description>Ruth was faithful and committed, even when everything seemed to be falling apart.</description>
+	<pubDate>Sun, 16 Aug 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/08_16_brave2.mp4"
+		length="2680498499" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:44</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Brave - Come Out of Hiding</title>
+	<description>Gideon was a late bloomer, who struggled with insecurity.</description>
+	<pubDate>Sun, 09 Aug 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/08_09_brave1.mp4"
+		length="3086968182" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:48</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+<item>
+	<title>Waiting Well</title>
+	<description>Week four of "The Power of Pause"</description>
+	<pubDate>Sun, 02 Aug 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/08_02_power_of_pause4.mp4"
+		length="2732796875" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>32:53</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Waiting For His Promise</title>
+	<description>Week three of "The Power of Pause"</description>
+	<pubDate>Sun, 26 Jul 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/07_26_power_of_pause3.mp4"
+		length="1389857696" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>30:41</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Waiting For Restoration</title>
+	<description>Week two of "The Power of Pause"</description>
+	<pubDate>Sun, 19 Jul 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/07_19_power_of_pause2.mp4"
+		length="1419968508" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>31:24</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>When Dreams Get Delayed</title>
+	<description>Week one of "The Power of Pause"</description>
+	<pubDate>Sun, 12 Jul 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/07_12_power_of_pause1.mp4"
+		length="1507245441" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>32:27</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+<item>
+	<title>We not Me</title>
+	<description>What could we accomplish as a church, not individuals?</description>
+	<pubDate>Sun, 05 Jul 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/07_05_we_not_me.mp4"
+		length="1461758699" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>32:05</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Red Letter Revolution - Hunger</title>
+	<description>Jesus Speaks to &amp; Satisfies Our Hunger</description>
+	<pubDate>Sun, 28 Jun 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/06_28_red_letter5.mp4"
+		length="1709198540" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>36:48</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Red Letter Revolution - Desires</title>
+	<description>Jesus Speaks to Our Deepest Longings &amp; Desires</description>
+	<pubDate>Sun, 21 Jun 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/06_21_red_letter4.mp4"
+		length="1678600278" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>34:00</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Red Letter Revolution - Boundaries</title>
+	<description>Jesus Speaks to Our Boundaries &amp; Borders</description>
+	<pubDate>Sun, 14 Jun 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/06_14_red_letter3.mp4"
+		length="1650918287" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>37:09</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Red Letter Revolution - Justice</title>
+	<description>Jesus Speaks to Our Sense of Justce</description>
+	<pubDate>Sun, 07 Jun 2015 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/06_07_red_letter2.mp4"
+		length="1567604157" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:15</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Red Letter Revolution - Eternity</title>
+	<description>Jesus Speaks to Our Eternity</description>
+	<pubDate>Sun, 31 May 2015 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/05_31_red_letter1.mp4"
+		length="1132428260" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:29</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+	<title>Life With God - Week 8</title>
+	<description>Living simple in a complicated world; free in an indebted world</description>
+	<pubDate>Sun, 22 Feb 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/02_22_life_with_god8.mp4"
+		length="898673713" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>22:42</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Life With God - Week 7</title>
+	<description>Living Compassionately in a Critical World</description>
+	<pubDate>Sun, 15 Feb 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/02_15_life_with_god7.mp4"
+		length="1467246733" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>37:05</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Life With God - Week 6</title>
+	<description>Living unhurried in a hectic world; present in an absentee world</description>
+	<pubDate>Sun, 08 Feb 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/02_08_life_with_god6.mp4"
+		length="1252472578" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>31:38</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Life With God - Week 4</title>
+	<description>Living joyfully in an unhappy world; bright in a dark world</description>
+	<pubDate>Sun, 25 Jan 2015 9:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/01_25_life_with_god4.mp4"
+		length="1252472578" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:38</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Life With God - Week 3</title>
+	<description>Living Humbly in a Proud World; healthy in an unhealthy world</description>
+	<pubDate>Sun, 18 Jan 2015 9:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/01_18_life_with_god3.mp4"
+		length="1252472578" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:38</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Life With God - Week 2</title>
+	<description>Living gently in a violent world; light in a heavy world</description>
+	<pubDate>Sun, 11 Jan 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/01_11_life_with_god2.mp4"
+		length="1349989070" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:03</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Life With God - Week 1</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 04 Jan 2015 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2015/01_04_life_with_god1.mp4"
+		length="1000105152" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:16</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+<item>
+	<title>Finding God in the Broken Places</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 28 Dec 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/12_28_finding_god5.mp4"
+		length="1077689471" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>27:08</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Finding God in the Doghouse</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 21 Dec 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/12_21_finding_god4.mp4"
+		length="870146596" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>21:56</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Finding God in the Smallness</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 14 Dec 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/12_14_finding_god3.mp4"
+		length="761246534" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>19:15</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Finding God in the Dark</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 07 Dec 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/12_07_finding_god2.mp4"
+		length="1227559782" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:56</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Finding God in the Holidays</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 30 Nov 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/11_30_finding_god1.mp4"
+		length="1107689700" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:01</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+	<title>Drift Happens</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 23 Nov 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/11_23_drift_happens.mp4"
+		length="1207433084" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:30</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Guest Speaker - Moses Masitha</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 16 Nov 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/11_16_moses_masitha.mp4"
+		length="1316553959" type="audio/mpeg"/>
+
+	<itunes:author>Moses Masitha</itunes:author>
+	<itunes:duration>33:07</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Cope - Boredom</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 09 Nov 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/11_09_cope8.mp4"
+		length="1145726162" type="audio/mpeg"/>
+
+	<itunes:author>DJ Marin</itunes:author>
+	<itunes:duration>28:50</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - Fear, Anxiety &amp; Worry</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 02 Nov 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/11_02_cope7.mp4"
+		length="1351607631" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Kyle Wheeler</itunes:author>
+	<itunes:duration>34:01</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - Harsh Leaders</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 26 Oct 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/10_26_cope6.mp4"
+		length="932668315" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>23:30</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - Change &amp; Aging</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 19 Oct 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/10_19_cope5.mp4"
+		length="1305259605" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:50</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - Expectations of Others</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 12 Oct 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/10_12_cope4.mp4"
+		length="1113220828" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>28:01</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - Jealousy &amp; Insecurity</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 05 Oct 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/10_05_cope3.mp4"
+		length="1362082624" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:19</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - The Things That Limit Us</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 28 Sep 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/09_28_cope2.mp4"
+		length="1227840043" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>30:53</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Cope - All the Heavy Stuff</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 21 Sep 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/09_21_cope1.mp4"
+		length="1133101138" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:10</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>One Hit Wonders - Hope</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 14 Sep 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/09_14_one_hit_wonders4.mp4"
+		length="1211374637" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>30:27</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>One Hit Wonders - Grace</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 07 Sep 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/09_07_one_hit_wonders3v.mp4"
+		length="2063532032" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Moses Masitha</itunes:author>
+	<itunes:duration>40:01</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>One Hit Wonders - Grace</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 31 Aug 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/08_31_one_hit_wonders2.mp4"
+		length="1258441634" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:39</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>One Hit Wonders - Family</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 24 Aug 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/08_24_one_hit_wonders1.mp4"
+		length="1300150832" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>32:42</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+<item>
+	<title>Kingdom Invitation - Where You Can Be Yourself</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 17 Aug 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/08_17_kingdom_invitation16.mp4"
+		length="1114250196" type="audio/mpeg"/>
+
+	<itunes:author>DJ Marin</itunes:author>
+	<itunes:duration>28:02</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is a Garden</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 10 Aug 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/08_10_kingdom_invitation15.mp4"
+		length="1091056590" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>27:26</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>The Kingdom: Where Pain Isn't Caused - It Is Redeemed</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 03 Aug 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/08_03_kingdom_invitation14.mp4"
+		length="1017793891" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:36</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is a Celebration</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 27 Jul 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/07_27_kingdom_invitation13.mp4"
+		length="1176010025" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:41</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is Upside Down</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 20 Jul 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/07_20_kingdom_invitation12.mp4"
+		length="994852228" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:02</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is Full of Potential</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 13 Jul 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/07_13_kingdom_invitation11.mp4"
+		length="1009025008" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>25:23</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is All About People</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 06 Jul 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/07_06_kingdom_invitation10.mp4"
+		length="967219669" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>24:20</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is Powerful</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 29 Jun 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/06_29_kingdom_invitation9.mp4"
+		length="1209774277" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:25</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is Now and Coming</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 22 Jun 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/06_22_kingdom_invitation8.mp4"
+		length="1025418701" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:48</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - It's a Kingdom of Purpose</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 15 Jun 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/06_15_kingdom_invitation7.mp4"
+		length="1325735173" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>33:20</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - It's a Kingdom Without End</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 01 Jun 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/06_01_kingdom_invitation5.mp4"
+		length="1217540891" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:37</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - It's a Peaceful Kingdom</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 25 May 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_25_kingdom_invitation4.mp4"
+		length="1253182572" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:31</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Together, Sunday Evening - Paul Scanlon</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 18 May 2014 18:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_18_together_paul_pm.mp4"
+		length="1908557138" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Paul Scanlon</itunes:author>
+	<itunes:duration>47:58</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together, Sunday Morning - Paul Scanlon</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 18 May 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_18_together_paul_am.mp4"
+		length="1373062648" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Paul Scanlon</itunes:author>
+	<itunes:duration>34:32</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Night, Friday - Matthew Barnett</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 16 May 2014 19:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_16_together_matthew.mp4"
+		length="1686990553" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Matthew Barnett</itunes:author>
+	<itunes:duration>42:25</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Night, Wednesday - Micahn Carter</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 14 May 2014 19:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_14_together_micahn.mp4"
+		length="1193848882" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Micahn Carter</itunes:author>
+	<itunes:duration>30:01</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Kingdom Invitation - Lost and Found</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 11 May 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_11_kingdom_invitation3.mp4"
+		length="1055508149" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>26:31</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - The Kingdom is Physical &amp; Spiritual</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 04 May 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/05_04_kingdom_invitation2.mp4"
+		length="784994827" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>19:45</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Kingdom Invitation - What Is the Kingdom of God?</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 27 Apr 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/04_27_kingdom_invitation1.mp4"
+		length="1003835947" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:16</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+	<title>Easter Sunday - Love Has Won</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 20 Apr 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/04_20_love_has_won.mp4"
+		length="872708617" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>21:59</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+<item>
+	<title>Once Upon a Time - The Short Sighted Billionaire</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 13 Apr 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/04_13_once_upon_a_time7.mp4"
+		length="983298776" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>24:48</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Once Upon a Time - The Cancelled Debt</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 06 Apr 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/04_06_once_upon_a_time6.mp4"
+		length="1131358902" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>28:27</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Once Upon a Time - Day Laborers &amp; The Vineyard Owner</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 30 Mar 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/03_30_once_upon_a_time5.mp4"
+		length="1113829763" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:04</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Once Upon a Time - The Tax Man &amp; The Pharisee</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 23 Mar 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/03_23_once_upon_a_time4.mp4"
+		length="968422305" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>24:21</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Once Upon a Time - The Undercover King</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 16 Mar 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/03_16_once_upon_a_time3.mp4"
+		length="1209097151" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:22</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Once Upon a Time - Wanting What We Don't Have &amp; Whining About It</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 09 Mar 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/03_09_once_upon_a_time2.mp4"
+		length="1311154375" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:57</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Once Upon a Time - Seeds &amp; Weeds</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 02 Mar 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/03_02_once_upon_a_time1.mp4"
+		length="1131996248" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:29</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - Maintaining Momentum</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 16 Feb 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/02_16_freedom_story7.mp4"
+		length="1168225726" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:25</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - Restoring Relationships</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 09 Feb 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/02_09_freedom_story6.mp4"
+		length="1105727080" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>27:51</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - Making Changes</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 02 Feb 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/02_02_freedom_story5.mp4"
+		length="916620373" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>23:07</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - Openly Confess</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 26 Jan 2014 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/01_26_freedom_story4.mp4"
+		length="1189164545" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>29:59</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - Surrender</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 19 Jan 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/01_19_freedom_story3.mp4"
+		length="1188317871" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:53</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - Getting When When You Hurt</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 12 Jan 2014 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/01_12_freedom_story2.mp4"
+		length="1024256600" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:49</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Freedom Story - I'm Not God &amp; I Need Him</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 05 Jan 2014 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2014/01_05_freedom_story1.mp4"
+		length="1195596892" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>30:02</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+<item>
+	<title>Hope Arrives to Close the Chapter &amp; Begin Another</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 29 Dec 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/12_29_hope_arrives4.mp4"
+		length="1037748555" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:04</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Hope Arrives With Gifts</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 22 Dec 2013 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/12_22_hope_arrives3.mp4"
+		length="883221996" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>22:14</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Hope Arrives In the Darkest Hour</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 08 Dec 2013 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/12_08_hope_arrives1.mp4"
+		length="874907147" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>22:01</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+<item>
+	<title>Welcome Home - We Are Strong Because of Our Weak</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 01 Dec 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/12_01_welcome_home12.mp4"
+		length="833244272" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>20:56</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Go On Road Trips Together</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 24 Nov 2013 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/11_24_welcome_home11.mp4"
+		length="941136520" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>23:36</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+<item>
+	<title>Welcome Home - We Grow Up, We Grow Out</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 17 Nov 2013 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/11_17_welcome_home10.mp4"
+		length="943514845" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>23:39</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Fight Fair; We Repair</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 10 Nov 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/11_10_welcome_home9.mp4"
+		length="1123991568" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:12</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Read Bedtime Stories</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 03 Nov 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/11_03_welcome_home8.mp4"
+		length="956962113" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>24:00</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Ask Daddy</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 27 Oct 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/10_27_welcome_home7.mp4"
+		length="1147915191" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>28:47</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Know How to Party</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 13 Oct 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/10_13_welcome_home5.mp4"
+		length="1028805937" type="audio/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:47</itunes:duration>
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Have Responsibilities</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 06 Oct 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/10_06_welcome_home4.mp4"
+		length="1183110490" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:39</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Kick Our Feet Up in the Family Room</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 29 Sep 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/09_29_welcome_home3.mp4"
+		length="1279033401" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:04</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home - We Love Our House</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 22 Sep 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/09_22_welcome_home2.mp4"
+		length="1295009583" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:28</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Welcome Home</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 15 Sep 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/09_15_welcome_home1.mp4"
+		length="1096106638" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>27:35</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+	<title>Culture - We Do Welcoming</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 08 Sep 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/09_08_culture10.mp4"
+		length="1043630912" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:12</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Change</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 01 Sep 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/09_01_culture9.mp4"
+		length="1042338014" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:11</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Generous</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 25 Aug 2013 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/08_25_culture8.mp4"
+		length="1208131631" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>30:21</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+<item>
+	<title>Culture - We Do Energetic</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 18 Aug 2013 09:30:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/08_18_culture7.mp4"
+		length="1424516327" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>35:44</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Empowering</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 11 Aug 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/08_11_culture6.mp4"
+		length="1161327905" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:12</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Diverse</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 04 Aug 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/08_04_culture5.mp4"
+		length="974037842" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>24:28</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Grace</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 28 Jul 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/07_28_culture4.mp4"
+		length="1129246903" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:22</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Faith</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 21 Jul 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/07_21_culture3.mp4"
+		length="1071342110" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:52</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Young</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 14 Jul 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/07_14_culture2.mp4"
+		length="1598468721" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:30</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Culture - We Do Positive</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 07 Jul 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/07_07_culture1.mp4"
+		length="811703682" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:01</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Now Is Greater - Forgiveness &gt; Revenge</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 23 Jun 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/06_23_now_greater4.mov"
+		length="1101843899" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>28:36</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Now Is Greater - Generosity</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 09 Jun 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/06_09_now_greater2.mp4"
+		length="634457874" type="video/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>26:35</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Now Is Greater</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 02 Jun 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/06_02_now_greater1.mp4"
+		length="620891909" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>26:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+<item>
+	<title>Imagine: Life Together - Building the Church</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 26 May 2013 09:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_26_imagine_together3.mp4"
+		length="608393860" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>25:30</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Together - Being the Church</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 19 May 2013 09:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_19_imagine_together2.mp4"
+		length="573194906" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>28:28</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Together - Rest</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 12 May 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_12_imagine_together1.mp4"
+		length="684703680" type="video/mpeg"/>
+
+	<itunes:author>Pastor Shari Dolleman</itunes:author>
+	<itunes:duration>28:41</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+<item>
+	<title>Together Conference: Pastor Micahn Carter</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 05 May 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_05_together_conf5.mp4"
+		length="869663852" type="video/mpeg"/>
+
+	<itunes:author>Pastor Micahn Carter</itunes:author>
+	<itunes:duration>36:25</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Conference: Pastors Jonathan &amp; Dianne Wilson</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 03 May 2013 19:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_03_together_conf3.mp4"
+		length="1632091328" type="video/mpeg"/>
+
+	<itunes:author>Jonathan &amp; Dianne Wilson</itunes:author>
+	<itunes:duration>1:08:18</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Conference: Pastor Tommy Barnett</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 02 May 2013 19:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_02_together_conf2.mp4"
+		length="1319013048" type="video/mpeg"/>
+
+	<itunes:author>Pastor Tommy Barnett</itunes:author>
+	<itunes:duration>55:13</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Conference: Together Night (Live Youth Church)</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 01 May 2013 19:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/05_01_together_conf1.mp4"
+		length="683462615" type="video/mpeg"/>
+
+	<itunes:author>Luke Breton Van Groll</itunes:author>
+	<itunes:duration>28:38</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+<item>
+	<title>Imagine: Life Overflowing - Faith</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 28 Apr 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/04_28_imagine_overflowing4.mp4"
+		length="615134016" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:46</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Overflowing - Widsom</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 21 Apr 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/04_21_imagine_overflowing3.mp4"
+		length="674452494" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:15</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Overflowing - Generosity</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 14 Apr 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/04_14_imagine_overflowing2.mp4"
+		length="811845032" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>34:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Overflowing - Joy</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 07 Apr 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/04_07_imagine_overflowing1.mp4"
+		length="534556874" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>26:45</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Imagine: Life Restored - God Wins</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 31 Mar 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/03_31_imagine_restored5.mp4"
+		length="400316393" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:30</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Restored - Put On Your New Wardrobe</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 24 Mar 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/03_24_imagine_restored4.mp4"
+		length="309325929" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>20:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Restored - Roots</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 17 Mar 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/03_17_imagine_restored3.mp4"
+		length="430525288" type="video/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>26:39</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Restored - Stand Firm</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 10 Mar 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/03_10_imagine_restored2.mp4"
+		length="472098480" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>29:13</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Imagine: Life Restored - The Flow of Grace</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 03 Mar 2013 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/03_03_imagine_restored1.mp4"
+		length="377024838" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>23:23</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Straight Up G - Imagine A Church On Mission</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 24 Feb 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/02_24_straight_g8.mp4"
+		length="3760310869" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>23:16</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Straight Up G - Imagine Bumper Crops</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 17 Feb 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/02_17_straight_g7.mp4"
+		length="435807935" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>26:58</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Straight Up G - Imagine God in the House</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 10 Feb 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/02_10_straight_g6.mp4"
+		length="472479744" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Straight Up G - Imagine The Blind See</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 27 Jan 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/01_27_straight_g4.mp4"
+		length="472502272" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Straight Up G - Imagine No On Left Out</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 20 Jan 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/01_20_straight_g3.mp4"
+		length="399052800" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Straight Up G - Imagine a Brand New Life</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 13 Jan 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/01_13_straight_g2.mp4"
+		length="472459778" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+<item>
+	<title>Straight Up G - God in the 'Hood</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 06 Jan 2013 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2013/01_06_straight_g1.mp4"
+		length="450693248" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>27:54</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Miracles Big &amp; Small - Strangers Give</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 30 Dec 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/12_30_miracles5.mp4"
+		length="572052563" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>35:23</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Miracles Big &amp; Small - People Come Together</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 23 Dec 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/12_23_miracles4.mp4"
+		length="457169405" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>28:18</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Miracles Big &amp; Small - Angels Sing</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 16 Dec 2012 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/12_16_miracles3.mp4"
+		length="320093402" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>19:49</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Miracles Big &amp; Small - Room Where There's No Room</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 09 Dec 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/12_09_miracles2.mp4"
+		length="388548261" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>24:02</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Miracles Big &amp; Small - God Comes to Us</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 02 Dec 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/12_02_miracles1.mp4"
+		length="519293238" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>32:07</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+<item>
+	<title>Take a Whiff</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 25 Nov 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/11_25_belly_whale8.mp4"
+		length="511947058" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>31:40</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Write a New Chapter</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 18 Nov 2012 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/11_18_belly_whale7.mp4"
+		length="617977649" type="video/mpeg"/>
+
+	<itunes:author>Pastor Micahn Carter</itunes:author>
+	<itunes:duration>38:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Dream Again</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 11 Nov 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/11_11_belly_whale6.mp4"
+		length="475130601" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>29:26</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Receive Grace Thankfully</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 04 Nov 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/11_04_belly_whale5.mp4"
+		length="526712052" type="video/mpeg"/>
+
+	<itunes:author>Pastor Angela Hagebusch</itunes:author>
+	<itunes:duration>32:35</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Soften Up</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 28 Oct 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/10_28_belly_whale4.mp4"
+		length="368734857" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>22:49</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Admit It</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 21 Oct 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/10_21_belly_whale3.mp4"
+		length="368734857" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>20:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Selah</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 14 Oct 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/10_14_belly_whale2.mp4"
+		length="481933325" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>The Hero of the Story</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 07 Oct 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/10_07_belly_whale1.mp4"
+		length="497094949" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>28:09</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+<item>
+	<title>Love Adopts</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 30 Sep 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/09_30_circles5.mp4"
+		length="214292722" type="video/mpeg"/>
+
+	<itunes:author>Pastor Brian Dolleman</itunes:author>
+	<itunes:duration>25:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Love Gives</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 23 Sep 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/09_23_circles4.mp4"
+		length="257698266" type="video/mpeg"/>
+
+	<itunes:author>Pastor Andy Jones</itunes:author>
+	<itunes:duration>25:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Guest Speaker: Michan Carter</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 16 Sep 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/09_16_circles3.mp4"
+		length="352254273" type="video/mpeg"/>
+
+	<itunes:author>Pastor Michan Carter</itunes:author>
+	<itunes:duration>25:00</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+<item>
+	<title>Together Conference, Sunday Evening</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 27 May 2012 17:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/05_27_together_israel_pm.mp4"
+		length="366102320" type="video/mpeg"/>
+
+	<itunes:author>Pastor Israel Campbell</itunes:author>
+	<itunes:duration>42:16</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Conference, Sunday Morning</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sun, 27 May 2012 11:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/05_27_together_israel_am.mp4"
+		length="298471640" type="video/mpeg"/>
+
+	<itunes:author>Pastor Israel Campbell</itunes:author>
+	<itunes:duration>34:27</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Conference, Saturday Morning Panel</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Sat, 26 May 2012 12:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/05_26_together_panel.mp4"
+		length="388681123" type="video/mpeg"/>
+
+	<itunes:author>Michan &amp; April Carter, Brian &amp; Shari Dolleman and Israel &amp; Rachael Campbell</itunes:author>
+	<itunes:duration>44:52</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+<item>
+	<title>Together Conference, Friday Night</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Fri, 25 May 2012 22:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/05_25_together_april.mp4"
+		length="348508265" type="video/mpeg"/>
+
+	<itunes:author>Pastor April Carter</itunes:author>
+	<itunes:duration>40:14</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+<item>
+	<title>Together Conference, Thursday Night</title>
+	<description>nwlifechurch.com</description>
+	<pubDate>Thu, 24 May 2012 22:00:00 PST</pubDate>*
+	<enclosure url="http://www.nwlifearchive.com/sermons/2012/05_24_together_michan.mp4"
+		length="439121776" type="video/mpeg"/>
+
+	<itunes:author>Pastor Michan Carter</itunes:author>
+	<itunes:duration>42:39</itunes:duration>	
+	<itunes:subtitle>nwlifechurch.com</itunes:subtitle>
+</item>
+
+
+
+
+
+
+
+
+</channel>
+
+</rss>

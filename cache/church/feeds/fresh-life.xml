@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://feeds.blubrry.com/assets/rssfeedstyle.xsl"?>
+<rss xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"  version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+	<itunes:new-feed-url>https://feeds.blubrry.com/feeds/fresh_life.xml</itunes:new-feed-url>
+	<rawvoice:subscribe feed="https://feeds.blubrry.com/feeds/fresh_life.xml"  android="https://subscribeonandroid.com/feeds.blubrry.com/feeds/fresh_life.xml"  email="https://subscribebyemail.com/feeds.blubrry.com/feeds/fresh_life.xml"  itunes="https://itunes.apple.com/nz/podcast/fresh-life-church/id255110790" ></rawvoice:subscribe>
+    <atom:link href="https://feeds.blubrry.com/feeds/fresh_life.xml" rel="self" type="application/rss+xml" />
+    <title>Fresh Life Church Video Podcast</title>
+    <link>https://freshlifechurch.blogspot.com/</link>
+    <link rel="self" href="https://feeds.blubrry.com/feeds/fresh_life.xml" xmlns="http://www.w3.org/2005/Atom">https://freshlifechurch.blogspot.com/</link>
+    <description>Welcome to the Fresh Life Church podcast! We are a church led by Pastor Levi and Jennie Lusko and exist to see those stranded in sin find life and liberty in Christ. For more information visit freshlife.church or download our app.</description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>Fresh Life Church Video Podcast hosted by Levi Lusko Video</itunes:subtitle>
+    <itunes:author>Levi Lusko Video</itunes:author>
+    <itunes:summary>Welcome to the Fresh Life Church podcast! We are a church led by Pastor Levi and Jennie Lusko and exist to see those stranded in sin find life and liberty in Christ. For more information visit freshlife.church or download our app.</itunes:summary>
+    <language>en</language>
+    <copyright>Copyright 2021 Fresh Life Church Video Podcast</copyright>
+    <managingEditor>podcast@blubrry.com (Blubrry Podcasting)</managingEditor>
+    <itunes:owner>
+      <itunes:name>Levi Lusko Video</itunes:name>
+      <itunes:email>podcast@blubrry.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://assets.blubrry.com/coverart/orig/53296-655015.jpg" />
+    <image>
+      <link>https://freshlifechurch.blogspot.com/</link>
+      <url>https://assets.blubrry.com/coverart/orig/53296-655015.jpg</url>
+      <title>Fresh Life Church Video Podcast</title>
+      <description>Levi Lusko Video</description>
+    </image>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
+    <generator>Blubrry Podcasting: https://www.blubrry.com/</generator>
+    <itunes:explicit>clean</itunes:explicit>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <lastBuildDate>Mon, 03 May 2021 18:34:09 -0400</lastBuildDate>
+    <pubDate>Mon, 03 May 2021 18:34:09 -0400</pubDate>
+    <item>
+      <title>You Have A New Memory | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/76818693/you-have-a-new-memory-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/76818693/you-have-a-new-memory-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Mon, 03 May 2021 18:34:09 -0400</pubDate>
+      <description><![CDATA[You Have A New Memory | Pastor Levi Lusko]]></description>
+      <content:encoded><![CDATA[You Have A New Memory | Pastor Levi Lusko]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/544383845.sd.mp4?s=2fb467fe041d351c466840af48b4a18a82ad781f&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>You Have A New Memory | Pastor Levi Lusko</itunes:subtitle>
+      <itunes:summary>You Have A New Memory | Pastor Levi Lusko</itunes:summary>
+    </item>
+    <item>
+      <title>Five Feet High and Rising | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/76818692/five-feet-high-and-rising-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/76818692/five-feet-high-and-rising-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Mon, 03 May 2021 18:33:11 -0400</pubDate>
+      <description><![CDATA[Five Feet High and Rising | Pastor Levi Lusko]]></description>
+      <content:encoded><![CDATA[Five Feet High and Rising | Pastor Levi Lusko]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/541407383.sd.mp4?s=2307f810a65237e81e7826d5b3cca80bcf7679a7&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>Five Feet High and Rising | Pastor Levi Lusko</itunes:subtitle>
+      <itunes:summary>Five Feet High and Rising | Pastor Levi Lusko</itunes:summary>
+    </item>
+    <item>
+      <title>A Life Filled to Bursting | Pastor Kevin Guido</title>
+      <link>https://blubrry.com/fresh_life/75977571/a-life-filled-to-bursting-pastor-kevin-guido/</link>
+      <guid>http://www.blubrry.com/fresh_life/75977571/a-life-filled-to-bursting-pastor-kevin-guido/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sun, 11 Apr 2021 23:28:39 -0400</pubDate>
+      <description><![CDATA[A Life Filled to Bursting | Pastor Kevin Guido]]></description>
+      <content:encoded><![CDATA[A Life Filled to Bursting | Pastor Kevin Guido]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/535629138.sd.mp4?s=e943c64b4cead6de23662c164e84ab62b996be06&amp;profile_id=165" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>A Life Filled to Bursting | Pastor Kevin Guido</itunes:subtitle>
+      <itunes:summary>A Life Filled to Bursting | Pastor Kevin Guido</itunes:summary>
+    </item>
+    <item>
+      <title>The Power To Overcome Gloominess and Despair | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/75705239/the-power-to-overcome-gloominess-and-despair-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/75705239/the-power-to-overcome-gloominess-and-despair-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sun, 04 Apr 2021 20:29:00 -0400</pubDate>
+      <description><![CDATA[The Power To Overcome Gloominess and Despair | Pastor Levi Lusko]]></description>
+      <content:encoded><![CDATA[The Power To Overcome Gloominess and Despair | Pastor Levi Lusko]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/532969820.sd.mp4?s=88f6849f677b95c4a0dd6c5e8052ce79fa1ede11&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>The Power To Overcome Gloominess and Despair | Pastor Levi Lusko</itunes:subtitle>
+      <itunes:summary>The Power To Overcome Gloominess and Despair | Pastor Levi Lusko</itunes:summary>
+    </item>
+    <item>
+      <title>Forever Hold Your Peace | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/75675564/forever-hold-your-peace-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/75675564/forever-hold-your-peace-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sat, 03 Apr 2021 13:44:04 -0400</pubDate>
+      <description><![CDATA[Good Friday message]]></description>
+      <content:encoded><![CDATA[Good Friday message]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/532516926.sd.mp4?s=7521d6491983b8d18be5987699b483bba64f830b&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>Good Friday message</itunes:subtitle>
+      <itunes:summary>Good Friday message</itunes:summary>
+    </item>
+    <item>
+      <title>Same Dirt, Different Day</title>
+      <link>https://blubrry.com/fresh_life/75443710/same-dirt-different-day/</link>
+      <guid>http://www.blubrry.com/fresh_life/75443710/same-dirt-different-day/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sun, 28 Mar 2021 20:58:02 -0400</pubDate>
+      <description><![CDATA[Same Dirt, Different Day]]></description>
+      <content:encoded><![CDATA[Same Dirt, Different Day]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/530061177.sd.mp4?s=88ed7a371fb4667e4a8f59c1a01f709c022970fe&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>Same Dirt, Different Day</itunes:subtitle>
+      <itunes:summary>Same Dirt, Different Day</itunes:summary>
+    </item>
+    <item>
+      <title>Unleashing The Flow of Blessing in Marriage | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/75195028/unleashing-the-flow-of-blessing-in-marriage-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/75195028/unleashing-the-flow-of-blessing-in-marriage-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Mon, 22 Mar 2021 09:28:05 -0400</pubDate>
+      <description><![CDATA[Unleashing The Flow of Blessing in Marriage | Pastor Levi Lusko]]></description>
+      <content:encoded><![CDATA[Unleashing The Flow of Blessing in Marriage | Pastor Levi Lusko]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/527020912.sd.mp4?s=09abb19cb3b3997aa878c6ad1041c78c61cc1fa5&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>Unleashing The Flow of Blessing in Marriage | Pastor Levi Lusko</itunes:subtitle>
+      <itunes:summary>Unleashing The Flow of Blessing in Marriage | Pastor Levi Lusko</itunes:summary>
+    </item>
+    <item>
+      <title>Secondhand Sins | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/74897209/secondhand-sins-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/74897209/secondhand-sins-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sun, 14 Mar 2021 23:59:21 -0400</pubDate>
+      <description><![CDATA[Secondhand Sins | Pastor Levi Lusko]]></description>
+      <content:encoded><![CDATA[Secondhand Sins | Pastor Levi Lusko]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/523555175.sd.mp4?s=acb153e5ee21f31ff8b0746d2b8232fcfbacb1dc&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>Secondhand Sins | Pastor Levi Lusko</itunes:subtitle>
+      <itunes:summary>Secondhand Sins | Pastor Levi Lusko</itunes:summary>
+    </item>
+    <item>
+      <title>Handle with Care | Pastor Levi Lusko</title>
+      <link>https://blubrry.com/fresh_life/74362247/handle-with-care-pastor-levi-lusko/</link>
+      <guid>http://www.blubrry.com/fresh_life/74362247/handle-with-care-pastor-levi-lusko/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sun, 28 Feb 2021 22:32:52 -0500</pubDate>
+      <description><![CDATA[Handle with Care | Pastor Levi Lusko]]></description>
+      <content:encoded><![CDATA[Handle with Care | Pastor Levi Lusko]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/517912439.sd.mp4?s=2285e095ecac998287aea67af68a7f25444a35d4&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>Handle with Care | Pastor Levi Lusko</itunes:subtitle>
+      <itunes:summary>Handle with Care | Pastor Levi Lusko</itunes:summary>
+    </item>
+    <item>
+      <title>Four Keys To Avoiding Relation Shipwreck</title>
+      <link>https://blubrry.com/fresh_life/74091169/four-keys-to-avoiding-relation-shipwreck/</link>
+      <guid>http://www.blubrry.com/fresh_life/74091169/four-keys-to-avoiding-relation-shipwreck/</guid>
+      <dc:creator>Levi Lusko Video</dc:creator>
+      <pubDate>Sun, 21 Feb 2021 20:54:08 -0500</pubDate>
+      <description><![CDATA[<p>We’re talking relationships, engagement, dating, marriage, and much more!</p>]]></description>
+      <content:encoded><![CDATA[<p>We’re talking relationships, engagement, dating, marriage, and much more!</p>]]></content:encoded>
+      <enclosure url="https://player.vimeo.com/external/515061297.sd.mp4?s=cf7fe7774d45c1d18a1a84a4f2c33f45b78a8a3a&amp;profile_id=164" length="5242880" type="" />
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Levi Lusko Video</itunes:author>
+      <itunes:subtitle>We’re talking relationships, engagement, dating, marriage, and much more!</itunes:subtitle>
+      <itunes:summary>We’re talking relationships, engagement, dating, marriage, and much more!</itunes:summary>
+    </item>
+  </channel>
+</rss>

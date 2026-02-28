@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed/ycrtbPodcastStylesheet.xsl" media="all" ?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+><channel>
+	<title>You Can Read the Bible Christian Education Video Podcast</title>
+	<atom:link href="https://youcanreadthebible.com/feed/podcast.php?which=sghvideo" rel="self" type="application/rss+xml" />
+	<link>https://youcanreadthebible.com/feed/podcast.php?which=sghvideo</link>
+	<description>Read Through the Bible</description>
+	<lastBuildDate>Sat, 28 Feb 2026 5:46:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:summary>With only 15 minutes a day Monday through Saturday, you can journey through the Bible in 15 months. Join us as we walk through the Word together at &lt;a href=&quot;http://youcanreadthebible.com/&quot;&gt;You Can Read the Bible&lt;/a&gt;.</itunes:summary>
+	<itunes:author>You Can Read the Bible</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:image href="http://youcanreadthebible.com/images/thblogo.png" />
+	<itunes:type>serial</itunes:type>
+	<itunes:owner>
+		<itunes:name>You Can Read the Bible</itunes:name>
+		<itunes:email>matt@youcanreadthebible.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>matt@youcanreadthebible.com (You Can Read the Bible)</managingEditor>
+	<itunes:subtitle>Christian Education Video Podcast</itunes:subtitle>
+	<image>
+		<title>You Can Read the Bible</title>
+		<url>http://youcanreadthebible.com/images/thblogo.png</url>
+		<link>http://youcanreadthebible.com</link>
+	</image>
+	<itunes:category text="Religion &amp; Spirituality">
+		<itunes:category text="Christianity"></itunes:category>
+	</itunes:category>
+	<googleplay:email>matt@youcanreadthebible.com</googleplay:email>
+	<googleplay:description>With only 15 minutes a day Monday through Saturday, you can journey through the Bible in 15 months. Join us as we walk through the Word together at &lt;a href=&quot;http://youcanreadthebible.com/&quot;&gt;You Can Read the Bible&lt;/a&gt;.</googleplay:description>
+	<googleplay:category text="Religion &amp; Spirituality" />
+	<rawvoice:rating>TV-Y</rawvoice:rating>
+	<rawvoice:location>Pittsburgh, Pennsylvania</rawvoice:location>
+	<rawvoice:frequency>Daily</rawvoice:frequency>
+
+		<item>
+			<title>Progressive Revelation</title>
+			<link>http://youcanreadthebible.com/resourceview/1131/Progressive+Revelation</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1131/Progressive+Revelation</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Progressive Revelation from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/1128.mp4" length="14912000" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Progressive Revelation from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Progressive Revelation from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Understanding the Bible</title>
+			<link>http://youcanreadthebible.com/resourceview/1133/Understanding+the+Bible</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1133/Understanding+the+Bible</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Understanding the Bible from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/1129.mp4" length="12882680" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Understanding the Bible from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Understanding the Bible from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Biblical Meanings</title>
+			<link>http://youcanreadthebible.com/resourceview/1137/Biblical+Meanings</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1137/Biblical+Meanings</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Biblical Meanings from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/1135.mp4" length="6620660" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Biblical Meanings from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Biblical Meanings from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Immediate Layer</title>
+			<link>http://youcanreadthebible.com/resourceview/1140/Immediate+Layer</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1140/Immediate+Layer</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Immediate Layer from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/1138.mp4" length="16127985" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Immediate Layer from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Immediate Layer from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Covenantal Layer</title>
+			<link>http://youcanreadthebible.com/resourceview/1144/Covenantal+Layer</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1144/Covenantal+Layer</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Covenantal Layer from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/1142.mp4" length="11513662" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Covenantal Layer from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Covenantal Layer from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Metanarrative Layer</title>
+			<link>http://youcanreadthebible.com/resourceview/1147/Metanarrative+Layer</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1147/Metanarrative+Layer</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Metanarrative Layer from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/1145.mp4" length="6558699" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Metanarrative Layer from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Metanarrative Layer from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Muenster Cheese, Men, and Bible Stories</title>
+			<link>http://youcanreadthebible.com/resourceview/1425/Muenster+Cheese%2C+Men%2C+and+Bible+Stories</link>
+			<pubDate>Thu, 19 Jun 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1425/Muenster+Cheese%2C+Men%2C+and+Bible+Stories</guid>
+			<category><![CDATA[You Can Read the Bible Week 0]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Muenster Cheese, Men, and Bible Stories from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/MuensterCheese.mp4" length="17906543" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Muenster Cheese, Men, and Bible Stories from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 0   We are reading and learning about the Bible together during You Can Read the Bible Week 0 with Muenster Cheese, Men, and Bible Stories from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Wasting Money on Beauty</title>
+			<link>http://youcanreadthebible.com/resourceview/1229/Wasting+Money+on+Beauty</link>
+			<pubDate>Thu, 18 Sep 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1229/Wasting+Money+on+Beauty</guid>
+			<category><![CDATA[You Can Read the Bible Week 13]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 13 with Wasting Money on Beauty from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/20180318.mp4" length="57434905" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 13 with Wasting Money on Beauty from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 13   We are reading and learning about the Bible together during You Can Read the Bible Week 13 with Wasting Money on Beauty from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Video Lesson: 2 Samuel</title>
+			<link>http://youcanreadthebible.com/resourceview/1040/Video+Lesson%3A+2+Samuel</link>
+			<pubDate>Thu, 30 Oct 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1040/Video+Lesson%3A+2+Samuel</guid>
+			<category><![CDATA[You Can Read the Bible Week 19]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 19 with Video Lesson: 2 Samuel from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/20180128.mp4" length="72045655" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 19 with Video Lesson: 2 Samuel from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 19   We are reading and learning about the Bible together during You Can Read the Bible Week 19 with Video Lesson: 2 Samuel from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Heroes, Virtue Signaling, and Power</title>
+			<link>http://youcanreadthebible.com/resourceview/1117/Heroes%2C+Virtue+Signaling%2C+and+Power</link>
+			<pubDate>Thu, 06 Nov 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1117/Heroes%2C+Virtue+Signaling%2C+and+Power</guid>
+			<category><![CDATA[You Can Read the Bible Week 20]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 20 with Heroes, Virtue Signaling, and Power from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/20180225.mp4" length="59344609" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 20 with Heroes, Virtue Signaling, and Power from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 20   We are reading and learning about the Bible together during You Can Read the Bible Week 20 with Heroes, Virtue Signaling, and Power from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Video Lesson: 1 &amp; 2 Kings</title>
+			<link>http://youcanreadthebible.com/resourceview/1042/Video+Lesson%3A+1+%26+2+Kings</link>
+			<pubDate>Thu, 13 Nov 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1042/Video+Lesson%3A+1+%26+2+Kings</guid>
+			<category><![CDATA[You Can Read the Bible Week 21]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 21 with Video Lesson: 1 &amp; 2 Kings from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/20180211.mp4" length="70639132" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 21 with Video Lesson: 1 &amp; 2 Kings from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 21   We are reading and learning about the Bible together during You Can Read the Bible Week 21 with Video Lesson: 1 &amp; 2 Kings from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Greg Burdette</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Prayerful Lives in Luke</title>
+			<link>http://youcanreadthebible.com/resourceview/1423/Prayerful+Lives+in+Luke</link>
+			<pubDate>Thu, 18 Dec 2025 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1423/Prayerful+Lives+in+Luke</guid>
+			<category><![CDATA[You Can Read the Bible Week 26]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 26 with Prayerful Lives in Luke from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/PrayerfulLivesLuke.mp4" length="17454600" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 26 with Prayerful Lives in Luke from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 26   We are reading and learning about the Bible together during You Can Read the Bible Week 26 with Prayerful Lives in Luke from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Isaiah: Background and Storyline</title>
+			<link>http://youcanreadthebible.com/resourceview/1405/Isaiah%3A+Background+and+Storyline</link>
+			<pubDate>Thu, 01 Jan 2026 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1405/Isaiah%3A+Background+and+Storyline</guid>
+			<category><![CDATA[You Can Read the Bible Week 28]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 28 with Isaiah: Background and Storyline from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/IsaiahBackgroundStoryline.mp4" length="11084252" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 28 with Isaiah: Background and Storyline from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 28   We are reading and learning about the Bible together during You Can Read the Bible Week 28 with Isaiah: Background and Storyline from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>About Isaiah</title>
+			<link>http://youcanreadthebible.com/resourceview/1408/About+Isaiah</link>
+			<pubDate>Thu, 01 Jan 2026 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1408/About+Isaiah</guid>
+			<category><![CDATA[You Can Read the Bible Week 28]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 28 with About Isaiah from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/IsaiahLiteraryStructure.mp4" length="17178251" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 28 with About Isaiah from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 28   We are reading and learning about the Bible together during You Can Read the Bible Week 28 with About Isaiah from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>Babel and Babylon Bookends</title>
+			<link>http://youcanreadthebible.com/resourceview/1414/Babel+and+Babylon+Bookends</link>
+			<pubDate>Thu, 01 Jan 2026 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/1414/Babel+and+Babylon+Bookends</guid>
+			<category><![CDATA[You Can Read the Bible Week 28]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 28 with Babel and Babylon Bookends from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/BabelBabylonBookends.mp4" length="6862849" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 28 with Babel and Babylon Bookends from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 28   We are reading and learning about the Bible together during You Can Read the Bible Week 28 with Babel and Babylon Bookends from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+		<item>
+			<title>About Hosea</title>
+			<link>http://youcanreadthebible.com/resourceview/2312/About+Hosea</link>
+			<pubDate>Thu, 02 Apr 2026 00:00:01 +0000</pubDate>
+			<guid>http://youcanreadthebible.com/resourceview/2312/About+Hosea</guid>
+			<category><![CDATA[You Can Read the Bible Week 41]]></category>
+			<description>We are reading and learning about the Bible together during You Can Read the Bible Week 41 with About Hosea from You Can Read the Bible at youcanreadthebible.com</description>
+			<content:encoded><![CDATA[ stuff ]]></content:encoded>
+			<enclosure url="http://media.youcanreadthebible.com/video/aboutHosea.mp4" length="17797318" type="video/mp4" />
+			<itunes:subtitle>We are reading and learning about the Bible together during You Can Read the Bible Week 41 with About Hosea from You Can Read the Bible at youcanreadthebible.com</itunes:subtitle>
+			<itunes:summary>You Can Read the Bible Week 41   We are reading and learning about the Bible together during You Can Read the Bible Week 41 with About Hosea from You Can Read the Bible at youcanreadthebible.com</itunes:summary>
+			<itunes:author>You Can Read the Bible: Matt Carter</itunes:author>
+			<itunes:explicit>clean</itunes:explicit>
+		</item>
+</channel>
+</rss>

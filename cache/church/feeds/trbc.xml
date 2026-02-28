@@ -1,0 +1,1630 @@
+<?xml version="1.0"?>
+<?phpxml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~files/feed-premium.xsl"?>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+<rss xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedpress="https://feed.press/xmlns" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+  <channel>
+    <feedpress:locale>en</feedpress:locale>
+    <atom:link rel="hub" href="https://feedpress.superfeedr.com/"/>
+    <media:rating>nonadult</media:rating>
+    <media:description type="plain"/>
+    <media:credit role="author"/>
+    <googleplay:explicit>no</googleplay:explicit>
+    <title>TRBC - Video Podcast</title>
+    <atom:link href="https://rss.trbc.org/vidcast" rel="self" type="application/rss+xml"/>
+    <link>http://rss.trbc.org/vidcast</link>
+    <description>This is a weekly listing of the live sermons from the Sanctuary of Thomas Road Baptist Church in Lynchburg, Virginia, USA where Jonathan Falwell is pastor. </description>
+    <lastBuildDate>Fri, 27 Feb 2026 23:13:59 -0500</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <itunes:summary>This is a weekly listing of the live sermons from the Sanctuary of Thomas Road Baptist Church in Lynchburg, Virginia, USA where Jonathan Falwell is pastor. </itunes:summary>
+    <itunes:author>Thomas Road Baptist Church</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="http://trbcmedia.com/feeds/images/podcast_trbc-video.jpg"/>
+    <itunes:owner>
+      <itunes:name>Thomas Road Baptist Church</itunes:name>
+      <itunes:email>admin@trbc.org (Admin)</itunes:email>
+    </itunes:owner>
+    <managingEditor>admin@trbc.org (Thomas Road)</managingEditor>
+    <copyright>2026 Thomas Road Baptist Church</copyright>
+    <itunes:subtitle>Video Sermons from Thomas Road Baptist Church</itunes:subtitle>
+    <itunes:keywords>trbc, jonathan, falwell, lynchburg, virginia, thomas, road, christian, life, bible, prayer, sin</itunes:keywords>
+    <image>
+      <title>TRBC - Video Podcast</title>
+      <url>http://trbcmedia.com/feeds/images/podcast_trbc-video.jpg</url>
+      <link>http://rss.trbc.org/vidcast</link>
+    </image>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+      <itunes:category text="Spirituality"/>
+    </itunes:category>
+    <rawvoice:rating>TV-G</rawvoice:rating>
+    <rawvoice:location>Lynchburg, VA</rawvoice:location>
+    <rawvoice:frequency>Weekdays</rawvoice:frequency>
+    <item>
+      <title>Invitations: See What You Can See</title>
+      <link>https://rss.trbc.org/link/3560/17281454/20260222_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17281454.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>See What You Can See</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17281455/20260222_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260222_9am.mp4</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Invitations: Come and See</title>
+      <link>https://rss.trbc.org/link/3560/17276781/20260215_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17276781.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Come and See</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17276782/20260215_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260215_9am.mp4</guid>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Generic: Kingdom of Heaven</title>
+      <link>https://rss.trbc.org/link/3560/17272394/20260208_9am.mp4</link>
+      <itunes:author>Derik Idol</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17272394.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Kingdom of Heaven</itunes:subtitle>
+      <itunes:summary>Derik Idol</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17272395/20260208_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260208_9am.mp4</guid>
+      <pubDate>Sun, 8 Feb 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Extraordinary Faith: A Faith That Moves The Mountains</title>
+      <link>https://rss.trbc.org/link/3560/17267945/20260201_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17267945.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>A Faith That Moves The Mountains</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17267947/20260201_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260201_9am.mp4</guid>
+      <pubDate>Sun, 1 Feb 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Extraordinary Faith: How to Walk with God</title>
+      <link>https://rss.trbc.org/link/3560/17263172/20260125_9am.mp4</link>
+      <itunes:author>Dondi Costin</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17263172.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>How to Walk with God</itunes:subtitle>
+      <itunes:summary>Dondi Costin</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17263173/20260125_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260125_9am.mp4</guid>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Extraordinary Faith: Unlocking a Life of Faith</title>
+      <link>https://rss.trbc.org/link/3560/17255910/20260118_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17255910.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Unlocking a Life of Faith</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17255912/20260118_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260118_9am.mp4</guid>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Extraordinary Faith: Faith Even When It Doesn't Make Sense</title>
+      <link>https://rss.trbc.org/link/3560/17251156/20260111_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17251156.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Even When It Doesn't Make Sense</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17251157/20260111_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260111_9am.mp4</guid>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Extraordinary Faith: Faith Changes Everything</title>
+      <link>https://rss.trbc.org/link/3560/17246766/20260104_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17246766.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Changes Everything</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17246767/20260104_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2026/20260104_9am.mp4</guid>
+      <pubDate>Sun, 4 Jan 2026 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Generic: Facing the New Year with Boldness</title>
+      <link>https://rss.trbc.org/link/3560/17242962/20251228_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17242962.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Facing the New Year with Boldness</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17242963/20251228_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251228_9am.mp4</guid>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Gloria: Christmas Eve: The Significance of the Gift</title>
+      <link>https://rss.trbc.org/link/3560/17241291/20251224_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17241291.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Christmas Eve: The Significance of the Gift</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17241292/20251224_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251224_9am.mp4</guid>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Gloria: JOSEPH - The Quiet Worshiper</title>
+      <link>https://rss.trbc.org/link/3560/17238939/20251221_9am.mp4</link>
+      <itunes:author>Scott Bullman</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17238939.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>JOSEPH - The Quiet Worshiper</itunes:subtitle>
+      <itunes:summary>Scott Bullman</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17238940/20251221_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251221_9am.mp4</guid>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Gloria: King of Kings!!</title>
+      <link>https://rss.trbc.org/link/3560/17233729/20251214_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17233729.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>King of Kings!!</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17233730/20251214_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251214_9am.mp4</guid>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Gloria: The Moment That Changed Everything</title>
+      <link>https://rss.trbc.org/link/3560/17225724/20251207_9am.mp4</link>
+      <itunes:author/>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17225724.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Moment That Changed Everything</itunes:subtitle>
+      <itunes:summary/>
+      <enclosure url="https://rss.trbc.org/link/3560/17225725/20251207_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251207_9am.mp4</guid>
+      <pubDate>Sun, 7 Dec 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>The Life of Gratitude</title>
+      <link>https://rss.trbc.org/link/3560/17219588/20251130_9am.mp4</link>
+      <itunes:author>Charles Billingsley, Scott Bullman, Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17219588.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Life of Gratitude</itunes:subtitle>
+      <itunes:summary>Charles Billingsley, Scott Bullman, Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17219589/20251130_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251130_9am.mp4</guid>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Cultivate: Kill the Flesh, Feel the Power</title>
+      <link>https://rss.trbc.org/link/3560/17215386/20251123_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/17215386.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Kill the Flesh, Feel the Power</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17215387/20251123_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251123_9am.mp4</guid>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Cultivate: Be Weird, Be Blessed</title>
+      <link>https://rss.trbc.org/link/3560/17210326/20251116_9am.mp4</link>
+      <itunes:author/>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17210326.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Be Weird, Be Blessed</itunes:subtitle>
+      <itunes:summary/>
+      <enclosure url="https://rss.trbc.org/link/3560/17210327/20251116_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251116_9am.mp4</guid>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Cultivate: Enduring Patience and Perfect Peace</title>
+      <link>https://rss.trbc.org/link/3560/17206030/20251109_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17206030.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Enduring Patience and Perfect Peace</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17206031/20251109_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251109_9am.mp4</guid>
+      <pubDate>Sun, 9 Nov 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Cultivate: The Power of Love and the Reward of Joy</title>
+      <link>https://rss.trbc.org/link/3560/17201545/20251102_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/17201545.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Power of Love and the Reward of Joy</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17201546/20251102_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251102_9am.mp4</guid>
+      <pubDate>Sun, 2 Nov 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: Power Source</title>
+      <link>https://rss.trbc.org/link/3560/17193710/20251026_9am.mp4</link>
+      <itunes:author>Matt Willmington</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17193710.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Power Source</itunes:subtitle>
+      <itunes:summary>Matt Willmington</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17193711/20251026_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251026_9am.mp4</guid>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: Breaking Through</title>
+      <link>https://rss.trbc.org/link/3560/17189215/20251019_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17189215.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Breaking Through</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17189216/20251019_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251019_9am.mp4</guid>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: The Transformation of the Hopeless</title>
+      <link>https://rss.trbc.org/link/3560/17185410/20251012_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17185410.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Transformation of the Hopeless</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17185411/20251012_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251012_9am.mp4</guid>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: The City Is Counting On You</title>
+      <link>https://rss.trbc.org/link/3560/17179308/20251005_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17179308.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The City Is Counting On You</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17179309/20251005_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20251005_9am.mp4</guid>
+      <pubDate>Sun, 5 Oct 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts:  Faith Worth Dying For</title>
+      <link>https://rss.trbc.org/link/3560/17173143/20250928_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17173143.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle> Faith Worth Dying For</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17173144/20250928_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250928_9am.mp4</guid>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: The Blessing of the Faithful</title>
+      <link>https://rss.trbc.org/link/3560/17167774/20250921_9am.mp4</link>
+      <itunes:author/>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17167774.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Blessing of the Faithful</itunes:subtitle>
+      <itunes:summary/>
+      <enclosure url="https://rss.trbc.org/link/3560/17167775/20250921_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250921_9am.mp4</guid>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: Bold and Blessed</title>
+      <link>https://rss.trbc.org/link/3560/17154478/20250914_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[   <img src="https://rss.trbc.org/link/3560/17154478.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Bold and Blessed</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17154479/20250914_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250914_9am.mp4</guid>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Acts: The Unstoppable Spirit of God</title>
+      <link>https://rss.trbc.org/link/3560/17139239/20250907_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17139239.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Unstoppable Spirit of God</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17139240/20250907_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250907_9am.mp4</guid>
+      <pubDate>Sun, 7 Sep 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Blueprint: Designing a life of Purpose and Meaning</title>
+      <link>https://rss.trbc.org/link/3560/17135164/20250831_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[    <img src="https://rss.trbc.org/link/3560/17135164.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Blueprint: Designing a life of Purpose and Meaning</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17135165/20250831_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250831_9am.mp4</guid>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: Finding your purpose through building your team</title>
+      <link>https://rss.trbc.org/link/3560/17126992/20250824_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17126992.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Finding your purpose through building your team</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17126993/20250824_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250824_9am.mp4</guid>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: We're all in this together</title>
+      <link>https://rss.trbc.org/link/3560/17121103/20250817_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17121103.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>We're all in this together</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17121104/20250817_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250817_9am.mp4</guid>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: How to Be Christian Citizen</title>
+      <link>https://rss.trbc.org/link/3560/17114770/20250810_9am.mp4</link>
+      <itunes:author>Dondi Costin</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17114770.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>How to Be Christian Citizen</itunes:subtitle>
+      <itunes:summary>Dondi Costin</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17114771/20250810_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250810_9am.mp4</guid>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: Body Building</title>
+      <link>https://rss.trbc.org/link/3560/17135378/20250802_9am.mp4</link>
+      <itunes:author>Matt Wilmington</itunes:author>
+      <description><![CDATA[   <img src="https://rss.trbc.org/link/3560/17135378.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Body Building</itunes:subtitle>
+      <itunes:summary>Matt Wilmington</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17135379/20250802_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250802_9am.mp4</guid>
+      <pubDate>Sat, 2 Aug 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: God Always Keeps His Promises!</title>
+      <link>https://rss.trbc.org/link/3560/17104548/20250727_9am.mp4</link>
+      <itunes:author>Ben Gutierrez</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17104548.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>God Always Keeps His Promises!</itunes:subtitle>
+      <itunes:summary>Ben Gutierrez</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17104549/20250727_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250727_9am.mp4</guid>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: Chosen to Choose</title>
+      <link>https://rss.trbc.org/link/3560/17100366/20250720_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17100366.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Chosen to Choose</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17100367/20250720_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250720_9am.mp4</guid>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: We All Need Hope</title>
+      <link>https://rss.trbc.org/link/3560/17092201/20250713_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17092201.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>We All Need Hope</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17092202/20250713_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250713_9am.mp4</guid>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: The Struggle is Real</title>
+      <link>https://rss.trbc.org/link/3560/17081369/20250706_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17081369.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Struggle is Real</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17081370/20250706_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250706_9am.mp4</guid>
+      <pubDate>Sun, 6 Jul 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: The Power of Faith</title>
+      <link>https://rss.trbc.org/link/3560/17061283/20250622_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17061283.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Power of Faith</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17061284/20250622_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250622_9am.mp4</guid>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: Everyone's A Sinner, ALL Can Be A Saint</title>
+      <link>https://rss.trbc.org/link/3560/17052372/20250615_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17052372.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Everyone's A Sinner, ALL Can Be A Saint</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17052373/20250615_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250615_9am.mp4</guid>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: Religion on Trial</title>
+      <link>https://rss.trbc.org/link/3560/17047311/20250608_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/17047311.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Religion on Trial</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17047312/20250608_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250608_9am.mp4</guid>
+      <pubDate>Sun, 8 Jun 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Romans: The Power of the Gospel and the Tragedy of Man</title>
+      <link>https://rss.trbc.org/link/3560/17135168/20250601_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[    <img src="https://rss.trbc.org/link/3560/17135168.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Power of the Gospel and the Tragedy of Man</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17135169/20250601_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250601_9am.mp4</guid>
+      <pubDate>Sun, 1 Jun 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>You Asked For It: Setting the Guardrails in Life</title>
+      <link>https://rss.trbc.org/link/3560/17037722/20250525_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17037722.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Setting the Guardrails in Life</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17037723/20250525_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250525_9am.mp4</guid>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>You Asked For It: Keys to a Happy, Healthy Marriage</title>
+      <link>https://rss.trbc.org/link/3560/17033161/20250518_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17033161.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Keys to a Happy, Healthy Marriage</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17033162/20250518_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250518_9am.mp4</guid>
+      <pubDate>Sun, 18 May 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>You Asked For It: Kids  - Raising Them Right</title>
+      <link>https://rss.trbc.org/link/3560/17028403/20250511_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/17028403.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Kids  - Raising Them Right</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17028404/20250511_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250511_9am.mp4</guid>
+      <pubDate>Sun, 11 May 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>You Asked For It: Is Heaven Real? What About Hell?</title>
+      <link>https://rss.trbc.org/link/3560/17021674/20250504_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17021674.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Is Heaven Real? What About Hell?</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17021675/20250504_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250504_9am.mp4</guid>
+      <pubDate>Sun, 4 May 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>You Asked For It: Can Salvation Be Lost?</title>
+      <link>https://rss.trbc.org/link/3560/17016909/20250427_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17016909.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Can Salvation Be Lost?</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17016910/20250427_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250427_9am.mp4</guid>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Restoring Eden: The Story of God</title>
+      <link>https://rss.trbc.org/link/3560/17011062/20250420_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17011062.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Story of God</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17011063/20250420_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250420_9am.mp4</guid>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Restoring Eden: Prophecies of the Passover Lamb</title>
+      <link>https://rss.trbc.org/link/3560/17005168/20250413_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/17005168.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Prophecies of the Passover Lamb</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17005169/20250413_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250413_9am.mp4</guid>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Restoring Eden: God's Plan to Bring Us Home</title>
+      <link>https://rss.trbc.org/link/3560/17000080/20250406_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/17000080.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>God's Plan to Bring Us Home</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17000081/20250406_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250406_9am.mp4</guid>
+      <pubDate>Sun, 6 Apr 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: The Gift of Thorns </title>
+      <link>https://rss.trbc.org/link/3560/16995136/20250330_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16995136.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Gift of Thorns </itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16995137/20250330_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250330_9am.mp4</guid>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: Truth is our Defense</title>
+      <link>https://rss.trbc.org/link/3560/16989956/20250323_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16989956.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Truth is our Defense</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16989957/20250323_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250323_9am.mp4</guid>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: Game-changing Generosity</title>
+      <link>https://rss.trbc.org/link/3560/16984497/20250316_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16984497.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Game-changing Generosity</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16984498/20250316_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250316_9am.mp4</guid>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: Ambassadors (Crazies ) for Christ</title>
+      <link>https://rss.trbc.org/link/3560/16980705/20250309_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[    <img src="https://rss.trbc.org/link/3560/16980705.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Ambassadors (Crazies ) for Christ</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16980706/20250309_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250309_9am.mp4</guid>
+      <pubDate>Sun, 9 Mar 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: Aim High; It's Worth It!</title>
+      <link>https://rss.trbc.org/link/3560/16974045/20250302_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16974045.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Aim High; It's Worth It!</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16974046/20250302_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250302_9am.mp4</guid>
+      <pubDate>Sun, 2 Mar 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: Life Lessons for the Christ Follower</title>
+      <link>https://rss.trbc.org/link/3560/16969178/20250223_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16969178.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Life Lessons for the Christ Follower</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16969179/20250223_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250223_9am.mp4</guid>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: The Power of Ministry</title>
+      <link>https://rss.trbc.org/link/3560/16963807/20250216_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16963807.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Power of Ministry</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16963808/20250216_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250216_9am.mp4</guid>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: 2 Corinthians 2</title>
+      <link>https://rss.trbc.org/link/3560/16959059/20250209_9am.mp4</link>
+      <itunes:author>Derik Idol</itunes:author>
+      <description><![CDATA[   <img src="https://rss.trbc.org/link/3560/16959059.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>2 Corinthians 2</itunes:subtitle>
+      <itunes:summary>Derik Idol</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16959060/20250209_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250209_9am.mp4</guid>
+      <pubDate>Sun, 9 Feb 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Right Way Living: Live Like No One Else</title>
+      <link>https://rss.trbc.org/link/3560/16953344/20250202_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16953344.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Live Like No One Else</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16953345/20250202_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250202_9am.mp4</guid>
+      <pubDate>Sun, 2 Feb 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>2 Corinthians: All in the Family</title>
+      <link>https://rss.trbc.org/link/3560/16948891/20250126_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16948891.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>2 Corinthians: All in the Family</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16948892/20250126_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250126_9am.mp4</guid>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Love People</title>
+      <link>https://rss.trbc.org/link/3560/16942967/20250119_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16942967.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Love People</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16942968/20250119_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250119_9am.mp4</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Love God (Matthew 3) - Step In, Step Out</title>
+      <link>https://rss.trbc.org/link/3560/16938556/20250112_9am.mp4</link>
+      <itunes:author>Matt Willmington</itunes:author>
+      <description><![CDATA[   <img src="https://rss.trbc.org/link/3560/16938556.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Love God (Matthew 3) - Step In, Step Out</itunes:subtitle>
+      <itunes:summary>Matt Willmington</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16938557/20250112_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250112_9am.mp4</guid>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>The Blessing  - Numbers 6:22-27</title>
+      <link>https://rss.trbc.org/link/3560/16933815/20250105_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16933815.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Blessing  - Numbers 6:22-27</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16933816/20250105_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2025/20250105_9am.mp4</guid>
+      <pubDate>Sun, 5 Jan 2025 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Make This Year Count</title>
+      <link>https://rss.trbc.org/link/3560/17142151/20241229_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[   <img src="https://rss.trbc.org/link/3560/17142151.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Make This Year Count</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17142152/20241229_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241229_9am.mp4</guid>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>The Coming King: He Is Able</title>
+      <link>https://rss.trbc.org/link/3560/16926153/20241222_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16926153.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Coming King: He Is Able</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16926154/20241222_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241222_9am.mp4</guid>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>The Coming King: Nothing to Fear</title>
+      <link>https://rss.trbc.org/link/3560/16921788/20241215_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16921788.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Coming King: Nothing to Fear</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16921789/20241215_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241215_9am.mp4</guid>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>The Coming King: Who He Is!</title>
+      <link>https://rss.trbc.org/link/3560/16914008/20241208_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16914008.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Coming King: Who He Is!</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16914009/20241208_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241208_9am.mp4</guid>
+      <pubDate>Sun, 8 Dec 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>The Coming King: It All Starts with HIM!</title>
+      <link>https://rss.trbc.org/link/3560/16906627/20241201_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16906627.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>The Coming King: It All Starts with HIM!</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16906628/20241201_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241201_9am.mp4</guid>
+      <pubDate>Sun, 1 Dec 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Thanksgiving: Just Be Happy</title>
+      <link>https://rss.trbc.org/link/3560/16896316/20241124_9am.mp4</link>
+      <itunes:author>Jonathan Falwell / Scott Bullman</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16896316.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Thanksgiving: Just Be Happy</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell / Scott Bullman</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16896317/20241124_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241124_9am.mp4</guid>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>From The Inside Out</title>
+      <link>https://rss.trbc.org/link/3560/16889032/20241117_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16889032.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>From The Inside Out</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16889033/20241117_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241117_9am.mp4</guid>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Get out of the Boat - Matthew 14:22-33</title>
+      <link>https://rss.trbc.org/link/3560/16881722/20241110_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16881722.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Get out of the Boat - Matthew 14:22-33</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16881723/20241110_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241110_9am.mp4</guid>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 -0500</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Our Role in Making a Difference</title>
+      <link>https://rss.trbc.org/link/3560/16873710/20241103_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16873710.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Our Role in Making a Difference</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16873711/20241103_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241103_9am.mp4</guid>
+      <pubDate>Sun, 3 Nov 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: Following Faithfully</title>
+      <link>https://rss.trbc.org/link/3560/16866314/20241027_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16866314.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: Following Faithfully</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16866315/20241027_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241027_9am.mp4</guid>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: Wrestling with God</title>
+      <link>https://rss.trbc.org/link/3560/16860267/20241020_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16860267.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: Wrestling with God</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16860268/20241020_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241020_9am.mp4</guid>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Standing Up When You're Told to Sit D</title>
+      <link>https://rss.trbc.org/link/3560/16842270/20241013_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16842270.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Standing Up When You're Told to Sit D</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16842271/20241013_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241013_9am.mp4</guid>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: Follow the Leader</title>
+      <link>https://rss.trbc.org/link/3560/16835116/20241006_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16835116.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: Follow the Leader</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16835117/20241006_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20241006_9am.mp4</guid>
+      <pubDate>Sun, 6 Oct 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: The Testimony of Faith</title>
+      <link>https://rss.trbc.org/link/3560/16825199/20240929_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16825199.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: The Testimony of Faith</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16825200/20240929_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240929_9am.mp4</guid>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>When Following God Is Harder Than Yo</title>
+      <link>https://rss.trbc.org/link/3560/16817301/20240922_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16817301.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>When Following God Is Harder Than Yo</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16817302/20240922_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240922_9am.mp4</guid>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: Standing Up In Your Faith</title>
+      <link>https://rss.trbc.org/link/3560/16809064/20240915_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16809064.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: Standing Up In Your Faith</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16809065/20240915_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240915_9am.mp4</guid>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: The Faith that Doubts</title>
+      <link>https://rss.trbc.org/link/3560/16796700/20240908_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16796700.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: The Faith that Doubts</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16796701/20240908_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240908_9am.mp4</guid>
+      <pubDate>Sun, 8 Sep 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Faith Worth Following: God's Plan, Our Doubt</title>
+      <link>https://rss.trbc.org/link/3560/16790086/20240901_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16790086.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Faith Worth Following: God's Plan, Our Doubt</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16790087/20240901_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240901_9am.mp4</guid>
+      <pubDate>Sun, 1 Sep 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Calling of Us All</title>
+      <link>https://rss.trbc.org/link/3560/16781779/20240825_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16781779.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Calling of Us All</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16781780/20240825_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240825_9am.mp4</guid>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of Consistency</title>
+      <link>https://rss.trbc.org/link/3560/16773930/20240818_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16773930.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of Consistency</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16773931/20240818_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240818_9am.mp4</guid>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of the Gospel</title>
+      <link>https://rss.trbc.org/link/3560/16768076/20240811_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16768076.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of the Gospel</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16768077/20240811_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240811_9am.mp4</guid>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: Confusion in Corinth</title>
+      <link>https://rss.trbc.org/link/3560/16761473/20240804_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16761473.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: Confusion in Corinth</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16761474/20240804_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240804_9am.mp4</guid>
+      <pubDate>Sun, 4 Aug 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of Love</title>
+      <link>https://rss.trbc.org/link/3560/16755176/20240728_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16755176.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of Love</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16755177/20240728_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240728_9am.mp4</guid>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of the Body</title>
+      <link>https://rss.trbc.org/link/3560/16749221/20240721_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16749221.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of the Body</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16749222/20240721_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240721_9am.mp4</guid>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: Let the Veil Down</title>
+      <link>https://rss.trbc.org/link/3560/16743035/20240714_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[<img src="https://rss.trbc.org/link/3560/16743035.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: Let the Veil Down</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16743036/20240714_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240714_9am.mp4</guid>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of Responsibility</title>
+      <link>https://rss.trbc.org/link/3560/16736276/20240707_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16736276.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of Responsibility</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16736277/20240707_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240707_9am.mp4</guid>
+      <pubDate>Sun, 7 Jul 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of Purity</title>
+      <link>https://rss.trbc.org/link/3560/16729629/20240630_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16729629.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of Purity</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16729630/20240630_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240630_9am.mp4</guid>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of Faithfulness</title>
+      <link>https://rss.trbc.org/link/3560/17142153/20240623_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[   <img src="https://rss.trbc.org/link/3560/17142153.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of Faithfulness</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/17142154/20240623_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240623_9am.mp4</guid>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of You</title>
+      <link>https://rss.trbc.org/link/3560/16716620/20240616_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16716620.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of You</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16716621/20240616_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240616_9am.mp4</guid>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: The Importance of Wisdom</title>
+      <link>https://rss.trbc.org/link/3560/16708779/20240609_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16708779.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: The Importance of Wisdom</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16708780/20240609_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240609_9am.mp4</guid>
+      <pubDate>Sun, 9 Jun 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Repeating History: A Call to Unity</title>
+      <link>https://rss.trbc.org/link/3560/16700889/20240602_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16700889.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Repeating History: A Call to Unity</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16700890/20240602_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240602_9am.mp4</guid>
+      <pubDate>Sun, 2 Jun 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: Won't You Be My Neighbor </title>
+      <link>https://rss.trbc.org/link/3560/16693889/20240526_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16693889.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: Won't You Be My Neighbor </itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16693890/20240526_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240526_9am.mp4</guid>
+      <pubDate>Sun, 26 May 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: Use It or Lose It</title>
+      <link>https://rss.trbc.org/link/3560/16687072/20240519_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16687072.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: Use It or Lose It</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16687073/20240519_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240519_9am.mp4</guid>
+      <pubDate>Sun, 19 May 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: The Promise of God's Promise</title>
+      <link>https://rss.trbc.org/link/3560/16679813/20240512_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16679813.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: The Promise of God's Promise</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16679814/20240512_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240512_9am.mp4</guid>
+      <pubDate>Sun, 12 May 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: The Son Worth Saving</title>
+      <link>https://rss.trbc.org/link/3560/16673583/20240505_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16673583.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: The Son Worth Saving</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16673584/20240505_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240505_9am.mp4</guid>
+      <pubDate>Sun, 5 May 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: The Parable of the Rich Fool</title>
+      <link>https://rss.trbc.org/link/3560/16666642/20240428_9am.mp4</link>
+      <itunes:author>Scott Bullman</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16666642.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: The Parable of the Rich Fool</itunes:subtitle>
+      <itunes:summary>Scott Bullman</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16666643/20240428_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240428_9am.mp4</guid>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: The Freedom of Forgiveness</title>
+      <link>https://rss.trbc.org/link/3560/16656072/20240421_9am.mp4</link>
+      <itunes:author>Charles Billingsley</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16656072.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: The Freedom of Forgiveness</itunes:subtitle>
+      <itunes:summary>Charles Billingsley</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16656073/20240421_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240421_9am.mp4</guid>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: The Promise of Victory</title>
+      <link>https://rss.trbc.org/link/3560/16649774/20240414_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[ <img src="https://rss.trbc.org/link/3560/16649774.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: The Promise of Victory</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16649775/20240414_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240414_9am.mp4</guid>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+    <item>
+      <title>Beyond Words: Four Conditions of the Heart</title>
+      <link>https://rss.trbc.org/link/3560/16643695/20240407_9am.mp4</link>
+      <itunes:author>Jonathan Falwell</itunes:author>
+      <description><![CDATA[  <img src="https://rss.trbc.org/link/3560/16643695.gif" height="1" width="1"/>]]></description>
+      <itunes:subtitle>Beyond Words: Four Conditions of the Heart</itunes:subtitle>
+      <itunes:summary>Jonathan Falwell</itunes:summary>
+      <enclosure url="https://rss.trbc.org/link/3560/16643696/20240407_9am.mp4" length="10752000" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://content.trbcmedia.com/2024/20240407_9am.mp4</guid>
+      <pubDate>Sun, 7 Apr 2024 00:00:00 -0400</pubDate>
+      <category>Religion / Spirituality</category>
+      <category>Christianity</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:keywords/>
+    </item>
+  </channel>
+</rss>

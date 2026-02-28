@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>
+<channel>
+	<title>Higher Vision Church: Video Podcast</title>
+	<atom:link href="http://highervisionchurch.com/feed/video_podcast" rel="self" type="application/rss+xml" />
+	<link>http://highervisionchurch.com</link>
+	<description>Weekly messages from Pastor Jared Ming at Higher Vision Church in Santa Clarita, California</description>
+	<lastBuildDate>Thu, 15 Mar 2018 16:17:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+<!-- podcast_generator="Blubrry PowerPress/6.3.3" mode="advanced" -->
+	<itunes:summary>Weekly messages from Pastor Jared Ming at Higher Vision Church in Santa Clarita, California</itunes:summary>
+	<itunes:author>Jared Ming</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:image href="http://highervisionchurch.com/wp/wp-content/uploads/powerpress/1400.jpg" />
+	<itunes:owner>
+		<itunes:name>Jared Ming</itunes:name>
+		<itunes:email>wes@wesohaire.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>wes@wesohaire.com (Jared Ming)</managingEditor>
+	<itunes:subtitle>Weekly messages from Pastor Jared Ming at Higher Vision Church in Santa Clarita, California</itunes:subtitle>
+	<image>
+		<title>Higher Vision Church: Video Podcast</title>
+		<url>http://highervisionchurch.com/wp/wp-content/uploads/powerpress/1400.jpg</url>
+		<link>http://highervisionchurch.com</link>
+	</image>
+	<itunes:category text="Religion &amp; Spirituality">
+		<itunes:category text="Christianity" />
+	</itunes:category>
+	<rawvoice:rating>TV-Y</rawvoice:rating>
+	<rawvoice:location>Santa Clarita, CA</rawvoice:location>
+	<rawvoice:frequency>Weekly</rawvoice:frequency>
+	<item>
+		<title>Father&#8217;s Day 2016</title>
+		<link>http://highervisionchurch.com/message/fathers-day-2016/</link>
+		<pubDate>Mon, 20 Jun 2016 20:27:18 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=4294</guid>
+		<comments>http://highervisionchurch.com/message/fathers-day-2016/#respond</comments>
+		<dc:creator>Storms&#38;Butterflies</dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[<!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+<audio class="wp-audio-shortcode" id="audio-4294-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="http://highervisionchurch.com/wp/wp-content/uploads/2016/06/Fathers-Day-2016-Brandon-Beals.mp3?_=1" /><a href="http://highervisionchurch.com/wp/wp-content/uploads/2016/06/Fathers-Day-2016-Brandon-Beals.mp3">http://highervisionchurch.com/wp/wp-content/uploads/2016/06/Fathers-Day-2016-Brandon-Beals.mp3</a></audio>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/fathers-day-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="https://media.blubrry.com/highervision/s3.amazonaws.com/podcasts.highervisionchurch.com/video/Father%27s+Day+2016+-+Brandon+Beals.mov" length="5242880" type="video/quicktime" />
+		<itunes:summary></itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>All Wrapped Up Pt. 3</title>
+		<link>http://highervisionchurch.com/message/all-wrapped-up-pt-3/</link>
+		<pubDate>Sun, 22 Dec 2013 02:48:14 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=2138</guid>
+		<comments>http://highervisionchurch.com/message/all-wrapped-up-pt-3/#respond</comments>
+		<dc:creator>wesohaire</dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/all-wrapped-up-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-22-13.mp4" length="1074673324" type="video/mp4" />
+		<itunes:summary></itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>40:41</itunes:duration>
+		</item>
+	<item>
+		<title>All Wrapped Up Pt 2</title>
+		<link>http://highervisionchurch.com/message/all-wrapped-up-pt-2/</link>
+		<pubDate>Mon, 09 Dec 2013 02:54:42 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=2139</guid>
+		<comments>http://highervisionchurch.com/message/all-wrapped-up-pt-2/#respond</comments>
+		<dc:creator>wesohaire</dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/all-wrapped-up-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-15-13.mp4" length="1019641105" type="video/mp4" />
+		<itunes:summary></itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>38:32</itunes:duration>
+		</item>
+	<item>
+		<title>All Wrapped Up</title>
+		<link>http://highervisionchurch.com/message/all-wrapped-up/</link>
+		<pubDate>Sun, 08 Dec 2013 02:57:54 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=2140</guid>
+		<comments>http://highervisionchurch.com/message/all-wrapped-up/#respond</comments>
+		<dc:creator>wesohaire</dc:creator>
+		<description>Join us this week for the beginning of our new sermon series, All Wrapped Up.</description>
+		<content:encoded><![CDATA[<p>Join us this week for the beginning of our new sermon series, All Wrapped Up.</p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/all-wrapped-up/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-08-13.mp4" length="948723971" type="video/mp4" />
+	<itunes:subtitle>Join us this week for the beginning of our new sermon […]</itunes:subtitle>
+		<itunes:summary>Join us this week for the beginning of our new sermon […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>34:54</itunes:duration>
+		</item>
+	<item>
+		<title>Go Pt. 4</title>
+		<link>http://highervisionchurch.com/message/go-pt-4/</link>
+		<pubDate>Sun, 01 Dec 2013 03:06:23 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=2142</guid>
+		<comments>http://highervisionchurch.com/message/go-pt-4/#respond</comments>
+		<dc:creator>wesohaire</dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/go-pt-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-01-13.mp3" length="50999902" type="audio/mpeg" />
+		<itunes:summary></itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>42:30</itunes:duration>
+		</item>
+	<item>
+		<title>Go Pt. 3</title>
+		<link>http://highervisionchurch.com/message/go-pt-3/</link>
+		<pubDate>Sun, 24 Nov 2013 05:40:48 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=2148</guid>
+		<comments>http://highervisionchurch.com/message/go-pt-3/#respond</comments>
+		<dc:creator>wesohaire</dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/go-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/11-24-13.mp4" length="1243519336" type="video/mp4" />
+		<itunes:summary></itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>45:58</itunes:duration>
+		</item>
+	<item>
+		<title>Go Pt. 1</title>
+		<link>http://highervisionchurch.com/message/go-pt-1/</link>
+		<pubDate>Sun, 10 Nov 2013 05:48:27 +0000</pubDate>
+		<guid isPermaLink="false">http://highervisionchurch.com/?post_type=message&#038;p=2149</guid>
+		<comments>http://highervisionchurch.com/message/go-pt-1/#respond</comments>
+		<dc:creator>wesohaire</dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/go-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/11-10-13.mp4" length="84645656" type="video/mp4" />
+		<itunes:summary></itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>37:55</itunes:duration>
+		</item>
+	<item>
+		<title>The Blessed Life Pt. 4</title>
+		<link>http://highervisionchurch.com/message/the-blessed-life-pt-4/</link>
+		<pubDate>Sun, 13 Oct 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-blessed-life-pt-4/</guid>
+		<comments>http://highervisionchurch.com/message/the-blessed-life-pt-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.<br />
+<a href="http://highervisionchurch.com/sermons/10-13-13-PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/10-13-13-PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-blessed-life-pt-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/10-13-13-PC.mp4" length="965556072" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Blessed Life Pt. 3</title>
+		<link>http://highervisionchurch.com/message/the-blessed-life-pt-3/</link>
+		<pubDate>Sun, 06 Oct 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-blessed-life-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/the-blessed-life-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.<br />
+<a href="http://highervisionchurch.com/sermons/10-06-13-PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/10-06-13-PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-blessed-life-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/10-06-13-PC.mp4" length="1520722711" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Blessed Life Pt.2</title>
+		<link>http://highervisionchurch.com/message/the-blessed-life-pt-2/</link>
+		<pubDate>Sun, 29 Sep 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-blessed-life-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/the-blessed-life-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.<br />
+<a href="http://highervisionchurch.com/sermons/9-29-13%20PC2.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/9-29-13%20PC2.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-blessed-life-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/9-29-13%20PC2.mp4" length="1352717378" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Blessed Life Pt.1</title>
+		<link>http://highervisionchurch.com/message/the-blessed-life-pt-1/</link>
+		<pubDate>Sun, 22 Sep 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-blessed-life-pt-1/</guid>
+		<comments>http://highervisionchurch.com/message/the-blessed-life-pt-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he shares anointed and practical insights from the Sermon on the Mount.<br />
+<a href="http://highervisionchurch.com/sermons/09-22-13_PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/09-22-13_PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-blessed-life-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/09-22-13_PC.mp4" length="937595422" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he shares anointed and practical insights from […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Finding Your Place Pt. 3</title>
+		<link>http://highervisionchurch.com/message/finding-your-place-pt-3/</link>
+		<pubDate>Sun, 08 Sep 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/finding-your-place-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/finding-your-place-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Finding your place in God&#039;s kingdom. Part of a sermon series.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Finding your place in God&#8217;s kingdom. Part of a sermon series.<br />
+<a href="http://highervisionchurch.com/sermons/09-08-13-PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/09-08-13_PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/finding-your-place-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/09-08-13_PC.mp4" length="831850628" type="video/mp4" />
+	<itunes:subtitle>Finding your place in God’s kingdom. Part of a sermon series. […]</itunes:subtitle>
+		<itunes:summary>Finding your place in God’s kingdom. Part of a sermon series. […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Finding Your Place Pt. 2</title>
+		<link>http://highervisionchurch.com/message/finding-your-place-pt-2/</link>
+		<pubDate>Sun, 01 Sep 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/finding-your-place-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/finding-your-place-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Finding your place in God&#039;s kingdom. Part of a sermon series.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Finding your place in God&#8217;s kingdom. Part of a sermon series.<br />
+<a href="http://highervisionchurch.com/sermons/09-01-13_PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/09-01-13_PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/finding-your-place-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/09-01-13_PC.mp4" length="1156869492" type="video/mp4" />
+	<itunes:subtitle>Finding your place in God’s kingdom. Part of a sermon series. […]</itunes:subtitle>
+		<itunes:summary>Finding your place in God’s kingdom. Part of a sermon series. […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Finding Your Place Pt. 1</title>
+		<link>http://highervisionchurch.com/message/finding-your-place-pt-1/</link>
+		<pubDate>Sun, 25 Aug 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/finding-your-place-pt-1/</guid>
+		<comments>http://highervisionchurch.com/message/finding-your-place-pt-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Finding your place in God&#039;s kingdom. Part of a sermon series.
+
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Finding your place in God&#8217;s kingdom. Part of a sermon series.</p>
+<p><a href="http://highervisionchurch.com/sermons/08-25-13_PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/08-25-13_PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/finding-your-place-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/08-25-13_PC.mp4" length="488278895" type="video/mp4" />
+	<itunes:subtitle>Finding your place in God’s kingdom. Part of a sermon series. […]</itunes:subtitle>
+		<itunes:summary>Finding your place in God’s kingdom. Part of a sermon series. […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Centered or Spinning Out Of Control</title>
+		<link>http://highervisionchurch.com/message/centered-or-spinning-out-of-control/</link>
+		<pubDate>Sun, 18 Aug 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/centered-or-spinning-out-of-control/</guid>
+		<comments>http://highervisionchurch.com/message/centered-or-spinning-out-of-control/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Life often has the ability to throw us in a whirlwind leading us to us ask, &quot;how did I get here?&quot; Join us this week as Pastor Jared teaches us the importance of keeping our lives centered around Christ.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Life often has the ability to throw us in a whirlwind leading us to us ask, &#8220;how did I get here?&#8221; Join us this week as Pastor Jared teaches us the importance of keeping our lives centered around Christ.<br />
+<a href="http://highervisionchurch.com/sermons/08-18-13_PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/08-18-13_PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/centered-or-spinning-out-of-control/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/08-18-13_PC.mp4" length="879463406" type="video/mp4" />
+	<itunes:subtitle>Life often has the ability to throw us in a whirlwind […]</itunes:subtitle>
+		<itunes:summary>Life often has the ability to throw us in a whirlwind […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Change We Can Believe In Pt. 3</title>
+		<link>http://highervisionchurch.com/message/change-we-can-believe-in-pt-3/</link>
+		<pubDate>Sun, 11 Aug 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/change-we-can-believe-in-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/change-we-can-believe-in-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the midst of so many distractions, it&#039;s so easy to subject to the standards lowered by our culture. However, Scripture teaches us that the church ought not conform to the patterns or philosophies of the world, but to be renewed by the tranforming of our minds. As much as change can often frighten us, it isn&#039;t always bad. Join us this week as Pastor Jared shares an encouraging message on how change is worth anticipating.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>In the midst of so many distractions, it&#8217;s so easy to subject to the standards lowered by our culture. However, Scripture teaches us that the church ought not conform to the patterns or philosophies of the world, but to be renewed by the tranforming of our minds. As much as change can often frighten us, it isn&#8217;t always bad. Join us this week as Pastor Jared shares an encouraging message on how change is worth anticipating.<br />
+<a href="http://highervisionchurch.com/sermons/08-11-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/08-11-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/change-we-can-believe-in-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/08-11-13%20PC.mp4" length="518320698" type="video/mp4" />
+	<itunes:subtitle>In the midst of so many distractions, it’s so easy to […]</itunes:subtitle>
+		<itunes:summary>In the midst of so many distractions, it’s so easy to […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Change We Can Believe In Pt. 2</title>
+		<link>http://highervisionchurch.com/message/change-we-can-believe-in-pt-2/</link>
+		<pubDate>Sun, 04 Aug 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/change-we-can-believe-in-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/change-we-can-believe-in-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the midst of so many distractions, it&#039;s so easy to subject to the standards lowered by our culture. However, Scripture teaches us that the church ought not conform to the patterns or philosophies of the world, but to be renewed by the tranforming of our minds. As much as change can often frighten us, it isn&#039;t always bad. Join us this week as Pastor Jared shares an encouraging message on how change is worth anticipating.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>In the midst of so many distractions, it&#8217;s so easy to subject to the standards lowered by our culture. However, Scripture teaches us that the church ought not conform to the patterns or philosophies of the world, but to be renewed by the tranforming of our minds. As much as change can often frighten us, it isn&#8217;t always bad. Join us this week as Pastor Jared shares an encouraging message on how change is worth anticipating.<br />
+<a href="http://highervisionchurch.com/sermons/08-04-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/08-04-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/change-we-can-believe-in-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/08-04-13%20PC.mp4" length="658419431" type="video/mp4" />
+	<itunes:subtitle>In the midst of so many distractions, it’s so easy to […]</itunes:subtitle>
+		<itunes:summary>In the midst of so many distractions, it’s so easy to […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Change We Can Believe In</title>
+		<link>http://highervisionchurch.com/message/change-we-can-believe-in/</link>
+		<pubDate>Sun, 28 Jul 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/change-we-can-believe-in/</guid>
+		<comments>http://highervisionchurch.com/message/change-we-can-believe-in/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the midst of so many distractions, it&#039;s so easy to subject to the standards lowered by our culture. However, Scripture teaches us that the church ought not conform to the patterns or philosophies of the world, but to be renewed by the tranforming of our minds. As much as change can often frighten us, it isn&#039;t always bad. Join us this week as Pastor Jared shares an encouraging message on how change is worth anticipating.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>In the midst of so many distractions, it&#8217;s so easy to subject to the standards lowered by our culture. However, Scripture teaches us that the church ought not conform to the patterns or philosophies of the world, but to be renewed by the tranforming of our minds. As much as change can often frighten us, it isn&#8217;t always bad. Join us this week as Pastor Jared shares an encouraging message on how change is worth anticipating.<br />
+<a href="http://highervisionchurch.com/sermons/07-28-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/07-28-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/change-we-can-believe-in/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/07-28-13%20PC.mp4" length="470818417" type="video/mp4" />
+	<itunes:subtitle>In the midst of so many distractions, it’s so easy to […]</itunes:subtitle>
+		<itunes:summary>In the midst of so many distractions, it’s so easy to […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Surviving the Storm</title>
+		<link>http://highervisionchurch.com/message/surviving-the-storm/</link>
+		<pubDate>Sun, 21 Jul 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/surviving-the-storm/</guid>
+		<comments>http://highervisionchurch.com/message/surviving-the-storm/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join us this week as guest speaker Pastor Evan Carmichael shares a message of hope in the midst of a storm.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join us this week as guest speaker Pastor Evan Carmichael shares a message of hope in the midst of a storm.<br />
+<a href="http://highervisionchurch.com/sermons/07-21-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/07-21-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/surviving-the-storm/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/07-21-13%20PC.mp4" length="277033003" type="video/mp4" />
+	<itunes:subtitle>Join us this week as guest speaker Pastor Evan Carmichael shares […]</itunes:subtitle>
+		<itunes:summary>Join us this week as guest speaker Pastor Evan Carmichael shares […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Preparing the House Pt 4.</title>
+		<link>http://highervisionchurch.com/message/preparing-the-house-pt-4/</link>
+		<pubDate>Sun, 14 Jul 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/preparing-the-house-pt-4/</guid>
+		<comments>http://highervisionchurch.com/message/preparing-the-house-pt-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared sheds light on the importance ofof having our foundation laid soley on Christ our Cornerstone.Join us this week for the continuation of our series Preparing the House.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared sheds light on the importance ofof having our foundation laid soley on Christ our Cornerstone.Join us this week for the continuation of our series Preparing the House.<br />
+               <a href="http://highervisionchurch.com/sermons/07-14-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/07-14-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/preparing-the-house-pt-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/07-14-13%20PC.mp4" length="369123983" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Preparing the House Pt 3.</title>
+		<link>http://highervisionchurch.com/message/preparing-the-house-pt-3/</link>
+		<pubDate>Sun, 07 Jul 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/preparing-the-house-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/preparing-the-house-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared sheds light on the importance ofof having our foundation laidsoley on Christ our Cornerstone.Join us this week for the continuation of our series Preparing the House.
+
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared sheds light on the importance ofof having our foundation laidsoley on Christ our Cornerstone.Join us this week for the continuation of our series Preparing the House.</p>
+<p>               <a href="http://highervisionchurch.com/sermons/07-07-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/07-07-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/preparing-the-house-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/07-07-13%20PC.mp4" length="289775634" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Preparing the House Pt 2.</title>
+		<link>http://highervisionchurch.com/message/preparing-the-house-pt-2/</link>
+		<pubDate>Sun, 30 Jun 2013 11:30:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/preparing-the-house-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/preparing-the-house-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared sheds light on the importance ofof having our foundation laidsoley on Christ our Cornerstone.Join us this week for the continuation of our series Preparing the House.
+
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared sheds light on the importance ofof having our foundation laidsoley on Christ our Cornerstone.Join us this week for the continuation of our series Preparing the House.</p>
+<p>               <a href="http://highervisionchurch.com/sermons/06-30-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/06-30-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/preparing-the-house-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/06-30-13%20PC.mp4" length="380207008" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Preparing the House Pt. 1</title>
+		<link>http://highervisionchurch.com/message/preparing-the-house-pt-1/</link>
+		<pubDate>Sun, 23 Jun 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/preparing-the-house-pt-1/</guid>
+		<comments>http://highervisionchurch.com/message/preparing-the-house-pt-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared sheds light on the importance ofof having our foundation laidsoley on Christ our Cornerstone.Join us this week for the beginning of our series Preparing the House.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared sheds light on the importance ofof having our foundation laidsoley on Christ our Cornerstone.Join us this week for the beginning of our series Preparing the House.<br />
+               <a href="http://highervisionchurch.com/sermons/06-23-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/06-23-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/preparing-the-house-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/06-23-13%20PC.mp4" length="276387680" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared sheds light on the importance ofof having our foundation […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Man&#8217;s Greatest Title!</title>
+		<link>http://highervisionchurch.com/message/mans-greatest-title/</link>
+		<pubDate>Sun, 16 Jun 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/mans-greatest-title/</guid>
+		<comments>http://highervisionchurch.com/message/mans-greatest-title/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/06-16-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/06-16-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/mans-greatest-title/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/06-16-13%20PC.mp4" length="397954187" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>What&#8217;s Your Mountain?</title>
+		<link>http://highervisionchurch.com/message/whats-your-mountain/</link>
+		<pubDate>Sun, 09 Jun 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/whats-your-mountain/</guid>
+		<comments>http://highervisionchurch.com/message/whats-your-mountain/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join us this week with guest speaker Brandon Beals.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join us this week with guest speaker Brandon Beals.<br />
+<a href="http://highervisionchurch.com/sermons/6-9-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/6-9-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/whats-your-mountain/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/6-9-13%20PC.mp4" length="307015862" type="video/mp4" />
+	<itunes:subtitle>Join us this week with guest speaker Brandon Beals. Download Audio […]</itunes:subtitle>
+		<itunes:summary>Join us this week with guest speaker Brandon Beals. Download Audio […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Text (Pt 3: RYB!)</title>
+		<link>http://highervisionchurch.com/message/text-pt-3-ryb/</link>
+		<pubDate>Sun, 02 Jun 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/text-pt-3-ryb/</guid>
+		<comments>http://highervisionchurch.com/message/text-pt-3-ryb/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join us this week as Pastor Jared encourages us to dive into God&#039;s Word. Part two of a series.
+
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join us this week as Pastor Jared encourages us to dive into God&#8217;s Word. Part two of a series.</p>
+<p>               <a href="http://highervisionchurch.com/sermons/06-02-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/06-02-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/text-pt-3-ryb/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/06-02-13%20PC.mp4" length="277026175" type="video/mp4" />
+	<itunes:subtitle>Join us this week as Pastor Jared encourages us to dive […]</itunes:subtitle>
+		<itunes:summary>Join us this week as Pastor Jared encourages us to dive […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Amazing Grace</title>
+		<link>http://highervisionchurch.com/message/amazing-grace/</link>
+		<pubDate>Sun, 05 May 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/amazing-grace/</guid>
+		<comments>http://highervisionchurch.com/message/amazing-grace/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>&quot;Amazing Grace,&quot; perhaps one of the most popular and timeless songs ever written captures a deep truth about the grace of God. Join Higher Vision as Pastor Jared shares insight about God&#039;s amazing grace.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>&#8220;Amazing Grace,&#8221; perhaps one of the most popular and timeless songs ever written captures a deep truth about the grace of God. Join Higher Vision as Pastor Jared shares insight about God&#8217;s amazing grace.<br />
+               <a href="http://highervisionchurch.com/sermons/05-05-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/05-05-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/amazing-grace/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/05-05-13%20PC.mp4" length="330346020" type="video/mp4" />
+	<itunes:subtitle>“Amazing Grace,” perhaps one of the most popular and timeless songs […]</itunes:subtitle>
+		<itunes:summary>“Amazing Grace,” perhaps one of the most popular and timeless songs […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Outpouring</title>
+		<link>http://highervisionchurch.com/message/the-outpouring/</link>
+		<pubDate>Sun, 28 Apr 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-outpouring/</guid>
+		<comments>http://highervisionchurch.com/message/the-outpouring/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Take a moment and join Higher Vision Church as we Celebrate and Encounter the presence of God during our open night of worship!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Take a moment and join Higher Vision Church as we Celebrate and Encounter the presence of God during our open night of worship!<br />
+               <a href="http://highervisionchurch.com/sermons/Outpouring.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/Outpouring.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-outpouring/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/Outpouring.mp4" length="841689366" type="video/mp4" />
+	<itunes:subtitle>Take a moment and join Higher Vision Church as we Celebrate […]</itunes:subtitle>
+		<itunes:summary>Take a moment and join Higher Vision Church as we Celebrate […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Breakthrough</title>
+		<link>http://highervisionchurch.com/message/breakthrough/</link>
+		<pubDate>Sun, 28 Apr 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/breakthrough/</guid>
+		<comments>http://highervisionchurch.com/message/breakthrough/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he shares an inspiring message that will prepare you for that &quot;Breakthrough&quot; that you have been praying for!
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he shares an inspiring message that will prepare you for that &#8220;Breakthrough&#8221; that you have been praying for!<br />
+<a href="http://highervisionchurch.com/sermons/04-28-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/04-28-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/breakthrough/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/04-28-13%20PC.mp4" length="346257340" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he shares an inspiring message that will […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he shares an inspiring message that will […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Investing in a Miracle Part 3</title>
+		<link>http://highervisionchurch.com/message/investing-in-a-miracle-part-3/</link>
+		<pubDate>Sun, 21 Apr 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/investing-in-a-miracle-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/investing-in-a-miracle-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/04-21-13%20PC-Audio.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/04-21-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/investing-in-a-miracle-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/04-21-13%20PC.mp4" length="267854534" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Investing in a Miracle Part 2</title>
+		<link>http://highervisionchurch.com/message/investing-in-a-miracle-part-2/</link>
+		<pubDate>Sun, 14 Apr 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/investing-in-a-miracle-part-2/</guid>
+		<comments>http://highervisionchurch.com/message/investing-in-a-miracle-part-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/04-14-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/04-14-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/investing-in-a-miracle-part-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/04-14-13%20PC.mp4" length="361406790" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Investing in a Miracle Part 1</title>
+		<link>http://highervisionchurch.com/message/investing-in-a-miracle-part-1/</link>
+		<pubDate>Sun, 07 Apr 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/investing-in-a-miracle-part-1/</guid>
+		<comments>http://highervisionchurch.com/message/investing-in-a-miracle-part-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/04-07-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/04-07-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/investing-in-a-miracle-part-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/04-07-13%20PC.mp4" length="354261077" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Rolling Stones EASTER Service!</title>
+		<link>http://highervisionchurch.com/message/rolling-stones-easter-service/</link>
+		<pubDate>Sun, 31 Mar 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/rolling-stones-easter-service/</guid>
+		<comments>http://highervisionchurch.com/message/rolling-stones-easter-service/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>&quot;ROLL THE STONES ASIDE.&quot; JESUS INSTRUCTS THE PEOPLE TO REMOVE THE STONE WHERE LAZARUS WAS LAIN. VERY OFTEN GOD USES PEOPLE TO REMOVE THS STONES OUT OF PEOPLE&#039;S LIVES. JOIN US THIS WEEK AS PASTOR JARED SHARES HOW GOD USES PEOPLE, NAMELY THE CHURCH, TO DEMONSTRATE HIS POWER AND LOVE THROUGH ACTS OF SERVICE AND MERCY. PART TWO OF A FOUR-PART SERIES.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>&#8220;ROLL THE STONES ASIDE.&#8221; JESUS INSTRUCTS THE PEOPLE TO REMOVE THE STONE WHERE LAZARUS WAS LAIN. VERY OFTEN GOD USES PEOPLE TO REMOVE THS STONES OUT OF PEOPLE&#8217;S LIVES. JOIN US THIS WEEK AS PASTOR JARED SHARES HOW GOD USES PEOPLE, NAMELY THE CHURCH, TO DEMONSTRATE HIS POWER AND LOVE THROUGH ACTS OF SERVICE AND MERCY. PART TWO OF A FOUR-PART SERIES.<br />
+               <a href="http://highervisionchurch.com/sermons/03-31-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/03-31-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/rolling-stones-easter-service/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/03-31-13%20PC.mp4" length="319295184" type="video/mp4" />
+	<itunes:subtitle>“ROLL THE STONES ASIDE.” JESUS INSTRUCTS THE PEOPLE TO REMOVE THE […]</itunes:subtitle>
+		<itunes:summary>“ROLL THE STONES ASIDE.” JESUS INSTRUCTS THE PEOPLE TO REMOVE THE […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Rolling Stones pt 3</title>
+		<link>http://highervisionchurch.com/message/rolling-stones-pt-3/</link>
+		<pubDate>Sun, 24 Mar 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/rolling-stones-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/rolling-stones-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>&quot;ROLL THE STONES ASIDE.&quot; JESUS INSTRUCTS THE PEOPLE TO REMOVE THE STONE WHERE LAZARUS WAS LAIN. VERY OFTEN GOD USES PEOPLE TO REMOVE THS STONES OUT OF PEOPLE&#039;S LIVES. JOIN US THIS WEEK AS PASTOR JARED SHARES HOW GOD USES PEOPLE, NAMELY THE CHURCH, TO DEMONSTRATE HIS POWER AND LOVE THROUGH ACTS OF SERVICE AND MERCY. PART TWO OF A FOUR-PART SERIES.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>&#8220;ROLL THE STONES ASIDE.&#8221; JESUS INSTRUCTS THE PEOPLE TO REMOVE THE STONE WHERE LAZARUS WAS LAIN. VERY OFTEN GOD USES PEOPLE TO REMOVE THS STONES OUT OF PEOPLE&#8217;S LIVES. JOIN US THIS WEEK AS PASTOR JARED SHARES HOW GOD USES PEOPLE, NAMELY THE CHURCH, TO DEMONSTRATE HIS POWER AND LOVE THROUGH ACTS OF SERVICE AND MERCY. PART TWO OF A FOUR-PART SERIES.<br />
+               <a href="http://highervisionchurch.com/sermons/03-24-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/30-24-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/rolling-stones-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/30-24-13%20PC.mp4" length="322004718" type="video/mp4" />
+	<itunes:subtitle>“ROLL THE STONES ASIDE.” JESUS INSTRUCTS THE PEOPLE TO REMOVE THE […]</itunes:subtitle>
+		<itunes:summary>“ROLL THE STONES ASIDE.” JESUS INSTRUCTS THE PEOPLE TO REMOVE THE […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Rolling Stones pt 2</title>
+		<link>http://highervisionchurch.com/message/rolling-stones-pt-2/</link>
+		<pubDate>Sun, 17 Mar 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/rolling-stones-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/rolling-stones-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>&quot;ROLL THE STONES ASIDE.&quot; JESUS INSTRUCTS THE PEOPLE TO REMOVE THE STONE WHERE LAZARUS WAS LAIN. VERY OFTEN GOD USES PEOPLE TO REMOVE THS STONES OUT OF PEOPLE&#039;S LIVES. JOIN US THIS WEEK AS PASTOR JARED SHARES HOW GOD USES PEOPLE, NAMELY THE CHURCH, TO DEMONSTRATE HIS POWER AND LOVE THROUGH ACTS OF SERVICE AND MERCY. PART TWO OF A FOUR-PART SERIES.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>&#8220;ROLL THE STONES ASIDE.&#8221; JESUS INSTRUCTS THE PEOPLE TO REMOVE THE STONE WHERE LAZARUS WAS LAIN. VERY OFTEN GOD USES PEOPLE TO REMOVE THS STONES OUT OF PEOPLE&#8217;S LIVES. JOIN US THIS WEEK AS PASTOR JARED SHARES HOW GOD USES PEOPLE, NAMELY THE CHURCH, TO DEMONSTRATE HIS POWER AND LOVE THROUGH ACTS OF SERVICE AND MERCY. PART TWO OF A FOUR-PART SERIES.<br />
+               <a href="http://highervisionchurch.com/sermons/03-17-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/03-17-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/rolling-stones-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/03-17-13%20PC.mp4" length="342416832" type="video/mp4" />
+	<itunes:subtitle>“ROLL THE STONES ASIDE.” JESUS INSTRUCTS THE PEOPLE TO REMOVE THE […]</itunes:subtitle>
+		<itunes:summary>“ROLL THE STONES ASIDE.” JESUS INSTRUCTS THE PEOPLE TO REMOVE THE […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Rolling Stones pt 1</title>
+		<link>http://highervisionchurch.com/message/rolling-stones-pt-1/</link>
+		<pubDate>Sun, 10 Mar 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/rolling-stones-pt-1/</guid>
+		<comments>http://highervisionchurch.com/message/rolling-stones-pt-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>LORD, IF ONLY YOU HAD BEEN HERE, MY BROTHER WOULD NOT HAVE DIED. &quot; MARY&#039;S WORDS ARE FAR TOO FAMILIAR WITH MANY OF US; OUR UNDERSTANDING OF GOD&#039;S TIMING CAN OFTEN BE FLAWED. JOIN US THIS WEEK AS PASTOR JARED SHEDS INSIGHT INTO THE STORY OF LAZARUS&#039;S RESURRECTION AND HOW THAT MIGHT CAST LIGHT ONTO OUR UNDERSTANDING OF GOD&#039;S TIMING. PART ONE OF A FOUR-PART SERIES.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>LORD, IF ONLY YOU HAD BEEN HERE, MY BROTHER WOULD NOT HAVE DIED. &#8221; MARY&#8217;S WORDS ARE FAR TOO FAMILIAR WITH MANY OF US; OUR UNDERSTANDING OF GOD&#8217;S TIMING CAN OFTEN BE FLAWED. JOIN US THIS WEEK AS PASTOR JARED SHEDS INSIGHT INTO THE STORY OF LAZARUS&#8217;S RESURRECTION AND HOW THAT MIGHT CAST LIGHT ONTO OUR UNDERSTANDING OF GOD&#8217;S TIMING. PART ONE OF A FOUR-PART SERIES.<br />
+               <a href="http://highervisionchurch.com/sermons/3-10-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/3-10-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/rolling-stones-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/3-10-13%20PC.mp4" length="368512285" type="video/mp4" />
+	<itunes:subtitle>LORD, IF ONLY YOU HAD BEEN HERE, MY BROTHER WOULD NOT […]</itunes:subtitle>
+		<itunes:summary>LORD, IF ONLY YOU HAD BEEN HERE, MY BROTHER WOULD NOT […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Unwrapped Pt. 6</title>
+		<link>http://highervisionchurch.com/message/unwrapped-pt-6/</link>
+		<pubDate>Sun, 03 Mar 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/unwrapped-pt-6/</guid>
+		<comments>http://highervisionchurch.com/message/unwrapped-pt-6/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.<br />
+               <a href="http://highervisionchurch.com/sermons/03-03-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/03-03-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/unwrapped-pt-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/03-03-13%20PC.mp4" length="291851959" type="video/mp4" />
+	<itunes:subtitle>In the last days the Scripture tells us that God would […]</itunes:subtitle>
+		<itunes:summary>In the last days the Scripture tells us that God would […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Unwrapped Pt. 5</title>
+		<link>http://highervisionchurch.com/message/unwrapped-pt-5/</link>
+		<pubDate>Sun, 24 Feb 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/unwrapped-pt-5/</guid>
+		<comments>http://highervisionchurch.com/message/unwrapped-pt-5/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.<br />
+               <a href="http://highervisionchurch.com/sermons/2-24-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/2-24-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/unwrapped-pt-5/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/2-24-13%20PC.mp4" length="395713294" type="video/mp4" />
+	<itunes:subtitle>In the last days the Scripture tells us that God would […]</itunes:subtitle>
+		<itunes:summary>In the last days the Scripture tells us that God would […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Unwrapped Pt. 4</title>
+		<link>http://highervisionchurch.com/message/unwrapped-pt-4/</link>
+		<pubDate>Sun, 17 Feb 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/unwrapped-pt-4/</guid>
+		<comments>http://highervisionchurch.com/message/unwrapped-pt-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.<br />
+               <a href="http://highervisionchurch.com/sermons/02-17-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/02-17-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/unwrapped-pt-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/02-17-13%20PC.mp4" length="411454787" type="video/mp4" />
+	<itunes:subtitle>In the last days the Scripture tells us that God would […]</itunes:subtitle>
+		<itunes:summary>In the last days the Scripture tells us that God would […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Unwrapped Pt. 3</title>
+		<link>http://highervisionchurch.com/message/unwrapped-pt-3/</link>
+		<pubDate>Sun, 10 Feb 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/unwrapped-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/unwrapped-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.<br />
+               <a href="http://highervisionchurch.com/sermons/02-10-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/02-10-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/unwrapped-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/02-10-13%20PC.mp4" length="407210013" type="video/mp4" />
+	<itunes:subtitle>In the last days the Scripture tells us that God would […]</itunes:subtitle>
+		<itunes:summary>In the last days the Scripture tells us that God would […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Unwrapped Pt. 2</title>
+		<link>http://highervisionchurch.com/message/unwrapped-pt-2/</link>
+		<pubDate>Sun, 03 Feb 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/unwrapped-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/unwrapped-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.<br />
+<a href="http://highervisionchurch.com/sermons/02-03-13%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/02-03-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/unwrapped-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/02-03-13%20PC.mp4" length="458576675" type="video/mp4" />
+	<itunes:subtitle>In the last days the Scripture tells us that God would […]</itunes:subtitle>
+		<itunes:summary>In the last days the Scripture tells us that God would […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Unwrapped Pt. 1</title>
+		<link>http://highervisionchurch.com/message/unwrapped-pt-1/</link>
+		<pubDate>Sun, 27 Jan 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/unwrapped-pt-1/</guid>
+		<comments>http://highervisionchurch.com/message/unwrapped-pt-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>In the last days the Scripture tells us that God would pour out His Spirit over all flesh. In addition, Christ has also bestowed on his church the gifts of the Holy Spirit. Join us as Pastor Jared teaches on the gifts of the Spirit.<br />
+               <a href="http://highervisionchurch.com/sermons/01-27-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/01-27-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/unwrapped-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/01-27-13%20PC.mp4" length="380514609" type="video/mp4" />
+	<itunes:subtitle>In the last days the Scripture tells us that God would […]</itunes:subtitle>
+		<itunes:summary>In the last days the Scripture tells us that God would […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Praying Circles Pt.3</title>
+		<link>http://highervisionchurch.com/message/praying-circles-pt-3/</link>
+		<pubDate>Sun, 20 Jan 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/praying-circles-pt-3/</guid>
+		<comments>http://highervisionchurch.com/message/praying-circles-pt-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join us as for 21 days of Prayer and Fasting. Now is the time to declare the favor and promises of God over every area of your life!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join us as for 21 days of Prayer and Fasting. Now is the time to declare the favor and promises of God over every area of your life!<br />
+               <a href="http://highervisionchurch.com/sermons/01-20-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/01-20-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/praying-circles-pt-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/01-20-13%20PC.mp4" length="413992049" type="video/mp4" />
+	<itunes:subtitle>Join us as for 21 days of Prayer and Fasting. Now […]</itunes:subtitle>
+		<itunes:summary>Join us as for 21 days of Prayer and Fasting. Now […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Praying Circles Pt.2</title>
+		<link>http://highervisionchurch.com/message/praying-circles-pt-2/</link>
+		<pubDate>Sun, 13 Jan 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/praying-circles-pt-2/</guid>
+		<comments>http://highervisionchurch.com/message/praying-circles-pt-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join us as for 21 days of Prayer and Fasting. Now is the time to declare the favor and promises of God over every area of your life!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join us as for 21 days of Prayer and Fasting. Now is the time to declare the favor and promises of God over every area of your life!<br />
+               <a href="http://highervisionchurch.com/sermons/01-13-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/01-13-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/praying-circles-pt-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/01-13-13%20PC.mp4" length="324487617" type="video/mp4" />
+	<itunes:subtitle>Join us as for 21 days of Prayer and Fasting. Now […]</itunes:subtitle>
+		<itunes:summary>Join us as for 21 days of Prayer and Fasting. Now […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Praying Circles Pt.1</title>
+		<link>http://highervisionchurch.com/message/praying-circles-pt-1/</link>
+		<pubDate>Sun, 06 Jan 2013 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/praying-circles-pt-1/</guid>
+		<comments>http://highervisionchurch.com/message/praying-circles-pt-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join us as for 21 days of Prayer and Fasting. Now is the time to declare the favor and promises of God over every area of your life!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join us as for 21 days of Prayer and Fasting. Now is the time to declare the favor and promises of God over every area of your life!<br />
+               <a href="http://highervisionchurch.com/sermons/01-06-13%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/01-06-13%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/praying-circles-pt-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/01-06-13%20PC.mp4" length="334324847" type="video/mp4" />
+	<itunes:subtitle>Join us as for 21 days of Prayer and Fasting. Now […]</itunes:subtitle>
+		<itunes:summary>Join us as for 21 days of Prayer and Fasting. Now […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Picking Up Stones</title>
+		<link>http://highervisionchurch.com/message/picking-up-stones/</link>
+		<pubDate>Sun, 30 Dec 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/picking-up-stones/</guid>
+		<comments>http://highervisionchurch.com/message/picking-up-stones/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/12-30-12%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/12-30-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/picking-up-stones/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-30-12%20PC.mp4" length="398229149" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>A Gift For You</title>
+		<link>http://highervisionchurch.com/message/a-gift-for-you/</link>
+		<pubDate>Sun, 23 Dec 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/a-gift-for-you/</guid>
+		<comments>http://highervisionchurch.com/message/a-gift-for-you/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/12-23-12%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/12-23-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/a-gift-for-you/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-23-12%20PC.mp4" length="321320738" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Grinchmas- Finding the Joy of Christmas Part 3</title>
+		<link>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-3/</link>
+		<pubDate>Sun, 16 Dec 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/grinchmas-finding-the-joy-of-christmas-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is the Grinch attempting to rob your joy this Christmas? Join Pastor Jared as he shares biblical principles on making sure your Christmas is truly one of joy and peace!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is the Grinch attempting to rob your joy this Christmas? Join Pastor Jared as he shares biblical principles on making sure your Christmas is truly one of joy and peace!<br />
+               <a href="http://highervisionchurch.com/sermons/12-16-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/12-16-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-16-12%20PC.mp4" length="303561407" type="video/mp4" />
+	<itunes:subtitle>Is the Grinch attempting to rob your joy this Christmas? Join […]</itunes:subtitle>
+		<itunes:summary>Is the Grinch attempting to rob your joy this Christmas? Join […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Grinchmas- Finding the Joy of Christmas Part 2</title>
+		<link>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-2/</link>
+		<pubDate>Sun, 09 Dec 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/grinchmas-finding-the-joy-of-christmas-part-2/</guid>
+		<comments>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is the Grinch attempting to rob your joy this Christmas? Join Pastor Jared as he shares biblical principles on making sure your Christmas is truly one of joy and peace!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is the Grinch attempting to rob your joy this Christmas? Join Pastor Jared as he shares biblical principles on making sure your Christmas is truly one of joy and peace!<br />
+               <a href="http://highervisionchurch.com/sermons/12-09-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/12-09-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-09-12%20PC.mp4" length="324607705" type="video/mp4" />
+	<itunes:subtitle>Is the Grinch attempting to rob your joy this Christmas? Join […]</itunes:subtitle>
+		<itunes:summary>Is the Grinch attempting to rob your joy this Christmas? Join […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Grinchmas- Finding the Joy of Christmas Part 1</title>
+		<link>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-1/</link>
+		<pubDate>Sun, 02 Dec 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/grinchmas-finding-the-joy-of-christmas-part-1/</guid>
+		<comments>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is the Grinch attempting to rob your joy this Christmas? Join Pastor Jared as he shares biblical principles on making sure your Christmas is truly one of joy and peace!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is the Grinch attempting to rob your joy this Christmas? Join Pastor Jared as he shares biblical principles on making sure your Christmas is truly one of joy and peace!<br />
+               <a href="http://highervisionchurch.com/sermons/12-02-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/12-02-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/grinchmas-finding-the-joy-of-christmas-part-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/12-02-12%20PC.mp4" length="282560882" type="video/mp4" />
+	<itunes:subtitle>Is the Grinch attempting to rob your joy this Christmas? Join […]</itunes:subtitle>
+		<itunes:summary>Is the Grinch attempting to rob your joy this Christmas? Join […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Urgent Care Pt4</title>
+		<link>http://highervisionchurch.com/message/urgent-care-pt4/</link>
+		<pubDate>Sun, 25 Nov 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/urgent-care-pt4/</guid>
+		<comments>http://highervisionchurch.com/message/urgent-care-pt4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is there hope during a crisis? Join us this week as Pastor Jared shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.
+
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is there hope during a crisis? Join us this week as Pastor Jared shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.</p>
+<p>               <a href="http://highervisionchurch.com/sermons/11-25-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/11-25-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/urgent-care-pt4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/11-25-12%20PC.mp4" length="353011397" type="video/mp4" />
+	<itunes:subtitle>Is there hope during a crisis? Join us this week as […]</itunes:subtitle>
+		<itunes:summary>Is there hope during a crisis? Join us this week as […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Urgent Care Pt3</title>
+		<link>http://highervisionchurch.com/message/urgent-care-pt3/</link>
+		<pubDate>Sun, 18 Nov 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/urgent-care-pt3/</guid>
+		<comments>http://highervisionchurch.com/message/urgent-care-pt3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is there hope during a crisis? Join us this week as Pastor Jared shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.
+
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is there hope during a crisis? Join us this week as Pastor Jared shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.</p>
+<p>               <a href="http://highervisionchurch.com/sermons/11-18-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/11-18-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/urgent-care-pt3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/11-18-12%20PC.mp4" length="377671600" type="video/mp4" />
+	<itunes:subtitle>Is there hope during a crisis? Join us this week as […]</itunes:subtitle>
+		<itunes:summary>Is there hope during a crisis? Join us this week as […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Urgent Care Pt2</title>
+		<link>http://highervisionchurch.com/message/urgent-care-pt2/</link>
+		<pubDate>Sun, 11 Nov 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/urgent-care-pt2/</guid>
+		<comments>http://highervisionchurch.com/message/urgent-care-pt2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is there hope during a crisis? Join us this week as Pastor Wayman shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.
+
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is there hope during a crisis? Join us this week as Pastor Wayman shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.</p>
+<p>               <a href="http://highervisionchurch.com/sermons/11-11-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/11-11-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/urgent-care-pt2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/11-11-12%20PC.mp4" length="380008506" type="video/mp4" />
+	<itunes:subtitle>Is there hope during a crisis? Join us this week as […]</itunes:subtitle>
+		<itunes:summary>Is there hope during a crisis? Join us this week as […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Urgent Care Pt1</title>
+		<link>http://highervisionchurch.com/message/urgent-care-pt1/</link>
+		<pubDate>Sun, 04 Nov 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/urgent-care-pt1/</guid>
+		<comments>http://highervisionchurch.com/message/urgent-care-pt1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Is there hope during a crisis? Join us this week as Pastor Jared shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.
+               Download Audio&quot;&gt;Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Is there hope during a crisis? Join us this week as Pastor Jared shares vital concepts of how familes should respond to moments of crisis. Part of a four-week series.<br />
+               <a href="http://highervisionchurch.com/sermons/11-4-12%20PC.mp3">Download Audio&#8221;>Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/11-4-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/urgent-care-pt1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/11-4-12%20PC.mp4" length="335832496" type="video/mp4" />
+	<itunes:subtitle>Is there hope during a crisis? Join us this week as […]</itunes:subtitle>
+		<itunes:summary>Is there hope during a crisis? Join us this week as […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Pastor Pierre Du Plessis</title>
+		<link>http://highervisionchurch.com/message/pastor-pierre-du-plessis/</link>
+		<pubDate>Sun, 28 Oct 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/pastor-pierre-du-plessis/</guid>
+		<comments>http://highervisionchurch.com/message/pastor-pierre-du-plessis/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Take a moment and listen to Pastor Pierre from the Father&#039;s House New York as he shares amazing truths about our journey with God...
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Take a moment and listen to Pastor Pierre from the Father&#8217;s House New York as he shares amazing truths about our journey with God&#8230;<br />
+<a href="http://highervisionchurch.com/sermons/10-28-12%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/10-28-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/pastor-pierre-du-plessis/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/10-28-12%20PC.mp4" length="337762972" type="video/mp4" />
+	<itunes:subtitle>Take a moment and listen to Pastor Pierre from the Father’s […]</itunes:subtitle>
+		<itunes:summary>Take a moment and listen to Pastor Pierre from the Father’s […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>REACH Worship Encounter Saturday Evening</title>
+		<link>http://highervisionchurch.com/message/reach-worship-encounter-saturday-evening/</link>
+		<pubDate>Sat, 27 Oct 2012 18:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/reach-worship-encounter-saturday-evening/</guid>
+		<comments>http://highervisionchurch.com/message/reach-worship-encounter-saturday-evening/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pierre Du Plessis as he brings great revelation and wisdom to the topic of worship.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pierre Du Plessis as he brings great revelation and wisdom to the topic of worship.<br />
+<a href="http://highervisionchurch.com/sermons/Reach Conference 3.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/Reach Conference 3.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/reach-worship-encounter-saturday-evening/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/Reach%20Conference%203.mp4" length="273579129" type="video/mp4" />
+	<itunes:subtitle>Join Pierre Du Plessis as he brings great revelation and wisdom […]</itunes:subtitle>
+		<itunes:summary>Join Pierre Du Plessis as he brings great revelation and wisdom […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>32:55</itunes:duration>
+		</item>
+	<item>
+		<title>REACH Worship Encounter Saturday Afternoon</title>
+		<link>http://highervisionchurch.com/message/reach-worship-encounter-saturday-afternoon/</link>
+		<pubDate>Sat, 27 Oct 2012 13:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/reach-worship-encounter-saturday-afternoon/</guid>
+		<comments>http://highervisionchurch.com/message/reach-worship-encounter-saturday-afternoon/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared shares amazing truths and reveals the secrets of true worship.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared shares amazing truths and reveals the secrets of true worship.<br />
+<a href="http://highervisionchurch.com/sermons/Reach Conference 2.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/Reach Conference 2.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/reach-worship-encounter-saturday-afternoon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/Reach%20Conference%202.mp4" length="297314449" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared shares amazing truths and reveals the secrets of true […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared shares amazing truths and reveals the secrets of true […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>35:49</itunes:duration>
+		</item>
+	<item>
+		<title>REACH Worship Encounter Saturday Morning</title>
+		<link>http://highervisionchurch.com/message/reach-worship-encounter-saturday-morning/</link>
+		<pubDate>Sat, 27 Oct 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/reach-worship-encounter-saturday-morning/</guid>
+		<comments>http://highervisionchurch.com/message/reach-worship-encounter-saturday-morning/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Marlon Saunders releases great wisdom in this powerful message that will change the way you think about praise.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Marlon Saunders releases great wisdom in this powerful message that will change the way you think about praise.<br />
+<a href="http://highervisionchurch.com/sermons/Reach Conference 1.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/Reach Conference 1.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/reach-worship-encounter-saturday-morning/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/Reach%20Conference%201.mp4" length="370838715" type="video/mp4" />
+	<itunes:subtitle>Marlon Saunders releases great wisdom in this powerful message that will […]</itunes:subtitle>
+		<itunes:summary>Marlon Saunders releases great wisdom in this powerful message that will […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>45:18</itunes:duration>
+		</item>
+	<item>
+		<title>REACH Worship Encounter Friday Evening</title>
+		<link>http://highervisionchurch.com/message/reach-worship-encounter-friday-evening/</link>
+		<pubDate>Fri, 26 Oct 2012 19:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/reach-worship-encounter-friday-evening/</guid>
+		<comments>http://highervisionchurch.com/message/reach-worship-encounter-friday-evening/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Andre Crouch shares inspiring stories and performs the great songs of his life.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Andre Crouch shares inspiring stories and performs the great songs of his life.<br />
+<a href="http://highervisionchurch.com/sermons/REACH_Andre Crouch.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/REACH_Andre Crouch.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/reach-worship-encounter-friday-evening/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/REACH_Andre%20Crouch.mp4" length="660315420" type="video/mp4" />
+	<itunes:subtitle>Andre Crouch shares inspiring stories and performs the great songs of […]</itunes:subtitle>
+		<itunes:summary>Andre Crouch shares inspiring stories and performs the great songs of […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>1:21:52</itunes:duration>
+		</item>
+	<item>
+		<title>The Shell Game Part 4</title>
+		<link>http://highervisionchurch.com/message/the-shell-game-part-4/</link>
+		<pubDate>Sun, 21 Oct 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-shell-game-part-4/</guid>
+		<comments>http://highervisionchurch.com/message/the-shell-game-part-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what God&#039;s true role is in your finances? Pastor Jared unfolds the truth about God&#039;s faithfulness to provide for His children in the new series The Shell Game...
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what God&#8217;s true role is in your finances? Pastor Jared unfolds the truth about God&#8217;s faithfulness to provide for His children in the new series The Shell Game&#8230;<br />
+               <a href="http://highervisionchurch.com/sermons/10-21-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/10-21-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-shell-game-part-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/10-21-12%20PC.mp4" length="411645375" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what God’s true role is in your […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what God’s true role is in your […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Shell Game Part 3</title>
+		<link>http://highervisionchurch.com/message/the-shell-game-part-3/</link>
+		<pubDate>Sun, 14 Oct 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-shell-game-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/the-shell-game-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what God&#039;s true role is in your finances? Pastor Jared unfolds the truth about God&#039;s faithfulness to provide for His children in the new series The Shell Game...
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what God&#8217;s true role is in your finances? Pastor Jared unfolds the truth about God&#8217;s faithfulness to provide for His children in the new series The Shell Game&#8230;<br />
+               <a href="http://highervisionchurch.com/sermons/10-14-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/10-14-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-shell-game-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/10-14-12%20PC.mp4" length="389299961" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what God’s true role is in your […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what God’s true role is in your […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Shell Game Part 2</title>
+		<link>http://highervisionchurch.com/message/the-shell-game-part-2/</link>
+		<pubDate>Sun, 07 Oct 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-shell-game-part-2/</guid>
+		<comments>http://highervisionchurch.com/message/the-shell-game-part-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what God&#039;s true role is in your finances? Pastor Jared unfolds the truth about God&#039;s faithfulness to provide for His children in the new series The Shell Game...
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what God&#8217;s true role is in your finances? Pastor Jared unfolds the truth about God&#8217;s faithfulness to provide for His children in the new series The Shell Game&#8230;<br />
+               <a href="http://highervisionchurch.com/sermons/10-7-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/10-7-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-shell-game-part-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/10-7-12%20PC.mp4" length="474138080" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what God’s true role is in your […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what God’s true role is in your […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>The Shell Game Part 1</title>
+		<link>http://highervisionchurch.com/message/the-shell-game-part-1/</link>
+		<pubDate>Sun, 30 Sep 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/the-shell-game-part-1/</guid>
+		<comments>http://highervisionchurch.com/message/the-shell-game-part-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what God&#039;s true role is in your finances? Pastor Jared unfolds the truth about God&#039;s faithfulness to provide for His children in the new series The Shell Game...
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what God&#8217;s true role is in your finances? Pastor Jared unfolds the truth about God&#8217;s faithfulness to provide for His children in the new series The Shell Game&#8230;<br />
+               <a href="http://highervisionchurch.com/sermons/9-30-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/9-30-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/the-shell-game-part-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/9-30-12%20PC.mp4" length="400056421" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what God’s true role is in your […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what God’s true role is in your […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>HV Haiti Report</title>
+		<link>http://highervisionchurch.com/message/hv-haiti-report/</link>
+		<pubDate>Sun, 23 Sep 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/hv-haiti-report/</guid>
+		<comments>http://highervisionchurch.com/message/hv-haiti-report/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor James Rene shares the amazing results from our Haiti mission trip and God&#039;s plan to reach the nations...
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor James Rene shares the amazing results from our Haiti mission trip and God&#8217;s plan to reach the nations&#8230;<br />
+               <a href="http://highervisionchurch.com/sermons/09-23-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/09-23-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/hv-haiti-report/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/09-23-12%20PC.mp4" length="396561555" type="video/mp4" />
+	<itunes:subtitle>Pastor James Rene shares the amazing results from our Haiti mission […]</itunes:subtitle>
+		<itunes:summary>Pastor James Rene shares the amazing results from our Haiti mission […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>GROW Part 4</title>
+		<link>http://highervisionchurch.com/message/grow-part-4/</link>
+		<pubDate>Sun, 16 Sep 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/grow-part-4/</guid>
+		<comments>http://highervisionchurch.com/message/grow-part-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unfolds the biblical process of God&#039;s design for us and encourages us to GROW!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unfolds the biblical process of God&#8217;s design for us and encourages us to GROW!<br />
+               <a href="http://highervisionchurch.com/sermons/9-16-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/9-16-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/grow-part-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/9-16-12%20PC.mp4" length="454294589" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unfolds the biblical process of God’s […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unfolds the biblical process of God’s […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>GROW Part 3</title>
+		<link>http://highervisionchurch.com/message/grow-part-3/</link>
+		<pubDate>Sun, 09 Sep 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/grow-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/grow-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unfolds the biblical process of God&#039;s design for us and encourages us to GROW!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unfolds the biblical process of God&#8217;s design for us and encourages us to GROW!<br />
+               <a href="http://highervisionchurch.com/sermons/09-09-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/09-09-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/grow-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/09-09-12%20PC.mp4" length="378187577" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unfolds the biblical process of God’s […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unfolds the biblical process of God’s […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>GROW Part 1</title>
+		<link>http://highervisionchurch.com/message/grow-part-1/</link>
+		<pubDate>Sun, 26 Aug 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/grow-part-1/</guid>
+		<comments>http://highervisionchurch.com/message/grow-part-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unfolds the biblical process of God&#039;s design for us and encourages us to GROW!
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unfolds the biblical process of God&#8217;s design for us and encourages us to GROW!<br />
+               <a href="http://highervisionchurch.com/sermons/8-26-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/8-26-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/grow-part-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/8-26-12%20PC.mp4" length="322967550" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unfolds the biblical process of God’s […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unfolds the biblical process of God’s […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part  7</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-7/</link>
+		<pubDate>Sun, 19 Aug 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-7/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-7/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/8-19-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/8-19-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/8-19-12%20PC.mp4" length="431939505" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>RESET</title>
+		<link>http://highervisionchurch.com/message/reset/</link>
+		<pubDate>Sun, 12 Aug 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/reset/</guid>
+		<comments>http://highervisionchurch.com/message/reset/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Guest Pastor Brandon Beals from Canyon Creak Churchas he shares a special message called &quot;RESET&quot;...
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Join Guest Pastor Brandon Beals from Canyon Creak Churchas he shares a special message called &#8220;RESET&#8221;&#8230;<br />
+<a href="http://highervisionchurch.com/sermons/8-12-12-PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/8-12-12-PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/reset/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/8-12-12-PC.mp4" length="313322364" type="video/mp4" />
+	<itunes:subtitle>Join Guest Pastor Brandon Beals from Canyon Creak Churchas he shares […]</itunes:subtitle>
+		<itunes:summary>Join Guest Pastor Brandon Beals from Canyon Creak Churchas he shares […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part  6</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-6/</link>
+		<pubDate>Sun, 05 Aug 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-6/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-6/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/8-05-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/8-05-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/8-05-12%20PC.mp4" length="430429443" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part 5</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-5/</link>
+		<pubDate>Sun, 29 Jul 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-5/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-5/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/7-29-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/7-29-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-5/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/7-29-12%20PC.mp4" length="396351887" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part 4</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-4/</link>
+		<pubDate>Sun, 22 Jul 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-4/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Wayman as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Wayman as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/7-22-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/7-22-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/7-22-12%20PC.mp4" length="408944155" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Wayman as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Wayman as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Samson</title>
+		<link>http://highervisionchurch.com/message/samson/</link>
+		<pubDate>Sun, 15 Jul 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/samson/</guid>
+		<comments>http://highervisionchurch.com/message/samson/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Guest Speaker Evan Carmichael delivers a powerful and anointed message on Samson.
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Guest Speaker Evan Carmichael delivers a powerful and anointed message on Samson.<br />
+<a href="http://highervisionchurch.com/sermons/7-16-12%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/7-16-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/samson/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/7-16-12%20PC.mp4" length="335011868" type="video/mp4" />
+	<itunes:subtitle>Guest Speaker Evan Carmichael delivers a powerful and anointed message on […]</itunes:subtitle>
+		<itunes:summary>Guest Speaker Evan Carmichael delivers a powerful and anointed message on […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part 3</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-3/</link>
+		<pubDate>Sun, 08 Jul 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Wayman as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Wayman as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/7-08-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/7-08-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/7-08-12%20PC.mp4" length="435633617" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Wayman as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Wayman as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part 2</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-2/</link>
+		<pubDate>Sun, 01 Jul 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-2/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Wayman as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Wayman as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/7-01-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/7-01-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/7-01-12%20PC.mp4" length="404203390" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Wayman as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Wayman as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Scarlet Letter Part 1</title>
+		<link>http://highervisionchurch.com/message/scarlet-letter-part-1/</link>
+		<pubDate>Sun, 24 Jun 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/scarlet-letter-part-1/</guid>
+		<comments>http://highervisionchurch.com/message/scarlet-letter-part-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Join Pastor Jared as he unveils the letters to the churches that were written in the Book of the Revelation. This is a wonderful teaching that will help transform your walk with God as you learn how to practically apply these significant letters to the churches.<br />
+               <a href="http://highervisionchurch.com/sermons/6-42-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/6-42-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/scarlet-letter-part-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/6-42-12%20PC.mp4" length="403435334" type="video/mp4" />
+	<itunes:subtitle>Join Pastor Jared as he unveils the letters to the churches […]</itunes:subtitle>
+		<itunes:summary>Join Pastor Jared as he unveils the letters to the churches […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>UFC ( Ultimate Father Competition )</title>
+		<link>http://highervisionchurch.com/message/ufc-ultimate-father-competition/</link>
+		<pubDate>Sun, 17 Jun 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/ufc-ultimate-father-competition/</guid>
+		<comments>http://highervisionchurch.com/message/ufc-ultimate-father-competition/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p><a href="http://highervisionchurch.com/sermons/6-17-12%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/6-17-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/ufc-ultimate-father-competition/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/6-17-12%20PC.mp4" length="344429749" type="video/mp4" />
+	<itunes:subtitle>Download Audio Download Video</itunes:subtitle>
+		<itunes:summary>Download Audio Download Video</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>HEROES Part 4</title>
+		<link>http://highervisionchurch.com/message/heroes-part-4/</link>
+		<pubDate>Sun, 10 Jun 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/heroes-part-4/</guid>
+		<comments>http://highervisionchurch.com/message/heroes-part-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#039;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#8217;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.<br />
+               <a href="http://highervisionchurch.com/sermons/6-10-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/6-10-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/heroes-part-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/6-10-12%20PC.mp4" length="377689189" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what makes a hero, a hero? We […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what makes a hero, a hero? We […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>HEROES Part 3</title>
+		<link>http://highervisionchurch.com/message/heroes-part-3/</link>
+		<pubDate>Sun, 03 Jun 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/heroes-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/heroes-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#039;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#8217;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.<br />
+               <a href="http://highervisionchurch.com/sermons/6-03-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/6-03-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/heroes-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/6-03-12%20PC.mp4" length="481503755" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what makes a hero, a hero? We […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what makes a hero, a hero? We […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>HEROES Part 2</title>
+		<link>http://highervisionchurch.com/message/heroes-part-2/</link>
+		<pubDate>Sun, 27 May 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/heroes-part-2/</guid>
+		<comments>http://highervisionchurch.com/message/heroes-part-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#039;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#8217;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.<br />
+               <a href="http://highervisionchurch.com/sermons/5-27-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/5-27-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/heroes-part-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/5-27-12%20PC.mp4" length="414558468" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what makes a hero, a hero? We […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what makes a hero, a hero? We […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>HEROES Part 1</title>
+		<link>http://highervisionchurch.com/message/heroes-part-1/</link>
+		<pubDate>Sun, 20 May 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/heroes-part-1/</guid>
+		<comments>http://highervisionchurch.com/message/heroes-part-1/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#039;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Have you ever wondered what makes a hero, a hero? We tend to look at the moment of their courage and think that being a hero is something that happens in one moment. However, as we look at some hero&#8217;s in the bible, we will discover that often times, HEROISM IS A LIFESTYLE.<br />
+               <a href="http://highervisionchurch.com/sermons/5-20-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/5-20-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/heroes-part-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/5-20-12%20PC.mp4" length="364923874" type="video/mp4" />
+	<itunes:subtitle>Have you ever wondered what makes a hero, a hero? We […]</itunes:subtitle>
+		<itunes:summary>Have you ever wondered what makes a hero, a hero? We […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>CHERISH:  A mother&#8217;s Day Experience!</title>
+		<link>http://highervisionchurch.com/message/cherish-a-mothers-day-experience/</link>
+		<pubDate>Sun, 13 May 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/cherish-a-mothers-day-experience/</guid>
+		<comments>http://highervisionchurch.com/message/cherish-a-mothers-day-experience/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared shares a very special message for mothers of all ages...
+Download Audio
+Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared shares a very special message for mothers of all ages&#8230;<br />
+<a href="http://highervisionchurch.com/sermons/4-13-12%20PC.mp3">Download Audio</a><br />
+<a href="http://highervisionchurch.com/sermons/4-13-12pc.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/cherish-a-mothers-day-experience/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/4-13-12pc.mp4" length="367983916" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared shares a very special message for mothers of all […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared shares a very special message for mothers of all […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Not So Modern Family Part 4</title>
+		<link>http://highervisionchurch.com/message/not-so-modern-family-part-4/</link>
+		<pubDate>Sun, 06 May 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/not-so-modern-family-part-4/</guid>
+		<comments>http://highervisionchurch.com/message/not-so-modern-family-part-4/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>It is crazy to think that we are not so modern when we look to God for the model of our families. Join us as Pastor Jared teaches on the Not So Modern Family.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>It is crazy to think that we are not so modern when we look to God for the model of our families. Join us as Pastor Jared teaches on the Not So Modern Family.<br />
+               <a href="http://highervisionchurch.com/sermons/5-6-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/5-6-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/not-so-modern-family-part-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/5-6-12%20PC.mp4" length="417199160" type="video/mp4" />
+	<itunes:subtitle>It is crazy to think that we are not so modern […]</itunes:subtitle>
+		<itunes:summary>It is crazy to think that we are not so modern […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Not So Modern Family Part 3</title>
+		<link>http://highervisionchurch.com/message/not-so-modern-family-part-3/</link>
+		<pubDate>Sun, 29 Apr 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/not-so-modern-family-part-3/</guid>
+		<comments>http://highervisionchurch.com/message/not-so-modern-family-part-3/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>It is crazy to think that we are not so modern when we look to God for the model of our families. Join us as Pastor Jared teaches on the Not So Modern Family.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>It is crazy to think that we are not so modern when we look to God for the model of our families. Join us as Pastor Jared teaches on the Not So Modern Family.<br />
+               <a href="http://highervisionchurch.com/sermons/4-29-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/4-29-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/not-so-modern-family-part-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/4-29-12%20PC.mp4" length="418498235" type="video/mp4" />
+	<itunes:subtitle>It is crazy to think that we are not so modern […]</itunes:subtitle>
+		<itunes:summary>It is crazy to think that we are not so modern […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Not So Modern Family Part 2</title>
+		<link>http://highervisionchurch.com/message/not-so-modern-family-part-2/</link>
+		<pubDate>Sun, 22 Apr 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/not-so-modern-family-part-2/</guid>
+		<comments>http://highervisionchurch.com/message/not-so-modern-family-part-2/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>It is crazy to think that we are not so modern when we look to God for the model of our families. Join us as Pastor Jared teaches on the Not So Modern Family.
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>It is crazy to think that we are not so modern when we look to God for the model of our families. Join us as Pastor Jared teaches on the Not So Modern Family.<br />
+               <a href="http://highervisionchurch.com/sermons/4-22-12%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/4-22-12%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/not-so-modern-family-part-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/4-22-12%20PC.mp4" length="441131637" type="video/mp4" />
+	<itunes:subtitle>It is crazy to think that we are not so modern […]</itunes:subtitle>
+		<itunes:summary>It is crazy to think that we are not so modern […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+	<item>
+		<title>Easter 2012!</title>
+		<link>http://highervisionchurch.com/message/easter-2012/</link>
+		<pubDate>Sun, 08 Apr 2012 08:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://staging.highervisionchurch.com/easter-2012/</guid>
+		<comments>http://highervisionchurch.com/message/easter-2012/#respond</comments>
+		<dc:creator>import</dc:creator>
+		<category><![CDATA[Uncategorized]]></category>
+		<description>Pastor Jared and the team deliver masterful performances as they unfold a meaningful celebration remembering the resurection of Jesus Christ. Pastor Jared shares the inspirational message of Just on Cloth and how that one event has changed the world forever and ever...
+               Download Audio 
+               Download Video</description>
+		<content:encoded><![CDATA[<p>Pastor Jared and the team deliver masterful performances as they unfold a meaningful celebration remembering the resurection of Jesus Christ. Pastor Jared shares the inspirational message of Just on Cloth and how that one event has changed the world forever and ever&#8230;<br />
+               <a href="http://highervisionchurch.com/sermons/Easter%20PC.mp3">Download Audio</a><br />
+               <a href="http://highervisionchurch.com/sermons/Easter%20PC.mp4">Download Video</a></p>
+]]></content:encoded>
+		<wfw:commentRss>http://highervisionchurch.com/message/easter-2012/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+				<enclosure url="http://media.blubrry.com/highervision/highervisionchurch.com/sermons/Easter%20PC.mp4" length="576073751" type="video/mp4" />
+	<itunes:subtitle>Pastor Jared and the team deliver masterful performances as they unfold […]</itunes:subtitle>
+		<itunes:summary>Pastor Jared and the team deliver masterful performances as they unfold […]</itunes:summary>
+		<itunes:author>Jared Ming</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		</item>
+</channel>
+</rss>

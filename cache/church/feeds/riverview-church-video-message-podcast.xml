@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <atom:link href="https://rivchurch.com/video-feed.xml" rel="self" type="application/rss+xml"/>
+    <title>Riverview Church Video Message Podcast</title>
+    <description>All of the video teachings/sermons from Riverview Church.</description>
+    <copyright>Copyright 2024 Riverview Church</copyright>
+    <language>en</language>
+    <pubDate>Thu, 4 Jan 2024 22:15:00 EST</pubDate>
+    <lastBuildDate>Thu, 4 Jan 2024 22:11:00 EST</lastBuildDate>
+    <image>
+      <link>https://rivchurch.com/messages</link>
+      <title>Riverview Church Video Message Podcast</title>
+      <url>https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg</url>
+    </image>
+    <link>https://rivchurch.com</link>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>All of the teachings/sermons from Riverview Church.</itunes:summary>
+    <itunes:author>Various Teachers</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+    <itunes:keywords>rivchurch, riv, life, sex, God, culture, Christianity, atheism, relativism, gospel, Jesus</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Riverview Church</itunes:name>
+      <itunes:email>podcast@rivchurch.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+    <itunes:category text="Christianity" />
+    </itunes:category>
+
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/jamesgranger_sonofgod.mp4</guid>
+      <title>Son of God</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/jamesgranger_sonofgod.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 19 Nov 2023 13:00:00 EST</pubDate>
+      <author>James Granger</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="452215350" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/jamesgranger_sonofgod.mp4"/>
+      <itunes:title>Son of God</itunes:title>
+      <itunes:author>James Granger</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:36:31</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_sonofgod.mp4</guid>
+      <title>Son of God</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_sonofgod.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 19 Nov 2023 15:00:00 EST</pubDate>
+      <author>Tony Pyle</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="478583624" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_sonofgod.mp4"/>
+      <itunes:title>Son of God</itunes:title>
+      <itunes:author>Tony Pyle</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:32:44</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/hezekiahtrevino_sonofman.mp4</guid>
+      <title>Son of Man</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/hezekiahtrevino_sonofman.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 26 Nov 2023 13:00:00 EST</pubDate>
+      <author>Hezekiah Trevino</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="411390635" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/hezekiahtrevino_sonofman.mp4"/>
+      <itunes:title>Son of Man</itunes:title>
+      <itunes:author>Hezekiah Trevino</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:30:45</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>3</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/youngyi_sonofman.mp4</guid>
+      <title>Son of Man</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/youngyi_sonofman.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 26 Nov 2023 14:00:00 EST</pubDate>
+      <author>Young Yi</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="303621881" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/youngyi_sonofman.mp4"/>
+      <itunes:title>Son of Man</itunes:title>
+      <itunes:author>Young Yi</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:35:05</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>4</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_sonofman.mp4</guid>
+      <title>Son of Man</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_sonofman.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 26 Nov 2023 15:00:00 EST</pubDate>
+      <author>Tony Pyle</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="631753432" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_sonofman.mp4"/>
+      <itunes:title>Son of Man</itunes:title>
+      <itunes:author>Tony Pyle</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:37:49</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>5</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_sonofthemosthigh.mp4</guid>
+      <title>Son of the Most High</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_sonofthemosthigh.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 3 Dec 2023 13:00:00 EST</pubDate>
+      <author>Noel Heikkinen</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="313766625" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_sonofthemosthigh.mp4"/>
+      <itunes:title>Son of the Most High</itunes:title>
+      <itunes:author>Noel Heikkinen</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:28:28</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>6</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_immanuel.mp4</guid>
+      <title>Immanuel</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_immanuel.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 10 Dec 2023 13:00:00 EST</pubDate>
+      <author>Noel Heikkinen</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="273298885" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_immanuel.mp4"/>
+      <itunes:title>Immanuel</itunes:title>
+      <itunes:author>Noel Heikkinen</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:29:20</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>7</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/youngyi_godmysavior.mp4</guid>
+      <title>Savior</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/youngyi_godmysavior.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 17 Dec 2023 13:00:00 EST</pubDate>
+      <author>Young Yi</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="324800616" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/youngyi_godmysavior.mp4"/>
+      <itunes:title>Savior</itunes:title>
+      <itunes:author>Young Yi</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:36:54</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>8</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_savior.mp4</guid>
+      <title>Savior</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_savior.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 17 Dec 2023 15:00:00 EST</pubDate>
+      <author>Tony Pyle</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="594898212" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_savior.mp4"/>
+      <itunes:title>Savior</itunes:title>
+      <itunes:author>Tony Pyle</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:34:11</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>9</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_messiah.mp4</guid>
+      <title>Messiah</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_messiah.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 24 Dec 2023 19:00:00 EST</pubDate>
+      <author>Noel Heikkinen</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="197534233" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/noelheikkinen_messiah.mp4"/>
+      <itunes:title>Messiah</itunes:title>
+      <itunes:author>Noel Heikkinen</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:15:32</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>10</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/hezekiahtrevino_messiah.mp4</guid>
+      <title>Messiah</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/hezekiahtrevino_messiah.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 24 Dec 2023 20:00:00 EST</pubDate>
+      <author>Hezekiah Trevino</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="212249797" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/hezekiahtrevino_messiah.mp4"/>
+      <itunes:title>Messiah</itunes:title>
+      <itunes:author>Hezekiah Trevino</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:23:26</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>11</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_messiah.mp4</guid>
+      <title>Messiah</title>
+      <link>https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_messiah.mp4</link>
+      <description> </description>
+      <pubDate>Sun, 24 Dec 2023 21:00:00 EST</pubDate>
+      <author>Tony Pyle</author>
+      <content:encoded><![CDATA[<p> </p>]]></content:encoded>
+      <enclosure length="294220541" type="video/mp4" url="https://cdn01.rivchurch.com/messages/andheshallbecalled/tonypyle_messiah.mp4"/>
+      <itunes:title>Messiah</itunes:title>
+      <itunes:author>Tony Pyle</itunes:author>
+      <itunes:image href="https://cdn02.rivchurch.com/assets/riv2021_iconsquare.jpg"/>
+      <itunes:duration>00:18:37</itunes:duration>
+      <itunes:summary> </itunes:summary>
+      <itunes:keywords>Jesus, God, Christmas</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>11</itunes:episode>
+    </item>
+
+  </channel>
+</rss>

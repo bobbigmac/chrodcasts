@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>ASPIRE | 2011 PASTORS' CONFERENCE | Video Podcast</title>
+        <link>http://sbcpc.net</link>
+        <description>The Southern Baptist Convention Pastors’ Conference is an annual two day experience that provides encouragement, training &amp; networking opportunities for church leaders.</description>
+        <generator>Feeder 2.1.10(1428); Mac OS X Version 10.6.7 (Build 10J869) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <pubDate>Fri, 17 Jun 2011 15:02:04 -0700</pubDate>
+        <lastBuildDate>Fri, 17 Jun 2011 15:02:04 -0700</lastBuildDate>
+        <image>
+            <url>http://aspiremedia.s3.amazonaws.com/aspire_twprofileimage_110117-144x151.jpg</url>
+            <title>ASPIRE | 2011 PASTORS' CONFERENCE | Video Podcast</title>
+            <link>http://sbcpc.net</link>
+            <width>144</width>
+            <height>151</height>
+            <description>The Southern Baptist Convention Pastors’ Conference is an annual two day experience that provides encouragement, training &amp; networking opportunities for church leaders.</description>
+        </image>
+        <atom:link href="http://aspiremedia.s3.amazonaws.com/aspirevideo.xml" rel="self" type="application/rss+xml"/>
+        <itunes:author>Hope Baptist Church</itunes:author>
+        <itunes:keywords>SBC, SBCPC, Pastors' Conference</itunes:keywords>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="http://aspiremedia.s3.amazonaws.com/aspire_twprofileimage_110117.jpg"/>
+        <itunes:owner>
+            <itunes:name>Hope Baptist Church, Las Vegas</itunes:name>
+            <itunes:email>david@hopebaptistchurch.com</itunes:email>
+        </itunes:owner>
+        <itunes:block>no</itunes:block>
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Christianity"/>
+        </itunes:category>
+        <item>
+            <title>ASPIRE Msg: Rick Warren</title>
+            <pubDate>Fri, 17 Jun 2011 14:54:22 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session4/RickWarren/RickWarren1500kbps.mp4" length="605965008" type="video/mp4"/>
+            <guid isPermaLink="false">AF1E0BC8-648A-4E0F-A78B-F99C020F9987</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>49:03</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Louie Giglio</title>
+            <pubDate>Fri, 17 Jun 2011 14:11:17 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session4/LouieGiglio/LouieGiglio1500kbps.mp4" length="572251540" type="video/mp4"/>
+            <guid isPermaLink="false">80111A5C-3A6B-4E88-ABD3-C1F3639E7633</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>47:15</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: John Piper</title>
+            <pubDate>Thu, 16 Jun 2011 17:00:23 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/JohnPiper1500kbps.mp4" length="384911180" type="video/mp4"/>
+            <guid isPermaLink="false">833DD3E9-3ECF-4C46-B2A7-FE3704B2A6F8</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>31:56</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Ken Whitten</title>
+            <pubDate>Fri, 17 Jun 2011 11:20:13 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session3/KenWhitten/KenWhitten1500kbps.mp4" length="440184364" type="video/mp4"/>
+            <guid isPermaLink="false">CF525492-FD9C-4E3E-B862-DC6760C2345A</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>36:37</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Afshin Ziafat</title>
+            <pubDate>Fri, 17 Jun 2011 10:44:35 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session3/AfshinZiafat/AfshinZiafat1500kbps.mp4" length="374799608" type="video/mp4"/>
+            <guid isPermaLink="false">D4479A4A-87EF-4C56-B1F9-0966E1745FE3</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>31:26</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: GreggMatte</title>
+            <pubDate>Fri, 17 Jun 2011 09:59:15 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session2/GreggMatte/GreggMatte1500kbps.mp4" length="390260837" type="video/mp4"/>
+            <guid isPermaLink="false">42A9589E-D6DB-4008-B95F-E92E0ADA82C8</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>32:25</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Bartholomew Orr</title>
+            <pubDate>Fri, 17 Jun 2011 09:14:36 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session2/BartholomewOrr/BartholomewOrr1500kbps.mp4" length="278365604" type="video/mp4"/>
+            <guid isPermaLink="false">10C052C8-C5CB-40DC-96B5-61339075BB8E</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>23:49</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Darrin Patrick</title>
+            <pubDate>Thu, 16 Jun 2011 19:52:57 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session2/DarrinPatrick/DarrinPatrick1500kbps.mp4" length="362508417" type="video/mp4"/>
+            <guid isPermaLink="false">3DD59726-8A63-4555-A220-985330AD70C9</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>31:39</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: PaulGotthardt</title>
+            <pubDate>Thu, 16 Jun 2011 16:57:45 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session2/PaulGotthardt/PaulGotthardt1500kbps.mp4" length="349365133" type="video/mp4"/>
+            <guid isPermaLink="false">092C67D9-55BA-431D-A445-827F8E9738D5</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>30:04</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Johnny Hunt</title>
+            <pubDate>Thu, 16 Jun 2011 14:54:59 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session1/JohnnyHunt/johnnyhunt1500kbps.mp4" length="418052881" type="video/mp4"/>
+            <guid isPermaLink="false">18846236-D424-498E-8989-04AD3BED9FBC</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>34:43</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Bob Pitman</title>
+            <pubDate>Thu, 16 Jun 2011 14:12:43 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session1/BobPitman/bobpitman1500kbps.mp4" length="333704201" type="video/mp4"/>
+            <guid isPermaLink="false">A3C3D149-2346-4E6C-B7EF-C2DAA95402F8</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>29:30</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Bishop Peter Ndhlovu</title>
+            <pubDate>Thu, 16 Jun 2011 14:03:02 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session1/BishopPeter/bishopndhlovu1500kbps.mp4" length="339566496" type="video/mp4"/>
+            <guid isPermaLink="false">F60468D3-2765-492A-A784-92926BA49D47</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>29:18</itunes:duration>
+        </item>
+        <item>
+            <title>ASPIRE Msg: Bob Roberts</title>
+            <pubDate>Thu, 16 Jun 2011 10:10:35 -0700</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.mp4/aspiremedia.s3.amazonaws.com/Content/Session1/BobRoberts/bobroberts1500kbps.mp4" length="379760006" type="video/mp4"/>
+            <guid isPermaLink="false">3E9179FD-3D7B-4304-AF5F-323D82904D64</guid>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>30:40</itunes:duration>
+        </item>
+    </channel>
+</rss>

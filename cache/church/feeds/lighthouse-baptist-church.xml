@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <atom:link href="http://us.lighthouse.media.s3.amazonaws.com/podcast/video/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Lighthouse Baptist Church Video Podcast</title>
+    <description>Bible Preaching from Lighthouse Baptist Church</description>
+    <link>http://www.lighthousebaptist.com</link>
+    <language>en-us</language>
+    <copyright>2007 Lighthouse Baptist Church</copyright>
+    <image>
+      <url>http://media.lighthousebaptist.com/podcast/images/LBCPodcast-144.jpg</url>
+      <title>Lighthouse Baptist Church Video Podcast</title>
+      <link>http://www.lighthousebaptist.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:subtitle>Bible Preaching from Lighthouse Baptist Church</itunes:subtitle>
+    <itunes:author>Lighthouse Baptist Church</itunes:author>
+    <itunes:summary>Evangelistic, Bible-preaching from the pulpit of Lighthouse Baptist Church in Lemon Grove, California - Pastor Doug Fisher (www.lighthousebaptist.com)</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Lighthouse Baptist Church</itunes:name>
+      <itunes:email>itadmin@lighthousebaptist.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://media.lighthousebaptist.com/podcast/images/LBCPodcast.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
+    <itunes:category text="Religion &amp; Spirituality"></itunes:category>
+    
+
+   <item>
+      <title>God and Country, Liberty</title>
+      <pubDate>Sun, 30 Jun 2013 10:00:00 -0800</pubDate>
+      <description>Dr. David Gibbs, President of Christian Law Association, preaches a Bible message on Sunday, June 30, 2013 during the Sunday morning God and Country service.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-06-30%20AM,%20God%20and%20Country,%20Liberty,%20Gibbs.mp4" length="512391889" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/http://media.lighthousebaptist.com/podcast/video/2013-06-30%20AM,%20God%20and%20Country,%20Liberty,%20Gibbs.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:13:15</itunes:duration>
+      <itunes:subtitle> Sunday, June 30 2013 - Dr. David Gibbs</itunes:subtitle>
+      <itunes:summary>Dr. David Gibbs, President of Christian Law Association, preaches a Bible message on Sunday, June 30, 2013 during the Sunday morning God and Country service.</itunes:summary>
+    </item>
+    
+
+   <item>
+      <title>Now and Then</title>
+      <pubDate>Wed, 06 Feb 2013 10:00:00 -0800</pubDate>
+      <description>Dr. Wayne Sehmish, Missionary to Thailand, preaches a Bible message on Wednesday, February 05, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-02-06%20PM,%20Now%20And%20Then,%20Sehmish.mp4" length="839844926" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2013-02-06%20PM,%20Now%20And%20Then,%20Sehmish.mp4.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:39:16</itunes:duration>
+      <itunes:subtitle>Wednesday, February 04, 2013 - Dr. Wayne Sehmish</itunes:subtitle>
+      <itunes:summary>Dr. Wayne Sehmish, Missionary to Thailand, preaches a Bible message on Wednesday, February 05, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</itunes:summary>
+    </item>
+  
+
+   <item>
+      <title>Seeds of Doubt Often Grow in the Soil of Suffering</title>
+      <pubDate>Tue, 05 Feb 2013 10:00:00 -0800</pubDate>
+      <description>Dr. Sam Davison, of Southwest Baptist Church, Oklahoma City, OK, preaches a Bible message on Tuesday, February 05, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-02-05%20PM,%20Seeds%20of%20Doubt%20Often%20Grow%20in%20the%20Soil%20of%20Suffering, Davison.mp4" length="655222250" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2013-02-05%20PM,%20Seeds%20of%20Doubt%20Often%20Grow%20in%20the%20Soil%20of%20Suffering, Davison.mp4.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:17:28</itunes:duration>
+      <itunes:subtitle>Tuesday, February 04, 2013 - Dr. Sam Davison</itunes:subtitle>
+      <itunes:summary>Dr. Sam Davison, of Southwest Baptist Church, Oklahoma City, OK, preaches a Bible message on Tuesday, February 05, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</itunes:summary>
+    </item>
+  
+
+   <item>
+      <title>At Thy Word I Will</title>
+      <pubDate>Tue, 05 Feb 2013 10:00:00 -0800</pubDate>
+      <description>Dr. Paul Chappell, Pastor of Lancaster Baptist Church of Lancaster, CA, preaches a Bible message on Tuesday, February 05, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-02-05%20PM,%20At%20Thy%20Word%20I%20Will,%20Chappell.mp4" length="653564808" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2013-02-05%20PM,%20At%20Thy%20Word%20I%20Will,%20Chappell.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:17:15</itunes:duration>
+      <itunes:subtitle>Tuesday, February 04, 2013 - Dr. Paul Chappell Davison</itunes:subtitle>
+      <itunes:summary>Dr. Paul Chappell, Pastor of Lancaster Baptist Church of Lancaster, CA, preaches a Bible message on Tuesday, February 05, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</itunes:summary>
+    </item>
+  
+
+   <item>
+      <title>A Servant for Jesus Christ</title>
+      <pubDate>Mon, 04 Feb 2013 10:00:00 -0800</pubDate>
+      <description>Dr. Sam Davison, of Southwest Baptist Church, Oklahoma City, OK, preaches a Bible message on Monday, February 04, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-02-04%20PM,%20A%20Servant%20for%20Jesus%20Christ,%20Davison.mp4" length="563230146" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2013-02-04%20PM,%20A%20Servant%20for%20Jesus%20Christ,%20Davison.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:06:34</itunes:duration>
+      <itunes:subtitle>Monday, February 04, 2013 - Dr. Sam Davison</itunes:subtitle>
+      <itunes:summary>Dr. Sam Davison, of Southwest Baptist Church, Oklahoma City, OK, preaches a Bible message on Monday, February 04, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</itunes:summary>
+    </item>
+  
+
+   <item>
+      <title>From Faith to Faith</title>
+      <pubDate>Mon, 04 Feb 2013 10:00:00 -0800</pubDate>
+      <description>Dr. Wayne Sehmish, Missionary to Thailand, preaches a Bible message on Monday, February 04, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-02-04%20PM,%20From%20Faith%20to%20Faith,%20Sehmish.mp4" length="719594474" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2013-02-04%20PM,%20From%20Faith%20to%20Faith,%20Sehmish.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:25:03</itunes:duration>
+      <itunes:subtitle>Monday, February 04, 2013 - Dr. Wayne Sehmish</itunes:subtitle>
+      <itunes:summary>Dr. Wayne Sehmish, Missionary to Thailand, preaches a Bible message on Monday, February 04, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</itunes:summary>
+    </item>
+  
+
+    <item>
+      <title>Identifying The Man of God</title>
+      <pubDate>Sun, 03 Feb 2013 10:00:00 -0800</pubDate>
+      <description>Pastor Nathan Lloyd, Pastor of Good Shepherd Baptist Church in Brisbane, Australia, preaches a Bible message on Sunday, February 04, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2013-02-03%20PM,%20Identifying%20The%20Man%20of%20God,%20Lloyd.mp4" length="521404782" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2013-02-03%20PM,%20Identifying%20The%20Man%20of%20God,%20Lloyd.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>1:01:48</itunes:duration>
+      <itunes:subtitle>Sunday, February 04, 2013 - Pastor Nathan Lloyd</itunes:subtitle>
+      <itunes:summary>Pastor Nathan Lloyd, Pastor of Good Shepherd Baptist Church in Brisbane, Australia, preaches a Bible message on Sunday, February 04, 2013 during the 2013 Lighthouse Baptist Church's Leadership Conference.</itunes:summary>
+    </item>
+  
+
+   <item>
+      <title>Are You OK?</title>
+      <pubDate>Wed, 14 Sep 2011 10:00:00 -0800</pubDate>
+      <description>Pastor Doug Fisher, Pastor of Lighthouse Baptist Church in Lemon Grove, CA, preaches a Bible message on Wednesday, September 14, 2011 during Pastors Conference 2011 - North Valley Baptist Church.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2011-09-14%20AM,%20Are%20You%20OK,%20Fisher.mp4" length="353896612" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2011-09-14%20AM,%20Are%20You%20OK,%20Fisher.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>0:39:13</itunes:duration>
+      <itunes:subtitle>Wednesday, September 14, 2011 - Pastor Doug Fisher</itunes:subtitle>
+      <itunes:summary>Pastor Doug Fisher, Pastor of Lighthouse Baptist Church in Lemon Grove, CA, preaches a Bible message on Wednesday, September 14, 2011 during Pastors Conference 2011 - North Valley Baptist Church.</itunes:summary>
+    </item>
+    
+    
+    <item>
+      <title>Spiritual Leadership Conference 2011</title>
+      <pubDate>Thu, 14 Jul 2011 10:00:00 -0800</pubDate>
+      <description>Pastor Doug Fisher, Pastor of Lighthouse Baptist Church in Lemon Grove, CA, preaches a Bible message on Thursday, July 14, 2011 during the Spiritual Leadership Conference 2011 - Lancaster Baptist Church.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2011-07-14%20AM,%20Spiritual%20Leadership%20Conference%202011,%20Fisher.m4v" length="281634321" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2011-07-14%20AM,%20Spiritual%20Leadership%20Conference%202011,%20Fisher.m4v</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>0:46:10</itunes:duration>
+      <itunes:subtitle>Thursday, July 14, 2011 - Pastor Doug Fisher</itunes:subtitle>
+      <itunes:summary>Pastor Doug Fisher, Pastor of Lighthouse Baptist Church in Lemon Grove, CA, preaches a Bible message on Thursday, July 14, 2011 during the Spiritual Leadership Conference 2011 - Lancaster Baptist Church.</itunes:summary>
+    </item>
+
+    <item>
+      <title>True Friendship</title>
+      <pubDate>Sun, 07 Nov 2010 10:30:00 -0800</pubDate>
+      <description>Dr. David Gibbs, Jr., President and Founder of Christian Law Association, Seminole, FL, preaches a Bible message on Sunday, November 07, 2010 for our Friend Day morning service.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2010-11-07%20AM,%20True%20Friendship,%20Gibbs.mp4" length="330423919" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2010-11-07%20AM,%20True%20Friendship,%20Gibbs.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>01:20:14</itunes:duration>
+      <itunes:subtitle>Sunday, November 07, 2010 - Dr. David Gibbs, Jr.</itunes:subtitle>
+      <itunes:summary>Dr. David Gibbs, Jr., President and Founder of Christian Law Association, Seminole, FL, preaches a Bible message on Sunday, November 07, 2010 for our Friend Day morning service.</itunes:summary>
+    </item>
+
+    <item>
+      <title>How Do I Forgive?</title>
+      <pubDate>Sun, 20 Sep 2009 11:00:00 -0800</pubDate>
+      <description>Dr. Jim Binney, President of L.E.A.D. Ministies in Greenville, SC, preaches a Bible message on Sunday, September 20, 2009 during the morning service.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/09-09-20%20AM,%20How%20Do%20I%20Forgive,%20Binney.mp4" length="220907973" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/09-09-20%20AM,%20How%20Do%20I%20Forgive,%20Binney.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>01:08:57</itunes:duration>
+      <itunes:subtitle>Sunday, September 20, 2009 - Dr. Jim Binney</itunes:subtitle>
+      <itunes:summary>Dr. Jim Binney, President of L.E.A.D. Ministies in Greenville, SC, preaches a Bible message on Sunday, September 20, 2009 during the morning service.</itunes:summary>
+    </item>
+
+    <item>
+      <title>Sour Grapes</title>
+      <pubDate>Thu, 17 Sep 2009 19:00:00 -0800</pubDate>
+      <description>Dr. Jim Binney, President of L.E.A.D. Ministies in Greenville, SC, preaches a Bible message on Thursday, September 17, 2009 during the evening service.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/09-09-17%20PM,%20Sour%20Grapes,%20Binney.mp4" length="275849213" type="video/mp4"></enclosure>
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/09-09-17%20PM,%20Sour%20Grapes,%20Binney.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>01:20:14</itunes:duration>
+      <itunes:subtitle>Thursday, September 17, 2009 - Dr. Jim Binney</itunes:subtitle>
+      <itunes:summary>Dr. Jim Binney, President of L.E.A.D. Ministies in Greenville, SC, preaches a Bible message on Thursday, September 17, 2009 during the evening service.</itunes:summary>
+    </item>
+
+    <item>
+      <title>The Christmas Post</title>
+      <pubDate>Sun, 16 Dec 2007 11:00:00 -0800</pubDate>
+      <description>Lighthouse Baptist Church in Lemon Grove, CA, performs a drama presentation of 'The Christmas Post' on Sunday, December 16, 2007.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/The%20Christmas%20Post.m4v" length="391377816" type="video/mp4" />
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/The%20Christmas%20Post.m4v</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>01:26:27</itunes:duration>
+      <itunes:subtitle>Sunday, December 16, 2007 - Associate Pastor Doug Jordan</itunes:subtitle>
+      <itunes:summary>Lighthouse Baptist Church in Lemon Grove, CA, performs a drama presentation of 'The Christmas Post' on Sunday, December 16, 2007.</itunes:summary>
+    </item>
+
+    <item>
+      <title>Depression</title>
+      <pubDate>Tue, 20 Mar 2007 18:00:00 -0600</pubDate>
+      <description>Pastor Doug Fisher preaches on Depression at Pastor's School at First Baptist Church, Hammond, IN on Tuesday, March 20, 2007.</description>
+      <enclosure url="http://media.lighthousebaptist.com/podcast/video/2007%20Pastor%20School,%20Depression,%20Fisher.mp4" length="373863519" type="video/mp4" />
+      <guid isPermaLink="false">http://media.lighthousebaptist.com/podcast/video/2007%20Pastor%20School,%20Depression,%20Fisher.mp4</guid>
+      <itunes:author>Lighthouse Baptist Church</itunes:author>
+      <itunes:duration>01:26:20</itunes:duration>
+      <itunes:subtitle>Tuesday, March 20, 2007 - Pastor Doug Fisher</itunes:subtitle>
+      <itunes:summary>Pastor Doug Fisher preaches on Depression at Pastor's School at First Baptist Church, Hammond, IN on Tuesday, March 20, 2007.</itunes:summary>
+    </item>
+  </channel>
+</rss>

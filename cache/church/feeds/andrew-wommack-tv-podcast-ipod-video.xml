@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Andrew Wommack TV Podcast (iPod Video)</title>
+    <description>A daily half hour video podcast of the Gospel Truth television program featuring Andrew Wommack.</description>
+    <link>https://www.awmi.net</link>
+    <copyright>Andrew Wommack Ministries</copyright>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2017 00:11:48 -0600</lastBuildDate>
+    <managingEditor>info@awmi.net</managingEditor>
+    <pubDate>Fri, 1 Nov 2019 07:00:00 GMT</pubDate>
+    <generator>FeedForAll v2.0 (2.0.4.0) unlicensed version http://www.feedforall.com</generator>
+    <itunes:subtitle>A daily half hour video podcast of the Gospel Truth television program featuring Andrew Wommack.</itunes:subtitle>
+    <itunes:summary>A daily half hour video podcast of the Gospel Truth television program featuring Andrew Wommack.</itunes:summary>
+    <itunes:author>Andrew Wommack</itunes:author>
+    <itunes:owner>
+      <itunes:name>Andrew Wommack Ministries</itunes:name>
+      <itunes:email>info@awmi.net</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
+    <itunes:keywords>andrew wommack, andrew womack, scripture, bible, god, jesus, christ, christianity, christian, spiritual, spirituality, church</itunes:keywords>
+    <itunes:image href="https://cdn.awmi.net/images/tv-video-podcast-cover.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+    <image>
+      <url>https://cdn.awmi.net/images/tv-video-podcast-cover.jpg</url>
+      <title>Andrew Wommack TV Podcast (iPod Video)</title>
+      <link>https://www.awmi.net</link>
+      <description>A daily half hour video podcast of the Gospel Truth television program featuring Andrew Wommack.</description>
+      <width>1400</width>
+      <height>1400</height>
+    </image>
+    <item>
+      <title>November 1, 2019 - Gospel Truth TV</title>
+      <description>The New You And The Holy Spirit</description>
+      <link>http://www.awmi.net/tv/2019/week44</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/11nov/awm_tv20191101_sm.mp4" length="183947962" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191101_sm.mp4</guid>
+      <pubDate>Fri, 1 Nov 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The New You And The Holy Spirit</itunes:subtitle>
+      <itunes:summary>The New You And The Holy Spirit</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 31, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week44</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191031_sm.mp4" length="189055279" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191031_sm.mp4</guid>
+      <pubDate>Thu, 31 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 30, 2019 - Gospel Truth TV</title>
+      <description>The New You And The Holy Spirit</description>
+      <link>http://www.awmi.net/tv/2019/week44</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191030_sm.mp4" length="186434934" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191030_sm.mp4</guid>
+      <pubDate>Wed, 30 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The New You And The Holy Spirit</itunes:subtitle>
+      <itunes:summary>The New You And The Holy Spirit</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 29, 2019 - Gospel Truth TV</title>
+      <description>The New You And The Holy Spirit</description>
+      <link>http://www.awmi.net/tv/2019/week44</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191029_sm.mp4" length="185291462" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191029_sm.mp4</guid>
+      <pubDate>Tue, 29 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The New You And The Holy Spirit</itunes:subtitle>
+      <itunes:summary>The New You And The Holy Spirit</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 28, 2019 - Gospel Truth TV</title>
+      <description>The New You And The Holy Spirit</description>
+      <link>http://www.awmi.net/tv/2019/week44</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191028_sm.mp4" length="180095186" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191028_sm.mp4</guid>
+      <pubDate>Mon, 28 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The New You And The Holy Spirit</itunes:subtitle>
+      <itunes:summary>The New You And The Holy Spirit</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 25, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week43</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191025_sm.mp4" length="186740297" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191025_sm.mp4</guid>
+      <pubDate>Fri, 25 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 24, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week43</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191024_sm.mp4" length="184372014" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191024_sm.mp4</guid>
+      <pubDate>Thu, 24 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 23, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week43</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191023_sm.mp4" length="184449646" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191023_sm.mp4</guid>
+      <pubDate>Wed, 23 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 22, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week43</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191022_sm.mp4" length="185818660" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191022_sm.mp4</guid>
+      <pubDate>Tue, 22 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 21, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week43</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191021_sm.mp4" length="181192014" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191021_sm.mp4</guid>
+      <pubDate>Mon, 21 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 18, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week42</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191018_sm.mp4" length="184726046" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191018_sm.mp4</guid>
+      <pubDate>Fri, 18 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 17, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week42</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191017_sm.mp4" length="179590038" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191017_sm.mp4</guid>
+      <pubDate>Thu, 17 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 16, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week42</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191016_sm.mp4" length="188069829" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191016_sm.mp4</guid>
+      <pubDate>Wed, 16 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 15, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week42</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191015_sm.mp4" length="186084157" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191015_sm.mp4</guid>
+      <pubDate>Tue, 15 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 14, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week42</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191014_sm.mp4" length="184132417" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191014_sm.mp4</guid>
+      <pubDate>Mon, 14 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 11, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week41</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191011_sm.mp4" length="185463492" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191011_sm.mp4</guid>
+      <pubDate>Fri, 11 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 10, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week41</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191010_sm.mp4" length="188798878" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191010_sm.mp4</guid>
+      <pubDate>Thu, 10 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 9, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week41</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191009_sm.mp4" length="181847018" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191009_sm.mp4</guid>
+      <pubDate>Wed, 9 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 8, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week41</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191008_sm.mp4" length="185494551" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191008_sm.mp4</guid>
+      <pubDate>Tue, 8 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+    <item>
+      <title>October 7, 2019 - Gospel Truth TV</title>
+      <description>The Power of Imagination</description>
+      <link>http://www.awmi.net/tv/2019/week41</link>
+      <enclosure url="http://s3.awmi.net/downloads/tv/2019/10oct/awm_tv20191007_sm.mp4" length="182617676" type="video/mp4" />
+      <guid isPermaLink="false">awm_tv20191007_sm.mp4</guid>
+      <pubDate>Mon, 7 Oct 2019 07:00:00 GMT</pubDate>
+      <itunes:subtitle>The Power of Imagination</itunes:subtitle>
+      <itunes:summary>The Power of Imagination</itunes:summary>
+      <itunes:duration>28:35</itunes:duration>
+      <itunes:author>Andrew Wommack</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:block>no</itunes:block>
+    </item>
+  </channel>
+</rss>

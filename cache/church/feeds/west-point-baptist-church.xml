@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/xsl/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>West Point Baptist Church Video Podcast</title>
+    <link>https://www.podomatic.com/podcasts/thepointvideo</link>
+    <description></description>
+    <language>en-us</language>
+    <generator>Podomatic RSS Generator</generator>
+    <pubDate>Tue, 03 Sep 2019 06:41:36 +0000</pubDate>
+    <itunes:keywords>religion,spirituality,preaching,baptist,galveston,christianity,jesus,Religion &amp; Spirituality</itunes:keywords>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:block>no</itunes:block>
+    <itunes:image href="https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg"/>
+    <itunes:author>Kerry W. Tillmon</itunes:author>
+    <itunes:summary></itunes:summary>
+    <itunes:category text="Religion &amp; Spirituality"></itunes:category>
+    <atom:link href="https://thepointvideo.podomatic.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>I Must Worship Him</title>
+      <description>&lt;img src=&quot;https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg&quot; alt=&quot;itunes pic&quot; /&gt;&lt;br /&gt;Kerry W. Tillmon, Pastor 
+West Point Baptist Church Galveston, TX www.thepoint-galveston.org</description>
+      <guid isPermaLink="true">https://thepointvideo.podomatic.com/entry/2016-03-13T05_21_25-07_00</guid>
+      <comments>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-03-13T05_21_25-07_00</comments>
+      <pubDate>Sun, 13 Mar 2016 12:21:25 +0000</pubDate>
+      <dcterms:modified>2016-03-13</dcterms:modified>
+      <dcterms:created>2016-03-13</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-03-13T05_21_25-07_00</link>
+      <dc:creator>Kerry W. Tillmon</dc:creator>
+      <itunes:keywords></itunes:keywords>
+      <enclosure url="https://thepointvideo.podomatic.com/enclosure/2016-03-13T05_21_25-07_00.mp4" length="37144406" type="video/mp4"/>
+      <itunes:duration>1400</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Kerry W. Tillmon, Pastor 
+West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:summary>
+      <itunes:subtitle>Kerry W. Tillmon, Pastor 
+West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:subtitle>
+    </item>
+    <item>
+      <title>Seeing The Harvest Through His Eyes</title>
+      <description>&lt;img src=&quot;https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg&quot; alt=&quot;itunes pic&quot; /&gt;&lt;br /&gt;Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</description>
+      <guid isPermaLink="true">https://thepointvideo.podomatic.com/entry/2016-02-10T14_09_45-08_00</guid>
+      <comments>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-02-10T14_09_45-08_00</comments>
+      <pubDate>Wed, 10 Feb 2016 22:09:45 +0000</pubDate>
+      <dcterms:modified>2016-02-10</dcterms:modified>
+      <dcterms:created>2016-02-10</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-02-10T14_09_45-08_00</link>
+      <dc:creator>Kerry W. Tillmon</dc:creator>
+      <itunes:keywords></itunes:keywords>
+      <enclosure url="https://thepointvideo.podomatic.com/enclosure/2016-02-10T14_09_45-08_00.mp4" length="30629644" type="video/mp4"/>
+      <itunes:duration>1160</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:summary>
+      <itunes:subtitle>Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:subtitle>
+    </item>
+    <item>
+      <title>Invitation to Redemption</title>
+      <description>&lt;img src=&quot;https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg&quot; alt=&quot;itunes pic&quot; /&gt;&lt;br /&gt;Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</description>
+      <guid isPermaLink="true">https://thepointvideo.podomatic.com/entry/2016-02-10T12_19_33-08_00</guid>
+      <comments>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-02-10T12_19_33-08_00</comments>
+      <pubDate>Wed, 10 Feb 2016 20:19:33 +0000</pubDate>
+      <dcterms:modified>2016-02-10</dcterms:modified>
+      <dcterms:created>2016-02-10</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-02-10T12_19_33-08_00</link>
+      <dc:creator>Kerry W. Tillmon</dc:creator>
+      <itunes:keywords></itunes:keywords>
+      <enclosure url="https://thepointvideo.podomatic.com/enclosure/2016-02-10T12_19_33-08_00.mp4" length="37740966" type="video/mp4"/>
+      <itunes:duration>1434</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:summary>
+      <itunes:subtitle>Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:subtitle>
+    </item>
+    <item>
+      <title>Encountering the Culture</title>
+      <description>&lt;img src=&quot;https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg&quot; alt=&quot;itunes pic&quot; /&gt;&lt;br /&gt;Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</description>
+      <guid isPermaLink="true">https://thepointvideo.podomatic.com/entry/2016-02-10T12_17_14-08_00</guid>
+      <comments>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-02-10T12_17_14-08_00</comments>
+      <pubDate>Wed, 10 Feb 2016 20:17:14 +0000</pubDate>
+      <dcterms:modified>2016-02-10</dcterms:modified>
+      <dcterms:created>2016-02-10</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-02-10T12_17_14-08_00</link>
+      <dc:creator>Kerry W. Tillmon</dc:creator>
+      <itunes:keywords></itunes:keywords>
+      <enclosure url="https://thepointvideo.podomatic.com/enclosure/2016-02-10T12_17_14-08_00.mp4" length="36550776" type="video/mp4"/>
+      <itunes:duration>1387</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:summary>
+      <itunes:subtitle>Kerry W. Tillmon, Pastor West Point Baptist Church Galveston, TX www.thepoint-galveston.org</itunes:subtitle>
+    </item>
+    <item>
+      <title>Victory Through Forgiveness</title>
+      <description>&lt;img src=&quot;https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg&quot; alt=&quot;itunes pic&quot; /&gt;&lt;br /&gt;Kerry W. Tillmon, Pastor
+West Point Baptist Church
+Galveston, TX
+www.thepoint-galveston.org</description>
+      <guid isPermaLink="true">https://thepointvideo.podomatic.com/entry/2016-01-17T05_53_48-08_00</guid>
+      <comments>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-01-17T05_53_48-08_00</comments>
+      <pubDate>Sun, 17 Jan 2016 13:53:48 +0000</pubDate>
+      <dcterms:modified>2016-02-10</dcterms:modified>
+      <dcterms:created>2016-01-17</dcterms:created>
+      <link>https://www.podomatic.com/podcasts/thepointvideo/episodes/2016-01-17T05_53_48-08_00</link>
+      <dc:creator>Kerry W. Tillmon</dc:creator>
+      <itunes:keywords></itunes:keywords>
+      <enclosure url="https://thepointvideo.podomatic.com/enclosure/2016-01-17T05_53_48-08_00.mp4" length="5963721" type="video/mp4"/>
+      <itunes:duration>2089</itunes:duration>
+      <itunes:image href="https://assets.podomatic.net/ts/5a/27/e7/ktillmon/1400x1400_11104268.jpg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Kerry W. Tillmon, Pastor
+West Point Baptist Church
+Galveston, TX
+www.thepoint-galveston.org</itunes:summary>
+      <itunes:subtitle>Kerry W. Tillmon, Pastor
+West Point Baptist Church
+Galveston, TX
+www.thepoint-galveston.org</itunes:subtitle>
+    </item>
+  </channel>
+</rss>

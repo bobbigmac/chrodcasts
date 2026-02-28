@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Podcast Your Sermons Videos</title>
+<link>http://www.podcastyoursermons.com</link>
+<language>en-us</language>
+<copyright>(c) 2010 Podcast Your Sermons</copyright>
+<itunes:subtitle>Instructional videos on how to use Podcast Your Sermons.</itunes:subtitle>
+<itunes:author>Podcast Your Sermons</itunes:author>
+<itunes:summary>Instructional videos on how to use Podcast Your Sermons.</itunes:summary>
+<description>Instructional videos on how to use Podcast Your Sermons.</description>
+<itunes:owner><itunes:name>Podcast Your Sermons</itunes:name><itunes:email>alisha@podcastyoursermons.com</itunes:email></itunes:owner>
+<itunes:image href="http://www.podcastyoursermons.com/podcast_logos/podca_file_1/pys-newlogo_itunes300.jpg"/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:category text="Religion &amp; Spirituality">
+<itunes:category text="Christianity"/>
+</itunes:category>
+<atom:link href="http://www.podcastyoursermons.com/podcasts/podca_file_1/RSS_feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Add a Sermon</title>
+<itunes:author>PodcastYourSermons.com</itunes:author>
+<itunes:subtitle>Learn how to add sermons, videos, or document files to your PYS account.</itunes:subtitle>
+<itunes:summary></itunes:summary>
+<enclosure url="http://www.podcastyoursermons.com/video/podca_file_1/PYS_Add_Sermon.mp4" length="7290985" type="video/quicktime"/>
+<guid>http://www.podcastyoursermons.com/video/podca_file_1/PYS_Add_Sermon.mp4</guid>
+<pubDate>20 Mar 2009 12:00:00 GMT</pubDate>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>2:04</itunes:duration>
+<itunes:keywords></itunes:keywords>
+</item>
+<item>
+<title>View/Edit/Delete</title>
+<itunes:author>PodcastYourSermons.com</itunes:author>
+<itunes:subtitle>Learn how to view, edit, or delete existing files.</itunes:subtitle>
+<itunes:summary></itunes:summary>
+<enclosure url="http://www.podcastyoursermons.com/video/podca_file_1/PYS_View_Edit_Delete.mp4" length="4462811" type="video/quicktime"/>
+<guid>http://www.podcastyoursermons.com/video/podca_file_1/PYS_View_Edit_Delete.mp4</guid>
+<pubDate>20 Mar 2009 12:00:00 GMT</pubDate>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:08</itunes:duration>
+<itunes:keywords></itunes:keywords>
+</item>
+<item>
+<title>Account Details</title>
+<itunes:author>PodcastYourSermons.com</itunes:author>
+<itunes:subtitle>Learn how to view and edit your account details.</itunes:subtitle>
+<itunes:summary></itunes:summary>
+<enclosure url="http://www.podcastyoursermons.com/video/podca_file_1/PYS_Acct_Details.mp4" length="3059056" type="video/quicktime"/>
+<guid>http://www.podcastyoursermons.com/video/podca_file_1/PYS_Acct_Details.mp4</guid>
+<pubDate>20 Mar 2009 12:00:00 GMT</pubDate>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:36</itunes:duration>
+<itunes:keywords></itunes:keywords>
+</item>
+<item>
+<title>Podcast Info</title>
+<itunes:author>PodcastYourSermons.com</itunes:author>
+<itunes:subtitle>Learn how to view and edit your podcast information, including your podcast logo.</itunes:subtitle>
+<itunes:summary></itunes:summary>
+<enclosure url="http://www.podcastyoursermons.com/video/podca_file_1/PYS_Podcast_Info.mp4" length="5099128" type="video/quicktime"/>
+<guid>http://www.podcastyoursermons.com/video/podca_file_1/PYS_Podcast_Info.mp4</guid>
+<pubDate>20 Mar 2009 12:00:00 GMT</pubDate>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>1:02</itunes:duration>
+<itunes:keywords></itunes:keywords>
+</item>
+<item>
+<title>Contact Support</title>
+<itunes:author>PodcastYourSermons.com</itunes:author>
+<itunes:subtitle>Need help? Learn how to contact support.</itunes:subtitle>
+<itunes:summary></itunes:summary>
+<enclosure url="http://www.podcastyoursermons.com/video/podca_file_1/PYS_Contact_Support.mp4" length="2546619" type="video/quicktime"/>
+<guid>http://www.podcastyoursermons.com/video/podca_file_1/PYS_Contact_Support.mp4</guid>
+<pubDate>20 Mar 2009 12:00:00 GMT</pubDate>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:32</itunes:duration>
+<itunes:keywords></itunes:keywords>
+</item>
+<item>
+<title>Podcast Feeds</title>
+<itunes:author>PodcastYourSermons.com</itunes:author>
+<itunes:subtitle>Learn about your different podcast feeds.</itunes:subtitle>
+<itunes:summary></itunes:summary>
+<enclosure url="http://www.podcastyoursermons.com/video/podca_file_1/PYS_Feeds.mp4" length="2991275" type="video/quicktime"/>
+<guid>http://www.podcastyoursermons.com/video/podca_file_1/PYS_Feeds.mp4</guid>
+<pubDate>20 Mar 2009 12:00:00 GMT</pubDate>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:34</itunes:duration>
+<itunes:keywords></itunes:keywords>
+</item>
+</channel>
+</rss>
