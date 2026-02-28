@@ -690,6 +690,19 @@ export function createPlayerService({ env, log, history }) {
     if (!ep.media?.url) return log.warn(`Episode "${(ep.title || "").slice(0, 40)}…": no media URL`);
     if (!videoEl) return log.error("Player: no <video> element attached");
 
+    const resumeSafeTime = (tSec, durSec) => {
+      const t = Number(tSec);
+      if (!Number.isFinite(t) || t <= 0) return 0;
+      const dur = Number(durSec);
+      if (Number.isFinite(dur) && dur > 2) {
+        // Don't resume if we're effectively "done" (near the end).
+        // Keep both a percent cutoff (98%) and an absolute cutoff (last 20s) for short videos.
+        if (t >= dur * 0.98 || t >= dur - 20) return 0;
+        return clamp(t, 0, Math.max(0, dur - 0.25));
+      }
+      return Math.max(0, t);
+    };
+
     teardownPlayer();
     chaptersLoadError.value = null;
     transcriptsLoadError.value = null;
@@ -704,7 +717,9 @@ export function createPlayerService({ env, log, history }) {
       has_chapters: !!(ep.chaptersInline && ep.chaptersInline.length) || !!ep.chaptersExternal,
     });
 
-    const startAt = overrideStartAt ?? getProgressSec(currentSource.id, ep.id) ?? 0;
+    const rawStartAt = overrideStartAt ?? getProgressSec(currentSource.id, ep.id) ?? 0;
+    const knownDur = getKnownDurationSec(currentSource.id, ep.id);
+    const startAt = resumeSafeTime(rawStartAt, knownDur);
     history.startSegment({
       sourceId: currentSource.id,
       episodeId: ep.id,
@@ -748,13 +763,48 @@ export function createPlayerService({ env, log, history }) {
     videoEl.addEventListener(
       "loadedmetadata",
       () => {
-        const dur = videoEl.duration;
-        if (Number.isFinite(dur) && dur > 2) {
+        const tryResume = () => {
+          if (!videoEl) return;
+          const dur = videoEl.duration;
+          if (Number.isFinite(dur) && dur > 2) {
+            try {
+              if (currentSource && currentEp) setKnownDurationSec(currentSource.id, currentEp.id, dur);
+            } catch {}
+          }
+          const safe = resumeSafeTime(startAt, dur);
+          if (safe > 0.25) {
+            try {
+              videoEl.currentTime = safe;
+            } catch {}
+          }
+          return safe;
+        };
+
+        tryResume();
+        // HLS (and some browsers) can report `duration` as NaN/Infinity at loadedmetadata.
+        // If we want to resume and duration becomes known later, try once more.
+        if (startAt > 0.25 && (!Number.isFinite(videoEl.duration) || videoEl.duration <= 2)) {
+          let done = false;
+          const onDur = () => {
+            if (done) return;
+            const dur = videoEl?.duration;
+            if (!Number.isFinite(dur) || dur <= 2) return;
+            done = true;
+            try {
+              videoEl.removeEventListener("durationchange", onDur);
+            } catch {}
+            tryResume();
+          };
           try {
-            if (currentSource && currentEp) setKnownDurationSec(currentSource.id, currentEp.id, dur);
+            videoEl.addEventListener("durationchange", onDur);
           } catch {}
-          const safe = startAt > dur - 20 ? 0 : clamp(startAt, 0, Math.max(0, dur - 0.25));
-          if (safe > 0.25) videoEl.currentTime = safe;
+          setTimeout(() => {
+            if (done) return;
+            done = true;
+            try {
+              videoEl?.removeEventListener?.("durationchange", onDur);
+            } catch {}
+          }, 8000);
         }
         if (autoplay) play({ userGesture: false });
       },
