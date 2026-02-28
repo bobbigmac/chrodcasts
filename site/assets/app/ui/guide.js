@@ -1215,9 +1215,6 @@ export function GuidePanel({ isOpen, sources, player }) {
                 ${cornerTitle} <span class="guideGridCornerTopCount">${selectedChanCount}/${totalChanCount}</span>
               </div>
               <div class="guideGridCornerSub">
-                <div class="guideGridCornerCount" aria-label="Selected channels">
-                  ${selectedChanCount}/${totalChanCount}
-                </div>
                 <div class="guideGridFilterRow">
                   <input
                     class="guideFilterInput"
