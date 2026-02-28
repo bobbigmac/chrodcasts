@@ -1,8 +1,8 @@
 # Site
 - id: vodcasts-church
-- title: Prays.be Streaming Church
+- title: Prays.be: Stream Faith Anytime, Anywhere
 - subtitle: Prays.be
-- description: Enjoy unlimited streaming church content
+- description: Discover endless Christian sermons, Bible teachings, and worship videos from global ministries.
 - base_path: /
 - favicons_path: assets/images/prays-be-favicons
 - ga_measurement_id: G-RHXR1K9NDR
@@ -34,7 +34,7 @@
 
 ## jerry-savelle
 - url: https://www.jerrysavelle.org/rssfeeds/tvvideo.xml
-- title: Jerry Savelle Ministries (TV video)
+- title: Jerry Savelle Ministries
 - category: tv-ministry
 - tags: tv-ministry, faith-teaching, prosperity, healing
 
@@ -70,13 +70,13 @@
 
 ## a-better-bible-study-podcast-video
 - url: https://feeds.blubrry.com/feeds/abetterbiblestudy.xml
-- title: A Better Bible Study Podcast video
+- title: Better Bible Study
 - category: bible-study
 - tags: bible-study, church-of-christ, in-depth, q-and-a
 
-## andrew-wommack-tv-podcast-ipod-video
+## andrew-wommack-tv-podcast
 - url: https://feeds.feedburner.com/AndrewWommackTvPodcastipodVideo
-- title: Andrew Wommack TV Podcast (iPod Video)
+- title: Andrew Wommack TV
 - category: tv-ministry
 - tags: tv-ministry, faith-teaching, grace, daily
 
@@ -262,7 +262,7 @@
 
 ## devotional-videos-archbishop-foley-beach
 - url: https://awftlhd.podbean.com/feed.xml
-- title: Devotional Videos by Archbishop Foley Beach
+- title: Archbishop Foley Beach Devotionals
 - category: lifestyle
 - tags: devotional, anglican, teaching, advent
 
@@ -346,7 +346,7 @@
 
 ## shiloh-bluegrass-gospel-hymns-video
 - url: http://www.shilohworshipmusic.com/ShilohWorshipMusic/Free_Bluegrass_Gospel_Hymns,_Praise_and_Worship_Videos/rss.xml
-- title: Free Bluegrass Gospel Hymns, Praise and Worship Videos
+- title: Free Bluegrass Gospel Hymns, Praise and Worship
 - category: worship
 - tags: worship, hymns, bluegrass, gospel, music
 
@@ -364,7 +364,7 @@
 
 ## hillvue-heights-church-worship-videocast
 - url: https://feeds.feedburner.com/HillvueWorshipVideocast
-- title: Hillvue Heights Church Worship VideoCast
+- title: Hillvue Heights Church Worship
 - category: worship
 - tags: worship, sermons, kentucky, sunday, concert, live-music
 
@@ -416,9 +416,9 @@
 - category: sermons
 - tags: sermons, philippines, international, pentecostal, concert, live-music
 
-## joyce-meyers-talk-it-out-podcast-video
+## joyce-meyers-talk-it-out
 - url: https://tiovideo.libsyn.com/rss
-- title: Joyce Meyer's Talk It Out Podcast - Video
+- title: Joyce Meyer's Talk It Out Podcast
 - category: tv-ministry
 - tags: tv-ministry, practical-living, women, discussion
 
@@ -518,25 +518,19 @@
 - category: sermons
 - tags: sermons, african, nigeria, pentecostal, concert, live-music
 
-## podcast-your-sermons-videos
-- url: https://www.podcastyoursermons.com/podcasts/podca_file_1/RSS_feed.xml
-- title: Podcast Your Sermons Videos
-- category: sermons
-- tags: sermons, multi-source, aggregation
-
 ## pray-more-novenas-video-catholic-prayers-and-devotion
 - url: https://p.praymorenovenas.com/feed/video
 - title: Pray More Novenas - Catholic Prayers and Devotion
 - category: teaching
 - tags: catholic, prayer, novenas, devotion
 
-## revneals-video-sermon-podcasts
+## revneals-video-sermon
 - url: http://feeds.feedburner.com/RevnealsVideoSermonPodcasts?format=xml
 - title: RevNeal's Sermons
 - category: sermons
 - tags: sermons, multi-source
 
-## riverview-church-video-message-podcast
+## riverview-church-video-message
 - url: http://feeds.feedburner.com/rivchurch/vodcast/holt?format=xml
 - title: Riverview Church Message
 - category: sermons
@@ -572,25 +566,25 @@
 - category: kids
 - tags: kids, animation, bible-stories, cbn
 
-## ancient-faith-stories-video
+## ancient-faith-stories
 - url: https://feeds.ancientfaith.com/ancientfaithstoriesvideo
-- title: Ancient Faith Stories (Video)
+- title: Ancient Faith Stories
 - category: kids
 - tags: kids, orthodox, animation, bible-stories
 
-## ancient-faith-kids-vlog-video
+## ancient-faith-kids-vlog
 - url: https://feeds.ancientfaith.com/afkvlogvideo
 - title: Ancient Faith Kids Vlog (Video)
 - category: kids
 - tags: kids, orthodox, vlog, faith
 
-## orthodox-night-star-video
+## orthodox-night-star
 - url: https://feeds.ancientfaith.com/orthodoxnightstarvideo
-- title: The Night Star (Video)
+- title: The Night Star
 - category: kids
 - tags: kids, orthodox, stories, faith
 
-## psalms-for-kids-video
+## psalms-for-kids
 - url: https://feeds.ancientfaith.com/kidpsalmsvideo
 - title: Psalms for Kids
 - category: kids
@@ -602,7 +596,7 @@
 - category: sermons
 - tags: sermons, david-platt, baptist, alabama
 
-## the-download-youth-ministry-show-video
+## the-download-youth-ministry-show
 - url: http://feeds.feedburner.com/TheDYMShow-Video
 - title: The Download Youth Ministry Show
 - category: ministry
@@ -673,3 +667,27 @@
 - title: You Can Read the Bible Christian Education
 - category: bible-study
 - tags: bible-study, education, through-the-bible
+
+## watermark-porch-video
+- url: https://media.watermark.org/podcasts/porch-video.xml
+- title: The Porch — Watermark Community Church
+- category: sermons
+- tags: sermons, young-adults, teaching, weekly, dallas
+
+## desiring-god-messages-video
+- url: http://feed.desiringgod.org/messages-by-desiring-god-video.rss
+- title: Messages by Desiring God
+- category: teaching
+- tags: sermons, preaching, conference, reformed, weekly
+
+## wisdom-television-murdock-video
+- url: https://feed.podbean.com/wisdomonline/feed.xml
+- title: Wisdom Television - Dr. Mike Murdock
+- category: tv-ministry
+- tags: tv-ministry, teaching, daily, talk
+
+## church-of-the-highlands-weekend-video
+- url: https://feeds.churchofthehighlands.com/media/weekend/video
+- title: Church of the Highlands — Weekend Service
+- category: sermons
+- tags: sermons, weekend, multi-site, alabama, weekly

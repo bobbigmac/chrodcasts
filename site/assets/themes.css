@@ -187,3 +187,209 @@
   opacity: 0.18;
   mix-blend-mode: normal;
 }
+
+/* Theme: y2k – millennium silver, chrome curves, bubbly */
+[data-theme="y2k"] {
+  --bg: #1a1d24;
+  --panel: #252830;
+  --text: #e8ecf0;
+  --muted: #9ca3b0;
+  --edge: #4a5160;
+  --accent: #a8b8d0;
+  --y2k-silver: #c8d0dc;
+  --y2k-chrome: linear-gradient(145deg, #e8ecf2 0%, #a0a8b8 50%, #788090 100%);
+}
+
+[data-theme="y2k"] .guidePanel,
+[data-theme="y2k"] .historyPanel,
+[data-theme="y2k"] .detailsPanel,
+[data-theme="y2k"] .sleepMenu,
+[data-theme="y2k"] .commentsPanel {
+  border-radius: 20px;
+  border: 1px solid rgba(200,208,220,.25);
+  box-shadow:
+    0 4px 24px rgba(0,0,0,.35),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+[data-theme="y2k"] .guideBar {
+  border-radius: 0 0 24px 24px;
+  border: 1px solid rgba(200,208,220,.2);
+  border-top: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,.3);
+}
+
+[data-theme="y2k"] .guidePanel {
+  background: linear-gradient(165deg, rgba(37,40,48,.95) 0%, rgba(26,29,36,.98) 100%);
+  backdrop-filter: blur(12px);
+}
+
+[data-theme="y2k"] .guideGridShell {
+  --guide-grid-bg: rgba(0,0,0,.12);
+  --guide-track-bg: rgba(0,0,0,.08);
+  --guide-head-bg: rgba(37,40,48,.9);
+  --guide-corner-bg: rgba(37,40,48,.9);
+  --guide-cell-bg: rgba(30,33,40,.92);
+  --guide-ep-bg: rgba(255,255,255,.04);
+  --guide-ep-repeat-bg: rgba(255,255,255,.02);
+  --guide-ep-hover-bg: rgba(200,208,220,.12);
+  --guide-ep-active-bg: rgba(168,184,208,.18);
+}
+
+[data-theme="y2k"] .guideBtn,
+[data-theme="y2k"] .guideChannel,
+[data-theme="y2k"] .guideNowBlock,
+[data-theme="y2k"] .speedControl,
+[data-theme="y2k"] .speedBtn,
+[data-theme="y2k"] .guideEpBlock,
+[data-theme="y2k"] .guideGridHeaderBtn,
+[data-theme="y2k"] .guideGridChanFave,
+[data-theme="y2k"] .guideNowBack,
+[data-theme="y2k"] .sleepOpt,
+[data-theme="y2k"] .historyBtn,
+[data-theme="y2k"] .cornerBtn,
+[data-theme="y2k"] .ch,
+[data-theme="y2k"] .commentsForm input,
+[data-theme="y2k"] .commentsForm textarea {
+  border-radius: 14px;
+}
+
+[data-theme="y2k"] .guideBtn,
+[data-theme="y2k"] .speedBtn,
+[data-theme="y2k"] .guideGridHeaderBtn,
+[data-theme="y2k"] .guideNowBack,
+[data-theme="y2k"] .historyBtn,
+[data-theme="y2k"] .sleepOpt {
+  border-radius: 999px;
+}
+
+[data-theme="y2k"] #btnPlay.guideBtn {
+  border-radius: 50%;
+  border: 2px solid rgba(200,208,220,.4);
+  background: radial-gradient(circle at 35% 30%, rgba(232,236,242,.25) 0%, rgba(120,128,144,.15) 45%, rgba(50,55,65,.4) 100%);
+  box-shadow:
+    0 8px 24px rgba(0,0,0,.4),
+    inset 0 1px 0 rgba(255,255,255,.15),
+    inset 0 -1px 0 rgba(0,0,0,.2);
+}
+
+[data-theme="y2k"] #btnPlay.guideBtn:hover {
+  border-color: rgba(200,208,220,.6);
+  box-shadow:
+    0 10px 28px rgba(0,0,0,.45),
+    inset 0 1px 0 rgba(255,255,255,.2),
+    0 0 0 3px rgba(168,184,208,.15);
+}
+
+[data-theme="y2k"] .guideGridEp {
+  border-radius: 12px;
+}
+
+[data-theme="y2k"] .guideBadge {
+  border-radius: 999px;
+}
+
+[data-theme="y2k"] .historySegBar {
+  border-radius: 999px;
+  background: rgba(0,0,0,.2);
+}
+
+[data-theme="y2k"] .historySegBar::before {
+  background: linear-gradient(90deg, rgba(200,208,220,.35), rgba(168,184,208,.4));
+  border-radius: 999px;
+}
+
+[data-theme="y2k"] .historySegRange { color: var(--y2k-silver); opacity: 0.95 }
+
+[data-theme="y2k"] .guideGridHeaderRow {
+  border-bottom-color: rgba(200,208,220,.2);
+}
+
+[data-theme="y2k"] .guideGridCorner,
+[data-theme="y2k"] .guideGridChannelCell {
+  border-right-color: rgba(200,208,220,.18);
+}
+
+[data-theme="y2k"] .guideGridChanRow,
+[data-theme="y2k"] .guideGridTrackRow {
+  border-bottom-color: rgba(200,208,220,.1);
+}
+
+[data-theme="y2k"] .guideGridEp.active {
+  border-color: rgba(168,184,208,.6);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+}
+
+[data-theme="y2k"] .guideGridEp.focused {
+  outline: 2px solid rgba(200,208,220,.5);
+  outline-offset: 2px;
+}
+
+[data-theme="y2k"] .guideGridEpProgress {
+  background: linear-gradient(90deg, rgba(200,208,220,.3), rgba(168,184,208,.35));
+  border-radius: 0 0 10px 10px;
+}
+
+[data-theme="y2k"] .historyEntryCurrent {
+  background: rgba(168,184,208,.12);
+  border-radius: 12px;
+}
+
+[data-theme="y2k"] .ch.active {
+  background: rgba(168,184,208,.2);
+}
+
+[data-theme="y2k"] .progress {
+  border-radius: 999px;
+}
+
+[data-theme="y2k"] .progressFill {
+  border-radius: 999px;
+}
+
+[data-theme="y2k"] .progressThumb {
+  background: linear-gradient(145deg, #e8ecf2 0%, #b0b8c8 100%);
+  box-shadow:
+    0 2px 8px rgba(0,0,0,.5),
+    inset 0 1px 0 rgba(255,255,255,.4);
+}
+
+[data-theme="y2k"] .guideBtn.longpressing::before,
+[data-theme="y2k"] .speedBtn.longpressing::before,
+[data-theme="y2k"] .volumeBtn.longpressing::before {
+  background: linear-gradient(90deg, rgba(200,208,220,.25), rgba(168,184,208,.3));
+}
+
+[data-theme="y2k"] .guideBarTakeover {
+  border-radius: 20px;
+}
+
+[data-theme="y2k"] .guideBarTakeoverBody .guideBtn {
+  border-radius: 999px;
+}
+
+[data-theme="y2k"] .scrubPreview,
+[data-theme="y2k"] .progressChapterTitle {
+  border-radius: 16px;
+}
+
+[data-theme="y2k"] .playPauseIcon {
+  border-radius: 50%;
+  border: 2px solid rgba(200,208,220,.4);
+  background: radial-gradient(circle at 35% 30%, rgba(232,236,242,.3) 0%, rgba(120,128,144,.2) 50%, rgba(50,55,65,.5) 100%);
+  box-shadow:
+    0 6px 28px rgba(0,0,0,.5),
+    inset 0 1px 0 rgba(255,255,255,.2);
+}
+
+[data-theme="y2k"] .guideGridCornerTop {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+[data-theme="y2k"] .guideGridTracksScroll::-webkit-scrollbar-thumb,
+[data-theme="y2k"] .guideGridChannelsScroll::-webkit-scrollbar-thumb,
+[data-theme="y2k"] .guideGridHeaderScroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(200,208,220,.5) 0%, rgba(120,128,144,.4) 100%);
+}

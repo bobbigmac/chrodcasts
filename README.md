@@ -62,6 +62,18 @@ Schema notes live in `docs/supabase-comments.md`.
 
 # VODcasts TODO
 
+## Priority: real page content
+
+- [ ] **Real page content per page** — TBD: monkey-patch `404.html` vs build dedicated landing page per feed (hotswap, faking multipage). Need to decide approach before implementing.
+
+## Discoverability + accessibility
+
+- [ ] Bake real text into homepage: what it is, what “video RSS” means, what you don’t do (no recommendations/comments), example categories (Services, Sermons, Prayer, Kids, Study)
+- [ ] Give every feed its own page with stable URL, plain description, tiny episode list (for indexing + sharing)
+- [ ] Optional audio/radio feeds, what about visuals?
+- [ ] OpenGraph/Twitter cards so shared links preview as “watchable”
+- [ ] Sitemap + sensible canonical URLs; 
+
 ## Porting goals
 
 - [?] Feed parsing split into `feed/*` + `player/*` + `ui/*`
@@ -70,4 +82,4 @@ Schema notes live in `docs/supabase-comments.md`.
 - [ ] PWA/offline: cache app shell + cached feed XML + (optional) user-selected media
 - [ ] Guide: category filter (toggle/selector to show only channels in a category; keep keyboard/remote navigation working)
 - [ ] Dynamic “virtual channels”: client-side playlists built from filters/search across other feeds (e.g. Christmas/festive, spiritual support, christian rock)
- - custom feeds made up of live-collections of videos from other feeds, determined as filters, searches, so the site can keep them up to date on the client-side, like dynamic playlists, so we can add a christmas feed that gets christmas/festive/etc by a few filters. some combos like spirtual support or christian rock can then be used to continually form dynamic collections/channels, without having the server determine them all in advance, we can instead code them up in our codebase.
+  - custom feeds made up of live-collections of videos from other feeds, determined as filters, searches, so the site can keep them up to date on the client-side, like dynamic playlists, so we can add a christmas feed that gets christmas/festive/etc by a few filters. some combos like spirtual support or christian rock can then be used to continually form dynamic collections/channels, without having the server determine them all in advance, we can instead code them up in our codebase.

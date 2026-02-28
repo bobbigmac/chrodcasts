@@ -28,6 +28,16 @@ export function ThemeTakeover({ theme, setTheme, takeover }) {
         >
           DOS
         </button>
+        <button
+          class=${"guideBtn" + (theme === "y2k" ? " active" : "")}
+          title="Y2K theme"
+          onClick=${() => {
+            setTheme("y2k");
+            takeover.close();
+          }}
+        >
+          Y2K
+        </button>
       </div>
     </div>
   `;
