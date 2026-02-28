@@ -234,7 +234,7 @@ def parse_feeds_markdown(text: str) -> dict[str, Any]:
                 site["further_search_names"] = items
             continue
 
-        if key_l in ("owners", "owner", "common_speakers", "exclude_speakers", "categories", "category"):
+        if key_l in ("owners", "owner", "common_speakers", "exclude_speakers", "categories", "category", "tags"):
             items = _split_list(val_raw, seps=",;")
             if key_l in ("owner",):
                 key = "owners"
@@ -399,6 +399,7 @@ def dumps_feeds_markdown(cfg: dict[str, Any]) -> str:
         "common_speakers",
         "exclude_speakers",
         "categories",
+        "tags",
         "notes",
         "editors_note",
     ]
@@ -421,7 +422,7 @@ def dumps_feeds_markdown(cfg: dict[str, Any]) -> str:
                 out.append(kv(k, fmt_list(v, sep="; ")))
             elif k == "exclude_speakers":
                 out.append(kv(k, fmt_list(v, sep=", ")))
-            elif k == "categories":
+            elif k in ("categories", "tags"):
                 out.append(kv(k, fmt_list(v, sep=", ")))
             else:
                 out.append(kv(k, v))

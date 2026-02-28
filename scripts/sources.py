@@ -23,6 +23,7 @@ class Source:
     category: str
     feed_url: str
     fetch_via: str
+    tags: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -63,6 +64,8 @@ def load_sources_config(path: Path) -> SourcesConfig:
             sid = str(s.get("id") or "").strip()
             if not sid:
                 continue
+            tags = s.get("tags")
+            tags_tup = tuple(t for t in tags) if isinstance(tags, list) else ()
             sources.append(
                 Source(
                     id=sid,
@@ -70,6 +73,7 @@ def load_sources_config(path: Path) -> SourcesConfig:
                     category=str(s.get("category") or "other").strip() or "other",
                     feed_url=str(s.get("feed_url") or s.get("url") or "").strip(),
                     fetch_via=str(s.get("fetch_via") or "auto").strip() or "auto",
+                    tags=tags_tup,
                 )
             )
         return SourcesConfig(site=_norm_site_from_json(doc.get("site")), sources=sources)
@@ -95,7 +99,18 @@ def load_sources_config(path: Path) -> SourcesConfig:
                     category = str(cats[0] or "").strip()
             category = category or "other"
             fetch_via = str(f.get("fetch_via") or "auto").strip() or "auto"
-            sources.append(Source(id=slug, title=title, category=category, feed_url=url, fetch_via=fetch_via))
+            tags_raw = f.get("tags")
+            tags = tuple(t for t in tags_raw) if isinstance(tags_raw, list) else ()
+            sources.append(
+                Source(
+                    id=slug,
+                    title=title,
+                    category=category,
+                    feed_url=url,
+                    fetch_via=fetch_via,
+                    tags=tags,
+                )
+            )
         return SourcesConfig(site=site, sources=sources)
 
     raise ValueError(f"Unsupported feeds config format: {path} (expected .md or .json)")

@@ -98,7 +98,7 @@ def _source_to_public(source: Source, *, cache_dir: Path, base_path: str) -> dic
             }
         except Exception:
             pass
-    return {
+    out: dict[str, Any] = {
         "id": source.id,
         "title": source.title,
         "category": source.category,
@@ -108,6 +108,9 @@ def _source_to_public(source: Source, *, cache_dir: Path, base_path: str) -> dic
         "has_cached_xml": bool(use_local),
         "features": features,
     }
+    if source.tags:
+        out["tags"] = list(source.tags)
+    return out
 
 
 def _log(msg: str) -> None:
