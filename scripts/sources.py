@@ -22,7 +22,6 @@ class Source:
     title: str
     category: str
     feed_url: str
-    fetch_via: str
     tags: tuple[str, ...] = ()
 
 
@@ -72,7 +71,6 @@ def load_sources_config(path: Path) -> SourcesConfig:
                     title=str(s.get("title") or sid).strip() or sid,
                     category=str(s.get("category") or "other").strip() or "other",
                     feed_url=str(s.get("feed_url") or s.get("url") or "").strip(),
-                    fetch_via=str(s.get("fetch_via") or "auto").strip() or "auto",
                     tags=tags_tup,
                 )
             )
@@ -98,7 +96,6 @@ def load_sources_config(path: Path) -> SourcesConfig:
                 if isinstance(cats, list) and cats:
                     category = str(cats[0] or "").strip()
             category = category or "other"
-            fetch_via = str(f.get("fetch_via") or "auto").strip() or "auto"
             tags_raw = f.get("tags")
             tags = tuple(t for t in tags_raw) if isinstance(tags_raw, list) else ()
             sources.append(
@@ -107,7 +104,6 @@ def load_sources_config(path: Path) -> SourcesConfig:
                     title=title,
                     category=category,
                     feed_url=url,
-                    fetch_via=fetch_via,
                     tags=tags,
                 )
             )

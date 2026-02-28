@@ -325,7 +325,6 @@ async function cmdAdd(url, title, target = "feeds/dev.md") {
 - url: ${url}
 - title: ${title || slug}
 - category: vodcast
-- fetch_via: auto
 
 `;
   const p = path.resolve(ROOT, target);

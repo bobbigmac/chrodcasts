@@ -104,7 +104,6 @@ def _source_to_public(source: Source, *, cache_dir: Path, base_path: str) -> dic
         "category": source.category,
         "feed_url": local_url if use_local else source.feed_url,
         "feed_url_remote": source.feed_url,
-        "fetch_via": source.fetch_via,
         "has_cached_xml": bool(use_local),
         "features": features,
     }
