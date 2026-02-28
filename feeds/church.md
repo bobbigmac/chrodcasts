@@ -136,115 +136,115 @@
 
 ## cbn-com-700-club-interactive
 - url: http://podcast.cbn.com/700clubinteractive.aspx
-- title: CBN.com - 700 Club Interactive
+- title: CBN - 700 Club Interactive
 - category: tv-ministry
 - tags: 700-club, testimonies, prayer, interactive, daily, live-music
 
 ## cbn-com-cbn-news-midday
 - url: http://podcast.cbn.com/CBN_Video_cbn_news_midday.aspx
-- title: CBN.com - CBN News Midday
+- title: CBN News Midday
 - category: news
 - tags: news, cbn, politics, midday
 
 ## cbn-com-cbn-news-updates
 - url: http://podcast.cbn.com/CBN_Video_CBN_News_Updates.aspx
-- title: CBN.com - CBN News Updates
+- title: CBN News Updates
 - category: news
 - tags: news, cbn, politics, daily-updates
 
 ## cbn-com-cbn-news-morning
 - url: http://podcast.cbn.com/CBN_Video_cbn_news_morning.aspx
-- title: CBN.com - CBN News Morning
+- title: CBN News Morning
 - category: news
 - tags: news, cbn, politics, morning
 
 ## cbn-com-cbn-news-special-reports
 - url: http://podcast.cbn.com/news_special_reports.aspx
-- title: CBN.com - CBN News Special Reports
+- title: CBN News Special Reports
 - category: news
 - tags: news, cbn, special-reports, international
 
 ## cbn-com-cbn-news-tonight
 - url: http://podcast.cbn.com/CBN_Video_cbn_news_tonight.aspx
-- title: CBN.com - CBN News Tonight
+- title: CBN News Tonight
 - category: news
 - tags: news, cbn, politics, evening
 
 ## cbn-com-christian-world-news
 - url: http://podcast.cbn.com/CWN.aspx
-- title: CBN.com - Christian World News
+- title: CBN Christian World News
 - category: news
 - tags: news, international, missions, weekly
 
 ## cbn-com-entertainment
 - url: http://podcast.cbn.com/CBN_Video_Podcast_Entertainment.aspx
-- title: CBN.com - Entertainment
+- title: CBN Entertainment
 - category: lifestyle
 - tags: entertainment, movies, music, culture
 
 ## cbn-com-family
 - url: http://podcast.cbn.com/CBN_Video_Podcast_Family.aspx
-- title: CBN.com - Family
+- title: CBN Family
 - category: lifestyle
 - tags: family, marriage, parenting, youth
 
 ## cbn-com-finances
 - url: http://podcast.cbn.com/CBN_Video_Podcast_Finances.aspx
-- title: CBN.com - Finances
+- title: CBN Finances
 - category: lifestyle
 - tags: finances, prosperity, career, testimonies
 
 ## cbn-com-foundations-of-the-faith-teaching-series
 - url: http://podcast.cbn.com/CBN_Video_Podcast_Teaching_Foundations_Of_The_Faith.aspx
-- title: CBN.com - Foundations of the Faith - Teaching Series
+- title: CBN - Foundations of the Faith - Teaching Series
 - category: teaching
 - tags: doctrine, foundations, pat-robertson, series
 
 ## cbn-com-health
 - url: http://podcast.cbn.com/CBN_Video_Podcast_Health.aspx
-- title: CBN.com - Health
+- title: CBN - Health
 - category: lifestyle
 - tags: health, wellness, nutrition, fitness
 
 ## cbn-com-jerusalem-dateline
 - url: http://podcast.cbn.com/CBN_Video_CBN_News_Jerusalem_Dateline.aspx
-- title: CBN.com - Jerusalem Dateline
+- title: CBN - Jerusalem Dateline
 - category: news
 - tags: news, israel, middle-east, cbn
 
 ## cbn-com-newswatch
 - url: http://podcast.cbn.com/Newswatch.aspx
-- title: CBN.com - NewsWatch
+- title: CBN - NewsWatch
 - category: news
 - tags: news, cbn, daily, politics
 
 ## cbn-com-stakelbeck-on-terror
 - url: http://podcast.cbn.com/CBN_Video_CBN_News_stakelbeck_on_terror.aspx
-- title: CBN.com - Stakelbeck on Terror
+- title: CBN - Stakelbeck on Terror
 - category: news
 - tags: news, terrorism, national-security, middle-east
 
 ## cbn-com-the-700-club-canada
 - url: http://podcast.cbn.com/CBN_Video_Podcast_Canadian_Edition.aspx
-- title: CBN.com - The 700 Club Canada
+- title: CBN - The 700 Club Canada
 - category: tv-ministry
 - tags: 700-club, canada, testimonies, prayer, daily, live-music
 
 ## cbn-com-the-700-club
 - url: http://podcast.cbn.com/700club.aspx
-- title: CBN.com - The 700 Club
+- title: CBN - The 700 Club
 - category: tv-ministry
 - tags: 700-club, testimonies, prayer, teaching, daily, live-music
 
 ## cbn-com-the-brody-file
 - url: http://podcast.cbn.com/CBN_Video_cbn_news_the_brody_file.aspx
-- title: CBN.com - The Brody File
+- title: CBN - The Brody File
 - category: news
 - tags: news, politics, interviews, washington
 
 ## cbn-com-worldwatch
 - url: http://podcast.cbn.com/worldwatch.aspx
-- title: CBN.com - WorldWatch
+- title: CBN - WorldWatch
 - category: news
 - tags: news, international, persecution, missions
 
