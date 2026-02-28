@@ -539,7 +539,7 @@ video {
   flex-direction: column;
   gap: 10px;
   width: fit-content;
-  max-width: min(600px, calc(100vw - 40px));
+  max-width: min(760px, calc(100vw - 40px));
 }
 
 .guideBarTakeover {
@@ -562,15 +562,21 @@ video {
   display: flex;
   align-items: center;
   gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 .takeoverOpts {
   display: flex;
   align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 .takeoverGrid {
   display: grid;
@@ -781,8 +787,11 @@ video {
   display: flex;
   align-items: center;
   gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 .speedControl {
@@ -1218,8 +1227,11 @@ video {
   background: var(--guide-corner-bg, inherit);
   cursor: pointer;
 }
-.guideGridCornerTop { font-size: 12px; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase }
-.guideGridCornerSub { font-size: 11px; color: var(--muted); margin-top: 6px; display: flex; gap: 8px; align-items: center }
+.guideGridCornerTop { font-size: 12px; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase; display: flex; gap: 8px; align-items: baseline }
+.guideGridCornerTopCount { font-size: 11px; letter-spacing: 0.02em; color: color-mix(in srgb, var(--muted) 80%, var(--text)) }
+.guideGridCornerSub { font-size: 11px; color: var(--muted); margin-top: 6px; display: flex; flex-direction: column; gap: 6px; align-items: stretch }
+.guideGridCornerCount { font-variant-numeric: tabular-nums; opacity: 0.9 }
+.guideGridFilterRow { display: flex; gap: 8px; align-items: center }
 
 .guideFilterInput {
   flex: 1;
@@ -1308,6 +1320,17 @@ video {
   border-color: color-mix(in srgb, var(--edge) 75%, transparent);
 }
 .guideGridHeaderBtn:disabled:hover { color: var(--muted); background: rgba(255,255,255,.02) }
+.guideGridHeaderBtnFaves.active {
+  animation: guideFavesOnlyPulse 8.5s ease-in-out infinite;
+}
+@keyframes guideFavesOnlyPulse {
+  0%, 78%, 100% { box-shadow: none }
+  84% { box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 18%, transparent) }
+  90% { box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 28%, transparent) }
+}
+@media (prefers-reduced-motion: reduce) {
+  .guideGridHeaderBtnFaves.active { animation: none }
+}
 .guideGridHeaderBtn.active {
   color: color-mix(in srgb, var(--accent) 85%, var(--text));
   border-color: color-mix(in srgb, var(--accent) 55%, var(--edge));

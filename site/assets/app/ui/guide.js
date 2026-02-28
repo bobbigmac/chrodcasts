@@ -237,6 +237,19 @@ export function GuidePanel({ isOpen, sources, player }) {
     return out;
   }, [sourcesFlatFiltered, episodesBySource]);
 
+  const sourcesFlatPlayable = useMemo(() => {
+    const out = [];
+    for (const s of sourcesFlatAll) {
+      const eps = episodesBySource[s.id];
+      if (!Array.isArray(eps)) {
+        out.push(s);
+        continue;
+      }
+      if (eps.some((ep) => isPlayableVideoEp(ep))) out.push(s);
+    }
+    return out;
+  }, [sourcesFlatAll, episodesBySource]);
+
   const sourcesFlat = useMemo(() => {
     if (!favesOnly.value || faveCount <= 0) return sourcesFlat0;
     const set = faveIds.value instanceof Set ? faveIds.value : new Set();
@@ -248,6 +261,10 @@ export function GuidePanel({ isOpen, sources, player }) {
     for (let i = 0; i < sourcesFlatAll.length; i++) m.set(sourcesFlatAll[i].id, i);
     return m;
   }, [sourcesFlatAll]);
+
+  const totalChanCount = sourcesFlatPlayable.length;
+  const selectedChanCount = sourcesFlat.length;
+  const cornerTitle = favesOnly.value ? "Faves Only" : "All Channels";
 
   const focusSourceIdx = useSignal(Math.max(0, sourcesFlat.findIndex((s) => s.id === currentSourceId)));
   const sourcesFlatRef = useRef([]);
@@ -1194,32 +1211,39 @@ export function GuidePanel({ isOpen, sources, player }) {
                 if (e.key === "Enter") jumpToPlaying({ alignNow: true });
               }}
             >
-              <div class="guideGridCornerTop">All Channels</div>
+              <div class="guideGridCornerTop">
+                ${cornerTitle} <span class="guideGridCornerTopCount">${selectedChanCount}/${totalChanCount}</span>
+              </div>
               <div class="guideGridCornerSub">
-                <input
-                  class="guideFilterInput"
-                  type="text"
-                  placeholder="Filter channels/episodes…"
-                  value=${filterText.value}
-                  onInput=${(e) => (filterText.value = e?.target?.value ?? "")}
-                  onClick=${(e) => e.stopPropagation()}
-                  onPointerDown=${(e) => e.stopPropagation()}
-                  onKeyDown=${(e) => e.stopPropagation()}
-                  aria-label="Filter guide"
-                />
-                ${filterKey
-                  ? html`<button
-                      class="guideFilterClear"
-                      title="Clear filter"
-                      onClick=${(e) => {
-                        e.stopPropagation();
-                        filterText.value = "";
-                      }}
-                      onPointerDown=${(e) => e.stopPropagation()}
-                    >
-                      ✕
-                    </button>`
-                  : ""}
+                <div class="guideGridCornerCount" aria-label="Selected channels">
+                  ${selectedChanCount}/${totalChanCount}
+                </div>
+                <div class="guideGridFilterRow">
+                  <input
+                    class="guideFilterInput"
+                    type="text"
+                    placeholder="Filter channels/episodes…"
+                    value=${filterText.value}
+                    onInput=${(e) => (filterText.value = e?.target?.value ?? "")}
+                    onClick=${(e) => e.stopPropagation()}
+                    onPointerDown=${(e) => e.stopPropagation()}
+                    onKeyDown=${(e) => e.stopPropagation()}
+                    aria-label="Filter guide"
+                  />
+                  ${filterKey
+                    ? html`<button
+                        class="guideFilterClear"
+                        title="Clear filter"
+                        onClick=${(e) => {
+                          e.stopPropagation();
+                          filterText.value = "";
+                        }}
+                        onPointerDown=${(e) => e.stopPropagation()}
+                      >
+                        ✕
+                      </button>`
+                    : ""}
+                </div>
               </div>
             </div>
             <div class="guideGridHeaderScroll" aria-hidden="true" onWheel=${wheelToTracks}>
@@ -1235,7 +1259,7 @@ export function GuidePanel({ isOpen, sources, player }) {
             </div>
             <div class="guideGridHeaderActions">
               <button
-                class=${"guideGridHeaderBtn" + (favesOnly.value ? " active" : "")}
+                class=${"guideGridHeaderBtn guideGridHeaderBtnFaves" + (favesOnly.value ? " active" : "")}
                 disabled=${faveCount <= 0 && !favesOnly.value}
                 aria-disabled=${faveCount <= 0 && !favesOnly.value ? "true" : "false"}
                 title=${faveCount > 0
