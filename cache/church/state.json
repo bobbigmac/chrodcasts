@@ -2,447 +2,1107 @@
   "version": 1,
   "feeds": {
     "james-river": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://jamesriver.podbean.com/feed.xml",
+      "fetched_url": "https://feed.podbean.com/jamesriver/feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"6ea4b8b945ee3a9dfffd8b104c3604ba\"",
+      "last_modified": null,
+      "bytes": 246619
     },
     "jerry-savelle": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://www.jerrysavelle.org/rssfeeds/tvvideo.xml",
+      "fetched_url": "https://www.jerrysavelle.org/rssfeeds/tvvideo.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "W/\"699c56e0-11834a\"",
+      "last_modified": "Mon, 23 Feb 2026 13:32:16 GMT",
+      "bytes": 1147722
     },
     "fresh-life": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.blubrry.com/feeds/fresh_life.xml",
+      "fetched_url": "https://feeds.blubrry.com/feeds/fresh_life.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"bb79730524d57984866c6a5993db5697\"",
+      "last_modified": "Mon, 03 May 2021 23:23:45 GMT",
+      "bytes": 13322
     },
     "bridgetown": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://bridgetownvideo.podbean.com/feed.xml",
+      "fetched_url": "https://feed.podbean.com/bridgetownvideo/feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"d010a4b79b73abf46f616cbc463a05bf\"",
+      "last_modified": null,
+      "bytes": 142915
     },
     "eagle-brook": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://www.eaglebrookchurch.com/mediafiles/eagle-brook-church-videocast.xml",
+      "fetched_url": "https://www.eaglebrookchurch.com/mediafiles/eagle-brook-church-videocast.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 26 Feb 2026 20:18:35 GMT",
+      "bytes": 1220584
     },
     "connexus-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://connexuschurchvideo.libsyn.com/rss",
+      "fetched_url": "https://rss.libsyn.com/shows/74566/destinations/327350.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"f7faa607d7b084bbdb51282df9afd840\"",
+      "last_modified": "Sun, 22 Feb 2026 22:11:50 GMT",
+      "bytes": 866241
     },
     "bvov": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://copelandnetworkvideopodcast.libsyn.com/rss",
+      "fetched_url": "https://rss.libsyn.com/shows/67100/destinations/272434.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"3af2d66578571808bf702e98f41259e3\"",
+      "last_modified": "Fri, 27 Feb 2026 06:06:31 GMT",
+      "bytes": 5098252
     },
     "a-better-bible-study-podcast-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.blubrry.com/feeds/abetterbiblestudy.xml",
+      "fetched_url": "https://feeds.blubrry.com/feeds/abetterbiblestudy.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"7919539ee34b0f009099626105a25eaa\"",
+      "last_modified": "Mon, 22 Oct 2018 20:38:13 GMT",
+      "bytes": 522668
     },
     "lancaster-baptist": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.feedburner.com/LancasterBaptistChurchVideoPodcast",
+      "fetched_url": "https://feeds.feedburner.com/LancasterBaptistChurchVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 17:46:56 GMT",
+      "bytes": 1280653
     },
     "andrew-wommack-tv-podcast-ipod-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.feedburner.com/AndrewWommackTvPodcastipodVideo",
+      "fetched_url": "https://feeds.feedburner.com/AndrewWommackTvPodcastipodVideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 17319
     },
     "apostolic-faith-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://s3-us-west-1.amazonaws.com/com.jesuscomingsoon.podcast/podcast.xml",
+      "fetched_url": "https://s3-us-west-1.amazonaws.com/com.jesuscomingsoon.podcast/podcast.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"02bf2d067a12518580a62f7abd984a90\"",
+      "last_modified": "Sat, 28 Feb 2026 05:37:37 GMT",
+      "bytes": 205963
     },
     "aspire-2011-pastors-conference": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://aspiremedia.s3.amazonaws.com/aspirevideo.xml",
+      "fetched_url": "http://aspiremedia.s3.amazonaws.com/aspirevideo.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"03438992c016ad835c8db5f20ea96965\"",
+      "last_modified": "Fri, 17 Jun 2011 22:40:27 GMT",
+      "bytes": 8903
     },
     "antioch-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://www.antiochvideo.com/podcasts/video.xml",
+      "fetched_url": "https://www.antiochvideo.com/podcasts/video.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 28 Jan 2024 19:58:38 GMT",
+      "bytes": 554713
     },
     "athey-creek": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://atheycreek.com/podcast-video.xml",
+      "fetched_url": "https://atheycreek.com/podcast-video.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 366876
     },
     "brentwood-baptist": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/BrentwoodBaptistVideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/BrentwoodBaptistVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 77019
     },
     "brian-houston": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.feedburner.com/hillsong/vodcast",
+      "fetched_url": "https://feeds.feedburner.com/hillsong/vodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 05:53:18 GMT",
+      "bytes": 191257
     },
     "athey-creek-devoted-live": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://atheycreek.com/teachings/series/devoted/podcast-video.xml",
+      "fetched_url": "https://atheycreek.com/teachings/series/devoted/podcast-video.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 38624
     },
     "btic-podcast-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://podcasts.subsplash.com/8byybfs/podcast.rss",
+      "fetched_url": "https://podcasts.subsplash.com/8byybfs/podcast.rss",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 151255
     },
     "athey-creek-ironworks": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://atheycreek.com/teachings/series/ironworks/podcast-video.xml",
+      "fetched_url": "https://atheycreek.com/teachings/series/ironworks/podcast-video.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 73014
     },
     "cbn-com-cbn-news-midday": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_cbn_news_midday.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_cbn_news_midday.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 139691
     },
     "calvary-chapel-fort-lauderdale": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://podcasts.subsplash.com/ckfgsjp/podcast.rss",
+      "fetched_url": "https://podcasts.subsplash.com/ckfgsjp/podcast.rss",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 1128276
     },
     "cbn-com-cbn-news-updates": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_CBN_News_Updates.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_CBN_News_Updates.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 126868
     },
     "cbn-com-700-club-interactive": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/700clubinteractive.aspx",
+      "fetched_url": "http://podcast.cbn.com/700clubinteractive.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 30162
     },
     "cbn-com-cbn-news-morning": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_cbn_news_morning.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_cbn_news_morning.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 125799
     },
     "cbn-com-cbn-news-special-reports": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/news_special_reports.aspx",
+      "fetched_url": "http://podcast.cbn.com/news_special_reports.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 21874
     },
     "cbn-com-entertainment": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Entertainment.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Entertainment.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 9883
     },
     "cbn-com-cbn-news-tonight": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_cbn_news_tonight.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_cbn_news_tonight.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 107612
     },
     "cbn-com-christian-world-news": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CWN.aspx",
+      "fetched_url": "http://podcast.cbn.com/CWN.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 25445
     },
     "cbn-com-finances": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Finances.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Finances.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 29493
     },
     "cbn-com-foundations-of-the-faith-teaching-series": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Teaching_Foundations_Of_The_Faith.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Teaching_Foundations_Of_The_Faith.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 23239
     },
     "cbn-com-family": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Family.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Family.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 29551
     },
     "cbn-com-health": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Health.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Health.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 30345
     },
     "cbn-com-newswatch": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/Newswatch.aspx",
+      "fetched_url": "http://podcast.cbn.com/Newswatch.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 30563
     },
     "cbn-com-the-700-club-canada": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Canadian_Edition.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Canadian_Edition.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 24592
     },
     "cbn-com-jerusalem-dateline": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_CBN_News_Jerusalem_Dateline.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_CBN_News_Jerusalem_Dateline.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 148138
     },
     "cbn-com-stakelbeck-on-terror": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_CBN_News_stakelbeck_on_terror.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_CBN_News_stakelbeck_on_terror.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 130045
     },
     "cbn-com-worldwatch": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/worldwatch.aspx",
+      "fetched_url": "http://podcast.cbn.com/worldwatch.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 19890
     },
     "cbn-com-the-700-club": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/700club.aspx",
+      "fetched_url": "http://podcast.cbn.com/700club.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 84415
     },
     "cbn-com-the-brody-file": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_cbn_news_the_brody_file.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_cbn_news_the_brody_file.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 125450
     },
     "cbn-spiritual-gifts-foundations-an-introduction-to-spiritual-gifts": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/cbn_video_podcast_spiritual_gifts_webcast_foundations.aspx",
+      "fetched_url": "http://podcast.cbn.com/cbn_video_podcast_spiritual_gifts_webcast_foundations.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 19102
     },
     "christian-wealth": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://christianwealth.com/cwtv/CWVP.xml",
+      "fetched_url": "https://christianwealth.com/cwtv/CWVP.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"56cbabd5-4436\"",
+      "last_modified": "Tue, 23 Feb 2016 00:46:13 GMT",
+      "bytes": 17462
     },
     "devotional-videos-archbishop-foley-beach": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://awftlhd.podbean.com/feed.xml",
+      "fetched_url": "https://feed.podbean.com/awftlhd/feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"d8896503b6d687136495a153ea52b437\"",
+      "last_modified": null,
+      "bytes": 601991
     },
     "church-on-the-rock": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/COTRVideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/COTRVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 28 Feb 2026 06:32:24 GMT",
+      "bytes": 131232
     },
     "cotr-behind-the-scenes": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/cotrbts",
+      "fetched_url": "http://feeds.feedburner.com/cotrbts",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 02:52:59 GMT",
+      "bytes": 2873
     },
     "concord-baptist-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.concordministries.org/CBC_Video_Podcast.xml",
+      "fetched_url": "http://podcast.concordministries.org/CBC_Video_Podcast.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"39469-5979dfd029a45\"",
+      "last_modified": "Mon, 18 Nov 2019 12:21:34 GMT",
+      "bytes": 234601
     },
     "discovering-the-jewish-jesus": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://djjvideo.podbean.com/feed.xml",
+      "fetched_url": "https://feed.podbean.com/djjvideo/feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"62365050722f27ff9ab09536f23c1dad\"",
+      "last_modified": null,
+      "bytes": 398195
     },
     "discovery-church-orlando-fl": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/discoveryvideo",
+      "fetched_url": "http://feeds.feedburner.com/discoveryvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 52445
     },
     "daily-guide-to-victory": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://f2fvideo.libsyn.com/rss",
+      "fetched_url": "https://rss.libsyn.com/shows/313901/destinations/2526584.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"927fa198cfcb06a318c315570f84908d\"",
+      "last_modified": "Fri, 31 Oct 2025 22:13:17 GMT",
+      "bytes": 380693
     },
     "emmanuel-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://ecvideopodcast.blob.core.windows.net/ecvideopodcast/ec_video.xml",
+      "fetched_url": "https://ecvideopodcast.blob.core.windows.net/ecvideopodcast/ec_video.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "0x8D7A9B68403563B",
+      "last_modified": "Tue, 04 Feb 2020 21:09:26 GMT",
+      "bytes": 263233
     },
     "exceed-life-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://www.exceedlife.org/Exceed_Life_Church_Video_Podcast.xml",
+      "fetched_url": "http://www.exceedlife.org/Exceed_Life_Church_Video_Podcast.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"573ee-64b707e3b7018\"",
+      "last_modified": "Sun, 22 Feb 2026 21:39:46 GMT",
+      "bytes": 357358
     },
     "faith-christian-churchs": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/FaithChristianChurchVideoPodcasts",
+      "fetched_url": "http://feeds.feedburner.com/FaithChristianChurchVideoPodcasts",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 14 Feb 2026 20:11:21 GMT",
+      "bytes": 24140
     },
     "encounter-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://encounterchurch.ag/podcast/c0930e44-791b-481b-b965-8dc0cb59837f.xml",
+      "fetched_url": "https://encounterchurch.ag/podcast/c0930e44-791b-481b-b965-8dc0cb59837f.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"69a09ebb-412ed\"",
+      "last_modified": "Thu, 26 Feb 2026 19:27:55 GMT",
+      "bytes": 266989
     },
     "forest-home-ministries": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/ForestHomeMinistriesVideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/ForestHomeMinistriesVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Fri, 20 Feb 2026 05:54:50 GMT",
+      "bytes": 3056
     },
     "greater-things-worship-podcast": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://greaterthingsworship.podomatic.com/rss2.xml",
+      "fetched_url": "https://greaterthingsworship.podomatic.com/rss2.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "7035ecb525a826e17dce3aeaaba9cfb4",
+      "last_modified": "Wed, 20 Aug 2025 16:05:35 GMT",
+      "bytes": 9677
     },
     "heritage": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/heritagevideopodcast",
+      "fetched_url": "http://feeds.feedburner.com/heritagevideopodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 15 Jul 2023 19:18:57 GMT",
+      "bytes": 364013
     },
     "shiloh-bluegrass-gospel-hymns-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://www.shilohworshipmusic.com/ShilohWorshipMusic/Free_Bluegrass_Gospel_Hymns,_Praise_and_Worship_Videos/rss.xml",
+      "fetched_url": "http://www.shilohworshipmusic.com/ShilohWorshipMusic/Free_Bluegrass_Gospel_Hymns,_Praise_and_Worship_Videos/rss.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"301cafc-1362e-5b3fba93c0740\"",
+      "last_modified": "Fri, 13 Nov 2020 11:52:21 GMT",
+      "bytes": 79406
     },
     "higher-vision-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/highervisionchurch/guaW",
+      "fetched_url": "http://feeds.feedburner.com/highervisionchurch/guaW",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 146174
     },
     "hillvue-heights-church-worship-videocast": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.feedburner.com/HillvueWorshipVideocast",
+      "fetched_url": "https://feeds.feedburner.com/HillvueWorshipVideocast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 56568
     },
     "hope-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://www.hbcmedia.org/hopevideo.xml",
+      "fetched_url": "http://www.hbcmedia.org/hopevideo.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"9b335e29d2c6781176fe619ee3eefcf8\"",
+      "last_modified": "Mon, 28 Oct 2013 17:59:06 GMT",
+      "bytes": 83905
     },
     "james-macdonald": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.castos.com/xrkq",
+      "fetched_url": "https://feeds.castos.com/xrkq",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"ed6c7e101a0213bc71821d60e81c1578\"",
+      "last_modified": null,
+      "bytes": 151670
     },
     "jesse-duplantis-ministries-board-room-chat": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.castos.com/026mv",
+      "fetched_url": "https://feeds.castos.com/026mv",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"b0b31f4898e1277f5eb0b92e9ba60c31\"",
+      "last_modified": null,
+      "bytes": 2334878
     },
     "creflo-dollar-ministries": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://watch.worldchangers.org/broadcast-rss.xml",
+      "fetched_url": "https://watch.worldchangers.org/broadcast-rss.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 28253
     },
     "jesse-duplantis-ministries-faith-the-facts": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.castos.com/k42v5",
+      "fetched_url": "https://feeds.castos.com/k42v5",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"80b00e454ac744db24939073c8679006\"",
+      "last_modified": null,
+      "bytes": 1240545
     },
     "hope-in-christ-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://hopeinchristnm.com/feed/podcast/video-podcast/",
+      "fetched_url": "http://hopeinchristnm.com/feed/podcast/video-podcast/",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"c270214d30236888867fe8214b107b43\"",
+      "last_modified": "Mon, 23 Feb 2026 23:44:50 GMT",
+      "bytes": 288955
     },
     "jesse-duplantis-ministries-presents-glorious-living-with-cathy": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.castos.com/pg2rk",
+      "fetched_url": "https://feeds.castos.com/pg2rk",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"b4d3aec7ad2ffd8aa3ded6e145ee8b4a\"",
+      "last_modified": null,
+      "bytes": 1602665
     },
     "jesse-duplantis-ministries": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.castos.com/g45g",
+      "fetched_url": "https://feeds.castos.com/g45g",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"8a6b45e48391b12a4762d94cdbde20dc\"",
+      "last_modified": null,
+      "bytes": 1813550
     },
     "jesus-is-lord-church-worldwide": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/jilworldwide_videopodcast",
+      "fetched_url": "http://feeds.feedburner.com/jilworldwide_videopodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 22 Sep 2024 13:52:32 GMT",
+      "bytes": 89710
     },
     "kingsfield-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/KingsfieldChurch",
+      "fetched_url": "http://feeds.feedburner.com/KingsfieldChurch",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 18:22:12 GMT",
+      "bytes": 182210
     },
     "joyce-meyers-talk-it-out-podcast-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://tiovideo.libsyn.com/rss",
+      "fetched_url": "https://rss.libsyn.com/shows/292091/destinations/2289329.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"f2117e6b5c433238e7cdb277410d034c\"",
+      "last_modified": "Wed, 18 Feb 2026 14:41:39 GMT",
+      "bytes": 202522
     },
     "leader2leader": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feed.podbean.com/christianleadershipalliance/feed.xml",
+      "fetched_url": "https://feed.podbean.com/christianleadershipalliance/feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"d6a4da50644d69770074f351f9797276\"",
+      "last_modified": null,
+      "bytes": 33573
     },
     "lake-hills-church-mobile": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/lhcvideopodcast",
+      "fetched_url": "http://feeds.feedburner.com/lhcvideopodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 09:32:29 GMT",
+      "bytes": 270176
     },
     "lighthouse-baptist-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/LighthouseBaptistChurchVideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/LighthouseBaptistChurchVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 13 Oct 2024 10:58:57 GMT",
+      "bytes": 16891
     },
     "louisiana-baptist-convention": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/LBCVideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/LBCVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 153462
     },
     "living-waters-christian-fellowship": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://s3-us-west-1.amazonaws.com/faithnetworkuserfilestore/FAITHNETWORK_USERFILESTORE/FAITHNETWORK_USERFILESTORE/audiolibraries/ministries/c670ff84-be0b-4a4a-b88c-82d8ba7e5929/Podcasts/d98a7ae2-0f28-4687-b9ba-2662cb407a1e.xml",
+      "fetched_url": "https://s3-us-west-1.amazonaws.com/faithnetworkuserfilestore/FAITHNETWORK_USERFILESTORE/FAITHNETWORK_USERFILESTORE/audiolibraries/ministries/c670ff84-be0b-4a4a-b88c-82d8ba7e5929/Podcasts/d98a7ae2-0f28-4687-b9ba-2662cb407a1e.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"efa1a9007f5cc2d1c3eb5aca3f5265f1\"",
+      "last_modified": "Fri, 23 Jul 2021 16:42:45 GMT",
+      "bytes": 154136
     },
     "monticello-first-baptist-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/mfbcwebcast",
+      "fetched_url": "http://feeds.feedburner.com/mfbcwebcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 07:34:32 GMT",
+      "bytes": 7491
     },
     "markle-church-of-christ": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://www.marklemedia.org/podcastv/video_podcast_feed.xml",
+      "fetched_url": "http://www.marklemedia.org/podcastv/video_podcast_feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"3c0cd1-8e65-64b89a17f47dc\"",
+      "last_modified": "Tue, 24 Feb 2026 03:39:12 GMT",
+      "bytes": 36453
     },
     "mundo-cristiano-cbn": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Mundo_Cristiano.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Mundo_Cristiano.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 30392
     },
     "munger-place": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/MungerPlaceVideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/MungerPlaceVideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 122620
     },
     "miracle-crusades": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://s3-us-west-1.amazonaws.com/faithnetworkuserfilestore/FAITHNETWORK_USERFILESTORE/FAITHNETWORK_USERFILESTORE/audiolibraries/ministries/a9f269fd-7901-4c27-8123-41fea2333899/Podcasts/ed89c570-19de-4a1a-a0ec-efdff5602262.xml",
+      "fetched_url": "https://s3-us-west-1.amazonaws.com/faithnetworkuserfilestore/FAITHNETWORK_USERFILESTORE/FAITHNETWORK_USERFILESTORE/audiolibraries/ministries/a9f269fd-7901-4c27-8123-41fea2333899/Podcasts/ed89c570-19de-4a1a-a0ec-efdff5602262.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"550ad2156371ca0cb392264519595d49\"",
+      "last_modified": "Wed, 25 Mar 2020 12:46:39 GMT",
+      "bytes": 169373
     },
     "national-community-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/theaterchurch",
+      "fetched_url": "http://feeds.feedburner.com/theaterchurch",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Mon, 29 Jul 2024 14:05:25 GMT",
+      "bytes": 132389
     },
     "neighborhoods": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/NeighborhoodsVideos",
+      "fetched_url": "http://feeds.feedburner.com/NeighborhoodsVideos",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 35736
     },
     "northridge": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://ridgestream.com/podcast/video.xml",
+      "fetched_url": "http://ridgestream.com/podcast/video.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"96767-61a4ee13bfee5\"",
+      "last_modified": "Fri, 07 Jun 2024 15:59:08 GMT",
+      "bytes": 616295
     },
     "omega-power-ministries": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://ia800504.us.archive.org/25/items/opm_podcast/video-podcast.xml",
+      "fetched_url": "http://ia800504.us.archive.org/25/items/opm_podcast/video-podcast.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"571a1868-4c15\"",
+      "last_modified": "Fri, 22 Apr 2016 12:26:16 GMT",
+      "bytes": 19477
     },
     "nwlife-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://nwlifechurch.com/sermons/sundayvideo.rss",
+      "fetched_url": "http://nwlifechurch.com/sermons/sundayvideo.rss",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 12 May 2016 17:11:26 GMT",
+      "bytes": 75418
     },
     "your-sermons-videos": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://www.podcastyoursermons.com/podcasts/podca_file_1/RSS_feed.xml",
+      "fetched_url": "https://www.podcastyoursermons.com/podcasts/podca_file_1/RSS_feed.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Mon, 25 Jan 2010 14:38:28 GMT",
+      "bytes": 4804
     },
     "revneals-video-sermon-podcasts": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/RevnealsVideoSermonPodcasts?format=xml",
+      "fetched_url": "http://feeds.feedburner.com/RevnealsVideoSermonPodcasts?format=xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 14 Feb 2026 13:46:11 GMT",
+      "bytes": 132309
     },
     "riverview-church-video-message-podcast": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/rivchurch/vodcast/holt?format=xml",
+      "fetched_url": "http://feeds.feedburner.com/rivchurch/vodcast/holt?format=xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 28 Jun 2025 16:48:53 GMT",
+      "bytes": 14573
     },
     "salem-fields": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/sfccvideo",
+      "fetched_url": "http://feeds.feedburner.com/sfccvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 555694
     },
     "southeastern-baptist-theological-seminary": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/SoutheasternBaptistTheologicalSeminary-VideoPodcast",
+      "fetched_url": "http://feeds.feedburner.com/SoutheasternBaptistTheologicalSeminary-VideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 41138
     },
     "sonlife-community-church-sermon": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://sonlifecommunitychurch.com/news/feed/podcast/?format=video",
+      "fetched_url": "https://sonlifecommunitychurch.com/news/feed/podcast/?format=video",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"25ac70d1e0a2d4038db1cbcf62792e3d\"",
+      "last_modified": "Tue, 09 Jul 2024 20:04:18 GMT",
+      "bytes": 45927
     },
     "superbook": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://podcast.cbn.com/CBN_Video_Podcast_Superbook.aspx",
+      "fetched_url": "http://podcast.cbn.com/CBN_Video_Podcast_Superbook.aspx",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 34881
     },
     "sugar-creek-baptist-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.feedburner.com/SCBC_VideoPodcast",
+      "fetched_url": "https://feeds.feedburner.com/SCBC_VideoPodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 5 Oct 2024 21:56:51 GMT",
+      "bytes": 397107
     },
     "pray-more-novenas-video-catholic-prayers-and-devotion": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://p.praymorenovenas.com/feed/video",
+      "fetched_url": "https://p.praymorenovenas.com/feed/video",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"b1e58992fc3dee7a73158ba6629615e4\"",
+      "last_modified": "Wed, 11 Feb 2026 05:00:00 GMT",
+      "bytes": 317061
     },
     "ancient-faith-kids-vlog-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.ancientfaith.com/afkvlogvideo",
+      "fetched_url": "https://feeds.ancientfaith.com/afkvlogvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 10342
     },
     "ancient-faith-stories-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.ancientfaith.com/ancientfaithstoriesvideo",
+      "fetched_url": "https://feeds.ancientfaith.com/ancientfaithstoriesvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 16363
     },
     "orthodox-night-star-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.ancientfaith.com/orthodoxnightstarvideo",
+      "fetched_url": "https://feeds.ancientfaith.com/orthodoxnightstarvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 16492
     },
     "psalms-for-kids-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://feeds.ancientfaith.com/kidpsalmsvideo",
+      "fetched_url": "https://feeds.ancientfaith.com/kidpsalmsvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 14477
     },
     "the-download-youth-ministry-show-video": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/TheDYMShow-Video",
+      "fetched_url": "http://feeds.feedburner.com/TheDYMShow-Video",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 03:12:43 GMT",
+      "bytes": 241301
     },
     "the-church-at-brook-hills": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://www.brookhills.org/podcasts/video",
+      "fetched_url": "http://www.brookhills.org/podcasts/video",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 211955
     },
     "torah-podcast": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/torah-podcast-video",
+      "fetched_url": "http://feeds.feedburner.com/torah-podcast-video",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sat, 14 Feb 2026 15:37:02 GMT",
+      "bytes": 39656
     },
     "transformation-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/tc-vodcast",
+      "fetched_url": "http://feeds.feedburner.com/tc-vodcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Sun, 15 Feb 2026 01:52:53 GMT",
+      "bytes": 421365
     },
     "vcc-jesus-zentrum-channel": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://podcast.lightcast.com/p68m0mqzw/itunes",
+      "fetched_url": "https://podcast.lightcast.com/p68m0mqzw/itunes",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 563985
     },
     "through-the-bible-with-les-feldick": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://podcast.lightcast.com/f8c507pm9/itunes",
+      "fetched_url": "https://podcast.lightcast.com/f8c507pm9/itunes",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 2084887
     },
     "weekend-services": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://feeds.feedburner.com/UploadsByChurchatrockypeak",
+      "fetched_url": "http://feeds.feedburner.com/UploadsByChurchatrockypeak",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "bytes": 14823
     },
     "westwood-baptist": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://media.perpetuatech.com/feeds/category/f/OEYzQzI2NTFBMg",
+      "fetched_url": "https://media.perpetuatech.com/feeds/category/f/OEYzQzI2NTFBMg",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 324392
     },
     "west-point-baptist-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://thepointvideo.podomatic.com/rss2.xml",
+      "fetched_url": "https://thepointvideo.podomatic.com/rss2.xml",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"0\"",
+      "last_modified": "Tue, 03 Sep 2019 06:41:37 GMT",
+      "bytes": 8879
     },
     "without-walls-church": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://podpoint.com/feed/6700",
+      "fetched_url": "https://podpoint.com/feed/6700",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": "Tue, 10 Mar 2020 08:44:58 GMT",
+      "bytes": 3120
     },
     "trbc": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://rss.trbc.org/vidcast",
+      "fetched_url": "https://rss.trbc.org/vidcast",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"69a28e91-1795b\"",
+      "last_modified": "Sat, 28 Feb 2026 06:43:29 GMT",
+      "bytes": 96603
     },
     "you-can-read-the-bible-christian-education": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "https://youcanreadthebible.com/feed/podcast.php?which=sghvideo",
+      "fetched_url": "https://youcanreadthebible.com/feed/podcast.php?which=sghvideo",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": null,
+      "last_modified": null,
+      "bytes": 23650
     },
     "word-of-faith-international-christian-center-st-thomas": {
-      "status": "skip",
-      "reason": "cooldown"
+      "status": "ok",
+      "url": "http://wordoffaithstthomas.com/feed/video/",
+      "fetched_url": "http://wordoffaithstthomas.com/feed/video/",
+      "last_checked_unix": 1772261829,
+      "last_ok_unix": 1772261829,
+      "etag": "\"8b8e2798ce5a2eb84f7b8624c19514d0\"",
+      "last_modified": "Thu, 26 Feb 2026 18:11:49 GMT",
+      "bytes": 146694
     }
   },
-  "updated_at_unix": 1772254693,
+  "updated_at_unix": 1772261829,
   "site": {
     "id": "vodcasts-church",
     "title": "Prays.be Streaming Church",

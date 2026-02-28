@@ -8,8 +8,8 @@
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>Copyright 2015 Apostolic Faith Church</copyright>
-        <pubDate>Sat, 21 Feb 2026 15:00:00 -0800</pubDate>
-        <lastBuildDate>Wed, 18 Feb 2026 15:43:44 -0800</lastBuildDate>
+        <pubDate>Sat, 28 Feb 2026 15:00:00 -0800</pubDate>
+        <lastBuildDate>Fri, 27 Feb 2026 21:37:36 -0800</lastBuildDate>
         <category>Christianity</category>
         <category>Christianity</category>
         <category>Christianity</category>
@@ -30,6 +30,12 @@
             <height>144</height>
         </image>
         <ns0:link href="http://com.jesuscomingsoon.podcast.s3.amazonaws.com/podcast.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Embracing The Promises</title>
+            <pubDate>Sat, 28 Feb 2026 15:00:00 -0800</pubDate>
+            <enclosure url="http://com.jesuscomingsoon.podcast.s3.amazonaws.com/episodes/transcoded_EMBRACING THE PROMISES mov CC_720p_8Mbps.mp4" length="245297515" type="video/mp4" />
+            <guid isPermaLink="false">8ddcf9ba-042e-433f-bec3-245194e7c085</guid>
+        </item>
         <item>
             <title>Are You Ready</title>
             <pubDate>Sat, 21 Feb 2026 15:00:00 -0800</pubDate>
