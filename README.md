@@ -65,6 +65,7 @@ Schema notes live in `docs/supabase-comments.md`.
 ## Priority: real page content
 
 - [ ] **Real page content per page** — TBD: monkey-patch `404.html` vs build dedicated landing page per feed (hotswap, faking multipage). Need to decide approach before implementing.
+  - Probably want to make some ability to browse channel episodes like a profile page, since our episode guide is a little tricky on small devices (needs to scale/react better) and for users unfamiliar with sky/cable/tv browsing.
 
 ## Discoverability + accessibility
 
@@ -76,7 +77,6 @@ Schema notes live in `docs/supabase-comments.md`.
 
 ## Porting goals
 
-- [?] Feed parsing split into `feed/*` + `player/*` + `ui/*`
 - [ ] Details panel: add timed comments UI (per channel/episode/timestamp)
 - [ ] Build step: optionally parse + precompute chapters/transcripts JSON
 - [ ] PWA/offline: cache app shell + cached feed XML + (optional) user-selected media
