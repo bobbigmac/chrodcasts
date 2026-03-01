@@ -297,11 +297,6 @@
 - title: Autoline Daily - Video
 - category: podcastindex
 
-## 5-minute-videos-prageru
-- url: https://feeds.megaphone.fm/PRAGERU3989592970
-- title: 5-Minute Videos | PragerU
-- category: podcastindex
-
 ## democracy-now-video
 - url: https://www.democracynow.org/podcast-video.xml
 - title: Democracy Now! Video

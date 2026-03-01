@@ -654,6 +654,74 @@
 - category: devotional
 - tags: devotional, daily, lutheran, wels
 
+# === Interfaith & world religions (broaden understanding) ===
+
+## voices-of-interfaith-america
+- url: https://feeds.simplecast.com/9c5LVnny
+- title: Voices of Interfaith America
+- category: interfaith
+- tags: interfaith, bridgebuilding, pluralism, muslim, jewish, sikh, christian
+
+## interfaith-encounters
+- url: https://feeds.simplecast.com/OlxAG03Z
+- title: Interfaith Encounters
+- category: interfaith
+- tags: interfaith, dialogue
+
+## common-threads-interfaith
+- url: https://feeds.simplecast.com/4g1jyNuN
+- title: Common Threads — An Interfaith Dialogue
+- category: interfaith
+- tags: interfaith, dialogue
+
+## a-is-for-abraham
+- url: https://feeds.simplecast.com/5chLGQi3
+- title: A Is for Abraham
+- category: interfaith
+- tags: jewish, christian, shared-scripture, education
+
+## jewish-stories-to-inspire
+- url: https://feeds.redcircle.com/0bb7bd24-ed29-4297-80a0-2c0988605c61
+- title: Jewish Stories to Inspire
+- category: teaching
+- tags: jewish, torah, ethics, wisdom, stories
+
+## world-of-islam
+- url: https://aminetais.podbean.com/feed.xml
+- title: The World of Islam — Culture, Religion, and Politics
+- category: teaching
+- tags: islam, muslim, history, culture, education
+
+## on-being-muslim
+- url: https://rss.buzzsprout.com/1951225.rss
+- title: On Being Muslim — Wisdom from The Risale-i Nur
+- category: teaching
+- tags: islam, muslim, wisdom, spirituality
+
+## parsha-podcast
+- url: http://rabbiwolbe.com/feed/parsha/
+- title: The Parsha Podcast — Rabbi Yaakov Wolbe
+- category: teaching
+- tags: jewish, torah, parsha, weekly
+
+## jewish-sacred-aging
+- url: https://jewishsacredaging.com/category/video-2/feed/
+- title: Jewish Sacred Aging — Seekers of Meaning
+- category: teaching
+- tags: jewish, aging, rabbi, wisdom, weekly
+
+## how-to-humanist
+- url: https://feeds.transistor.fm/how-to-humanist
+- title: How to Humanist
+- category: teaching
+- tags: humanist, secular, american-humanist, ethics
+
+## point-of-inquiry
+- url: https://pointofinquiry.libsyn.com/rss
+- title: Point of Inquiry
+- category: teaching
+- tags: humanist, center-for-inquiry, science, skepticism
+
 # === Public radio & Americana ===
 
 ## npr-news-now
