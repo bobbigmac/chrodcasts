@@ -111,7 +111,10 @@ def main() -> None:
             if res.status < 200 or res.status >= 300:
                 raise ValueError(f"http {res.status}")
             if not _looks_like_feed_xml(res.content):
-                raise ValueError("not-a-feed-xml (refusing to overwrite cache)")
+                out = {"status": "skip", "reason": "not-a-feed-xml", "url": url, "last_checked_unix": now}
+                if prev.get("last_ok_unix"):
+                    out["last_ok_unix"] = prev["last_ok_unix"]
+                return sid, out
             feeds_out_dir.mkdir(parents=True, exist_ok=True)
             (feeds_out_dir / f"{sid}.xml").write_bytes(res.content)
             return sid, {
