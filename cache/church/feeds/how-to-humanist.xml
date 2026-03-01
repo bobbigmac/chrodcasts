@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="https://feeds.transistor.fm/how-to-humanist" title="MP3 Audio"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <podcast:podping usesPodping="true"/>
+    <title>How to Humanist</title>
+    <generator>Transistor (https://transistor.fm)</generator>
+    <itunes:new-feed-url>https://feeds.transistor.fm/how-to-humanist</itunes:new-feed-url>
+    <description>How to Humanist asks life’s questions big and small with the help of brilliant humans along the way.</description>
+    <copyright>© 2026 American Humanist Association</copyright>
+    <podcast:guid>da1e62e7-fd4d-559e-9696-fe605f6c93b8</podcast:guid>
+    <podcast:locked>yes</podcast:locked>
+    <language>en</language>
+    <pubDate>Mon, 23 Feb 2026 11:10:31 -0500</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2026 11:11:40 -0500</lastBuildDate>
+    <link>http://americanhumanist.org</link>
+    <image>
+      <url>https://img.transistorcdn.com/WUjXi3mSsJYEagnMXhK0gRRyRlAYySbn-jaM7Pzl3e4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mOGI0/MjYzYzk1YjRhNjQ3/M2I4YTM5YTEwNGFh/NmJlZS5wbmc.jpg</url>
+      <title>How to Humanist</title>
+      <link>http://americanhumanist.org</link>
+    </image>
+    <itunes:category text="Education">
+      <itunes:category text="Self-Improvement"/>
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>American Humanist Association</itunes:author>
+    <itunes:image href="https://img.transistorcdn.com/WUjXi3mSsJYEagnMXhK0gRRyRlAYySbn-jaM7Pzl3e4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mOGI0/MjYzYzk1YjRhNjQ3/M2I4YTM5YTEwNGFh/NmJlZS5wbmc.jpg"/>
+    <itunes:summary>How to Humanist asks life’s questions big and small with the help of brilliant humans along the way.</itunes:summary>
+    <itunes:subtitle>How to Humanist asks life’s questions big and small with the help of brilliant humans along the way..</itunes:subtitle>
+    <itunes:keywords>humanism, humanist podcast, atheist podcast, secular podcast, life after religion, deconstruction, agnostic, ethics, philosophy, personal growth, meaning of life</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>American Humanist Association</itunes:name>
+      <itunes:email>podcast@americanhumanist.org</itunes:email>
+    </itunes:owner>
+    <itunes:complete>No</itunes:complete>
+    <itunes:explicit>Yes</itunes:explicit>
+    <item>
+      <title>#2 Batman’s Not Real and Other Brutal Truths with Greg Epstein</title>
+      <itunes:episode>2</itunes:episode>
+      <podcast:episode>2</podcast:episode>
+      <itunes:title>#2 Batman’s Not Real and Other Brutal Truths with Greg Epstein</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">117d6cdc-7897-4cc1-b2a8-88db646b948d</guid>
+      <link>https://share.transistor.fm/s/a6579778</link>
+      <description>
+        <![CDATA[<p>What if the secret origin story of humanism is just... ancient people getting tired of handing over their goats? In this episode, Greg Epstein — Harvard and MIT's Humanist Chaplain and author of the NY Times bestseller <em>Good Without God</em> — joins us to break down what humanism actually is, where it came from, and why humans have been quietly side-eyeing authority since long before anyone had a podcast to complain about it. Greg brings the kind of clarity that makes you realize some of our biggest existential questions have been getting wrestled with for millennia, by regular people who just wanted to live a good life without being strong-armed into it. It's part philosophy crash course, part history lesson, and entirely the conversation you didn't know you needed.</p><p><strong>ABOUT GREG EPSTEIN<br></strong>Greg M. Epstein serves as Humanist Chaplain at Harvard &amp; MIT, where he advises students, faculty, and staff members on ethical and existential concerns from a humanist perspective. TechCrunch's first “ethicist in residence,” he has been called “a symbol of the transition in how Americans relate to organized religion” (The Conversation). He is author of the New York Times-bestseller <em>Good Without God</em>, and the multi-award-winning <em>Tech Agnostic</em>, and has written for TIME, CNN, and The Boston Globe.</p><p><strong>Linkedin:</strong> <a href="https://www.google.com/url?q=https://www.linkedin.com/in/gregmepstein/&amp;sa=D&amp;source=calendar&amp;ust=1772132021805473&amp;usg=AOvVaw2AfQ5kSKvM72E3JHpxQHxC">https://www.linkedin.com/in/gregmepstein</a><br><strong>Good Without God:</strong> <a href="https://bit.ly/goodwithoutgodbook">https://bit.ly/goodwithoutgodbook</a><br><strong>Tech Agnostic:</strong> <a href="https://bit.ly/techagnosticbook">https://bit.ly/techagnosticbook</a></p><p><strong>LEARN MORE</strong></p><p>American Empathy Project: <a href="https://americanempathyproject.org">https://americanempathyproject.org</a><strong> <br>For more on humanism:</strong> <a href="https://linktr.ee/americanhumanist">https://linktr.ee/americanhumanist</a><strong> </strong></p><p>4v9uWL4qONT8HsZBc10K</p><p><br></p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>What if the secret origin story of humanism is just... ancient people getting tired of handing over their goats? In this episode, Greg Epstein — Harvard and MIT's Humanist Chaplain and author of the NY Times bestseller <em>Good Without God</em> — joins us to break down what humanism actually is, where it came from, and why humans have been quietly side-eyeing authority since long before anyone had a podcast to complain about it. Greg brings the kind of clarity that makes you realize some of our biggest existential questions have been getting wrestled with for millennia, by regular people who just wanted to live a good life without being strong-armed into it. It's part philosophy crash course, part history lesson, and entirely the conversation you didn't know you needed.</p><p><strong>ABOUT GREG EPSTEIN<br></strong>Greg M. Epstein serves as Humanist Chaplain at Harvard &amp; MIT, where he advises students, faculty, and staff members on ethical and existential concerns from a humanist perspective. TechCrunch's first “ethicist in residence,” he has been called “a symbol of the transition in how Americans relate to organized religion” (The Conversation). He is author of the New York Times-bestseller <em>Good Without God</em>, and the multi-award-winning <em>Tech Agnostic</em>, and has written for TIME, CNN, and The Boston Globe.</p><p><strong>Linkedin:</strong> <a href="https://www.google.com/url?q=https://www.linkedin.com/in/gregmepstein/&amp;sa=D&amp;source=calendar&amp;ust=1772132021805473&amp;usg=AOvVaw2AfQ5kSKvM72E3JHpxQHxC">https://www.linkedin.com/in/gregmepstein</a><br><strong>Good Without God:</strong> <a href="https://bit.ly/goodwithoutgodbook">https://bit.ly/goodwithoutgodbook</a><br><strong>Tech Agnostic:</strong> <a href="https://bit.ly/techagnosticbook">https://bit.ly/techagnosticbook</a></p><p><strong>LEARN MORE</strong></p><p>American Empathy Project: <a href="https://americanempathyproject.org">https://americanempathyproject.org</a><strong> <br>For more on humanism:</strong> <a href="https://linktr.ee/americanhumanist">https://linktr.ee/americanhumanist</a><strong> </strong></p><p>4v9uWL4qONT8HsZBc10K</p><p><br></p>]]>
+      </content:encoded>
+      <pubDate>Mon, 23 Feb 2026 06:05:00 -0500</pubDate>
+      <author>American Humanist Association</author>
+      <enclosure url="https://media.transistor.fm/a6579778/b4779b56.mp3" length="59641792" type="audio/mpeg"/>
+      <itunes:author>American Humanist Association</itunes:author>
+      <itunes:image href="https://img.transistorcdn.com/gkaTIGaBmXyGnXhZOOC2bGe1_e4ti_4W4fEU-6zxWqY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9jNDU1/N2IzNTY0OWExNDVk/ZDViMTg0MTY1NDQ0/Yjg2Yi5wbmc.jpg"/>
+      <itunes:duration>3725</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>What if the secret origin story of humanism is just... ancient people getting tired of handing over their goats? In this episode, Greg Epstein — Harvard and MIT's Humanist Chaplain and author of the NY Times bestseller <em>Good Without God</em> — joins us to break down what humanism actually is, where it came from, and why humans have been quietly side-eyeing authority since long before anyone had a podcast to complain about it. Greg brings the kind of clarity that makes you realize some of our biggest existential questions have been getting wrestled with for millennia, by regular people who just wanted to live a good life without being strong-armed into it. It's part philosophy crash course, part history lesson, and entirely the conversation you didn't know you needed.</p><p><strong>ABOUT GREG EPSTEIN<br></strong>Greg M. Epstein serves as Humanist Chaplain at Harvard &amp; MIT, where he advises students, faculty, and staff members on ethical and existential concerns from a humanist perspective. TechCrunch's first “ethicist in residence,” he has been called “a symbol of the transition in how Americans relate to organized religion” (The Conversation). He is author of the New York Times-bestseller <em>Good Without God</em>, and the multi-award-winning <em>Tech Agnostic</em>, and has written for TIME, CNN, and The Boston Globe.</p><p><strong>Linkedin:</strong> <a href="https://www.google.com/url?q=https://www.linkedin.com/in/gregmepstein/&amp;sa=D&amp;source=calendar&amp;ust=1772132021805473&amp;usg=AOvVaw2AfQ5kSKvM72E3JHpxQHxC">https://www.linkedin.com/in/gregmepstein</a><br><strong>Good Without God:</strong> <a href="https://bit.ly/goodwithoutgodbook">https://bit.ly/goodwithoutgodbook</a><br><strong>Tech Agnostic:</strong> <a href="https://bit.ly/techagnosticbook">https://bit.ly/techagnosticbook</a></p><p><strong>LEARN MORE</strong></p><p>American Empathy Project: <a href="https://americanempathyproject.org">https://americanempathyproject.org</a><strong> <br>For more on humanism:</strong> <a href="https://linktr.ee/americanhumanist">https://linktr.ee/americanhumanist</a><strong> </strong></p><p>4v9uWL4qONT8HsZBc10K</p><p><br></p>]]>
+      </itunes:summary>
+      <itunes:keywords>humanism, humanist podcast, atheist podcast, secular podcast, life after religion, deconstruction, agnostic, ethics, philosophy, personal growth, meaning of life</itunes:keywords>
+      <itunes:explicit>Yes</itunes:explicit>
+      <podcast:transcript url="https://share.transistor.fm/s/a6579778/transcript.txt" type="text/plain"/>
+    </item>
+    <item>
+      <title>#1 My Mom's Radical Act of Cake</title>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:title>#1 My Mom's Radical Act of Cake</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">8b75494f-2df0-4e1c-b119-25f1caa0f7aa</guid>
+      <link>https://share.transistor.fm/s/1487dbc4</link>
+      <description>
+        <![CDATA[<p>In this debut episode of <em>How to Humanist</em>, Shay Leonia introduces herself as the mildly terrified new podcast host representing a nearly century-old institution, the American Humanist Association, admits she had no clue who Thomas Paine was, and unpacks how growing up with a radically hospitable mother shaped her understanding of empathy long before she had language for it. It’s a funny, tender reflection on impostor syndrome, inherited kindness, and the dangerous possibility that offering someone cake might be more revolutionary than we think.<strong><br></strong> <br><strong>American Empathy Project: </strong><a href="https://americanempathyproject.org">https://americanempathyproject.org</a><br><strong>For more on humanism:</strong> <a href="https://linktr.ee/americanhumanist">https://linktr.ee/americanhumanist</a></p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>In this debut episode of <em>How to Humanist</em>, Shay Leonia introduces herself as the mildly terrified new podcast host representing a nearly century-old institution, the American Humanist Association, admits she had no clue who Thomas Paine was, and unpacks how growing up with a radically hospitable mother shaped her understanding of empathy long before she had language for it. It’s a funny, tender reflection on impostor syndrome, inherited kindness, and the dangerous possibility that offering someone cake might be more revolutionary than we think.<strong><br></strong> <br><strong>American Empathy Project: </strong><a href="https://americanempathyproject.org">https://americanempathyproject.org</a><br><strong>For more on humanism:</strong> <a href="https://linktr.ee/americanhumanist">https://linktr.ee/americanhumanist</a></p>]]>
+      </content:encoded>
+      <pubDate>Mon, 23 Feb 2026 06:00:00 -0500</pubDate>
+      <author>American Humanist Association</author>
+      <enclosure url="https://media.transistor.fm/1487dbc4/e4d88830.mp3" length="12876037" type="audio/mpeg"/>
+      <itunes:author>American Humanist Association</itunes:author>
+      <itunes:image href="https://img.transistorcdn.com/P9jy6BaiINqLnApbdNyZNRPQvii_mFfx_RRaEYek92c/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lNTI2/NmMxZDUzYWY2N2Fk/NjA5NDQ5NDI2ZTY3/NDU5Yi5wbmc.jpg"/>
+      <itunes:duration>802</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>In this debut episode of <em>How to Humanist</em>, Shay Leonia introduces herself as the mildly terrified new podcast host representing a nearly century-old institution, the American Humanist Association, admits she had no clue who Thomas Paine was, and unpacks how growing up with a radically hospitable mother shaped her understanding of empathy long before she had language for it. It’s a funny, tender reflection on impostor syndrome, inherited kindness, and the dangerous possibility that offering someone cake might be more revolutionary than we think.<strong><br></strong> <br><strong>American Empathy Project: </strong><a href="https://americanempathyproject.org">https://americanempathyproject.org</a><br><strong>For more on humanism:</strong> <a href="https://linktr.ee/americanhumanist">https://linktr.ee/americanhumanist</a></p>]]>
+      </itunes:summary>
+      <itunes:keywords>humanism, humanist podcast, atheist podcast, secular podcast, life after religion, deconstruction, agnostic, ethics, philosophy, personal growth, meaning of life</itunes:keywords>
+      <itunes:explicit>Yes</itunes:explicit>
+      <podcast:transcript url="https://share.transistor.fm/s/1487dbc4/transcript.txt" type="text/plain"/>
+    </item>
+  </channel>
+</rss>

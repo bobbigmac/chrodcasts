@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.epchurch.org.au/wp-content/plugins/seriously-simple-podcasting/templates/feed-stylesheet.xsl"?><rss version="2.0"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:atom="http://www.w3.org/2005/Atom"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	 xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	 xmlns:podcast="https://podcastindex.org/namespace/1.0"
+	>
+		<channel>
+		<title>The Ten Commandments</title>
+		<atom:link href="https://www.epchurch.org.au/feed/podcast/the-ten-commandments/index.php/" rel="self" type="application/rss+xml"/>
+		<link>https://www.epchurch.org.au/index.php/series/the-ten-commandments/</link>
+		<description>Show Up | Serve | Share</description>
+		<lastBuildDate>Mon, 08 Dec 2025 06:43:51 +0000</lastBuildDate>
+		<language>en-US</language>
+		<copyright>&#xA9; 2026 Emerald Presbyterian Church</copyright>
+		<itunes:subtitle>Show Up | Serve | Share</itunes:subtitle>
+		<itunes:author>Emerald Presbyterian Church</itunes:author>
+		<itunes:summary>Show Up | Serve | Share</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Emerald Presbyterian Church</itunes:name>
+		</itunes:owner>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:category text="Religion &amp; Spirituality">
+			<itunes:category text="Christianity"></itunes:category>
+		</itunes:category>
+		<googleplay:author><![CDATA[Emerald Presbyterian Church]]></googleplay:author>
+						<googleplay:description>Show Up | Serve | Share</googleplay:description>
+			<googleplay:explicit>No</googleplay:explicit>
+			<podcast:locked>yes</podcast:locked>
+		<podcast:guid>af96645c-43aa-5f43-ae3a-a34bd17e3f71</podcast:guid>
+		
+		<!-- podcast_generator="SSP by Castos/3.4.0" Seriously Simple Podcasting plugin for WordPress (https://wordpress.org/plugins/seriously-simple-podcasting/) -->
+		
+
+<item>
+	<title>The Ten Commandments. Talk 8. The Eighth Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-8-the-eighth-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-8-the-eighth-commandment</link>
+	<pubDate>Sun, 08 Sep 2024 03:48:17 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=854</guid>
+	<description><![CDATA[The Ten Commandments. Talk 8. The Eighth Commandment. By Rod McLennan, 8/09/2024. Exodus 20:15]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 8. The Eighth Commandment. By Rod McLennan, 8/09/2024. Exodus 20:15]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 8. The Eighth Commandment. By Rod McLennan, 8/09/2024. Exodus 20:15]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/854/the-ten-commandments-talk-8-the-eighth-commandment.mp3" length="15733847" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 8. The Eighth Commandment. By Rod McLennan, 8/09/2024. Exodus 20:15]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>32:47</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 8. The Eighth Commandment. By Rod McLennan, 8/09/2024. Exodus 20:15]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 7. The Seventh Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-7-the-seventh-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-7-the-seventh-commandment</link>
+	<pubDate>Sun, 01 Sep 2024 03:55:12 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=852</guid>
+	<description><![CDATA[The Ten Commandments. Talk 7. The Seventh Commandment. By Andy Wilson, 01/09/2024. Exodus 20:14]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 7. The Seventh Commandment. By Andy Wilson, 01/09/2024. Exodus 20:14]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 7. The Seventh Commandment. By Andy Wilson, 01/09/2024. Exodus 20:14]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/852/the-ten-commandments-talk-7-the-seventh-commandment.mp3" length="16013975" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 7. The Seventh Commandment. By Andy Wilson, 01/09/2024. Exodus 20:14]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>33:22</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 7. The Seventh Commandment. By Andy Wilson, 01/09/2024. Exodus 20:14]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 6. The Sixth Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-6-the-sixth-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-6-the-sixth-commandment</link>
+	<pubDate>Sun, 25 Aug 2024 03:18:15 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=849</guid>
+	<description><![CDATA[The Ten Commandments. Talk 6. The Sixth Commandment. By Rod McLennan, 25/08/2024. Exodus 20:13]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 6. The Sixth Commandment. By Rod McLennan, 25/08/2024. Exodus 20:13]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 6. The Sixth Commandment. By Rod McLennan, 25/08/2024. Exodus 20:13]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/849/the-ten-commandments-talk-6-the-sixth-commandment.mp3" length="15661078" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 6. The Sixth Commandment. By Rod McLennan, 25/08/2024. Exodus 20:13]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>32:38</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 6. The Sixth Commandment. By Rod McLennan, 25/08/2024. Exodus 20:13]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 5. The Fifth Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-5-the-fifth-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-5-the-fifth-commandment</link>
+	<pubDate>Sun, 18 Aug 2024 01:55:25 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=846</guid>
+	<description><![CDATA[The Ten Commandments. Talk 5. The Fifth Commandment. By Rod McLennan, 18/08/2024. Exodus 20:12]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 5. The Fifth Commandment. By Rod McLennan, 18/08/2024. Exodus 20:12]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 5. The Fifth Commandment. By Rod McLennan, 18/08/2024. Exodus 20:12]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/846/the-ten-commandments-talk-5-the-fifth-commandment.mp3" length="17463189" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 5. The Fifth Commandment. By Rod McLennan, 18/08/2024. Exodus 20:12]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>36:23</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 5. The Fifth Commandment. By Rod McLennan, 18/08/2024. Exodus 20:12]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 4. The Fourth Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-4-the-fourth-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-4-the-fourth-commandment</link>
+	<pubDate>Sun, 11 Aug 2024 02:04:44 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=844</guid>
+	<description><![CDATA[The Ten Commandments. Talk 4. The Fourth Commandment. By Rod McLennan, 11/08/2024. Exodus 20:8-11]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 4. The Fourth Commandment. By Rod McLennan, 11/08/2024. Exodus 20:8-11]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 4. The Fourth Commandment. By Rod McLennan, 11/08/2024. Exodus 20:8-11]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/844/the-ten-commandments-talk-4-the-fourth-commandment.mp3" length="16317530" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 4. The Fourth Commandment. By Rod McLennan, 11/08/2024. Exodus 20:8-11]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>34:00</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 4. The Fourth Commandment. By Rod McLennan, 11/08/2024. Exodus 20:8-11]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 3. The Third Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-3-the-third-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-3-the-third-commandment</link>
+	<pubDate>Sun, 04 Aug 2024 04:35:39 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=840</guid>
+	<description><![CDATA[The Ten Commandments. Talk 3. The Third Commandment. By Rod McLennan, 04/08/2024. Exodus 20:7]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 3. The Third Commandment. By Rod McLennan, 04/08/2024. Exodus 20:7]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 3. The Third Commandment. By Rod McLennan, 04/08/2024. Exodus 20:7]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/840/the-ten-commandments-talk-3-the-third-commandment.mp3" length="15751119" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 3. The Third Commandment. By Rod McLennan, 04/08/2024. Exodus 20:7]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>32:49</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 3. The Third Commandment. By Rod McLennan, 04/08/2024. Exodus 20:7]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 2. The Second Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-2-the-second-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-2-the-second-commandment</link>
+	<pubDate>Sun, 28 Jul 2024 02:59:18 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=838</guid>
+	<description><![CDATA[The Ten Commandments. Talk 2. The Second Commandment. By Rod McLennan, 28/07/2024. Exodus 20:4-6.]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 2. The Second Commandment. By Rod McLennan, 28/07/2024. Exodus 20:4-6.]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 2. The Second Commandment. By Rod McLennan, 28/07/2024. Exodus 20:4-6.]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/838/the-ten-commandments-talk-2-the-second-commandment.mp3" length="16733972" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 2. The Second Commandment. By Rod McLennan, 28/07/2024. Exodus 20:4-6.]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>34:52</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 2. The Second Commandment. By Rod McLennan, 28/07/2024. Exodus 20:4-6.]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+
+<item>
+	<title>The Ten Commandments. Talk 1. The First Commandment.</title>
+	<link>https://www.epchurch.org.au/index.php/podcast/the-ten-commandments-talk-1-the-first-commandment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-ten-commandments-talk-1-the-first-commandment</link>
+	<pubDate>Sun, 14 Jul 2024 02:56:56 +0000</pubDate>
+	<dc:creator><![CDATA[Emerald Presbyterian Church]]></dc:creator>
+	<guid isPermaLink="false">https://www.epchurch.org.au/?post_type=podcast&#038;p=832</guid>
+	<description><![CDATA[The Ten Commandments. Talk 1. The First Commandment. By Rod McLennan, 14/07/2024. Exodus 19:1-20, 20:18-21.]]></description>
+	<itunes:subtitle><![CDATA[The Ten Commandments. Talk 1. The First Commandment. By Rod McLennan, 14/07/2024. Exodus 19:1-20, 20:18-21.]]></itunes:subtitle>
+	<content:encoded><![CDATA[The Ten Commandments. Talk 1. The First Commandment. By Rod McLennan, 14/07/2024. Exodus 19:1-20, 20:18-21.]]></content:encoded>
+	<enclosure url="https://www.epchurch.org.au/podcast-download/832/the-ten-commandments-talk-1-the-first-commandment.mp3" length="11078059" type="audio/mpeg"></enclosure>
+	<itunes:summary><![CDATA[The Ten Commandments. Talk 1. The First Commandment. By Rod McLennan, 14/07/2024. Exodus 19:1-20, 20:18-21.]]></itunes:summary>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:block>no</itunes:block>
+	<itunes:duration>23:05</itunes:duration>
+	<itunes:author><![CDATA[Emerald Presbyterian Church]]></itunes:author>	<googleplay:description><![CDATA[The Ten Commandments. Talk 1. The First Commandment. By Rod McLennan, 14/07/2024. Exodus 19:1-20, 20:18-21.]]></googleplay:description>
+	<googleplay:explicit>No</googleplay:explicit>
+	<googleplay:block>no</googleplay:block>
+</item>
+	</channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:taxo='http://purl.org/rss/1.0/modules/taxonomy/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:podbridge='http://www.podbridge.com/podbridge-ad.dtd' xmlns:atom='http://www.w3.org/2005/Atom' version='2.0'>
+
+
+<channel>
+        <title>Praise and Worship Music Live at Without Walls International Church (Video)</title>
+        <link>http://www.withoutwalls.org</link>
+        <description>Without Walls International Church is located in Tampa, Florida. Pastor Paula White is the senior pastor of WWIC. Dr. Mark Payne is the Fine Art Director of WWIC. This podcast is recorded within the WWIC sanctuary during services on Thursdays and Sundays.</description>
+        <language>en-us</language>
+        <copyright>Copyright 2011 Without Walls International Church</copyright>
+        <lastBuildDate>Thu, 17 Mar 2011 15:25:48 -0300</lastBuildDate>
+        <managingEditor>podcast@withoutwalls.org (Brandon McDaniel)</managingEditor>
+        <webMaster>admin@withoutwalls.org (Brandon McDaniel)</webMaster>
+        <ttl>60</ttl>
+		
+		<image>
+			<link>http://www.withoutwalls.org</link>
+			<url>http://s361132768.onlinehome.us/wwicpodcast_music_300x300.jpg</url>
+			<title>Praise and Worship Music Live at Without Walls International Church (Audio)</title>
+		</image>
+
+        <itunes:image href="http://s361132768.onlinehome.us/wwicpodcast_music_600x600.jpg" />
+        <itunes:author>WithoutWalls.org</itunes:author>
+        <itunes:keywords>Music,Worship,Praise,Songs,Mark,Payne,choir,band,live,Service,Paula,White,Without,Walls,International,Church,Ministries,Ministry,Paula,Today,Video</itunes:keywords>
+        <itunes:subtitle>Praise and worship video podcasts from Without Walls International Church</itunes:subtitle>
+        <itunes:summary>Without Walls International Church is located in Tampa, Florida. Pastor Paula White is the senior pastor of WWIC. Dr. Mark Payne is the Fine Art Director of WWIC. This podcast is recorded within the WWIC sanctuary during services on Thursdays and Sundays.</itunes:summary>
+
+		<itunes:owner>
+			<itunes:email>podcast@withoutwalls.org</itunes:email>
+			<itunes:name>Without Walls International Church</itunes:name>
+		</itunes:owner>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:category text="Religion &amp; Spirituality">
+		<itunes:category text="Christianity" /></itunes:category>
+		
+
+        <item>
+            <title>March 27th, Sunday morning at Without Walls International Church in Tampa</title>
+            <link>http://s361132768.onlinehome.us/WWIC_Music_2011-03-27_11AM.m4v</link>
+            <description>Without Walls International Church Fine Arts directed by Dr. Mark Payne lead the congregation in five songs. Give Hime Praises by William McDowell. How Great is Our God by Chris Tomlin. Nobody Greater by Vashawn Mitchell. Your Name is Above All Names by Vashawn Mitchell. Alpha and Omega by Israel and New Breed.</description>
+            <pubDate>Thu, 24 Feb 2011 18:00:00 -0500</pubDate>
+            <guid>http://s361132768.onlinehome.us/WWIC_Music_2011-03-27_11AM.m4v</guid>
+            <author>podcast@withoutwalls.org (Brandon McDaniel)</author>
+            <enclosure url='http://s361132768.onlinehome.us/WWIC_Music_2011-03-27_11AM.m4v' length='345749133' type='video/x-m4v' />
+			<itunes:image href="http://s361132768.onlinehome.us/wwicpodcast_music_600x600.jpg" />
+            <itunes:keywords>Pastor Paula White, Paula White, Without Walls, International, Church, Tampa, music, praise, worship, gospel, choir, band, Mark Payne, video</itunes:keywords>
+            <itunes:duration>32:03</itunes:duration>
+            <itunes:subtitle>Live praise and worship music recorded during a service at Without Walls International Church located in Tampa, Florida</itunes:subtitle>
+            <itunes:author>Without Walls International Church</itunes:author>
+        </item>
+		
+		
+		
+    </channel>
+</rss>

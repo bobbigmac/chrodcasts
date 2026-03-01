@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="https://feeds.transistor.fm/doctrine-at-work" title="MP3 Audio"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <podcast:podping usesPodping="true"/>
+    <title>Doctrine at Work</title>
+    <generator>Transistor (https://transistor.fm)</generator>
+    <itunes:new-feed-url>https://feeds.transistor.fm/doctrine-at-work</itunes:new-feed-url>
+    <description>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</description>
+    <copyright>© 2025 Reformed Theological Seminary</copyright>
+    <podcast:guid>ea5d9fc3-f750-50e3-8e20-c5edca2436fd</podcast:guid>
+    <podcast:locked owner="dschitter@gmail.com">no</podcast:locked>
+    <podcast:trailer pubdate="Tue, 04 Nov 2025 15:40:12 -0500" url="https://media.transistor.fm/c4d62a6b/e7dca9dd.mp3" length="1601675" type="audio/mpeg">A Sneak Peak at Doctrine at Work</podcast:trailer>
+    <language>en</language>
+    <pubDate>Wed, 03 Dec 2025 04:30:05 -0500</pubDate>
+    <lastBuildDate>Wed, 03 Dec 2025 04:31:27 -0500</lastBuildDate>
+    <link>https://paideiacenter.com/ifwc/</link>
+    <image>
+      <url>https://img.transistor.fm/g_hJoDvLfCiYbPI-ol2LWAfwT_9Wr8byPNUSu95Chfk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mMDVk/NGI4NTBmZGQ2M2Ni/MjY3NDc3ZjEzMDlk/ZjZlMy5wbmc.jpg</url>
+      <title>Doctrine at Work</title>
+      <link>https://paideiacenter.com/ifwc/</link>
+    </image>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Reformed Theological Seminary</itunes:author>
+    <itunes:image href="https://img.transistor.fm/g_hJoDvLfCiYbPI-ol2LWAfwT_9Wr8byPNUSu95Chfk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mMDVk/NGI4NTBmZGQ2M2Ni/MjY3NDc3ZjEzMDlk/ZjZlMy5wbmc.jpg"/>
+    <itunes:summary>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</itunes:summary>
+    <itunes:subtitle>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture.</itunes:subtitle>
+    <itunes:keywords></itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Damein Schitter</itunes:name>
+    </itunes:owner>
+    <itunes:complete>No</itunes:complete>
+    <itunes:explicit>No</itunes:explicit>
+    <item>
+      <title>The Doctrine of God: Divine Fullness and Work with Dr. Fred Sanders</title>
+      <itunes:episode>5</itunes:episode>
+      <podcast:episode>5</podcast:episode>
+      <itunes:title>The Doctrine of God: Divine Fullness and Work with Dr. Fred Sanders</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">398ade9a-de80-443e-b62a-725d3826459a</guid>
+      <link>https://share.transistor.fm/s/76f44384</link>
+      <description>
+        <![CDATA[<p>What does the Trinity have to do with your job? In this conversation, theologian Dr. Fred Sanders joins Damein to explore how a right understanding of God’s own fullness transforms the way Christians approach their daily work.</p><p>Drawing from his article in <em>Studies in Faith, Work, and Culture</em>, Dr. Sanders shows why any faithful connection between God and our work must begin—not with us drawing analogies upward—but with God’s abundant life overflowing toward us. They discuss the “economy of God” in Ephesians, the relationship between contemplation and action, and why cultivating an interior life with God is essential even in the busiest workplaces.</p><p>If you’ve ever felt spiritually thin in a packed schedule, or wondered how God’s character shapes your labor, this episode reframes vocation through the lens of divine abundance—inviting you to work not from scarcity, but from the overflowing fullness of God Himself.</p><p>Read Dr. Sanders' article: https://journal.rts.edu/article/the-doctrine-of-god-divine-fullness-and-work/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>What does the Trinity have to do with your job? In this conversation, theologian Dr. Fred Sanders joins Damein to explore how a right understanding of God’s own fullness transforms the way Christians approach their daily work.</p><p>Drawing from his article in <em>Studies in Faith, Work, and Culture</em>, Dr. Sanders shows why any faithful connection between God and our work must begin—not with us drawing analogies upward—but with God’s abundant life overflowing toward us. They discuss the “economy of God” in Ephesians, the relationship between contemplation and action, and why cultivating an interior life with God is essential even in the busiest workplaces.</p><p>If you’ve ever felt spiritually thin in a packed schedule, or wondered how God’s character shapes your labor, this episode reframes vocation through the lens of divine abundance—inviting you to work not from scarcity, but from the overflowing fullness of God Himself.</p><p>Read Dr. Sanders' article: https://journal.rts.edu/article/the-doctrine-of-god-divine-fullness-and-work/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </content:encoded>
+      <pubDate>Wed, 03 Dec 2025 04:30:00 -0500</pubDate>
+      <author>Reformed Theological Seminary</author>
+      <enclosure url="https://media.transistor.fm/76f44384/24d98242.mp3" length="53123711" type="audio/mpeg"/>
+      <itunes:author>Reformed Theological Seminary</itunes:author>
+      <itunes:duration>2211</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>What does the Trinity have to do with your job? In this conversation, theologian Dr. Fred Sanders joins Damein to explore how a right understanding of God’s own fullness transforms the way Christians approach their daily work.</p><p>Drawing from his article in <em>Studies in Faith, Work, and Culture</em>, Dr. Sanders shows why any faithful connection between God and our work must begin—not with us drawing analogies upward—but with God’s abundant life overflowing toward us. They discuss the “economy of God” in Ephesians, the relationship between contemplation and action, and why cultivating an interior life with God is essential even in the busiest workplaces.</p><p>If you’ve ever felt spiritually thin in a packed schedule, or wondered how God’s character shapes your labor, this episode reframes vocation through the lens of divine abundance—inviting you to work not from scarcity, but from the overflowing fullness of God Himself.</p><p>Read Dr. Sanders' article: https://journal.rts.edu/article/the-doctrine-of-god-divine-fullness-and-work/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </itunes:summary>
+      <itunes:keywords></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Faith and Work...for Others with Dr. Vincent Bacote</title>
+      <itunes:episode>4</itunes:episode>
+      <podcast:episode>4</podcast:episode>
+      <itunes:title>Faith and Work...for Others with Dr. Vincent Bacote</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">6f0583c2-b2a1-4b22-ae50-66103a30a85d</guid>
+      <link>https://share.transistor.fm/s/5a28075d</link>
+      <description>
+        <![CDATA[<p>How does your understanding of Genesis impact your workweek? In this conversation, theologian Dr. Vincent Bacote joins Damein to explore how the Bible’s opening chapters reshape our understanding of work, vocation, and what it means to be human.</p><p>Drawing from his article in Studies in Faith, Work, and Culture, Dr. Bacote unpacks the doctrine of creation—not merely as an origins debate, but as God’s first “Great Commission,” a call to steward the world with wisdom, responsibility, and hope. Together they reflect on why work remains fundamentally good, even in a fallen world, how Christians can avoid both despair and idolatry in the workplace, and why sanctification involves becoming more fully human for the flourishing of others.</p><p>If you’ve ever wondered how to find meaning in the grind, navigate workplace tension, or bring distinctly Christian wisdom to your daily responsibilities, this episode offers a rich, hopeful vision of vocation grounded in God’s good creation—and sustained by His ongoing work in the world.</p><p>Read Dr. Bacote's article: https://journal.rts.edu/article/faith-and-work-for-others/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>How does your understanding of Genesis impact your workweek? In this conversation, theologian Dr. Vincent Bacote joins Damein to explore how the Bible’s opening chapters reshape our understanding of work, vocation, and what it means to be human.</p><p>Drawing from his article in Studies in Faith, Work, and Culture, Dr. Bacote unpacks the doctrine of creation—not merely as an origins debate, but as God’s first “Great Commission,” a call to steward the world with wisdom, responsibility, and hope. Together they reflect on why work remains fundamentally good, even in a fallen world, how Christians can avoid both despair and idolatry in the workplace, and why sanctification involves becoming more fully human for the flourishing of others.</p><p>If you’ve ever wondered how to find meaning in the grind, navigate workplace tension, or bring distinctly Christian wisdom to your daily responsibilities, this episode offers a rich, hopeful vision of vocation grounded in God’s good creation—and sustained by His ongoing work in the world.</p><p>Read Dr. Bacote's article: https://journal.rts.edu/article/faith-and-work-for-others/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </content:encoded>
+      <pubDate>Wed, 26 Nov 2025 04:30:00 -0500</pubDate>
+      <author>Reformed Theological Seminary</author>
+      <enclosure url="https://media.transistor.fm/5a28075d/50557040.mp3" length="52771655" type="audio/mpeg"/>
+      <itunes:author>Reformed Theological Seminary</itunes:author>
+      <itunes:duration>2196</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>How does your understanding of Genesis impact your workweek? In this conversation, theologian Dr. Vincent Bacote joins Damein to explore how the Bible’s opening chapters reshape our understanding of work, vocation, and what it means to be human.</p><p>Drawing from his article in Studies in Faith, Work, and Culture, Dr. Bacote unpacks the doctrine of creation—not merely as an origins debate, but as God’s first “Great Commission,” a call to steward the world with wisdom, responsibility, and hope. Together they reflect on why work remains fundamentally good, even in a fallen world, how Christians can avoid both despair and idolatry in the workplace, and why sanctification involves becoming more fully human for the flourishing of others.</p><p>If you’ve ever wondered how to find meaning in the grind, navigate workplace tension, or bring distinctly Christian wisdom to your daily responsibilities, this episode offers a rich, hopeful vision of vocation grounded in God’s good creation—and sustained by His ongoing work in the world.</p><p>Read Dr. Bacote's article: https://journal.rts.edu/article/faith-and-work-for-others/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </itunes:summary>
+      <itunes:keywords></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Paradisial Gin and Tonics: On The Redemption of the Artifacts of Human Cultivation with Dr. Brian Mattson</title>
+      <itunes:episode>3</itunes:episode>
+      <podcast:episode>3</podcast:episode>
+      <itunes:title>Paradisial Gin and Tonics: On The Redemption of the Artifacts of Human Cultivation with Dr. Brian Mattson</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">bb11b896-20ff-4233-bcad-cd77bf2f808f</guid>
+      <link>https://share.transistor.fm/s/afdac8ef</link>
+      <description>
+        <![CDATA[<p>What does Chinese food have to do with heaven? In this conversation, theologian, writer, and musician Dr. Brian Mattson joins Damein and Karen to explore how a simple question from his daughter — “Will there be Chinese food in heaven?” — opens up profound reflections on creation, culture, and the purpose of human work.</p><p>Drawing from his article in Studies in Faith, Work, and Culture, Dr. Mattson unpacks the neo-Calvinist vision of God’s world as fundamentally <em>good</em> — not something to escape, but something destined for renewal. Together they discuss how the things we create, from art to spreadsheets, might echo into eternity, and why our daily labor has lasting meaning in God’s redemptive story.</p><p>If you’ve ever wondered whether your work truly matters, or how the world to come connects to the world you know, this episode will reshape how you see vocation, creation, and eternity — helping you imagine what it means to prepare for heaven right where you are.</p><p>Read Dr. Mattson's article: https://journal.rts.edu/article/paradisial-gin-and-tonics-on-the-redemption-of-the-artifacts-of-human-cultivation/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>What does Chinese food have to do with heaven? In this conversation, theologian, writer, and musician Dr. Brian Mattson joins Damein and Karen to explore how a simple question from his daughter — “Will there be Chinese food in heaven?” — opens up profound reflections on creation, culture, and the purpose of human work.</p><p>Drawing from his article in Studies in Faith, Work, and Culture, Dr. Mattson unpacks the neo-Calvinist vision of God’s world as fundamentally <em>good</em> — not something to escape, but something destined for renewal. Together they discuss how the things we create, from art to spreadsheets, might echo into eternity, and why our daily labor has lasting meaning in God’s redemptive story.</p><p>If you’ve ever wondered whether your work truly matters, or how the world to come connects to the world you know, this episode will reshape how you see vocation, creation, and eternity — helping you imagine what it means to prepare for heaven right where you are.</p><p>Read Dr. Mattson's article: https://journal.rts.edu/article/paradisial-gin-and-tonics-on-the-redemption-of-the-artifacts-of-human-cultivation/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </content:encoded>
+      <pubDate>Wed, 19 Nov 2025 04:30:00 -0500</pubDate>
+      <author>Reformed Theological Seminary</author>
+      <enclosure url="https://media.transistor.fm/afdac8ef/67412921.mp3" length="63329837" type="audio/mpeg"/>
+      <itunes:author>Reformed Theological Seminary</itunes:author>
+      <itunes:duration>2636</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>What does Chinese food have to do with heaven? In this conversation, theologian, writer, and musician Dr. Brian Mattson joins Damein and Karen to explore how a simple question from his daughter — “Will there be Chinese food in heaven?” — opens up profound reflections on creation, culture, and the purpose of human work.</p><p>Drawing from his article in Studies in Faith, Work, and Culture, Dr. Mattson unpacks the neo-Calvinist vision of God’s world as fundamentally <em>good</em> — not something to escape, but something destined for renewal. Together they discuss how the things we create, from art to spreadsheets, might echo into eternity, and why our daily labor has lasting meaning in God’s redemptive story.</p><p>If you’ve ever wondered whether your work truly matters, or how the world to come connects to the world you know, this episode will reshape how you see vocation, creation, and eternity — helping you imagine what it means to prepare for heaven right where you are.</p><p>Read Dr. Mattson's article: https://journal.rts.edu/article/paradisial-gin-and-tonics-on-the-redemption-of-the-artifacts-of-human-cultivation/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </itunes:summary>
+      <itunes:keywords></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>First Principles and Last Things for a Theology of Work with Dr. Michael Allen</title>
+      <itunes:episode>2</itunes:episode>
+      <podcast:episode>2</podcast:episode>
+      <itunes:title>First Principles and Last Things for a Theology of Work with Dr. Michael Allen</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">ed928613-2012-43f3-b286-1d9bc8618a75</guid>
+      <link>https://share.transistor.fm/s/08e5a073</link>
+      <description>
+        <![CDATA[<p>What does “eschatology” — the study of last things — have to do with your Monday morning? In this conversation, Dr. Michael Allen, John Dyer Trimble Professor of Systematic Theology and Academic Dean at Reformed Theological Seminary, joins us to explore how a right understanding of the end shapes how we live and work in the present.</p><p>Drawing from his essay on “Doctrine and Work,” Dr. Allen unpacks why Christian hope isn’t just about the hereafter, but about how we order our desires, invest our time, and imagine the purpose of our callings today. Together we discuss what it means to educate our desires through prayer, how our imagination can be reshaped by the promise of God’s future, and why being truly heavenly minded actually makes us more faithful and fruitful in our earthly vocations.</p><p>If you’ve ever wondered how the hope of resurrection connects to your everyday responsibilities — from the office to the kitchen table — this episode will help you “start with the end in mind” and see how God’s future transforms the present.</p><p>Read Dr. Allen's article: https://journal.rts.edu/article/first-principles-and-last-things-for-a-theology-of-work/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>What does “eschatology” — the study of last things — have to do with your Monday morning? In this conversation, Dr. Michael Allen, John Dyer Trimble Professor of Systematic Theology and Academic Dean at Reformed Theological Seminary, joins us to explore how a right understanding of the end shapes how we live and work in the present.</p><p>Drawing from his essay on “Doctrine and Work,” Dr. Allen unpacks why Christian hope isn’t just about the hereafter, but about how we order our desires, invest our time, and imagine the purpose of our callings today. Together we discuss what it means to educate our desires through prayer, how our imagination can be reshaped by the promise of God’s future, and why being truly heavenly minded actually makes us more faithful and fruitful in our earthly vocations.</p><p>If you’ve ever wondered how the hope of resurrection connects to your everyday responsibilities — from the office to the kitchen table — this episode will help you “start with the end in mind” and see how God’s future transforms the present.</p><p>Read Dr. Allen's article: https://journal.rts.edu/article/first-principles-and-last-things-for-a-theology-of-work/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </content:encoded>
+      <pubDate>Wed, 12 Nov 2025 04:30:00 -0500</pubDate>
+      <author>Reformed Theological Seminary</author>
+      <enclosure url="https://media.transistor.fm/08e5a073/3abed030.mp3" length="58218864" type="audio/mpeg"/>
+      <itunes:author>Reformed Theological Seminary</itunes:author>
+      <itunes:duration>2423</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>What does “eschatology” — the study of last things — have to do with your Monday morning? In this conversation, Dr. Michael Allen, John Dyer Trimble Professor of Systematic Theology and Academic Dean at Reformed Theological Seminary, joins us to explore how a right understanding of the end shapes how we live and work in the present.</p><p>Drawing from his essay on “Doctrine and Work,” Dr. Allen unpacks why Christian hope isn’t just about the hereafter, but about how we order our desires, invest our time, and imagine the purpose of our callings today. Together we discuss what it means to educate our desires through prayer, how our imagination can be reshaped by the promise of God’s future, and why being truly heavenly minded actually makes us more faithful and fruitful in our earthly vocations.</p><p>If you’ve ever wondered how the hope of resurrection connects to your everyday responsibilities — from the office to the kitchen table — this episode will help you “start with the end in mind” and see how God’s future transforms the present.</p><p>Read Dr. Allen's article: https://journal.rts.edu/article/first-principles-and-last-things-for-a-theology-of-work/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </itunes:summary>
+      <itunes:keywords></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Work Under the Fall with N. Gray Sutanto</title>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:title>Work Under the Fall with N. Gray Sutanto</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a596d2a2-66be-4d3f-b69c-2915184b61ba</guid>
+      <link>https://share.transistor.fm/s/a5cf1699</link>
+      <description>
+        <![CDATA[<p>What does it mean to work faithfully in a world marked by brokenness? In this episode, Dr. N. Gray Sutanto of Reformed Theological Seminary joins hosts Damein Schitter and Karen Thigpen to discuss his article “Work Under the Fall” from Studies in Faith, Work, and Culture. </p><p>Drawing from Scripture and the theological insights of Herman Bavinck, Abraham Kuyper, Al Wolters, Augustine, Turretin, and Calvin, Dr. Sutanto unpacks the dignity of labor, the distortions of sin, and the hope of redemption that transforms our everyday callings.</p><p>Dr. Sutanto shares how theology meets the real pressures of modern work—ambition, burnout, productivity, and purpose—and how the gospel gives meaning to even the most ordinary tasks.</p><p><br>Read Dr. Sutanto's article: https://journal.rts.edu/article/work-under-the-fall/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>What does it mean to work faithfully in a world marked by brokenness? In this episode, Dr. N. Gray Sutanto of Reformed Theological Seminary joins hosts Damein Schitter and Karen Thigpen to discuss his article “Work Under the Fall” from Studies in Faith, Work, and Culture. </p><p>Drawing from Scripture and the theological insights of Herman Bavinck, Abraham Kuyper, Al Wolters, Augustine, Turretin, and Calvin, Dr. Sutanto unpacks the dignity of labor, the distortions of sin, and the hope of redemption that transforms our everyday callings.</p><p>Dr. Sutanto shares how theology meets the real pressures of modern work—ambition, burnout, productivity, and purpose—and how the gospel gives meaning to even the most ordinary tasks.</p><p><br>Read Dr. Sutanto's article: https://journal.rts.edu/article/work-under-the-fall/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </content:encoded>
+      <pubDate>Wed, 05 Nov 2025 04:30:00 -0500</pubDate>
+      <author>Reformed Theological Seminary</author>
+      <enclosure url="https://media.transistor.fm/a5cf1699/356162b4.mp3" length="59531845" type="audio/mpeg"/>
+      <itunes:author>Reformed Theological Seminary</itunes:author>
+      <itunes:duration>2478</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>What does it mean to work faithfully in a world marked by brokenness? In this episode, Dr. N. Gray Sutanto of Reformed Theological Seminary joins hosts Damein Schitter and Karen Thigpen to discuss his article “Work Under the Fall” from Studies in Faith, Work, and Culture. </p><p>Drawing from Scripture and the theological insights of Herman Bavinck, Abraham Kuyper, Al Wolters, Augustine, Turretin, and Calvin, Dr. Sutanto unpacks the dignity of labor, the distortions of sin, and the hope of redemption that transforms our everyday callings.</p><p>Dr. Sutanto shares how theology meets the real pressures of modern work—ambition, burnout, productivity, and purpose—and how the gospel gives meaning to even the most ordinary tasks.</p><p><br>Read Dr. Sutanto's article: https://journal.rts.edu/article/work-under-the-fall/</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </itunes:summary>
+      <itunes:keywords></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>A Sneak Peak at Doctrine at Work</title>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:title>A Sneak Peak at Doctrine at Work</itunes:title>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <guid isPermaLink="false">d5c472f2-819e-4e66-9400-8c5f5856954f</guid>
+      <link>https://share.transistor.fm/s/c4d62a6b</link>
+      <description>
+        <![CDATA[<p>Listen to this clip from our first episode of Doctrine at Work, featuring Dr. N. Gray Sutanto.</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Listen to this clip from our first episode of Doctrine at Work, featuring Dr. N. Gray Sutanto.</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </content:encoded>
+      <pubDate>Tue, 04 Nov 2025 15:40:12 -0500</pubDate>
+      <author>Reformed Theological Seminary</author>
+      <enclosure url="https://media.transistor.fm/c4d62a6b/e7dca9dd.mp3" length="1601675" type="audio/mpeg"/>
+      <itunes:author>Reformed Theological Seminary</itunes:author>
+      <itunes:duration>65</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Listen to this clip from our first episode of Doctrine at Work, featuring Dr. N. Gray Sutanto.</p><p>Doctrine at Work is the companion podcast for the Institute for Faith Work and Culture's annual publication entitled Studies in Faith, Work, and Culture. The journal reflects original essays presented during The Colloquium, an annual gathering hosted by the IFWC that brings together practitioners from the Faith &amp; Work community, RTS seminary students, academic scholars, and marketplace leaders.</p>]]>
+      </itunes:summary>
+      <itunes:keywords></itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
+    <channel>
+        <title>Sermons by Eric Walsh</title>
+        <link>https://www.audioverse.org/en/presenters/4/eric-walsh</link>
+        <description>The latest AudioVerse sermons by Eric Walsh</description>
+        <lastBuildDate>Sun, 01 Mar 2026 03:14:36 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AudioVerse</generator>
+        <copyright>This feed Copyright 2026 AudioVerse. Individual recordings are copyrighted by their respective owners.</copyright>
+        <itunes:subtitle>The latest AudioVerse sermons by Eric Walsh</itunes:subtitle>
+        <language>en</language>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:author>AudioVerse</itunes:author>
+        <itunes:owner>
+            <itunes:name>AudioVerse</itunes:name>
+            <itunes:email>contact@audioverse.org</itunes:email>
+        </itunes:owner>
+        <image>https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632</image>
+        <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Christianity"/>
+        </itunes:category>
+        <item>
+            <title><![CDATA[Eric Walsh: Revival: True & False]]></title>
+            <guid>45127-172542</guid>
+            <pubDate>Fri, 27 Feb 2026 11:00:00 GMT</pubDate>
+            <enclosure length="33413724" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/172542/2026/02/45127/20260214-1100-45127-b05ddce6a27d0403d69ffc4070fccbc5-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>2784</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: The Prayer Shift For 2026]]></title>
+            <guid>45012-172219</guid>
+            <pubDate>Tue, 17 Feb 2026 11:00:00 GMT</pubDate>
+            <enclosure length="43347286" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/172219/2026/02/45012/20260131-1100-45012-e551009592c7039a9cf8fa48a1c493ec-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3612</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: The Science of Surrender]]></title>
+            <guid>45029-172091</guid>
+            <pubDate>Fri, 13 Feb 2026 11:00:00 GMT</pubDate>
+            <enclosure length="37840570" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/172091/2026/02/45029/20260207-1100-45029-1789274342c06e78eb71779108fffda4-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3153</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Defeating the Strong Man]]></title>
+            <guid>44973-171517</guid>
+            <pubDate>Mon, 26 Jan 2026 11:00:00 GMT</pubDate>
+            <enclosure length="42250814" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/171517/2026/01/44973/20260110-1100-44973-dfdf65f470ce6c67e3f9f5806c701c5b-95k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 95 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3548</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 05 Sobriety and the End of Time: The Need of a Clear Mind to Avoid Deception]]></title>
+            <guid>44906-171447</guid>
+            <pubDate>Fri, 23 Jan 2026 11:00:00 GMT</pubDate>
+            <enclosure length="37195498" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/171447/2026/01/44906/20260102-0940-44906-af37f898aeccde33b2f3a90c9a3251c3-72k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 72 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>4085</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 04 Healing the Brain After Addiction: The Power of Our Health Message]]></title>
+            <guid>44905-171325</guid>
+            <pubDate>Thu, 22 Jan 2026 11:00:00 GMT</pubDate>
+            <enclosure length="33465376" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/171325/2026/01/44905/20260101-1640-44905-4535badc67b86cda8727cd8c6cef0570-75k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 75 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3547</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 03 The New Drug: Pornography and Sex Addiction]]></title>
+            <guid>44904-171323</guid>
+            <pubDate>Wed, 21 Jan 2026 11:00:00 GMT</pubDate>
+            <enclosure length="31147955" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/171323/2026/01/44904/20260101-1430-44904-b4c0176b8c06f026663f6a6a3584f31e-69k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 69 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3561</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 02 The Brain on Drugs: How the Devil Chains the Mind]]></title>
+            <guid>44903-171320</guid>
+            <pubDate>Tue, 20 Jan 2026 11:00:00 GMT</pubDate>
+            <enclosure length="33003313" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/171320/2026/01/44903/20260101-1050-44903-348adb3cacf2003e4c3f15fdf06f6e82-74k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 74 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3554</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 01 A Generation Addicted: Drugs, Demons, and a Rising Death Toll]]></title>
+            <guid>44902-171319</guid>
+            <pubDate>Mon, 19 Jan 2026 11:00:00 GMT</pubDate>
+            <enclosure length="31427010" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/171319/2026/01/44902/20260101-0940-44902-c212da4da7caeed394d59765efc75b2e-75k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 75 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3332</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: When God Spared Not]]></title>
+            <guid>44839-170989</guid>
+            <pubDate>Mon, 22 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="30188730" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170989/2025/12/44839/20251206-0600-44839-7542f22e80dd351bc54cb1934ef28cb8-91k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 91 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>2632</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Alien Invasion]]></title>
+            <guid>44838-170993</guid>
+            <pubDate>Sun, 21 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="32460725" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170993/2025/12/44838/20251129-1130-44838-d50bd553fdf7f7242f462aa92534eebf-91k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 91 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>2848</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 3 The Holy Spirit’s Final Work]]></title>
+            <guid>44719-170293</guid>
+            <pubDate>Thu, 18 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="35842829" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170293/2025/12/44719/20251108-1800-44719-33d45b5be15ea3b9705a42f37a7354eb-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>2987</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 2 Artificial Intelligence]]></title>
+            <guid>44718-170290</guid>
+            <pubDate>Wed, 17 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="39214508" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170290/2025/12/44718/20251108-1500-44718-c3c30d08d2c997e564d68d3ac7ef00d8-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3268</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: 1 Defending the Trinity]]></title>
+            <guid>44717-170287</guid>
+            <pubDate>Tue, 16 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="37129277" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170287/2025/12/44717/20251108-1100-44717-d2b71507375496324fd6621b4ad0f6c7-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3094</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Barna Magyarosi, Eric Walsh: 12 God is Faithful!]]></title>
+            <guid>44821-170853</guid>
+            <pubDate>Sat, 13 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="20521318" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170853/2025/12/44821/20251213-0600-44821-4637beae609ab0ee364b1abce6d059a9-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Barna Magyarosi, Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>1710</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: The Thinnest Line: Sexual Purity in a World Corrupted]]></title>
+            <guid>44712-170242</guid>
+            <pubDate>Thu, 11 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="45516495" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170242/2025/11/44712/20251115-1100-44712-bc2d509b81726d32408176d10da7c7d7-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3793</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Spiritual Staring Contest]]></title>
+            <guid>44711-170232</guid>
+            <pubDate>Wed, 10 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="38281277" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170232/2025/11/44711/20251114-1800-44711-d9a17e2245aefe4177113e559b9dd8ef-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3190</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: King, Priest or Coward?]]></title>
+            <guid>44694-170051</guid>
+            <pubDate>Wed, 03 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="12367826" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170051/2025/11/44694/20251005-1700-44694-ff4118418105359f39bfaa7693498457-71k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 71 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>1385</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Sanctified or Sexualized]]></title>
+            <guid>44693-170049</guid>
+            <pubDate>Tue, 02 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="30014306" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170049/2025/11/44693/20251004-1500-44693-aa61b53b0fe9b138aed0379fcf83f7e6-70k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 70 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3406</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: What is a Man of God?]]></title>
+            <guid>44679-170050</guid>
+            <pubDate>Mon, 01 Dec 2025 11:00:00 GMT</pubDate>
+            <enclosure length="38942007" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/170050/2025/11/44679/20251117-1115-44679-cdd8de827e52d8fd3cd19fbe29c54f83-71k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 71 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary>As men in a world that is crumbling under compromise, can you be a man that stands for God? Not just publicly but in those times when no one is looking.</itunes:summary>
+            <itunes:duration>4370</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: If God, Why Evil?]]></title>
+            <guid>44689-169997</guid>
+            <pubDate>Tue, 25 Nov 2025 11:00:00 GMT</pubDate>
+            <enclosure length="40707561" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/169997/2025/11/44689/20251101-1100-44689-dc75cfc9563ce0481bb470f9ef663fbb-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3392</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Christ Over Crisis: The Next Disappointment Pt.2]]></title>
+            <guid>44594-169482</guid>
+            <pubDate>Fri, 07 Nov 2025 11:00:00 GMT</pubDate>
+            <enclosure length="40680916" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/169482/2025/10/44594/20251025-1100-44594-08c2af5dffa57e09973f8840e910c9d6-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3390</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Christ Over Crisis: The October Dilemma Pt.1]]></title>
+            <guid>44593-169473</guid>
+            <pubDate>Thu, 06 Nov 2025 11:00:00 GMT</pubDate>
+            <enclosure length="37620797" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/169473/2025/10/44593/20251024-1800-44593-9b27fc66365c61cd69fb785551358f48-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3135</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: The Power of Thought]]></title>
+            <guid>44592-169460</guid>
+            <pubDate>Wed, 05 Nov 2025 11:00:00 GMT</pubDate>
+            <enclosure length="48420162" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/169460/2025/10/44592/20251018-1100-44592-50dc7e955106abff9cb2d2a443e5a1c7-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>4035</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+        <item>
+            <title><![CDATA[Eric Walsh: Finding Hope in the Darkness]]></title>
+            <guid>44591-169457</guid>
+            <pubDate>Tue, 04 Nov 2025 11:00:00 GMT</pubDate>
+            <enclosure length="42258890" type="audio/mpeg" url="https://www.audioverse.org/en/download/rss/169457/2025/10/44591/20251017-1800-44591-81840c74e991044307560d808ea0c909-96k.mp3"/>
+            <itunes:subtitle>MP3 Audio, 96 kbps</itunes:subtitle>
+            <itunes:author>Eric Walsh</itunes:author>
+            <itunes:summary/>
+            <itunes:duration>3522</itunes:duration>
+            <itunes:image href="https://ik.imagekit.io/audioverse/tr:w-600,h-600,c-maintain_ratio/persons/eric_walsh.jpg?ik-s=9ef6101352b44457169d7a6137a904d4e2346632"/>
+        </item>
+    </channel>
+</rss>

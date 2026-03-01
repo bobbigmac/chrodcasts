@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link href="https://feeds.simplecast.com/5chLGQi3" rel="self" title="MP3 Audio" type="application/atom+xml"/>
+    <atom:link href="https://simplecast.superfeedr.com" rel="hub" xmlns="http://www.w3.org/2005/Atom"/>
+    <generator>https://simplecast.com</generator>
+    <title>&quot;A&quot; Is for Abraham</title>
+    <description>A lively discussion on various topics related to faith, organised around the alphabet, featuring Rabbi Adam Zagoria-Moffet of St Albans Masorti Synagogue, Fr. Richard Watson, Vicar of St Saviour&apos;s Church in St Albans, and Akhtar Zaman, President of the Islamic Centre of St. Albans. Three faiths, one family.</description>
+    <copyright>2024</copyright>
+    <language>en</language>
+    <pubDate>Fri, 7 Nov 2025 06:33:05 +0000</pubDate>
+    <lastBuildDate>Fri, 7 Nov 2025 06:33:16 +0000</lastBuildDate>
+    <image>
+      <link>https://a-is-for-abraham.simplecast.com</link>
+      <title>&quot;A&quot; Is for Abraham</title>
+      <url>https://image.simplecastcdn.com/images/de2ee806-eaa1-4092-9895-8b0da5e670ab/14ce6de3-b5d9-461d-9078-a9daa8fc4c17/3000x3000/aifa-logo.jpg?aid=rss_feed</url>
+    </image>
+    <link>https://a-is-for-abraham.simplecast.com</link>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>A lively discussion on various topics related to faith, organised around the alphabet, featuring Rabbi Adam Zagoria-Moffet of St Albans Masorti Synagogue, Fr. Richard Watson, Vicar of St Saviour&apos;s Church in St Albans, and Akhtar Zaman, President of the Islamic Centre of St. Albans. Three faiths, one family.</itunes:summary>
+    <itunes:author>Akhtar Zaman, St Albans Interfaith League, Adam Zagoria-Moffet, Richard Watson</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://image.simplecastcdn.com/images/de2ee806-eaa1-4092-9895-8b0da5e670ab/14ce6de3-b5d9-461d-9078-a9daa8fc4c17/3000x3000/aifa-logo.jpg?aid=rss_feed"/>
+    <itunes:new-feed-url>https://feeds.simplecast.com/5chLGQi3</itunes:new-feed-url>
+    <itunes:keywords>abraham, abrahamic, christianity, dialogue, interfaith, islam, judaism, multifaith, religion</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>St Albans Interfaith League</itunes:name>
+      <itunes:email>stalbansinterfaithleague@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Islam"/>
+    </itunes:category>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Judaism"/>
+    </itunes:category>
+    <item>
+      <guid isPermaLink="false">3671732f-d36d-4402-b44b-f953baf0ef16</guid>
+      <title>&quot;I&quot; is for Isaac and Ishmael</title>
+      <description><![CDATA[A look at Abraham's two sons and the stories that surround them  
+]]></description>
+      <pubDate>Fri, 7 Nov 2025 06:33:05 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (St Albans Interfaith League)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/i-is-for-isaac-and-ishmael-z6XL20Eq</link>
+      <enclosure length="30958143" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/69818fcf-1349-49ec-8aed-20cb925376ef/audio/1442477f-a099-4407-8e27-0ff5cc877745/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;I&quot; is for Isaac and Ishmael</itunes:title>
+      <itunes:author>St Albans Interfaith League</itunes:author>
+      <itunes:duration>00:32:14</itunes:duration>
+      <itunes:summary>A look at Abraham&apos;s two sons and the stories that surround them </itunes:summary>
+      <itunes:subtitle>A look at Abraham&apos;s two sons and the stories that surround them </itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">3a311abb-0f40-4d89-b046-a1e6182e1edc</guid>
+      <title>&quot;H&quot; is for Heresy</title>
+      <description><![CDATA[Who is a heretic and who decides? What can heresy as a concept teach us about free speech in our modern world? 
+]]></description>
+      <pubDate>Mon, 8 Sep 2025 04:34:16 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (St Albans Interfaith League)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/h-is-for-heresy-VHow6pPK</link>
+      <enclosure length="30769226" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/09f695a7-0c8f-4d00-a845-8ccceb12d27c/audio/03e14215-69d0-4780-99a4-2d0724fa0fb3/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;H&quot; is for Heresy</itunes:title>
+      <itunes:author>St Albans Interfaith League</itunes:author>
+      <itunes:duration>00:32:03</itunes:duration>
+      <itunes:summary>Who is a heretic and who decides? What can heresy as a concept teach us about free speech in our modern world?</itunes:summary>
+      <itunes:subtitle>Who is a heretic and who decides? What can heresy as a concept teach us about free speech in our modern world?</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">220b9a59-c215-4a7a-a69c-eb0843a35769</guid>
+      <title>&quot;G&quot; is for God</title>
+      <description><![CDATA[Predictably, the letter 'G' (and much else) is dedicated to God, as we discuss the difficulty and drama of discussing the Divine 
+]]></description>
+      <pubDate>Sun, 31 Aug 2025 17:31:20 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (St Albans Interfaith League)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/g-is-for-god-mX7tmO49</link>
+      <enclosure length="34385409" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/daf63bb8-0831-4434-913a-dacad66b3740/audio/10da436c-a45b-4800-8a81-713a59d89f64/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;G&quot; is for God</itunes:title>
+      <itunes:author>St Albans Interfaith League</itunes:author>
+      <itunes:duration>00:35:49</itunes:duration>
+      <itunes:summary>Predictably, the letter &apos;G&apos; (and much else) is dedicated to God, as we discuss the difficulty and drama of discussing the Divine</itunes:summary>
+      <itunes:subtitle>Predictably, the letter &apos;G&apos; (and much else) is dedicated to God, as we discuss the difficulty and drama of discussing the Divine</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">20283262-2cae-4329-827a-5f0356d0f8e0</guid>
+      <title>&quot;F&quot; is for Fasting</title>
+      <description><![CDATA[Just in time for Ramadan, Lent and Ta'anit Estér – we explore the concept, purpose, and methods of fasting among and between our three traditions.  
+]]></description>
+      <pubDate>Fri, 14 Mar 2025 07:00:00 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (akhtar zaman, adam zagoria-moffet, richard watson)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/f-is-for-fasting-HL0WSP3e</link>
+      <enclosure length="29585147" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/463fe878-8296-4ff2-8a59-a395cbd5f3c5/audio/9ab161bb-7619-4bfc-96d2-842688e95aa3/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;F&quot; is for Fasting</itunes:title>
+      <itunes:author>akhtar zaman, adam zagoria-moffet, richard watson</itunes:author>
+      <itunes:duration>00:30:49</itunes:duration>
+      <itunes:summary>Just in time for Ramadan, Lent and Ta&apos;anit Estér – we explore the concept, purpose, and methods of fasting among and between our three traditions. </itunes:summary>
+      <itunes:subtitle>Just in time for Ramadan, Lent and Ta&apos;anit Estér – we explore the concept, purpose, and methods of fasting among and between our three traditions. </itunes:subtitle>
+      <itunes:keywords>judaism, interfaith, fasting, christianity, lent, interfaith dialogue, ramadan, multifaith, islam</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">98cd0c4a-05f1-46eb-a2d2-1f7ca4da9368</guid>
+      <title>&quot;E&quot; is for Education</title>
+      <description><![CDATA[For the letter 'E', Adam, Richard and Akhtar explore the concept of education – who are we educating, why are we educating them, and what are our goals for learning and teaching? 
+]]></description>
+      <pubDate>Fri, 7 Mar 2025 05:15:36 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (richard watson, adam zagoria-moffet, akhtar zaman)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/e-is-for-education-HQB5V3GX</link>
+      <enclosure length="29585147" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/baaa4b0e-5fb1-46c2-83b3-9a1fb9a52cac/audio/fb483030-aa6e-4e65-80ae-5576d1545fd6/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;E&quot; is for Education</itunes:title>
+      <itunes:author>richard watson, adam zagoria-moffet, akhtar zaman</itunes:author>
+      <itunes:duration>00:30:49</itunes:duration>
+      <itunes:summary>For the letter &apos;E&apos;, Adam, Richard and Akhtar explore the concept of education – who are we educating, why are we educating them, and what are our goals for learning and teaching?</itunes:summary>
+      <itunes:subtitle>For the letter &apos;E&apos;, Adam, Richard and Akhtar explore the concept of education – who are we educating, why are we educating them, and what are our goals for learning and teaching?</itunes:subtitle>
+      <itunes:keywords>judaism, interfaith, pedagogy, christianity, education, interfaith dialogue, islam, religious education</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">1febeac0-e9c8-488a-94bf-fa4764887bab</guid>
+      <title>&quot;D&quot; is for Doubt</title>
+      <description><![CDATA[Which is the enemy of faith: certainty or doubt? Join us for a discussion of doubt, dogma, and diversity within our religious traditions.  
+]]></description>
+      <pubDate>Thu, 9 Jan 2025 16:20:53 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (Adam Zagoria-Moffet, Akhtar Zaman, Richard Watson)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/d-is-for-doubt-WUS6P_YD</link>
+      <enclosure length="30865356" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/a1a5e75b-20dc-4611-9647-a8af7a5a6a32/audio/8cc4a968-a814-4528-9c9f-8837630ef905/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;D&quot; is for Doubt</itunes:title>
+      <itunes:author>Adam Zagoria-Moffet, Akhtar Zaman, Richard Watson</itunes:author>
+      <itunes:duration>00:32:09</itunes:duration>
+      <itunes:summary>Which is the enemy of faith: certainty or doubt? Join us for a discussion of doubt, dogma, and diversity within our religious traditions. </itunes:summary>
+      <itunes:subtitle>Which is the enemy of faith: certainty or doubt? Join us for a discussion of doubt, dogma, and diversity within our religious traditions. </itunes:subtitle>
+      <itunes:keywords>judaism, interfaith, christianity, doubt, faith, dogma, dialogue, islam</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">1dc5a080-e9af-4b96-bb19-fdbea4cdff5b</guid>
+      <title>&quot;C&apos; is for Community</title>
+      <description><![CDATA[In our third episode, Fr. Richard, Rabbi Adam and Akhtar look at the subject of community. What makes a community? How do we resolve conflicts in communities - and how can we build communities across boundaries of faith? 
+]]></description>
+      <pubDate>Tue, 8 Oct 2024 09:44:18 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (akhtar zaman, richard watson, adam zagoria-moffet)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/c-is-for-community-7TVp52TH</link>
+      <enclosure length="25873252" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/d4586c19-a451-410a-bfe5-8fc7b2d05446/audio/882ec07d-36e4-4764-ae55-0506a7ae2290/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;C&apos; is for Community</itunes:title>
+      <itunes:author>akhtar zaman, richard watson, adam zagoria-moffet</itunes:author>
+      <itunes:duration>00:26:57</itunes:duration>
+      <itunes:summary>In our third episode, Fr. Richard, Rabbi Adam and Akhtar look at the subject of community. What makes a community? How do we resolve conflicts in communities - and how can we build communities across boundaries of faith?</itunes:summary>
+      <itunes:subtitle>In our third episode, Fr. Richard, Rabbi Adam and Akhtar look at the subject of community. What makes a community? How do we resolve conflicts in communities - and how can we build communities across boundaries of faith?</itunes:subtitle>
+      <itunes:keywords>judaism, christianity, st albans interfaith leagues, sail, abrahamic faiths, interfaith dialogue, islam, community</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">36dab338-77c7-47ae-8149-f45bc3bbe19f</guid>
+      <title>&quot;B&quot; is for Beginnings</title>
+      <description><![CDATA[Join Adam, Akhtar and Richard as they discuss 'Beginnings' in their traditions. What's the point of Creation stories, and what can we learn from them? Do science and faith have to be at odds over the foundation of the Universe or its functioning? This and more on our second episode in which we go back to the beginning.  
+]]></description>
+      <pubDate>Tue, 20 Aug 2024 22:00:02 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (Richard Watson, Akhtar Zaman, Adam Zagoria-Moffet)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/b-is-for-beginnings-nWLdOfgM</link>
+      <enclosure length="30270600" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/fbd971af-8df7-4aa9-bf80-81af920d1ab6/audio/4e311f0c-7ba2-4725-b87a-7af93287811b/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;B&quot; is for Beginnings</itunes:title>
+      <itunes:author>Richard Watson, Akhtar Zaman, Adam Zagoria-Moffet</itunes:author>
+      <itunes:duration>00:31:31</itunes:duration>
+      <itunes:summary>Join Adam, Akhtar and Richard as they discuss &apos;Beginnings&apos; in their traditions. What&apos;s the point of Creation stories, and what can we learn from them? Do science and faith have to be at odds over the foundation of the Universe or its functioning? This and more on our second episode in which we go back to the beginning. </itunes:summary>
+      <itunes:subtitle>Join Adam, Akhtar and Richard as they discuss &apos;Beginnings&apos; in their traditions. What&apos;s the point of Creation stories, and what can we learn from them? Do science and faith have to be at odds over the foundation of the Universe or its functioning? This and more on our second episode in which we go back to the beginning. </itunes:subtitle>
+      <itunes:keywords>interfaith, jewish, christian, interfaith dialogue, st albans interfaith league, muslim, religious</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    <item>
+      <guid isPermaLink="false">4edb019e-606f-452e-8b7a-bf61015e93de</guid>
+      <title>&quot;A&quot; is for Abraham</title>
+      <description><![CDATA[In our first episode we look at our titular hero, Abraham/Avraham/Ibrahim. Father to all three of our faiths and model of religious life – who is Abraham to us and why might he be the key to successful interfaith dialogue.  
+]]></description>
+      <pubDate>Tue, 23 Jul 2024 13:24:37 +0000</pubDate>
+      <author>stalbansinterfaithleague@gmail.com (Akhtar Zaman, Richard Watson, Adam Zagoria-Moffet)</author>
+      <link>https://a-is-for-abraham.simplecast.com/episodes/a-is-for-abraham-uB_8O9Pj</link>
+      <enclosure length="26638117" type="audio/mpeg" url="https://cdn.simplecast.com/audio/b931148b-05b1-48b3-8dd0-e19239dfa2c9/episodes/025fb417-15dc-4438-8e20-b41e3deb7757/audio/a8e6d797-2dfe-47fc-9d18-52d1c343f659/default_tc.mp3?aid=rss_feed&amp;feed=5chLGQi3"/>
+      <itunes:title>&quot;A&quot; is for Abraham</itunes:title>
+      <itunes:author>Akhtar Zaman, Richard Watson, Adam Zagoria-Moffet</itunes:author>
+      <itunes:duration>00:27:44</itunes:duration>
+      <itunes:summary>In our first episode we look at our titular hero, Abraham/Avraham/Ibrahim. Father to all three of our faiths and model of religious life – who is Abraham to us and why might he be the key to successful interfaith dialogue. </itunes:summary>
+      <itunes:subtitle>In our first episode we look at our titular hero, Abraham/Avraham/Ibrahim. Father to all three of our faiths and model of religious life – who is Abraham to us and why might he be the key to successful interfaith dialogue. </itunes:subtitle>
+      <itunes:keywords>abraham, abrahamic</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+  </channel>
+</rss>

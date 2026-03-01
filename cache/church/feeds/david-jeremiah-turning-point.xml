@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:product="turning-point-custom">
+<channel>
+    <atom:link href="https://www.davidjeremiah.org/rss/radio/wkja-fm" rel="self" type="application/rss+xml" />
+    <title>Turning Point Radio</title>
+    <itunes:author>David Jeremiah</itunes:author>
+    <description>Listen to the radio ministry of Dr. Jeremiah.</description>
+    <link>https://www.davidjeremiah.org/radio</link>
+    <language>en-US</language>
+    <copyright>&#x2117; 2026 Turning Point for God</copyright>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+        <itunes:name>Turning Point Radio</itunes:name>
+        <itunes:email>info@davidjeremiah.org</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="https://d2urhn0mmik6is.cloudfront.net/site/_images/facebook/og/radio.jpg" />
+    <image>
+        <url>https://d2urhn0mmik6is.cloudfront.net/site/_images/facebook/og/radio.jpg</url>
+        <title>Turning Point Radio</title>
+        <link>https://www.davidjeremiah.org/radio</link>
+        <width>1200</width>
+        <height>630</height>
+        <description>Listen to the radio ministry of Dr. Jeremiah.</description>
+    </image>
+    <lastBuildDate>Sat, 28 Feb 2026 22:42:30 -0800</lastBuildDate>
+
+    <pubDate>Sat, 28 Feb 2026 22:42:30 -0800</pubDate>
+    <generator></generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <category>Religion &amp; Spirituality</category>
+    <itunes:category text="Religion &amp; Spirituality"></itunes:category>
+    
+    <item>
+        <guid>https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022826_WKND/022826_WKND.mp3?jobID=1768928473035-tpdjah</guid>
+        <title>The Subject Nobody Talks About</title>
+        <link>https://www.davidjeremiah.org/radio</link>
+		<product:link><![CDATA[https://www.davidjeremiah.org/store/product/?utm_source=rss&utm_medium=banner&utm_campaign=rss-feed-banner-radio-wkja-fm-&tid=rss-feed_banner-radio-wkja-fm-]]></product:link>
+		<product:image><![CDATA[]]></product:image>
+		<product:title><![CDATA[]]></product:title>
+		<product:description><![CDATA[]]></product:description>
+        <itunes:author>David Jeremiah</itunes:author>
+        <itunes:owner>
+            <itunes:email>info@davidjeremiah.org</itunes:email>
+        </itunes:owner>
+        <description>The Bible talks about it often, but most of us would rather not. Dr. David Jeremiah discusses death. What did wise King Solomon have to say about this uncomfortable topic?</description>
+        <itunes:summary>The Bible talks about it often, but most of us would rather not. Dr. David Jeremiah discusses death. What did wise King Solomon have to say about this uncomfortable topic?</itunes:summary>
+		<itunes:image href="https://d2urhn0mmik6is.cloudfront.net/site/mapp/images/SFH/Radio/SFH_560x560.png" />
+        <enclosure url="https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022826_WKND/022826_WKND.mp3?jobID=1768928473035-tpdjah" length="1710" type="audio/mpeg" />
+        <itunes:duration>28:30</itunes:duration>
+        <pubDate>Sat, 28 Feb 2026 00:02:00 +0000</pubDate>
+        <pstOffset>0</pstOffset>
+    </item>
+    <item>
+        <guid>https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022726_US/022726_US.mp3?jobID=1769633584660-tr3bl2</guid>
+        <title>Before It's Too Late (Pt. 2)</title>
+        <link>https://www.davidjeremiah.org/radio</link>
+		<product:link><![CDATA[https://www.davidjeremiah.org/store/product/?utm_source=rss&utm_medium=banner&utm_campaign=rss-feed-banner-radio-wkja-fm-&tid=rss-feed_banner-radio-wkja-fm-]]></product:link>
+		<product:image><![CDATA[]]></product:image>
+		<product:title><![CDATA[]]></product:title>
+		<product:description><![CDATA[]]></product:description>
+        <itunes:author>David Jeremiah</itunes:author>
+        <itunes:owner>
+            <itunes:email>info@davidjeremiah.org</itunes:email>
+        </itunes:owner>
+        <description>If you’re finding that life is a mystery, you’re in good company. Solomon came to that same conclusion, but he wasn’t content to leave it at that. Dr. David Jeremiah gives a timely reminder that the mysteries of life are well worth examining.</description>
+        <itunes:summary>If you’re finding that life is a mystery, you’re in good company. Solomon came to that same conclusion, but he wasn’t content to leave it at that. Dr. David Jeremiah gives a timely reminder that the mysteries of life are well worth examining.</itunes:summary>
+		<itunes:image href="https://d2urhn0mmik6is.cloudfront.net/site/mapp/images/SFH/Radio/SFH_560x560.png" />
+        <enclosure url="https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022726_US/022726_US.mp3?jobID=1769633584660-tr3bl2" length="1560" type="audio/mpeg" />
+        <itunes:duration>26:00</itunes:duration>
+        <pubDate>Fri, 27 Feb 2026 00:02:00 +0000</pubDate>
+        <pstOffset>0</pstOffset>
+    </item>
+    <item>
+        <guid>https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022626_US/022626_US.mp3?jobID=1769633584301-wztvel</guid>
+        <title>Before It's Too Late (Pt. 1)</title>
+        <link>https://www.davidjeremiah.org/radio</link>
+		<product:link><![CDATA[https://www.davidjeremiah.org/store/product/?utm_source=rss&utm_medium=banner&utm_campaign=rss-feed-banner-radio-wkja-fm-&tid=rss-feed_banner-radio-wkja-fm-]]></product:link>
+		<product:image><![CDATA[]]></product:image>
+		<product:title><![CDATA[]]></product:title>
+		<product:description><![CDATA[]]></product:description>
+        <itunes:author>David Jeremiah</itunes:author>
+        <itunes:owner>
+            <itunes:email>info@davidjeremiah.org</itunes:email>
+        </itunes:owner>
+        <description>If you’re a Christian, you have the hope of eternal life. But that doesn’t mean you should be less passionate about this life. Dr. David Jeremiah explains why that’s so important for believers, and shares other truths of life revealed by wise King Solomon in the closing chapters of Ecclesiastes.</description>
+        <itunes:summary>If you’re a Christian, you have the hope of eternal life. But that doesn’t mean you should be less passionate about this life. Dr. David Jeremiah explains why that’s so important for believers, and shares other truths of life revealed by wise King Solomon in the closing chapters of Ecclesiastes.</itunes:summary>
+		<itunes:image href="https://d2urhn0mmik6is.cloudfront.net/site/mapp/images/SFH/Radio/SFH_560x560.png" />
+        <enclosure url="https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022626_US/022626_US.mp3?jobID=1769633584301-wztvel" length="1560" type="audio/mpeg" />
+        <itunes:duration>26:00</itunes:duration>
+        <pubDate>Thu, 26 Feb 2026 00:02:00 +0000</pubDate>
+        <pstOffset>0</pstOffset>
+    </item>
+    <item>
+        <guid>https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022526_US/022526_US.mp3?jobID=1769633583850-w2fxzq</guid>
+        <title>Fools Rush In (Pt. 2)</title>
+        <link>https://www.davidjeremiah.org/radio</link>
+		<product:link><![CDATA[https://www.davidjeremiah.org/store/product/?utm_source=rss&utm_medium=banner&utm_campaign=rss-feed-banner-radio-wkja-fm-&tid=rss-feed_banner-radio-wkja-fm-]]></product:link>
+		<product:image><![CDATA[]]></product:image>
+		<product:title><![CDATA[]]></product:title>
+		<product:description><![CDATA[]]></product:description>
+        <itunes:author>David Jeremiah</itunes:author>
+        <itunes:owner>
+            <itunes:email>info@davidjeremiah.org</itunes:email>
+        </itunes:owner>
+        <description>Are you really living wisely, or are you just “wise in your own eyes”? The difference between the two is enormous, and the consequences are eternal. Dr. David Jeremiah returns to the book of Ecclesiastes, where Solomon has identified foolishness in some areas of life you might not have considered.</description>
+        <itunes:summary>Are you really living wisely, or are you just “wise in your own eyes”? The difference between the two is enormous, and the consequences are eternal. Dr. David Jeremiah returns to the book of Ecclesiastes, where Solomon has identified foolishness in some areas of life you might not have considered.</itunes:summary>
+		<itunes:image href="https://d2urhn0mmik6is.cloudfront.net/site/mapp/images/SFH/Radio/SFH_560x560.png" />
+        <enclosure url="https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022526_US/022526_US.mp3?jobID=1769633583850-w2fxzq" length="1560" type="audio/mpeg" />
+        <itunes:duration>26:00</itunes:duration>
+        <pubDate>Wed, 25 Feb 2026 00:02:00 +0000</pubDate>
+        <pstOffset>0</pstOffset>
+    </item>
+    <item>
+        <guid>https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022426_US/022426_US.mp3?jobID=1769633583451-cla15h</guid>
+        <title>Fools Rush In (Pt. 1)</title>
+        <link>https://www.davidjeremiah.org/radio</link>
+		<product:link><![CDATA[https://www.davidjeremiah.org/store/product/?utm_source=rss&utm_medium=banner&utm_campaign=rss-feed-banner-radio-wkja-fm-&tid=rss-feed_banner-radio-wkja-fm-]]></product:link>
+		<product:image><![CDATA[]]></product:image>
+		<product:title><![CDATA[]]></product:title>
+		<product:description><![CDATA[]]></product:description>
+        <itunes:author>David Jeremiah</itunes:author>
+        <itunes:owner>
+            <itunes:email>info@davidjeremiah.org</itunes:email>
+        </itunes:owner>
+        <description>We’re often quick to find foolishness in others, while failing to see it in our own lives. That’s why we need the mirror of God’s Word. Dr. David Jeremiah sheds light on foolishness in some common areas of life, as noted by King Solomon in his book of Ecclesiastes.</description>
+        <itunes:summary>We’re often quick to find foolishness in others, while failing to see it in our own lives. That’s why we need the mirror of God’s Word. Dr. David Jeremiah sheds light on foolishness in some common areas of life, as noted by King Solomon in his book of Ecclesiastes.</itunes:summary>
+		<itunes:image href="https://d2urhn0mmik6is.cloudfront.net/site/mapp/images/SFH/Radio/SFH_560x560.png" />
+        <enclosure url="https://d2vftoccbq8rr6.cloudfront.net/audio/radio/2026/02_Feb_2026/022426_US/022426_US.mp3?jobID=1769633583451-cla15h" length="1560" type="audio/mpeg" />
+        <itunes:duration>26:00</itunes:duration>
+        <pubDate>Tue, 24 Feb 2026 00:02:00 +0000</pubDate>
+        <pstOffset>0</pstOffset>
+    </item></channel>
+</rss>

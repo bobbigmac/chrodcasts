@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/stylesheet.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link rel="self" type="application/atom+xml" href="https://feeds.transistor.fm/harvest-baptist-church-ga-sermons" title="MP3 Audio"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <podcast:podping usesPodping="true"/>
+    <title>Harvest Baptist Sermons</title>
+    <generator>Transistor (https://transistor.fm)</generator>
+    <itunes:new-feed-url>https://feeds.transistor.fm/harvest-baptist-church-ga-sermons</itunes:new-feed-url>
+    <description>This is a sermon archive of Harvest Baptist Church in Lula, GA. Please note: it is the command of God that you find a local church to attend. Listening to this podcast in no way could ever replace the fellowship, care, and accountability a local church can provide! We pray these sermons serve to enrich your own walk with the Lord, alongside your faithful membership in a local church. </description>
+    <copyright>2023 Harvest Baptist Evangelical Church</copyright>
+    <podcast:guid>a290c8a9-0cfc-527f-861d-70d1f38b3d93</podcast:guid>
+    <podcast:locked owner="nate.harvestbc@gmail.com">no</podcast:locked>
+    <language>en</language>
+    <pubDate>Mon, 23 Feb 2026 09:00:14 -0800</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2026 09:01:47 -0800</lastBuildDate>
+    <link>http://harvestbc.church</link>
+    <image>
+      <url>https://img.transistorcdn.com/zUpOyhFDoJaY4930LyObUbkSAUs2bdtlHrwceh3_NZc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ2MjA3LzE2OTc3/MzI1NjUtYXJ0d29y/ay5qcGc.jpg</url>
+      <title>Harvest Baptist Sermons</title>
+      <link>http://harvestbc.church</link>
+    </image>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Religion"/>
+    </itunes:category>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Harvest Baptist Church</itunes:author>
+    <itunes:image href="https://img.transistorcdn.com/zUpOyhFDoJaY4930LyObUbkSAUs2bdtlHrwceh3_NZc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ2MjA3LzE2OTc3/MzI1NjUtYXJ0d29y/ay5qcGc.jpg"/>
+    <itunes:summary>This is a sermon archive of Harvest Baptist Church in Lula, GA. Please note: it is the command of God that you find a local church to attend. Listening to this podcast in no way could ever replace the fellowship, care, and accountability a local church can provide! We pray these sermons serve to enrich your own walk with the Lord, alongside your faithful membership in a local church. </itunes:summary>
+    <itunes:subtitle>This is a sermon archive of Harvest Baptist Church in Lula, GA.</itunes:subtitle>
+    <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Nate Trawick</itunes:name>
+    </itunes:owner>
+    <itunes:complete>No</itunes:complete>
+    <itunes:explicit>No</itunes:explicit>
+    <item>
+      <title>Exodus Ch15:V1-V21</title>
+      <itunes:episode>108</itunes:episode>
+      <podcast:episode>108</podcast:episode>
+      <itunes:title>Exodus Ch15:V1-V21</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">27949d31-8b3a-4920-a590-bc63fc01181f</guid>
+      <link>https://share.transistor.fm/s/56653ff1</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church by Pastor Chris Kersey at Lula GA on Feb 8th 2026.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church by Pastor Chris Kersey at Lula GA on Feb 8th 2026.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 23 Feb 2026 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/56653ff1/4f7c5567.mp3" length="76952963" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3206</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church by Pastor Chris Kersey at Lula GA on Feb 8th 2026.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus Ch14</title>
+      <itunes:episode>107</itunes:episode>
+      <podcast:episode>107</podcast:episode>
+      <itunes:title>Exodus Ch14</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">12e3d7da-4ae6-4b04-8818-bde54bfc2b0c</guid>
+      <link>https://share.transistor.fm/s/d793ad16</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula GA on 2026 January 18th.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula GA on 2026 January 18th.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 02 Feb 2026 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/d793ad16/f32cb50a.mp3" length="70282955" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2928</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula GA on 2026 January 18th.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 13:V17-22</title>
+      <itunes:episode>106</itunes:episode>
+      <podcast:episode>106</podcast:episode>
+      <itunes:title>Exodus 13:V17-22</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">3b82467f-d7e6-4c0c-bfb5-9c5b14e0af46</guid>
+      <link>https://share.transistor.fm/s/a505eba3</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church at Lula Ga on, January 11, 2026 by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church at Lula Ga on, January 11, 2026 by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 26 Jan 2026 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/a505eba3/5573d46b.mp3" length="61045644" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2543</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church at Lula Ga on, January 11, 2026 by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 13:1-16</title>
+      <itunes:episode>105</itunes:episode>
+      <podcast:episode>105</podcast:episode>
+      <itunes:title>Exodus 13:1-16</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">ed806158-8afa-4917-997f-123a6a6ab39e</guid>
+      <link>https://share.transistor.fm/s/e246583f</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, on January 4, 2026, by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, on January 4, 2026, by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 12 Jan 2026 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/e246583f/e31c37be.mp3" length="62080090" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2586</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, on January 4, 2026, by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 12:1-42</title>
+      <itunes:episode>105</itunes:episode>
+      <podcast:episode>105</podcast:episode>
+      <itunes:title>Exodus 12:1-42</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">75e56863-46ae-4d87-a32c-44cf37873d72</guid>
+      <link>https://share.transistor.fm/s/ba58b808</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, on Sunday, December 28, 2025, by Pastor Nate Trawick.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, on Sunday, December 28, 2025, by Pastor Nate Trawick.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 12 Jan 2026 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/ba58b808/2059fa4f.mp3" length="83229871" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3468</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, on Sunday, December 28, 2025, by Pastor Nate Trawick.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Matthew 2</title>
+      <itunes:episode>104</itunes:episode>
+      <podcast:episode>104</podcast:episode>
+      <itunes:title>Matthew 2</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">b7ad16ec-2b3d-41b8-a1b0-9983398686fb</guid>
+      <link>https://share.transistor.fm/s/aae3a366</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, by Pastor Chris Porter, on December 21, 2025.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, by Pastor Chris Porter, on December 21, 2025.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 05 Jan 2026 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/aae3a366/cd371078.mp3" length="63114537" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2629</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA, by Pastor Chris Porter, on December 21, 2025.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 10:1-10</title>
+      <itunes:episode>103</itunes:episode>
+      <podcast:episode>103</podcast:episode>
+      <itunes:title>Exodus 10:1-10</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">d67e1ee5-0afc-4e1a-8e73-d38d8e96b0e5</guid>
+      <link>https://share.transistor.fm/s/cc9d2dde</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula GA on December 14th by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula GA on December 14th by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 29 Dec 2025 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/cc9d2dde/9f97b0ad.mp3" length="62151566" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2589</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula GA on December 14th by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus:10:1-20</title>
+      <itunes:episode>102</itunes:episode>
+      <podcast:episode>102</podcast:episode>
+      <itunes:title>Exodus:10:1-20</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">d68bf8af-d5cc-4365-818d-4252fdff99f0</guid>
+      <link>https://share.transistor.fm/s/d648b6b7</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula Ga December, 7 by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula Ga December, 7 by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 22 Dec 2025 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/d648b6b7/278cfb51.mp3" length="72138069" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3005</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula Ga December, 7 by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 7:14-8:19</title>
+      <itunes:episode>101</itunes:episode>
+      <podcast:episode>101</podcast:episode>
+      <itunes:title>Exodus 7:14-8:19</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">26bb621b-ea35-4b1c-a9a3-bf8b4dee2955</guid>
+      <link>https://share.transistor.fm/s/26402847</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on, November 30th 2025 by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on, November 30th 2025 by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 15 Dec 2025 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/26402847/70827b63.mp3" length="72966260" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3040</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on, November 30th 2025 by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 6:10-30</title>
+      <itunes:episode>100</itunes:episode>
+      <podcast:episode>100</podcast:episode>
+      <itunes:title>Exodus 6:10-30</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4364a999-e5aa-459c-866b-99c9959b03ef</guid>
+      <link>https://share.transistor.fm/s/95625a9a</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Ga on Nov.  16th 2025 by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Ga on Nov.  16th 2025 by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Mon, 01 Dec 2025 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/95625a9a/d4218a7a.mp3" length="67750752" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2823</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Ga on Nov.  16th 2025 by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 6 (Part 1)</title>
+      <itunes:episode>99</itunes:episode>
+      <podcast:episode>99</podcast:episode>
+      <itunes:title>Exodus 6 (Part 1)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">82446bb2-1245-4677-bbb5-ed59be1af321</guid>
+      <link>https://share.transistor.fm/s/cce6cf1b</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on November 9, 2025 by Pastor Chris Porter.  </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on November 9, 2025 by Pastor Chris Porter.  </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 23 Nov 2025 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/cce6cf1b/43e79468.mp3" length="65254284" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2719</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on November 9, 2025 by Pastor Chris Porter.  </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 4:18-26</title>
+      <itunes:episode>98</itunes:episode>
+      <podcast:episode>98</podcast:episode>
+      <itunes:title>Exodus 4:18-26</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">bcf336e2-a882-4293-bd1c-07e873c6965e</guid>
+      <link>https://share.transistor.fm/s/5d7ba391</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 26, 2025 by Pastor Chris Porter</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 26, 2025 by Pastor Chris Porter</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 09 Nov 2025 09:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/5d7ba391/07d73a0c.mp3" length="66003472" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2750</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 26, 2025 by Pastor Chris Porter</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 4:1-17</title>
+      <itunes:episode>97</itunes:episode>
+      <podcast:episode>97</podcast:episode>
+      <itunes:title>Exodus 4:1-17</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">75a61c97-fe75-41c0-ae47-9a5dc7f77793</guid>
+      <link>https://share.transistor.fm/s/1bee23ab</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 19, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 19, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 02 Nov 2025 12:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/1bee23ab/59d4aa4b.mp3" length="67256095" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2802</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 19, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 3 (Part 2)</title>
+      <itunes:episode>96</itunes:episode>
+      <podcast:episode>96</podcast:episode>
+      <itunes:title>Exodus 3 (Part 2)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">54b2c7ea-89c7-45b2-aeff-004565c79f8d</guid>
+      <link>https://share.transistor.fm/s/8b8b944c</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church inLula, GA on October 12, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church inLula, GA on October 12, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 26 Oct 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/8b8b944c/825d8681.mp3" length="44627347" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2788</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church inLula, GA on October 12, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 3 (Part 1)</title>
+      <itunes:episode>95</itunes:episode>
+      <podcast:episode>95</podcast:episode>
+      <itunes:title>Exodus 3 (Part 1)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">5590a470-e080-4960-85a6-3a317ee111b5</guid>
+      <link>https://share.transistor.fm/s/4dc30de8</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 5, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 5, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 19 Oct 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/4dc30de8/0aa9292e.mp3" length="70960680" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2956</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on October 5, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 2 (Part 2)</title>
+      <itunes:episode>94</itunes:episode>
+      <podcast:episode>94</podcast:episode>
+      <itunes:title>Exodus 2 (Part 2)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4fd2e1d6-8dcf-4dd7-9303-78abdfe2a592</guid>
+      <link>https://share.transistor.fm/s/fa251062</link>
+      <description>
+        <![CDATA[<p>This Sermon was preached at Harvest Baptist Church in Lula, GA on September 28, 2025 by Pastor Chris Kersey.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This Sermon was preached at Harvest Baptist Church in Lula, GA on September 28, 2025 by Pastor Chris Kersey.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 12 Oct 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/fa251062/23a09b7d.mp3" length="66074946" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2753</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This Sermon was preached at Harvest Baptist Church in Lula, GA on September 28, 2025 by Pastor Chris Kersey.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 2 (Part 1)</title>
+      <itunes:episode>93</itunes:episode>
+      <podcast:episode>93</podcast:episode>
+      <itunes:title>Exodus 2 (Part 1)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">30db6d38-6fbf-417c-a00b-c9bd98041dec</guid>
+      <link>https://share.transistor.fm/s/bdeb7fc9</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 21, 2025 by Pastor Chris Kersey.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 21, 2025 by Pastor Chris Kersey.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 05 Oct 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/bdeb7fc9/9ab9690d.mp3" length="68036011" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2834</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 21, 2025 by Pastor Chris Kersey.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 1:8-2:2</title>
+      <itunes:episode>92</itunes:episode>
+      <podcast:episode>92</podcast:episode>
+      <itunes:title>Exodus 1:8-2:2</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">cecfaa19-2c39-4b78-861d-ff0e24870495</guid>
+      <link>https://share.transistor.fm/s/cde99738</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 14, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 14, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 28 Sep 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/cde99738/6589f220.mp3" length="72213928" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3009</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 14, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Exodus 1:1-7</title>
+      <itunes:episode>91</itunes:episode>
+      <podcast:episode>91</podcast:episode>
+      <itunes:title>Exodus 1:1-7</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">1786f5a0-c106-4c71-a224-f3cf75a836c0</guid>
+      <link>https://share.transistor.fm/s/54a1fd9e</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 7, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 7, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 21 Sep 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/54a1fd9e/4a44fc4d.mp3" length="71032146" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2959</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on September 7, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>2 Thessalonians 3</title>
+      <itunes:episode>90</itunes:episode>
+      <podcast:episode>90</podcast:episode>
+      <itunes:title>2 Thessalonians 3</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">5e3252e5-8872-48e9-886f-11409c475c74</guid>
+      <link>https://share.transistor.fm/s/377cbf1d</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on August 31, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on August 31, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 14 Sep 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/377cbf1d/cfb782f1.mp3" length="68428475" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2851</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, GA on August 31, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>2 Thessalonians 2</title>
+      <itunes:episode>89</itunes:episode>
+      <podcast:episode>89</podcast:episode>
+      <itunes:title>2 Thessalonians 2</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">cf6c70c3-9112-4ef7-aa89-4c82088ca7b6</guid>
+      <link>https://share.transistor.fm/s/896844d7</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Georgia on August 24, 2025 by Pastor Nate Trawick.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Georgia on August 24, 2025 by Pastor Nate Trawick.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 07 Sep 2025 13:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/896844d7/5fef21d6.mp3" length="50286515" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3142</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Georgia on August 24, 2025 by Pastor Nate Trawick.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>2 Thessalonians 1</title>
+      <itunes:episode>88</itunes:episode>
+      <podcast:episode>88</podcast:episode>
+      <itunes:title>2 Thessalonians 1</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">2a88b723-0c3a-4a85-a677-5de04db9bbbe</guid>
+      <link>https://share.transistor.fm/s/247f8e15</link>
+      <description>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Georgia on August 17, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Georgia on August 17, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 31 Aug 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/247f8e15/492f4e74.mp3" length="44508647" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2781</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon was preached at Harvest Baptist Church in Lula, Georgia on August 17, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 5:12-28</title>
+      <itunes:episode>87</itunes:episode>
+      <podcast:episode>87</podcast:episode>
+      <itunes:title>1 Thessalonians 5:12-28</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">93649880-3133-4969-8c56-4c97496a2b14</guid>
+      <link>https://share.transistor.fm/s/4f221627</link>
+      <description>
+        <![CDATA[<p>This Sermon was preached at Harvest Baptist Church in Lula, Georgia on August 10, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This Sermon was preached at Harvest Baptist Church in Lula, Georgia on August 10, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/4f221627/81304a2d.mp3" length="40352049" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2521</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This Sermon was preached at Harvest Baptist Church in Lula, Georgia on August 10, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 5:1-11</title>
+      <itunes:episode>86</itunes:episode>
+      <podcast:episode>86</podcast:episode>
+      <itunes:title>1 Thessalonians 5:1-11</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">fe1ca544-7040-4655-b62a-5e76527b3d27</guid>
+      <link>https://share.transistor.fm/s/f19d764e</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church in Lula, GA on August 3, 2025 by Pastor Chris Porter.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church in Lula, GA on August 3, 2025 by Pastor Chris Porter.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 17 Aug 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/f19d764e/e489f8e4.mp3" length="39253651" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2453</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church in Lula, GA on August 3, 2025 by Pastor Chris Porter.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessaloninas 4:13-18</title>
+      <itunes:episode>85</itunes:episode>
+      <podcast:episode>85</podcast:episode>
+      <itunes:title>1 Thessaloninas 4:13-18</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4bcd2c4e-939f-4d0e-97ec-268034cf884e</guid>
+      <link>https://share.transistor.fm/s/1774963f</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church In Lula, GA by Pastor Chris Porter on July 27, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church In Lula, GA by Pastor Chris Porter on July 27, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 10 Aug 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/1774963f/04cd076f.mp3" length="49846642" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2077</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church In Lula, GA by Pastor Chris Porter on July 27, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thesalonians 4:9-12</title>
+      <itunes:episode>84</itunes:episode>
+      <podcast:episode>84</podcast:episode>
+      <itunes:title>1 Thesalonians 4:9-12</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4ba9a14c-4d1c-40c7-bfd6-29c33bdd53cf</guid>
+      <link>https://share.transistor.fm/s/32b815af</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Alex Standridge on July 20, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Alex Standridge on July 20, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 03 Aug 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/32b815af/68f87939.mp3" length="51986382" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2166</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Alex Standridge on July 20, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thesalonians 4:1-8</title>
+      <itunes:episode>83</itunes:episode>
+      <podcast:episode>83</podcast:episode>
+      <itunes:title>1 Thesalonians 4:1-8</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">763154fb-5cf4-439a-9876-a8205dbd9c24</guid>
+      <link>https://share.transistor.fm/s/06c7e86f</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on July 13, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on July 13, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 27 Jul 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/06c7e86f/ea4d4085.mp3" length="59940353" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2497</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on July 13, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 2:17-3:6</title>
+      <itunes:episode>82</itunes:episode>
+      <podcast:episode>82</podcast:episode>
+      <itunes:title>1 Thessalonians 2:17-3:6</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">ee940bb9-6264-4acb-ab97-61e84a6c20d5</guid>
+      <link>https://share.transistor.fm/s/0e7e8f29</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 29, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 29, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 13 Jul 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/0e7e8f29/89bfebcf.mp3" length="58448870" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2435</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 29, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Matthew 25:1-13</title>
+      <itunes:episode>81</itunes:episode>
+      <podcast:episode>81</podcast:episode>
+      <itunes:title>Matthew 25:1-13</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">c48e845c-c496-4cd9-ac94-5bf636bcde02</guid>
+      <link>https://share.transistor.fm/s/b85ada76</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Nate Trawick on June 22, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Nate Trawick on June 22, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 06 Jul 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/b85ada76/cea6070f.mp3" length="75490311" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3145</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Nate Trawick on June 22, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Matthew 25:14-30</title>
+      <itunes:episode>80</itunes:episode>
+      <podcast:episode>80</podcast:episode>
+      <itunes:title>Matthew 25:14-30</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">6dcee5d5-dd59-45d7-bfd2-4bb861884831</guid>
+      <link>https://share.transistor.fm/s/8c671526</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 15, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 15, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 29 Jun 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/8c671526/036f565e.mp3" length="53484761" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2228</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 15, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 2:13-20</title>
+      <itunes:episode>79</itunes:episode>
+      <podcast:episode>79</podcast:episode>
+      <itunes:title>1 Thessalonians 2:13-20</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">10905f04-8701-486a-bc19-43cb3885d6cc</guid>
+      <link>https://share.transistor.fm/s/5b1de496</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Nate Trawick on June 8, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Nate Trawick on June 8, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 22 Jun 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/5b1de496/56307a12.mp3" length="73992562" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3083</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Nate Trawick on June 8, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 2:1-12</title>
+      <itunes:episode>78</itunes:episode>
+      <podcast:episode>78</podcast:episode>
+      <itunes:title>1 Thessalonians 2:1-12</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">45fe42bd-24a0-4766-a3c2-49cfdbaa7f68</guid>
+      <link>https://share.transistor.fm/s/9e505289</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 1, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 1, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 15 Jun 2025 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/9e505289/0f856058.mp3" length="62757817" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2615</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on June 1, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 1:1-10 (Part 2)</title>
+      <itunes:episode>77</itunes:episode>
+      <podcast:episode>77</podcast:episode>
+      <itunes:title>1 Thessalonians 1:1-10 (Part 2)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">dcd93a63-6349-4c91-a8a3-fa63c49978f2</guid>
+      <link>https://share.transistor.fm/s/4e089d36</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on May 25, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on May 25, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 08 Jun 2025 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/4e089d36/8922286c.mp3" length="56307881" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2346</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter on May 25, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>1 Thessalonians 1:1-10 (Part 1)</title>
+      <itunes:episode>76</itunes:episode>
+      <podcast:episode>76</podcast:episode>
+      <itunes:title>1 Thessalonians 1:1-10 (Part 1)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">afeaf720-327f-44ef-b3f0-8db41acb1ac9</guid>
+      <link>https://share.transistor.fm/s/8dc047a5</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Christ Porter on May 18, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Christ Porter on May 18, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/8dc047a5/a128ed74.mp3" length="57122266" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2380</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Christ Porter on May 18, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Psalm 51</title>
+      <itunes:episode>75</itunes:episode>
+      <podcast:episode>75</podcast:episode>
+      <itunes:title>Psalm 51</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">ad7ce4c6-cac3-4fba-bd9e-3e73f1a26640</guid>
+      <link>https://share.transistor.fm/s/2c1e17c6</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Alex Standridge on May 11, 2025.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Alex Standridge on May 11, 2025.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 25 May 2025 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/2c1e17c6/2c02c775.mp3" length="67394017" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2808</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Alex Standridge on May 11, 2025.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>Psalm 48</title>
+      <itunes:episode>74</itunes:episode>
+      <podcast:episode>74</podcast:episode>
+      <itunes:title>Psalm 48</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">5c7e28aa-66aa-43e4-9a2e-9159e3ee0fb8</guid>
+      <link>https://share.transistor.fm/s/973bb857</link>
+      <description>
+        <![CDATA[<p>Sermon preached by Pastor Chris Porter on May 4, 2025 on Psalm 48.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached by Pastor Chris Porter on May 4, 2025 on Psalm 48.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 18 May 2025 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/973bb857/aee666f9.mp3" length="40288318" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>1678</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached by Pastor Chris Porter on May 4, 2025 on Psalm 48.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 27, 2025</title>
+      <itunes:episode>73</itunes:episode>
+      <podcast:episode>73</podcast:episode>
+      <itunes:title>April 27, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4c95d1c0-15fd-42f0-aead-94aac6de806f</guid>
+      <link>https://share.transistor.fm/s/4ff50575</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 11 May 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/4ff50575/44a176ed.mp3" length="54126744" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2255</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 20, 2025</title>
+      <itunes:episode>72</itunes:episode>
+      <podcast:episode>72</podcast:episode>
+      <itunes:title>April 20, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">af387aea-2751-4d1c-8a9e-4a3e847d1dcc</guid>
+      <link>https://share.transistor.fm/s/61cb90e8</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 04 May 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/61cb90e8/6a79ad01.mp3" length="61545311" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2564</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 13, 2025</title>
+      <itunes:episode>71</itunes:episode>
+      <podcast:episode>71</podcast:episode>
+      <itunes:title>April 13, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">29efd86b-17d5-41e9-9656-4af44d252622</guid>
+      <link>https://share.transistor.fm/s/fef0bd57</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 27 Apr 2025 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/fef0bd57/a7a25a9a.mp3" length="65646744" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2735</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 6, 2025</title>
+      <itunes:episode>70</itunes:episode>
+      <podcast:episode>70</podcast:episode>
+      <itunes:title>April 6, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">c589f002-69fd-4ff8-a912-a281ab3be29b</guid>
+      <link>https://share.transistor.fm/s/c5c5ea6d</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 20 Apr 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/c5c5ea6d/c1d900c6.mp3" length="76168030" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3173</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 30, 2025</title>
+      <itunes:episode>69</itunes:episode>
+      <podcast:episode>69</podcast:episode>
+      <itunes:title>March 30, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">5eba953c-941f-444c-866a-9643edbcc88e</guid>
+      <link>https://share.transistor.fm/s/c728f41e</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 13 Apr 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/c728f41e/43016c11.mp3" length="63471267" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2644</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 23, 2025</title>
+      <itunes:episode>68</itunes:episode>
+      <podcast:episode>68</podcast:episode>
+      <itunes:title>March 23, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">10c629df-6f3e-401e-87b5-85f3b64db239</guid>
+      <link>https://share.transistor.fm/s/110849b7</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 06 Apr 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/110849b7/29397d44.mp3" length="59515910" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2479</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 16, 2025</title>
+      <itunes:episode>67</itunes:episode>
+      <podcast:episode>67</podcast:episode>
+      <itunes:title>March 16, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a6e9ad0d-891e-4493-900f-9e31051b9abe</guid>
+      <link>https://share.transistor.fm/s/b4849801</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 30 Mar 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/b4849801/5d703529.mp3" length="70461634" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2936</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 9, 2025</title>
+      <itunes:episode>66</itunes:episode>
+      <podcast:episode>66</podcast:episode>
+      <itunes:title>March 9, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">412ea19b-0447-42d7-a47a-e141c0938fcb</guid>
+      <link>https://share.transistor.fm/s/466eea73</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 23 Mar 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/466eea73/1ccaefb6.mp3" length="66039207" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2751</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 2, 2025</title>
+      <itunes:episode>65</itunes:episode>
+      <podcast:episode>65</podcast:episode>
+      <itunes:title>March 2, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">aeba146f-23fb-42bf-9546-a91beca3641a</guid>
+      <link>https://share.transistor.fm/s/f663fc19</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 16 Mar 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/f663fc19/dbe6a751.mp3" length="50702403" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2112</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 23, 2025</title>
+      <itunes:episode>64</itunes:episode>
+      <podcast:episode>64</podcast:episode>
+      <itunes:title>February 23, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a593053c-a016-45c0-bf74-5dc330212ae8</guid>
+      <link>https://share.transistor.fm/s/da56fbdb</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 09 Mar 2025 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/da56fbdb/6f204cd5.mp3" length="65049275" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2710</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 16, 2025</title>
+      <itunes:episode>63</itunes:episode>
+      <podcast:episode>63</podcast:episode>
+      <itunes:title>February 16, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">10476bfa-759e-4417-a58d-46b86e63bd7f</guid>
+      <link>https://share.transistor.fm/s/c9295870</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 02 Mar 2025 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/c9295870/4fc4880d.mp3" length="58692115" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2445</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 9, 2025</title>
+      <itunes:episode>62</itunes:episode>
+      <podcast:episode>62</podcast:episode>
+      <itunes:title>February 9, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9fead758-0666-4902-8590-027f901eb495</guid>
+      <link>https://share.transistor.fm/s/1048ac77</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 23 Feb 2025 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/1048ac77/0384d092.mp3" length="61582302" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2566</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 2, 2025</title>
+      <itunes:episode>61</itunes:episode>
+      <podcast:episode>61</podcast:episode>
+      <itunes:title>February 2, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">d6d42f25-dc0f-4e14-bb1d-92667f593ca3</guid>
+      <link>https://share.transistor.fm/s/f2931d96</link>
+      <description>
+        <![CDATA[<p>Due to Technical issues, this sermon is missing its beginning. Sorry for the inconvenience!</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Due to Technical issues, this sermon is missing its beginning. Sorry for the inconvenience!</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 16 Feb 2025 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/f2931d96/d4b4c7d9.mp3" length="42892003" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>1787</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Due to Technical issues, this sermon is missing its beginning. Sorry for the inconvenience!</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>January 26, 2025</title>
+      <itunes:episode>60</itunes:episode>
+      <podcast:episode>60</podcast:episode>
+      <itunes:title>January 26, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">0ba495a4-1ff6-46cf-b49d-49fe5f91d809</guid>
+      <link>https://share.transistor.fm/s/a0e73dac</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 09 Feb 2025 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/a0e73dac/81f493dc.mp3" length="83051821" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3460</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>January 19, 2025</title>
+      <itunes:episode>59</itunes:episode>
+      <podcast:episode>59</podcast:episode>
+      <itunes:title>January 19, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">60e4273c-74df-4d9f-b4c3-feacb7e17611</guid>
+      <link>https://share.transistor.fm/s/6b4120b3</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 02 Feb 2025 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/6b4120b3/601ea2a1.mp3" length="58941636" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2456</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>January 12, 2025</title>
+      <itunes:episode>58</itunes:episode>
+      <podcast:episode>58</podcast:episode>
+      <itunes:title>January 12, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">d4493a10-282a-4535-93a6-8b390e4e88b2</guid>
+      <link>https://share.transistor.fm/s/1049e3c8</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 26 Jan 2025 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/1049e3c8/e353485f.mp3" length="59655092" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2485</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>January 5, 2025</title>
+      <itunes:episode>57</itunes:episode>
+      <podcast:episode>57</podcast:episode>
+      <itunes:title>January 5, 2025</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">936c4cf3-216c-476e-bbff-3b3877951634</guid>
+      <link>https://share.transistor.fm/s/be4e99cc</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 19 Jan 2025 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/be4e99cc/b5b61d33.mp3" length="66110053" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2754</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 29, 2024</title>
+      <itunes:episode>56</itunes:episode>
+      <podcast:episode>56</podcast:episode>
+      <itunes:title>December 29, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">1146cbce-4ca7-4592-9bd1-006b0fde774a</guid>
+      <link>https://share.transistor.fm/s/726b2542</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 12 Jan 2025 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/726b2542/d21113d2.mp3" length="64540827" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2689</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 22, 2024</title>
+      <itunes:episode>55</itunes:episode>
+      <podcast:episode>55</podcast:episode>
+      <itunes:title>December 22, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">c389b60b-0e32-4209-9f84-6b6d363b97a5</guid>
+      <link>https://share.transistor.fm/s/3b2b78db</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 05 Jan 2025 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/3b2b78db/94800420.mp3" length="66074946" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2753</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 15, 2024</title>
+      <itunes:episode>54</itunes:episode>
+      <podcast:episode>54</podcast:episode>
+      <itunes:title>December 15, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">b8bc31ba-b02a-4d71-81fe-8a4e8ae959f7</guid>
+      <link>https://share.transistor.fm/s/09f3f014</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 29 Dec 2024 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/09f3f014/fd518b94.mp3" length="64692546" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2695</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 8, 2024</title>
+      <itunes:episode>53</itunes:episode>
+      <podcast:episode>53</podcast:episode>
+      <itunes:title>December 8, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">94243f98-3ade-45ad-bd4e-3273de34757a</guid>
+      <link>https://share.transistor.fm/s/5a3f8f4e</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 22 Dec 2024 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/5a3f8f4e/3e653626.mp3" length="74848327" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3118</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 1, 2024</title>
+      <itunes:episode>52</itunes:episode>
+      <podcast:episode>52</podcast:episode>
+      <itunes:title>December 1, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">50e4daa7-b0d9-4162-a4ee-6f894f6f0e61</guid>
+      <link>https://share.transistor.fm/s/b8678317</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 15 Dec 2024 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/b8678317/27541aee.mp3" length="69783915" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2907</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 24, 2024</title>
+      <itunes:episode>51</itunes:episode>
+      <podcast:episode>51</podcast:episode>
+      <itunes:title>November 24, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">e555b82f-cdc2-48ee-b2e9-47e56f0e4069</guid>
+      <link>https://share.transistor.fm/s/0553ec28</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 08 Dec 2024 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/0553ec28/2e711cbf.mp3" length="69177666" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2882</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 17, 2024</title>
+      <itunes:episode>50</itunes:episode>
+      <podcast:episode>50</podcast:episode>
+      <itunes:title>November 17, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">d0bca992-9212-4a65-8f19-6bfffa4fc74e</guid>
+      <link>https://share.transistor.fm/s/d27a0fc8</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 01 Dec 2024 11:36:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/d27a0fc8/2f9eb78c.mp3" length="68785203" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2866</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 10, 2024</title>
+      <itunes:episode>49</itunes:episode>
+      <podcast:episode>49</podcast:episode>
+      <itunes:title>November 10, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">6e841cd8-1966-4e15-917e-82f43e7e7edb</guid>
+      <link>https://share.transistor.fm/s/52c50318</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 24 Nov 2024 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/52c50318/da97828f.mp3" length="63123319" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2630</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 3, 2024</title>
+      <itunes:episode>48</itunes:episode>
+      <podcast:episode>48</podcast:episode>
+      <itunes:title>November 3, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9f4db770-6745-4a1d-acc7-5ae3f5ecc747</guid>
+      <link>https://share.transistor.fm/s/59bfa497</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 17 Nov 2024 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/59bfa497/d3fdd834.mp3" length="59655092" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2485</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 27, 2024</title>
+      <itunes:episode>47</itunes:episode>
+      <podcast:episode>47</podcast:episode>
+      <itunes:title>October 27, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">824821c5-9a8b-4807-872a-5661123ba811</guid>
+      <link>https://share.transistor.fm/s/b8cd7f1e</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 10 Nov 2024 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/b8cd7f1e/4e8bcbf5.mp3" length="64790975" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2699</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 20, 2024</title>
+      <itunes:episode>46</itunes:episode>
+      <podcast:episode>46</podcast:episode>
+      <itunes:title>October 20, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">03ecdac4-20dd-4211-b027-27054a065420</guid>
+      <link>https://share.transistor.fm/s/23d5a388</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 03 Nov 2024 10:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/23d5a388/b1f27f63.mp3" length="64219834" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2675</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 13, 2024</title>
+      <itunes:episode>45</itunes:episode>
+      <podcast:episode>45</podcast:episode>
+      <itunes:title>October 13, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">22b34257-dc4b-47fb-a7c4-90b2bb9399b3</guid>
+      <link>https://share.transistor.fm/s/c9deef71</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 27 Oct 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/c9deef71/e693226f.mp3" length="70642821" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2943</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 6, 2024</title>
+      <itunes:episode>44</itunes:episode>
+      <podcast:episode>44</podcast:episode>
+      <itunes:title>October 6, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">3c2bdc82-7197-4eb3-b75c-c29a0dd362c9</guid>
+      <link>https://share.transistor.fm/s/0befac5d</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 20 Oct 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/0befac5d/7a0575eb.mp3" length="54946781" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2289</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>September 29, 2024</title>
+      <itunes:episode>43</itunes:episode>
+      <podcast:episode>43</podcast:episode>
+      <itunes:title>September 29, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">14ed3087-d620-49ff-8e13-be7ad44ea3ae</guid>
+      <link>https://share.transistor.fm/s/3ae4da48</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 13 Oct 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/3ae4da48/24dec2e1.mp3" length="59369210" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2473</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>September 15, 2024</title>
+      <itunes:episode>42</itunes:episode>
+      <podcast:episode>42</podcast:episode>
+      <itunes:title>September 15, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">f673f2fc-31a7-497c-b717-3607cb7dafdf</guid>
+      <link>https://share.transistor.fm/s/3c60e33c</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 29 Sep 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/3c60e33c/55deb440.mp3" length="68935042" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2872</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>September 8, 2024</title>
+      <itunes:episode>41</itunes:episode>
+      <podcast:episode>41</podcast:episode>
+      <itunes:title>September 8, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">66838637-0ae9-43ff-b895-868043212de2</guid>
+      <link>https://share.transistor.fm/s/9926badb</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 22 Sep 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/9926badb/6f8ea46c.mp3" length="70996416" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2958</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>September 1, 2024</title>
+      <itunes:episode>40</itunes:episode>
+      <podcast:episode>40</podcast:episode>
+      <itunes:title>September 1, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a8636628-2fee-43c9-a083-c6fa868df8a8</guid>
+      <link>https://share.transistor.fm/s/226541f4</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 15 Sep 2024 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/226541f4/ce7c09b1.mp3" length="54913555" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2288</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>August 25, 2024</title>
+      <itunes:episode>39</itunes:episode>
+      <podcast:episode>39</podcast:episode>
+      <itunes:title>August 25, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">f569df2a-f2bc-43c4-8e04-5f7fb305ba40</guid>
+      <link>https://share.transistor.fm/s/e13fc347</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 08 Sep 2024 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/e13fc347/0dea3647.mp3" length="77312195" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3221</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>August 18, 2024</title>
+      <itunes:episode>38</itunes:episode>
+      <podcast:episode>38</podcast:episode>
+      <itunes:title>August 18, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">ccfb470c-e72b-4941-b481-ebed66bd22a6</guid>
+      <link>https://share.transistor.fm/s/981ed97b</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 01 Sep 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/981ed97b/da7ff075.mp3" length="58727222" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2447</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>August 11, 2024</title>
+      <itunes:episode>37</itunes:episode>
+      <podcast:episode>37</podcast:episode>
+      <itunes:title>August 11, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">07059d8e-f0b0-446b-a224-eb6e9823bb62</guid>
+      <link>https://share.transistor.fm/s/930b2aab</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 25 Aug 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/930b2aab/0e0d1ad6.mp3" length="56095960" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2337</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>August 4, 2024</title>
+      <itunes:episode>36</itunes:episode>
+      <podcast:episode>36</podcast:episode>
+      <itunes:title>August 4, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">26f71f32-38f4-473e-bed4-5a855e15d839</guid>
+      <link>https://share.transistor.fm/s/42cd830c</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 18 Aug 2024 18:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/42cd830c/4a55dafd.mp3" length="62650604" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2610</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>July 28, 2024</title>
+      <itunes:episode>35</itunes:episode>
+      <podcast:episode>35</podcast:episode>
+      <itunes:title>July 28, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">afbbe5a2-aa3b-4e45-a575-069acd1ce86c</guid>
+      <link>https://share.transistor.fm/s/c3a220d5</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 11 Aug 2024 18:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/c3a220d5/143f122d.mp3" length="54233323" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2259</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>July 21, 2024</title>
+      <itunes:episode>34</itunes:episode>
+      <podcast:episode>34</podcast:episode>
+      <itunes:title>July 21, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9a1af21e-ad6a-4bc4-a4a1-2d3eaf7b947a</guid>
+      <link>https://share.transistor.fm/s/e0cb66ff</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 04 Aug 2024 18:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/e0cb66ff/cf8274fa.mp3" length="62439324" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2601</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>July 14, 2024</title>
+      <itunes:episode>33</itunes:episode>
+      <podcast:episode>33</podcast:episode>
+      <itunes:title>July 14, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a8392e76-5061-4bf9-b0bb-24d38c4d3353</guid>
+      <link>https://share.transistor.fm/s/89411df0</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 28 Jul 2024 18:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/89411df0/16ee1761.mp3" length="61402368" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2558</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>July 7, 2024</title>
+      <itunes:episode>32</itunes:episode>
+      <podcast:episode>32</podcast:episode>
+      <itunes:title>July 7, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">08f47e0a-35ac-4cf5-826d-8fcd5ffd8307</guid>
+      <link>https://share.transistor.fm/s/384260da</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 21 Jul 2024 18:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/384260da/fb5a8452.mp3" length="56445162" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2352</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>June 23, 2024</title>
+      <itunes:episode>31</itunes:episode>
+      <podcast:episode>31</podcast:episode>
+      <itunes:title>June 23, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">42951c6e-671c-43f5-b3c6-b154188b89fb</guid>
+      <link>https://share.transistor.fm/s/09977797</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 07 Jul 2024 18:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/09977797/8c147094.mp3" length="54269058" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2261</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>June 16, 2024</title>
+      <itunes:episode>30</itunes:episode>
+      <podcast:episode>30</podcast:episode>
+      <itunes:title>June 16, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">aace1545-bec2-435d-8de2-f7d81b6c7752</guid>
+      <link>https://share.transistor.fm/s/5fd07f81</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 30 Jun 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/5fd07f81/46f40d59.mp3" length="62544023" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2606</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>June 9, 2024</title>
+      <itunes:episode>29</itunes:episode>
+      <podcast:episode>29</podcast:episode>
+      <itunes:title>June 9, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">21fb28ef-f2c5-4986-a26b-a97b1b7a626f</guid>
+      <link>https://share.transistor.fm/s/64ba529c</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 23 Jun 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/64ba529c/effda7e3.mp3" length="83301338" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3471</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>June 2, 2024</title>
+      <itunes:episode>28</itunes:episode>
+      <podcast:episode>28</podcast:episode>
+      <itunes:title>June 2, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">ab12c41c-f5d4-43e9-8c88-ea41f0352d51</guid>
+      <link>https://share.transistor.fm/s/b0da451d</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 16 Jun 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/b0da451d/48b34720.mp3" length="81696375" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3404</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>May 26, 2024</title>
+      <itunes:episode>27</itunes:episode>
+      <podcast:episode>27</podcast:episode>
+      <itunes:title>May 26, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">35baa2da-f89b-4763-9a84-835dec85e69c</guid>
+      <link>https://share.transistor.fm/s/09515510</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 09 Jun 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/09515510/15cb6be6.mp3" length="71103617" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2962</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>May 19, 2024</title>
+      <itunes:episode>26</itunes:episode>
+      <podcast:episode>26</podcast:episode>
+      <itunes:title>May 19, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">55ac6dcc-6a5d-4041-9a05-9c3efcf86593</guid>
+      <link>https://share.transistor.fm/s/ffb7d4b5</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 02 Jun 2024 09:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/ffb7d4b5/b7211d36.mp3" length="78690062" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3279</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>May 12, 2024</title>
+      <itunes:episode>25</itunes:episode>
+      <podcast:episode>25</podcast:episode>
+      <itunes:title>May 12, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">386a6fd4-34c0-400f-a92b-6c6f52290d46</guid>
+      <link>https://share.transistor.fm/s/bae2d22c</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 26 May 2024 09:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/bae2d22c/614fc764.mp3" length="60785944" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2533</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>May 5, 2024</title>
+      <itunes:episode>24</itunes:episode>
+      <podcast:episode>24</podcast:episode>
+      <itunes:title>May 5, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">f3656d86-8198-4b42-8476-6f45f5f801eb</guid>
+      <link>https://share.transistor.fm/s/ddfc2cdd</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 19 May 2024 09:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/ddfc2cdd/f5894c5a.mp3" length="70240807" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2927</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 28, 2024</title>
+      <itunes:episode>23</itunes:episode>
+      <podcast:episode>23</podcast:episode>
+      <itunes:title>April 28, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">b8a1d26a-d704-4272-8f72-8a1dc1e7b441</guid>
+      <link>https://share.transistor.fm/s/1b3a2742</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 12 May 2024 09:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/1b3a2742/7de59900.mp3" length="56256313" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2344</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 21, 2024</title>
+      <itunes:episode>22</itunes:episode>
+      <podcast:episode>22</podcast:episode>
+      <itunes:title>April 21, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">331ed8a8-ab5f-4a7a-a241-ddd29ff9368b</guid>
+      <link>https://share.transistor.fm/s/973b1b7f</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 05 May 2024 09:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/973b1b7f/069bbd96.mp3" length="71880881" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2995</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 14, 2024</title>
+      <itunes:episode>21</itunes:episode>
+      <podcast:episode>21</podcast:episode>
+      <itunes:title>April 14, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">e43abfbb-c929-4e0c-a92c-dbaf4a011173</guid>
+      <link>https://share.transistor.fm/s/deb8906e</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 28 Apr 2024 09:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/deb8906e/256c3013.mp3" length="68494785" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2854</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>April 7, 2024</title>
+      <itunes:episode>20</itunes:episode>
+      <podcast:episode>20</podcast:episode>
+      <itunes:title>April 7, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">36c44824-ce42-4689-afbf-ebce0124b3d9</guid>
+      <link>https://share.transistor.fm/s/1bbf78d9</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Kersey. This sermon covers John 10:1-10. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Kersey. This sermon covers John 10:1-10. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 21 Apr 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/1bbf78d9/6f7a67b7.mp3" length="69128619" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2880</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Kersey. This sermon covers John 10:1-10. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 31, 2024 (Easter Sunday)</title>
+      <itunes:episode>19</itunes:episode>
+      <podcast:episode>19</podcast:episode>
+      <itunes:title>March 31, 2024 (Easter Sunday)</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">eab42f5a-96db-4442-a4aa-d9814ff69b82</guid>
+      <link>https://share.transistor.fm/s/d57b0715</link>
+      <description>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter. Sermon covers all of John 9. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter. Sermon covers all of John 9. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 14 Apr 2024 10:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/d57b0715/ba567a6e.mp3" length="65939399" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2748</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon preached at Harvest Baptist Church in Lula, GA by Pastor Chris Porter. Sermon covers all of John 9. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 24, 2024</title>
+      <itunes:episode>18</itunes:episode>
+      <podcast:episode>18</podcast:episode>
+      <itunes:title>March 24, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">225bd6b9-7840-4d0a-b999-f6c267b35b9b</guid>
+      <link>https://share.transistor.fm/s/71166aab</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 07 Apr 2024 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/71166aab/cdebd460.mp3" length="75635316" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3151</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 17, 2024</title>
+      <itunes:episode>17</itunes:episode>
+      <podcast:episode>17</podcast:episode>
+      <itunes:title>March 17, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">f5fed413-3f8d-44ac-930f-fc3589b4188f</guid>
+      <link>https://share.transistor.fm/s/0a5cddb4</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 31 Mar 2024 12:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/0a5cddb4/8d443415.mp3" length="81899062" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3412</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 10, 2024</title>
+      <itunes:episode>16</itunes:episode>
+      <podcast:episode>16</podcast:episode>
+      <itunes:title>March 10, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4427f659-11d4-44da-8fbe-20f862b9751b</guid>
+      <link>https://share.transistor.fm/s/6ce0b21c</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Nate Trawick. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Nate Trawick. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 24 Mar 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/6ce0b21c/c0b6a7b2.mp3" length="71607235" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2983</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Nate Trawick. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>March 3, 2024</title>
+      <itunes:episode>15</itunes:episode>
+      <podcast:episode>15</podcast:episode>
+      <itunes:title>March 3, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9bcd3543-be8d-4a6d-aefb-07fd99b13c2f</guid>
+      <link>https://share.transistor.fm/s/7c45b7db</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 17 Mar 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/7c45b7db/3c819bcf.mp3" length="70716354" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2946</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 25, 2024</title>
+      <itunes:episode>14</itunes:episode>
+      <podcast:episode>14</podcast:episode>
+      <itunes:title>February 25, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9dea2281-94f3-46fa-b823-4e6abb65b218</guid>
+      <link>https://share.transistor.fm/s/79581907</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 10 Mar 2024 11:00:00 -0700</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/79581907/fbadafd9.mp3" length="73818451" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3075</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 18, 2024</title>
+      <itunes:episode>13</itunes:episode>
+      <podcast:episode>13</podcast:episode>
+      <itunes:title>February 18, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">a1716caa-65d5-4794-aa1a-96aac4e77496</guid>
+      <link>https://share.transistor.fm/s/3f23e768</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 03 Mar 2024 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/3f23e768/c1c76bbe.mp3" length="59659665" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2485</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Porter. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>February 11, 2024</title>
+      <itunes:episode>12</itunes:episode>
+      <podcast:episode>12</podcast:episode>
+      <itunes:title>February 11, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9ca718c9-ae54-4a7c-90ea-f28265bb42f2</guid>
+      <link>https://share.transistor.fm/s/af22f364</link>
+      <description>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Kersey. The sermon is from our study through the Gospel of John.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Kersey. The sermon is from our study through the Gospel of John.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 25 Feb 2024 11:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/af22f364/98e6f0b9.mp3" length="68789775" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2866</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon Preached at Harvest Baptist Church by Pastor Chris Kersey. The sermon is from our study through the Gospel of John.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>January 7, 2024</title>
+      <itunes:episode>11</itunes:episode>
+      <podcast:episode>11</podcast:episode>
+      <itunes:title>January 7, 2024</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">999c1573-f90b-4b50-96a1-80141c3e9e4e</guid>
+      <link>https://share.transistor.fm/s/0ecea5ba</link>
+      <description>
+        <![CDATA[<p>This sermon is from January 7, 2024 at Harvest Baptist Church in Lula, GA. Pastor Chris Porter preached this sermon which covered the last few verses in John 5. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from January 7, 2024 at Harvest Baptist Church in Lula, GA. Pastor Chris Porter preached this sermon which covered the last few verses in John 5. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/0ecea5ba/764812a9.mp3" length="49268154" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3078</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from January 7, 2024 at Harvest Baptist Church in Lula, GA. Pastor Chris Porter preached this sermon which covered the last few verses in John 5. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 31, 2023</title>
+      <itunes:episode>10</itunes:episode>
+      <podcast:episode>10</podcast:episode>
+      <itunes:title>December 31, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">16026b7f-4c3b-488d-a6de-e9de18b20e0a</guid>
+      <link>https://share.transistor.fm/s/73639635</link>
+      <description>
+        <![CDATA[]]>
+      </description>
+      <content:encoded>
+        <![CDATA[]]>
+      </content:encoded>
+      <pubDate>Sun, 14 Jan 2024 14:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/73639635/0a74c065.mp3" length="50504480" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>3155</itunes:duration>
+      <itunes:summary>
+        <![CDATA[]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 24, 2023</title>
+      <itunes:episode>9</itunes:episode>
+      <podcast:episode>9</podcast:episode>
+      <itunes:title>December 24, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">9e339e0d-f643-4f4e-b230-fb05df6fb22e</guid>
+      <link>https://share.transistor.fm/s/12ab6628</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on December 24, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on December 24, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 07 Jan 2024 13:00:00 -0800</pubDate>
+      <author>Pastor Chris Porter</author>
+      <enclosure url="https://media.transistor.fm/12ab6628/9422df6f.mp3" length="37950238" type="audio/mpeg"/>
+      <itunes:author>Pastor Chris Porter</itunes:author>
+      <itunes:duration>2371</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on December 24, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>December 10, 2023</title>
+      <itunes:episode>8</itunes:episode>
+      <podcast:episode>8</podcast:episode>
+      <itunes:title>December 10, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">881ec3e9-8a42-42c8-9d1b-513b3c4a2e17</guid>
+      <link>https://share.transistor.fm/s/b6962403</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on December 10, 2023. It was preached by guest preacher, Pastor Jacob Griffin. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on December 10, 2023. It was preached by guest preacher, Pastor Jacob Griffin. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 24 Dec 2023 12:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/b6962403/894cd7a3.mp3" length="34050679" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2127</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on December 10, 2023. It was preached by guest preacher, Pastor Jacob Griffin. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 19, 2023</title>
+      <itunes:episode>7</itunes:episode>
+      <podcast:episode>7</podcast:episode>
+      <itunes:title>November 19, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">675773bf-5157-40b5-b3d9-e7ed225d4d7f</guid>
+      <link>https://share.transistor.fm/s/0d47bd50</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 19, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 19, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 03 Dec 2023 12:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/0d47bd50/ceeddc38.mp3" length="41992321" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2623</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 19, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 12, 2023</title>
+      <itunes:episode>6</itunes:episode>
+      <podcast:episode>6</podcast:episode>
+      <itunes:title>November 12, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">e2efbaa2-2f03-4b64-b5da-b4055e401172</guid>
+      <link>https://share.transistor.fm/s/9a24cbf6</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 12, 2023. It was preached by Senior Pastor, Chris Porter. It covers John 3:1-15.</p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 12, 2023. It was preached by Senior Pastor, Chris Porter. It covers John 3:1-15.</p>]]>
+      </content:encoded>
+      <pubDate>Sun, 26 Nov 2023 12:00:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/9a24cbf6/31bb7bff.mp3" length="40423303" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>2525</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 12, 2023. It was preached by Senior Pastor, Chris Porter. It covers John 3:1-15.</p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>November 5, 2023</title>
+      <itunes:episode>5</itunes:episode>
+      <podcast:episode>5</podcast:episode>
+      <itunes:title>November 5, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">5e38a061-69a9-4f34-93ce-fa426f2a85b1</guid>
+      <link>https://share.transistor.fm/s/e38e5874</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 5, 2023. It was preached by Senior Pastor, Chris Porter. We appologize that this recording picks up several minutes into the sermon as there were technical difficulties. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 5, 2023. It was preached by Senior Pastor, Chris Porter. We appologize that this recording picks up several minutes into the sermon as there were technical difficulties. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 19 Nov 2023 12:35:00 -0800</pubDate>
+      <author>Harvest Baptist Church</author>
+      <enclosure url="https://media.transistor.fm/e38e5874/ce3bfe75.mp3" length="29438080" type="audio/mpeg"/>
+      <itunes:author>Harvest Baptist Church</itunes:author>
+      <itunes:duration>1839</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on November 5, 2023. It was preached by Senior Pastor, Chris Porter. We appologize that this recording picks up several minutes into the sermon as there were technical difficulties. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 29, 2023</title>
+      <itunes:episode>4</itunes:episode>
+      <podcast:episode>4</podcast:episode>
+      <itunes:title>October 29, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">529da4eb-caea-42e4-98d0-9789855050bd</guid>
+      <link>https://share.transistor.fm/s/9b47d9a5</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 29, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 29, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 12 Nov 2023 12:00:00 -0800</pubDate>
+      <author>Pastor Chris Porter</author>
+      <enclosure url="https://media.transistor.fm/9b47d9a5/32c69c1b.mp3" length="42230139" type="audio/mpeg"/>
+      <itunes:author>Pastor Chris Porter</itunes:author>
+      <itunes:duration>2638</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 29, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 15, 2023</title>
+      <itunes:episode>3</itunes:episode>
+      <podcast:episode>3</podcast:episode>
+      <itunes:title>October 15, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">4345481e-46ba-48f9-a9c2-48ec8fad78c4</guid>
+      <link>https://share.transistor.fm/s/6ccf56df</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 15, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 15, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 29 Oct 2023 12:14:00 -0700</pubDate>
+      <author>Pastor Chris Porter</author>
+      <enclosure url="https://media.transistor.fm/6ccf56df/ce43c4c0.mp3" length="41306867" type="audio/mpeg"/>
+      <itunes:author>Pastor Chris Porter</itunes:author>
+      <itunes:duration>2581</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 15, 2023. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 8, 2023</title>
+      <itunes:episode>2</itunes:episode>
+      <podcast:episode>2</podcast:episode>
+      <itunes:title>October 8, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">0cfcc91d-6041-4195-97cf-2df6889e0980</guid>
+      <link>https://share.transistor.fm/s/d5df13bd</link>
+      <description>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 8, 2023. This sermon is from John 1, and covers the verses discussing John the Baptist. It was preached by Associate Pastor Nate Trawick. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 8, 2023. This sermon is from John 1, and covers the verses discussing John the Baptist. It was preached by Associate Pastor Nate Trawick. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 22 Oct 2023 11:40:00 -0700</pubDate>
+      <author>Pastor Nate Trawick</author>
+      <enclosure url="https://media.transistor.fm/d5df13bd/36b80e0d.mp3" length="49413185" type="audio/mpeg"/>
+      <itunes:author>Pastor Nate Trawick</itunes:author>
+      <itunes:duration>3087</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>This sermon is from Harvest Baptist Church in Lula, GA on October 8, 2023. This sermon is from John 1, and covers the verses discussing John the Baptist. It was preached by Associate Pastor Nate Trawick. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    <item>
+      <title>October 1, 2023</title>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
+      <itunes:title>October 1, 2023</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <guid isPermaLink="false">87f29ee3-ac59-414b-ba09-b2ebe138111e</guid>
+      <link>https://share.transistor.fm/s/32821f6a</link>
+      <description>
+        <![CDATA[<p>Sermon from Harvest Baptist Church in Lula, GA on October 1, 2023. This is the first sermon we recorded, and is the third sermon from The Gospel of John. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Sermon from Harvest Baptist Church in Lula, GA on October 1, 2023. This is the first sermon we recorded, and is the third sermon from The Gospel of John. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </content:encoded>
+      <pubDate>Sun, 15 Oct 2023 11:00:00 -0700</pubDate>
+      <author>Pastor Chris Porter</author>
+      <enclosure url="https://media.transistor.fm/32821f6a/fd0d49d4.mp3" length="43989758" type="audio/mpeg"/>
+      <itunes:author>Pastor Chris Porter</itunes:author>
+      <itunes:duration>2748</itunes:duration>
+      <itunes:summary>
+        <![CDATA[<p>Sermon from Harvest Baptist Church in Lula, GA on October 1, 2023. This is the first sermon we recorded, and is the third sermon from The Gospel of John. It was preached by Senior Pastor, Chris Porter. </p>]]>
+      </itunes:summary>
+      <itunes:keywords>Sermon, religion, expository, baptist, church, bible</itunes:keywords>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+  </channel>
+</rss>
