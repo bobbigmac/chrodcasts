@@ -15,7 +15,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<atom:link href="https://youcanreadthebible.com/feed/podcast.php?which=sghvideo" rel="self" type="application/rss+xml" />
 	<link>https://youcanreadthebible.com/feed/podcast.php?which=sghvideo</link>
 	<description>Read Through the Bible</description>
-	<lastBuildDate>Sun, 01 Mar 2026 7:59:45 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 01 Mar 2026 8:09:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
