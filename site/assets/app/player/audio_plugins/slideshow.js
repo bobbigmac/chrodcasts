@@ -1,5 +1,5 @@
 import { html } from "../../runtime/vendor.js";
-import { refreshViz, numberPicker } from "./util.js";
+import { numberPicker } from "./util.js";
 
 export const SLIDESHOW_KEY = "vodcasts_slideshow_v1";
 
@@ -24,11 +24,20 @@ function setOpt(k, v) {
  */
 export function slideshow(container, opts = {}) {
   const media = opts.media;
+  const wrap = document.createElement("div");
+  wrap.className = "audioViz-slideshowWrap";
   const img = document.createElement("img");
   img.className = "audioViz-slideshow";
   img.setAttribute("aria-hidden", "true");
   img.alt = "";
-  container.appendChild(img);
+  const attr = document.createElement("a");
+  attr.className = "audioViz-slideshowAttr";
+  attr.target = "_blank";
+  attr.rel = "noopener noreferrer";
+  attr.textContent = "";
+  wrap.appendChild(img);
+  wrap.appendChild(attr);
+  container.appendChild(wrap);
 
   let timeoutId = 0;
   let destroyed = false;
@@ -39,6 +48,16 @@ export function slideshow(container, opts = {}) {
     const h = Math.max(600, Math.ceil((container.clientHeight || 180) * 1.5));
     const seed = Math.floor(Math.random() * 1e6);
     img.src = `https://picsum.photos/seed/${seed}/${w}/${h}`;
+    attr.href = "";
+    attr.textContent = "";
+    fetch(`https://picsum.photos/seed/${seed}/info`)
+      .then((r) => r.json())
+      .then((info) => {
+        if (destroyed) return;
+        attr.href = info.url || "https://unsplash.com";
+        attr.textContent = `Photo by ${info.author || "Unsplash"}`;
+      })
+      .catch(() => {});
     const intervalSec = Math.max(5, Math.min(120, getOpt("interval", 18) || 18));
     const rate = media && !media.paused && !media.ended ? (media.playbackRate ?? 1) : 1;
     const delay = (intervalSec * 1000) / rate;
@@ -67,7 +86,7 @@ export function slideshow(container, opts = {}) {
     ro.disconnect();
     img.src = "";
     try {
-      img.remove();
+      wrap.remove();
     } catch {}
   };
 
@@ -77,7 +96,6 @@ export function slideshow(container, opts = {}) {
 export function slideshowSettings(player) {
   const set = (k, v) => {
     setOpt(k, v);
-    refreshViz(player);
   };
   const interval = getOpt("interval") ?? 18;
   return html`

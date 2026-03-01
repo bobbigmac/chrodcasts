@@ -12,6 +12,7 @@ import { aquarium, aquariumSettings } from "./aquarium.js";
 import { cross, crossSettings } from "./cross.js";
 import { americana, americanaSettings } from "./americana.js";
 import { slideshow, slideshowSettings } from "./slideshow.js";
+import { fireworks, fireworksSettings } from "./fireworks.js";
 
 export const AUDIO_DISPLAY_PLUGINS = {
   wave: { fn: wave, label: "Wave", settings: waveSettings },
@@ -22,6 +23,7 @@ export const AUDIO_DISPLAY_PLUGINS = {
   cross: { fn: cross, label: "Stained Glass", settings: crossSettings },
   americana: { fn: americana, label: "Americana", settings: americanaSettings },
   slideshow: { fn: slideshow, label: "Slideshow", settings: slideshowSettings },
+  fireworks: { fn: fireworks, label: "Fireworks", settings: fireworksSettings },
 };
 
 const PLUGIN_IDS = Object.keys(AUDIO_DISPLAY_PLUGINS);

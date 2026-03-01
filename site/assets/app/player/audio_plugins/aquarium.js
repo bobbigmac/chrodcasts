@@ -55,9 +55,9 @@ export function aquarium(container, opts = {}) {
         y: h * (0.12 + Math.random() * 0.76),
         vx,
         vy: (Math.random() - 0.5) * 0.2,
-        dir: vx > 0 ? -1 : 1,
         phase: Math.random() * Math.PI * 2,
         size: 0.6 + Math.random() * 0.7,
+        flipProgress: 0,
       });
     }
     const nBubbles = Math.max(15, Math.min(40, Math.floor((w * h) / 8000) + getOpt("bubbleCount", 0)));
@@ -109,28 +109,32 @@ export function aquarium(container, opts = {}) {
       f.y += f.vy * speed * speedMult;
       if (f.x < -60 || f.x > w + 60) {
         f.vx *= -1;
-        f.dir *= -1;
+        f.flipProgress = 1;
       }
       if (f.y < 40 || f.y > h - 40) f.vy *= -1;
-      if (Math.random() < 0.0008) {
+      if (Math.random() < 0.0012) {
         f.vx *= -1;
-        f.dir *= -1;
+        f.flipProgress = 1;
       }
       f.phase += 0.06 * rate;
+
+      const dir = f.vx > 0 ? 1 : -1;
+      const flipScale = f.flipProgress > 0 ? 0.4 + 0.6 * (1 - f.flipProgress) : 1;
+      f.flipProgress = Math.max(0, f.flipProgress - 0.18);
 
       const bodyLen = 18 * scale * f.size;
       const tailW = 8 * scale * f.size;
       ctx.save();
       ctx.translate(f.x, f.y);
-      ctx.scale(f.dir, 1);
+      ctx.scale(dir * flipScale, 1);
       ctx.fillStyle = "rgba(255, 180, 100, 0.55)";
       ctx.beginPath();
       ctx.ellipse(0, 0, bodyLen, 5 * scale, 0, 0, Math.PI * 2);
       ctx.fill();
       ctx.beginPath();
-      ctx.moveTo(bodyLen, 0);
-      ctx.lineTo(bodyLen + tailW, -5 * scale);
-      ctx.lineTo(bodyLen + tailW, 5 * scale);
+      ctx.moveTo(-bodyLen, 0);
+      ctx.lineTo(-bodyLen - tailW, -5 * scale);
+      ctx.lineTo(-bodyLen - tailW, 5 * scale);
       ctx.closePath();
       ctx.fill();
       ctx.restore();
